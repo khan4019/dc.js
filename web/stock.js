@@ -18,6 +18,7 @@ var volumeChart = dc.barChart('#monthly-volume-chart');
 var yearlyBubbleChart = dc.bubbleChart('#yearly-bubble-chart');
 var nasdaqCount = dc.dataCount('.dc-data-count');
 var nasdaqTable = dc.dataTable('.dc-data-table');
+var seriesChart = dc.barChart("#series-chart");
 
 // ### Anchor Div for Charts
 /*
@@ -289,6 +290,51 @@ d3.csv('ndx.csv', function (data) {
         .yAxis().tickFormat(function (v) {
             return v + '%';
         });
+
+    function getTops(source_group) {
+        return {
+            all: function () {
+                return source_group.top(5);
+            }
+        };
+    }
+    function remove_empty_bins(source_group) {
+        function non_zero_pred(d) {
+            return d.value != 0;
+        }
+        return {
+            all: function () {
+                return source_group.all().filter(non_zero_pred);
+            },
+            top: function(n) {
+                return source_group.top(Infinity)
+                    .filter(non_zero_pred)
+                    .slice(0, n);
+            }
+        };
+    }
+    
+    
+    var runDimension = ndx.dimension(function(d) {return +d.high;});
+    
+    
+      // speedSumGroup       = runDimension.group().reduceSum(function(d) {return d.Speed * d.Run / 1000;});
+    var speedSumGroup = runDimension.group().reduceSum(function(d) { return +d.high - (+d.low); });
+        
+    
+    seriesChart
+    .width(768)
+    .height(480)
+    .x(d3.scale.linear().domain([6,800]))
+    .brushOn(false)
+    .yAxisLabel("This is the Y Axis!")
+    .dimension(runDimension)
+    .group(speedSumGroup)
+    .on('renderlet', function(chart) {
+        chart.selectAll('rect').on("click", function(d) {
+            console.log("click!", d);
+        });
+    });
 
     // #### Pie/Donut Charts
 
