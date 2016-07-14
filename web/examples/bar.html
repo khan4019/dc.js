@@ -10,16 +10,23 @@
 
 <div class="container">
 <script type="text/javascript" src="header.js"></script>
-<div id="test"></div>
+<div id="test">
+  <strong>Days by Fluctuation(%)</strong>
+  <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+  <a class="reset" href="javascript:chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+  <div class="clearfix"></div>
+</div>
 
 <script type="text/javascript" src="../js/d3.js"></script>
 <script type="text/javascript" src="../js/crossfilter.js"></script>
 <script type="text/javascript" src="../js/dc.js"></script>
+<script type="text/javascript" src="morley.js"></script>
 <script type="text/javascript">
 
 var chart = dc.barChart("#test");
 d3.csv("morley.csv", function(error, experiments) {
-
+  experiments = morleyJSON;
   experiments.forEach(function(x) {
     x.Speed = +x.Speed;
   });
@@ -36,12 +43,61 @@ d3.csv("morley.csv", function(error, experiments) {
     .yAxisLabel("This is the Y Axis!")
     .dimension(runDimension)
     .group(speedSumGroup)
+    .elasticY(true)
+    .centerBar(true)
+    .gap(1)
+    .round(dc.round.floor)
+    .renderHorizontalGridLines(true)
+    // Customize the filter displayed in the control span
+    .filterPrinter(function (filters) {
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
+        return s;
+    })
     .on('renderlet', function(chart) {
         chart.selectAll('rect').on("click", function(d) {
             console.log("click!", d);
         });
     });
     chart.render();
+
+
+
+    //#### Bar Chart
+
+    // Create a bar chart and use the given css selector as anchor. You can also specify
+    // an optional chart group for this chart to be scoped within. When a chart belongs
+    // to a specific group then any interaction with such chart will only trigger redraw
+    // on other charts within the same chart group.
+    // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
+    // fluctuationChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
+    //     .width(420)
+    //     .height(180)
+    //     .margins({top: 10, right: 50, bottom: 30, left: 40})
+    //     .dimension(runDimension)
+    //     .group(speedSumGroup)
+    //     .elasticY(true)
+    //     // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
+    //     .centerBar(true)
+    //     // (_optional_) set gap between bars manually in px, `default=2`
+    //     .gap(1)
+    //     // (_optional_) set filter brush rounding
+    //     .round(dc.round.floor)
+    //     .alwaysUseRounding(true)
+    //     .x(d3.scale.linear().domain([-25, 25]))
+    //     .renderHorizontalGridLines(true)
+    //     // Customize the filter displayed in the control span
+    //     .filterPrinter(function (filters) {
+    //         var filter = filters[0], s = '';
+    //         s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
+    //         return s;
+    //     });
+
+    // // Customize axes
+    // fluctuationChart.xAxis().tickFormat(
+    //     function (v) { return v + '%'; });
+    // fluctuationChart.yAxis().ticks(5);
+
 });
 
 </script>

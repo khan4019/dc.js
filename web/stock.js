@@ -320,7 +320,7 @@ d3.csv('ndx.csv', function (data) {
     
       // speedSumGroup       = runDimension.group().reduceSum(function(d) {return d.Speed * d.Run / 1000;});
     var speedSumGroup = runDimension.group().reduceSum(function(d) { return +d.high - (+d.low); });
-        
+       
     
     seriesChart
     .width(768)
@@ -405,6 +405,7 @@ d3.csv('ndx.csv', function (data) {
         // Assign colors to each value in the x scale domain
         .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         .label(function (d) {
+            console.log(d);
             return d.key.split('.')[1];
         })
         // Title sets the row text
