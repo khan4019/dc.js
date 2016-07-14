@@ -15,6 +15,7 @@
 <script type="text/javascript" src="../js/crossfilter.js"></script>
 <script type="text/javascript" src="../js/dc.js"></script>
 <script type="text/javascript" src="morley.js"></script>
+<script type="text/javascript" src="../p2p.js"></script>
 
 
 <div class="container">
@@ -41,6 +42,25 @@
             <div class="clearfix"></div>
         </div>
 
+        <div id="roi-chart" class="dc-chart span6">
+            <strong>ROI</strong>
+            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div id="node-count-chart" class="dc-chart span6">
+            <strong>Node Count</strong>
+            <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
         <div id="temp-chart" class="dc-chart span6">
             <strong>Temperature</strong>
             <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
@@ -49,7 +69,6 @@
 
             <div class="clearfix"></div>
         </div>
-
     </div>
 
 </div> <!-- end container -->
@@ -78,30 +97,149 @@ var data = [
  ['1379954400', 'field_2', 52, 20],
  ['1379954400', 'field_3', 98, 40],
  ['1379955600', 'field_1', 95, 60],
- // ['1379955600', 'field_2', 88, 12],
- // ['1379955600', 'field_3', 57, 95],
- // ['1379955600', 'field_4', 94, 80],
- // ['1379956800', 'field_1', 77, 51],
- // ['1379956800', 'field_2', 50, 19],
- // ['1379956800', 'field_3', 58, 23],
- // ['1379956800', 'field_4', 99, 29],
- // ['1379958000', 'field_1', 75, 28],
- // ['1379958000', 'field_2', 57, 16],
- // ['1379958000', 'field_3', 65, 53],
- // ['1379958000', 'field_4', 84, 37],
- // ['1379959200', 'field_1', 98, 72],
- // ['1379959200', 'field_2', 71, 63],
- // ['1379959200', 'field_3', 50, 68],
- // ['1379959200', 'field_4', 51, 72],
- // ['1379960400', 'field_1', 91, 64],
- // ['1379960400', 'field_2', 64, 77],
- // ['1379960400', 'field_3', 89, 13],
- // ['1379960400', 'field_4', 62, 85],
- // ['1379961600', 'field_1', 82, 69],
- // ['1379961600', 'field_2', 53, 70],
- // ['1379961600', 'field_3', 74, 48],
- // ['1379961600', 'field_4', 66, 29]
+ ['1379955600', 'field_2', 88, 12],
+ ['1379955600', 'field_3', 57, 95],
+ ['1379955600', 'field_4', 94, 80],
+ ['1379956800', 'field_1', 77, 51],
+ ['1379956800', 'field_2', 50, 19],
+ ['1379956800', 'field_3', 58, 23],
+ ['1379956800', 'field_4', 99, 29],
+ ['1379958000', 'field_1', 75, 28],
+ ['1379958000', 'field_2', 57, 16],
+ ['1379958000', 'field_3', 65, 53],
+ ['1379958000', 'field_4', 84, 37],
+ ['1379959200', 'field_1', 98, 72],
+ ['1379959200', 'field_2', 71, 63],
+ ['1379959200', 'field_3', 50, 68],
+ ['1379959200', 'field_4', 51, 72],
+ ['1379960400', 'field_1', 91, 64],
+ ['1379960400', 'field_2', 64, 77],
+ ['1379960400', 'field_3', 89, 13],
+ ['1379960400', 'field_4', 62, 85],
+ ['1379961600', 'field_1', 82, 69],
+ ['1379961600', 'field_2', 53, 70],
+ ['1379961600', 'field_3', 74, 48],
+ ['1379961600', 'field_4', 66, 29]
  ];
+
+ var p2pDummy = [{
+    "roi": 1.88,
+    "pathCount": 728434,
+    "impressionPerNode": 5.22,
+    "conversionRate": 0.004,
+    "nodes": [{
+        "pathNumber": 1,
+        "time": 0,
+        "label": "purchase"
+    }],
+    "effectiveness": 0.36
+}, {
+    "roi": 2.99,
+    "pathCount": 4659568,
+    "impressionPerNode": 6.64,
+    "conversionRate": 0.015,
+    "nodes": [{
+        "pathNumber": 5,
+        "time": 0,
+        "label": "purchase"
+    }, {
+        "pathNumber": 5,
+        "time": 49.9,
+        "label": "Yahoo"
+    }, {
+        "pathNumber": 5,
+        "time": 15.8,
+        "label": "Yahoo"
+    }, {
+        "pathNumber": 5,
+        "time": 18.1,
+        "label": ""
+    }, {
+        "pathNumber": 5,
+        "time": 28.1,
+        "label": "NYTimes"
+    }],
+    "effectiveness": 1.85
+}, {
+    "roi": 3.3,
+    "pathCount": 664942,
+    "impressionPerNode": 4.25,
+    "conversionRate": 0.007,
+    "nodes": [{
+        "pathNumber": 3,
+        "time": 0,
+        "label": "purchase"
+    }, {
+        "pathNumber": 3,
+        "time": 24.4,
+        "label": "MSN"
+    }, {
+        "pathNumber": 3,
+        "time": 24.7,
+        "label": "NYTimes"
+    }],
+    "effectiveness": 0.05
+}, {
+    "roi": 0.28,
+    "pathCount": 1688687,
+    "impressionPerNode": 3.05,
+    "conversionRate": 0.02,
+    "nodes": [{
+        "pathNumber": 2,
+        "time": 0,
+        "label": "purchase"
+    }, {
+        "pathNumber": 2,
+        "time": 28.1,
+        "label": "ESPN2"
+    }],
+    "effectiveness": 0.01
+}, {
+    "roi": 0.45,
+    "pathCount": 1572675,
+    "impressionPerNode": 3.2,
+    "conversionRate": 0.028,
+    "nodes": [{
+        "pathNumber": 1,
+        "time": 0,
+        "label": "purchase"
+    }],
+    "effectiveness": 2.47
+}, {
+    "roi": 0.6,
+    "pathCount": 3002903,
+    "impressionPerNode": 6.32,
+    "conversionRate": 0.002,
+    "nodes": [{
+        "pathNumber": 3,
+        "time": 0,
+        "label": "purchase"
+    }, {
+        "pathNumber": 3,
+        "time": 2.1,
+        "label": ""
+    }, {
+        "pathNumber": 3,
+        "time": 11.4,
+        "label": ""
+    }],
+    "effectiveness": 1.66
+}, {
+    "roi": 2.07,
+    "pathCount": 1084357,
+    "impressionPerNode": 4.55,
+    "conversionRate": 0.004,
+    "nodes": [{
+        "pathNumber": 2,
+        "time": 0,
+        "label": "purchase"
+    }, {
+        "pathNumber": 2,
+        "time": 5.9,
+        "label": ""
+    }],
+    "effectiveness": 0.99
+}];
 
  var dataset = data.map(coerce_row);
 
@@ -109,6 +247,8 @@ var data = [
 // charts
 var time_chart = dc.compositeChart("#time-chart"),
     temp_chart = dc.barChart("#temp-chart"),
+    roi_chart = dc.barChart('#roi-chart'),
+    node_count_chart = dc.rowChart('#node-count-chart'),
     width = temp_chart.root()[0][0].parentElement.clientWidth;
 
 // crossfilter
@@ -126,6 +266,24 @@ var add = function(p, d){ return p + d.count;},
     temperatures = temperature.group().reduce(add, rem, ini);
     extent = d3.extent(dataset, function(d){return d.time;}),
     date_format = d3.time.format("%b %d %I:%M %p");
+
+//roi charts
+var addMD = function(p, d){ return p + d.roi;},
+    remMD = function(p, d){ return p - d.roi;},
+    iniMD = function(){ return 0;},
+    ndxMD = crossfilter(p2pData),
+    allMD = ndxMD.groupAll().reduce(addMD, remMD, iniMD),
+    fieldsMD = ndxMD.dimension(function(d){ return d.roi;}).group(),
+    // time_field = ndx.dimension(function(d) { return JSON.stringify([d.time, d.field]);}),
+    // date_acc = function(d){ return new Date(JSON.parse(d.key)[0]);},
+    // field_acc = function(d){ return JSON.parse(d.key)[1];},
+    // time_fields = time_field.group().reduce(add, rem, ini),
+    roi = ndxMD.dimension(function(d){return d.roi;}),
+    rois = roi.group().reduce(addMD, remMD, iniMD);
+    // extent = d3.extent(dataset, function(d){return d.time;}),
+    // date_format = d3.time.format("%b %d %I:%M %p");
+     var  runDimension        = ndx.dimension(function(d) {return +d.Run;}),
+        speedSumGroup       = runDimension.group().reduceSum(function(d) {return d.Speed * d.Run / 1000;});
 
 d3.select("#date-start")
     .attr("datetime", extent[0])
@@ -181,6 +339,47 @@ temp_chart
     .elasticY(true)
     .yAxisLabel("Count")
     .renderHorizontalGridLines(true);
+
+roi_chart
+    .width(.5 * width)
+    .dimension(roi)
+    .x(d3.scale.linear().domain([0, 1]))
+    .xAxisLabel("ROI")
+    .elasticX(true)
+    .height(400)
+    .group(rois)
+    .gap(1)
+    .elasticY(true)
+    .yAxisLabel("Count")
+    .renderHorizontalGridLines(true);    
+
+
+    var dayOfWeek = ndxMD.dimension(function (d) {
+        console.log(d.nodes.length)
+        return d.nodes.length;
+    });
+
+    var dayOfWeekGroup = dayOfWeek.group();
+    console.log(dayOfWeekGroup);
+
+node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+    .width(.5*width)
+    .height(400)
+    .margins({top: 20, left: 10, right: 10, bottom: 20})
+    .group(dayOfWeekGroup)
+    .dimension(dayOfWeek)
+    // Assign colors to each value in the x scale domain
+    .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
+    .label(function (d) {
+        console.log(d);
+        return d.key;
+    })
+    // Title sets the row text
+    .title(function (d) {
+        return d;
+    })
+    .elasticX(true)
+    .xAxis().ticks(4);    
 
 dc.renderAll();
 
