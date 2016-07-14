@@ -242,33 +242,40 @@ roi_chart
     .renderHorizontalGridLines(true);    
 
 
-// Determine a histogram of percent changes
+// // Determine a histogram of percent changes
+// var pathCount = ndxMD.dimension(function (d) {
+//     return d.pathCount;
+// });
+// var pathCountGroup = pathCount.group();
+
+
 var pathCount = ndxMD.dimension(function (d) {
-    return d.pathCount;
-    return Math.round((d.close - d.open) / d.open * 100);
+    var pathCount = d.pathCount;
+    var k100 = 100000;
+    var k = 1000;
+    if (pathCount > k100*10) {
+        return Math.floor(pathCount/k100)*k100;
+    } else {
+        console.log(pathCount, Math.floor(pathCount/k)*k)
+        return Math.floor(pathCount/k)*k;
+    }
 });
 var pathCountGroup = pathCount.group();
 
-
-path_count_chart /* dc.barChart('#volume-month-chart', 'chartGroup') */
+path_count_chart 
     .width(.5 * width)
     .height(400)
-    .margins({top: 10, right: 50, bottom: 30, left: 40})
+    .margins({top: 10, right: 50, bottom: 30, left: 100})
     .dimension(pathCount)
     .group(pathCountGroup)
     .elasticY(true)
-    // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
     .centerBar(true)
-    // (_optional_) set gap between bars manually in px, `default=2`
-    .gap(1)
-    // (_optional_) set filter brush rounding
+    .gap(10)
     .round(dc.round.floor)
     .alwaysUseRounding(true)
     .x(d3.scale.linear().domain([0, 9000000]))
     .renderHorizontalGridLines(true)
-    // Customize the filter displayed in the control span
     .filterPrinter(function (filters) {
-        console.log(filters);
         var filter = filters[0], s = '';
         s += numberFormat(filter[0]/1000000) + 'M -> ' + numberFormat(filter[1]/1000000) + 'M';
         return s;
