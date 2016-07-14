@@ -44,7 +44,7 @@
         <div id="path-count-chart" class="dc-chart span6">
             <strong>Path Count</strong>
             <span class="reset" style="display: none;">range: <span class="filter"></span></span>
-            <a class="reset" href="javascript:path_count_chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();" style="display: none;">reset</a>
 
             <div class="clearfix"></div>
         </div>
@@ -240,6 +240,38 @@ temp_chart
     .renderHorizontalGridLines(true);
 
 
+
+path_chart
+    .width(.5 * width)
+    .height(400)
+    .dimension(time_fieldMD)
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Days before purchase")
+    .yAxisLabel("Path")
+    .x(d3.scale.linear().domain([0,100]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+    .brushOn(false)
+    .compose(fieldsMD.all().map(function(d, fi){
+        var field = d.key;
+        return dc.lineChart(path_chart)
+            .group({
+                all: function(){
+                    var kk = time_fieldsMD.all().filter(function(d){ return d.key == field;});
+                    return kk[0].value;
+                }
+            }, field)
+            .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
+            .colorAccessor(function(d){ return fi;})
+            .renderDataPoints(true)
+            .valueAccessor(yAxis_acc)
+            .keyAccessor(xAxis_acc);
+    }));
+
+
+
 //node length count works
 var nodeLenDim = ndxP2P.dimension(function (d) { return d.nodes.length; });
 var groupThatWorks = nodeLenDim.group();
@@ -251,17 +283,17 @@ var groupDoesntWork = runDimension.group().reduce(addMD, remMD, iniMD);
 
 
 
-var filteredGroup = (function (source_group) {return {
-  all:function () {
-    return source_group.top(10);
-  }
-};})(groupDoesntWork);
+// var filteredGroup = (function (source_group) {return {
+//   all:function () {
+//     return source_group.top(10);
+//   }
+// };})(groupDoesntWork);
 
-var top1Filter = (function (source_group) {return {
-  all:function () {
-    return source_group.top(1);
-  }
-};})(filteredGroup);
+// var top1Filter = (function (source_group) {return {
+//   all:function () {
+//     return source_group.top(1);
+//   }
+// };})(filteredGroup);
 
 // path_chart
 //     .width(.5 * width)
@@ -283,34 +315,7 @@ var top1Filter = (function (source_group) {return {
 //     ]);
 
 
-path_chart
-    .width(.5 * width)
-    .height(400)
-    .dimension(time_fieldMD)
-    .elasticY(true)
-    // .elasticX(true)
-    .xAxisLabel("Days before purchase")
-    .yAxisLabel("Path")
-    .x(d3.scale.linear().domain([0,100]))
-    .renderHorizontalGridLines(true)
-    .renderVerticalGridLines(true)
-    //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
-    .brushOn(false)
-    .compose(fieldsMD.top(10).map(function(d, fi){
-        var field = d.key;
-        return dc.lineChart(path_chart)
-            .group({
-                all: function(){
-                    var kk = time_fieldsMD.all().filter(function(d){ return d.key == field;});
-                    return kk[0].value;
-                }
-            }, field)
-            .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
-            .colorAccessor(function(d){ if(d.data){return d.data.label;} return fi;})
-            .renderDataPoints(true)
-            .valueAccessor(yAxis_acc)
-            .keyAccessor(xAxis_acc);
-    }));
+
 
 
 //roi chart
