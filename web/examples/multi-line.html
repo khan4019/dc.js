@@ -60,12 +60,15 @@
         </div>
         <div id="roi-chart" class="dc-chart span6">
             <strong>ROI</strong>
+            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
             <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
                 reset
             </a>
 
             <div class="clearfix"></div>
         </div>
+    </div>
+    <div class="row">
         <div id="temp-chart" class="dc-chart span6">
             <strong>Temperature</strong>
             <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
@@ -161,17 +164,13 @@ var addMD = function(p, d){ return p + d.roi;},
     iniMD = function(){ return 0;},
     ndxMD = crossfilter(p2pData),
     allMD = ndxMD.groupAll().reduce(addMD, remMD, iniMD),
-    fieldsMD = ndxMD.dimension(function(d){ return d.roi;}).group(),
+    fieldsMD = ndxMD.dimension(function(d){ return d.roi;}).group();
     // time_field = ndx.dimension(function(d) { return JSON.stringify([d.time, d.field]);}),
     // date_acc = function(d){ return new Date(JSON.parse(d.key)[0]);},
     // field_acc = function(d){ return JSON.parse(d.key)[1];},
     // time_fields = time_field.group().reduce(add, rem, ini),
-    roi = ndxMD.dimension(function(d){return d.roi;}),
-    rois = roi.group().reduce(addMD, remMD, iniMD);
     // extent = d3.extent(dataset, function(d){return d.time;}),
     // date_format = d3.time.format("%b %d %I:%M %p");
-     var  runDimension        = ndx.dimension(function(d) {return +d.Run;}),
-        speedSumGroup       = runDimension.group().reduceSum(function(d) {return d.Speed * d.Run / 1000;});
 
 d3.select("#date-start")
     .attr("datetime", extent[0])
@@ -228,50 +227,62 @@ temp_chart
     .yAxisLabel("Count")
     .renderHorizontalGridLines(true);
 
+
+var roiCount = ndxMD.dimension(function (d) {
+    return Math.ceil(d.roi*10)/10;
+});
+var roiCountGroup = roiCount.group();
+
+
 roi_chart
-    .width(width)
-    .dimension(roi)
-    .x(d3.scale.linear().domain([0, 100]))
-    .xAxisLabel("ROI")
-    .elasticX(true)
+    .width(.5 * width)
     .height(400)
-    .group(rois)
-    .gap(1)
+    .margins({top: 10, right: 50, bottom: 30, left: 30}) //
+    .dimension(roiCount)
+    .group(roiCountGroup)
     .elasticY(true)
+    .centerBar(true)
+    .xAxisLabel("ROI")
     .yAxisLabel("Count")
-    .renderHorizontalGridLines(true);    
+    .gap(90)
+    .x(d3.scale.linear().domain([0, 5]))
+    .renderHorizontalGridLines(true)
+    .filterPrinter(function (filters) {
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
+        return s;
+    });
 
+// Customize axes
+// roi_chart.xAxis().tickFormat(
+//     function (v) {return (v/1000000) + 'M'; });
+roi_chart.yAxis().ticks(5);
 
-// // Determine a histogram of percent changes
-// var pathCount = ndxMD.dimension(function (d) {
-//     return d.pathCount;
-// });
-// var pathCountGroup = pathCount.group();
 
 
 var pathCount = ndxMD.dimension(function (d) {
-    var pathCount = d.pathCount;
-    var k100 = 100000;
-    var k = 1000;
+    var pathCount = d.pathCount, k100 = 100000, k = 1000;
     if (pathCount > k100*10) {
         return Math.floor(pathCount/k100)*k100;
     } else {
-        console.log(pathCount, Math.floor(pathCount/k)*k)
         return Math.floor(pathCount/k)*k;
     }
 });
-var pathCountGroup = pathCount.group();
+var pathCountGroup = pathCount.group();    
 
 path_count_chart 
     .width(.5 * width)
     .height(400)
-    .margins({top: 10, right: 50, bottom: 30, left: 100})
+    .margins({top: 10, right: 50, bottom: 30, left: 30})
     .dimension(pathCount)
     .group(pathCountGroup)
     .elasticY(true)
     .centerBar(true)
+    .xAxisLabel("Path Count")
+    .yAxisLabel("Count")
     .gap(10)
     .round(dc.round.floor)
+    .centerBar(true)
     .alwaysUseRounding(true)
     .x(d3.scale.linear().domain([0, 9000000]))
     .renderHorizontalGridLines(true)
