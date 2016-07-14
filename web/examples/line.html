@@ -27,14 +27,14 @@ d3.csv("morley.csv", function(error, experiments) {
 
   var ndx                 = crossfilter(experiments),
       runDimension        = ndx.dimension(function(d) {return +d.Run;}),
-      speedSumGroup       = runDimension.group().reduceSum(function(d) {return d.Speed * d.Run / 1000;});
+      speedSumGroup       = runDimension.group();
 
   chart
     .width(768)
     .height(480)
     .x(d3.scale.linear().domain([0,20]))
     .interpolate('linear')
-    .renderArea(true)
+    // .renderArea(true)
     .brushOn(false)
     .renderDataPoints(true)
     .clipPadding(10)

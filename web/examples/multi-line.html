@@ -15,7 +15,7 @@
 <script type="text/javascript" src="../js/crossfilter.js"></script>
 <script type="text/javascript" src="../js/dc.js"></script>
 <script type="text/javascript" src="morley.js"></script>
-<script type="text/javascript" src="../p2p.js"></script>
+<script type="text/javascript" src="../p2pData2.js"></script>
 
 
 <div class="container">
@@ -72,6 +72,14 @@
         <div id="temp-chart" class="dc-chart span6">
             <strong>Temperature</strong>
             <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="path-chart" class="dc-chart span6">
+            <strong>Path to Purchase</strong>
+            <a class="reset" href="javascript:path_chart.filterAll(); dc.redrawAll();" style="display: none;">
                 reset
             </a>
 
@@ -137,12 +145,13 @@ var numberFormat = d3.format('.2f');
 // charts
 var time_chart = dc.compositeChart("#time-chart"),
     temp_chart = dc.barChart("#temp-chart"),
+    path_chart = dc.compositeChart("#path-chart"),
     roi_chart = dc.barChart('#roi-chart'),
     node_count_chart = dc.rowChart('#node-count-chart'),
     path_count_chart = dc.barChart('#path-count-chart'),
     width = temp_chart.root()[0][0].parentElement.clientWidth;
 
-// crossfilter
+// cross filter
 var add = function(p, d){ return p + d.count;},
     rem = function(p, d){ return p - d.count;},
     ini = function(){ return 0;},
@@ -159,18 +168,21 @@ var add = function(p, d){ return p + d.count;},
     date_format = d3.time.format("%b %d %I:%M %p");
 
 //roi charts
-var addMD = function(p, d){ return p + d.roi;},
-    remMD = function(p, d){ return p - d.roi;},
-    iniMD = function(){ return 0;},
-    ndxMD = crossfilter(p2pData),
-    allMD = ndxMD.groupAll().reduce(addMD, remMD, iniMD),
-    fieldsMD = ndxMD.dimension(function(d){ return d.roi;}).group();
-    // time_field = ndx.dimension(function(d) { return JSON.stringify([d.time, d.field]);}),
-    // date_acc = function(d){ return new Date(JSON.parse(d.key)[0]);},
-    // field_acc = function(d){ return JSON.parse(d.key)[1];},
-    // time_fields = time_field.group().reduce(add, rem, ini),
+var addMD = function(p, d){ return d.roi;},
+    remMD = function(p, d){ return d.roi;},
+    addMD2 = function(p, d){ return d.nodes;},
+    remMD2 = function(p, d){ return d.nodes;},
+    iniMD = function(){ return {};},
+    ndxP2P = crossfilter(p2pData),
+    allMD = ndxP2P.groupAll().reduce(addMD, remMD, iniMD),
+    fieldsMD = ndxP2P.dimension(function(d){ return d.pathId;}).group();
+    time_fieldMD = ndxP2P.dimension(function(d) { return d.pathId;}),
+    date_accMD = function(d){ return d.time;},
+    time_fieldsMD = time_fieldMD.group().reduce(addMD2, remMD2, iniMD),
     // extent = d3.extent(dataset, function(d){return d.time;}),
     // date_format = d3.time.format("%b %d %I:%M %p");
+    xAxis_acc = function (d) { return d.time;},
+    yAxis_acc = function (d) { return d.pathId;};
 
 d3.select("#date-start")
     .attr("datetime", extent[0])
@@ -210,7 +222,7 @@ time_chart
                 }
             }, field)
             .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
-            .colorAccessor(function(){return fi;})
+            .colorAccessor(function(){ return fi;})
             .renderDataPoints(true)
             .keyAccessor(date_acc);
     }));
@@ -228,7 +240,81 @@ temp_chart
     .renderHorizontalGridLines(true);
 
 
-var roiCount = ndxMD.dimension(function (d) {
+//node length count works
+var nodeLenDim = ndxP2P.dimension(function (d) { return d.nodes.length; });
+var groupThatWorks = nodeLenDim.group();
+
+//
+var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
+var groupDoesntWork = runDimension.group().reduce(addMD, remMD, iniMD);
+
+
+
+
+var filteredGroup = (function (source_group) {return {
+  all:function () {
+    return source_group.top(10);
+  }
+};})(groupDoesntWork);
+
+var top1Filter = (function (source_group) {return {
+  all:function () {
+    return source_group.top(1);
+  }
+};})(filteredGroup);
+
+// path_chart
+//     .width(.5 * width)
+//     .height(400)
+//     .dimension(time_fieldMD)
+//     .elasticY(true)
+//     // .elasticX(true)
+//     .xAxisLabel("Days before purchase")
+//     .yAxisLabel("Path")
+//     .x(d3.scale.linear().domain([0,100]))
+//     .renderHorizontalGridLines(true)
+//     .renderVerticalGridLines(true)
+//     //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+//     .brushOn(false)
+//     .compose([
+//         dc.lineChart(path_chart).group(groupThatWorks).renderDataPoints(true)
+//         //.valueAccessor(xAxis_acc).keyAccessor(yAxis_acc)
+
+//     ]);
+
+
+path_chart
+    .width(.5 * width)
+    .height(400)
+    .dimension(time_fieldMD)
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Days before purchase")
+    .yAxisLabel("Path")
+    .x(d3.scale.linear().domain([0,100]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+    .brushOn(false)
+    .compose(fieldsMD.top(10).map(function(d, fi){
+        var field = d.key;
+        return dc.lineChart(path_chart)
+            .group({
+                all: function(){
+                    var kk = time_fieldsMD.all().filter(function(d){ return d.key == field;});
+                    return kk[0].value;
+                }
+            }, field)
+            .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
+            .colorAccessor(function(d){ if(d.data){return d.data.label;} return fi;})
+            .renderDataPoints(true)
+            .valueAccessor(yAxis_acc)
+            .keyAccessor(xAxis_acc);
+    }));
+
+
+//roi chart
+var roiCount = ndxP2P.dimension(function (d) {
     return Math.ceil(d.roi*10)/10;
 });
 var roiCountGroup = roiCount.group();
@@ -260,7 +346,7 @@ roi_chart.yAxis().ticks(5);
 
 
 
-var pathCount = ndxMD.dimension(function (d) {
+var pathCount = ndxP2P.dimension(function (d) {
     var pathCount = d.pathCount, k100 = 100000, k = 1000;
     if (pathCount > k100*10) {
         return Math.floor(pathCount/k100)*k100;
@@ -277,11 +363,9 @@ path_count_chart
     .dimension(pathCount)
     .group(pathCountGroup)
     .elasticY(true)
-    .centerBar(true)
     .xAxisLabel("Path Count")
     .yAxisLabel("Count")
-    .gap(10)
-    .round(dc.round.floor)
+    .gap(1)
     .centerBar(true)
     .alwaysUseRounding(true)
     .x(d3.scale.linear().domain([0, 9000000]))
@@ -299,7 +383,7 @@ path_count_chart.yAxis().ticks(5);
 
 
 
-var nodeCount = ndxMD.dimension(function (d) {
+var nodeCount = ndxP2P.dimension(function (d) {
     return d.nodes.length;
 });
 var nodeCountGroup = nodeCount.group();
