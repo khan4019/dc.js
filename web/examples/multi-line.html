@@ -41,21 +41,26 @@
 
             <div class="clearfix"></div>
         </div>
-
-        <div id="roi-chart" class="dc-chart span6">
-            <strong>ROI</strong>
-            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
-                reset
-            </a>
+        <div id="path-count-chart" class="dc-chart span6">
+            <strong>Path Count</strong>
+            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+            <a class="reset" href="javascript:path_count_chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
 
             <div class="clearfix"></div>
         </div>
-
     </div>
     <div class="row">
         <div id="node-count-chart" class="dc-chart span6">
             <strong>Node Count</strong>
             <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="roi-chart" class="dc-chart span6">
+            <strong>ROI</strong>
+            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
                 reset
             </a>
 
@@ -122,133 +127,16 @@ var data = [
  ['1379961600', 'field_4', 66, 29]
  ];
 
- var p2pDummy = [{
-    "roi": 1.88,
-    "pathCount": 728434,
-    "impressionPerNode": 5.22,
-    "conversionRate": 0.004,
-    "nodes": [{
-        "pathNumber": 1,
-        "time": 0,
-        "label": "purchase"
-    }],
-    "effectiveness": 0.36
-}, {
-    "roi": 2.99,
-    "pathCount": 4659568,
-    "impressionPerNode": 6.64,
-    "conversionRate": 0.015,
-    "nodes": [{
-        "pathNumber": 5,
-        "time": 0,
-        "label": "purchase"
-    }, {
-        "pathNumber": 5,
-        "time": 49.9,
-        "label": "Yahoo"
-    }, {
-        "pathNumber": 5,
-        "time": 15.8,
-        "label": "Yahoo"
-    }, {
-        "pathNumber": 5,
-        "time": 18.1,
-        "label": ""
-    }, {
-        "pathNumber": 5,
-        "time": 28.1,
-        "label": "NYTimes"
-    }],
-    "effectiveness": 1.85
-}, {
-    "roi": 3.3,
-    "pathCount": 664942,
-    "impressionPerNode": 4.25,
-    "conversionRate": 0.007,
-    "nodes": [{
-        "pathNumber": 3,
-        "time": 0,
-        "label": "purchase"
-    }, {
-        "pathNumber": 3,
-        "time": 24.4,
-        "label": "MSN"
-    }, {
-        "pathNumber": 3,
-        "time": 24.7,
-        "label": "NYTimes"
-    }],
-    "effectiveness": 0.05
-}, {
-    "roi": 0.28,
-    "pathCount": 1688687,
-    "impressionPerNode": 3.05,
-    "conversionRate": 0.02,
-    "nodes": [{
-        "pathNumber": 2,
-        "time": 0,
-        "label": "purchase"
-    }, {
-        "pathNumber": 2,
-        "time": 28.1,
-        "label": "ESPN2"
-    }],
-    "effectiveness": 0.01
-}, {
-    "roi": 0.45,
-    "pathCount": 1572675,
-    "impressionPerNode": 3.2,
-    "conversionRate": 0.028,
-    "nodes": [{
-        "pathNumber": 1,
-        "time": 0,
-        "label": "purchase"
-    }],
-    "effectiveness": 2.47
-}, {
-    "roi": 0.6,
-    "pathCount": 3002903,
-    "impressionPerNode": 6.32,
-    "conversionRate": 0.002,
-    "nodes": [{
-        "pathNumber": 3,
-        "time": 0,
-        "label": "purchase"
-    }, {
-        "pathNumber": 3,
-        "time": 2.1,
-        "label": ""
-    }, {
-        "pathNumber": 3,
-        "time": 11.4,
-        "label": ""
-    }],
-    "effectiveness": 1.66
-}, {
-    "roi": 2.07,
-    "pathCount": 1084357,
-    "impressionPerNode": 4.55,
-    "conversionRate": 0.004,
-    "nodes": [{
-        "pathNumber": 2,
-        "time": 0,
-        "label": "purchase"
-    }, {
-        "pathNumber": 2,
-        "time": 5.9,
-        "label": ""
-    }],
-    "effectiveness": 0.99
-}];
 
  var dataset = data.map(coerce_row);
 
-
+var numberFormat = d3.format('.2f');
 // charts
 var time_chart = dc.compositeChart("#time-chart"),
     temp_chart = dc.barChart("#temp-chart"),
     roi_chart = dc.barChart('#roi-chart'),
     node_count_chart = dc.rowChart('#node-count-chart'),
+    path_count_chart = dc.barChart('#path-count-chart'),
     width = temp_chart.root()[0][0].parentElement.clientWidth;
 
 // crossfilter
@@ -341,9 +229,9 @@ temp_chart
     .renderHorizontalGridLines(true);
 
 roi_chart
-    .width(.5 * width)
+    .width(width)
     .dimension(roi)
-    .x(d3.scale.linear().domain([0, 1]))
+    .x(d3.scale.linear().domain([0, 100]))
     .xAxisLabel("ROI")
     .elasticX(true)
     .height(400)
@@ -354,24 +242,59 @@ roi_chart
     .renderHorizontalGridLines(true);    
 
 
-    var dayOfWeek = ndxMD.dimension(function (d) {
-        console.log(d.nodes.length)
-        return d.nodes.length;
+// Determine a histogram of percent changes
+var pathCount = ndxMD.dimension(function (d) {
+    return d.pathCount;
+    return Math.round((d.close - d.open) / d.open * 100);
+});
+var pathCountGroup = pathCount.group();
+
+
+path_count_chart /* dc.barChart('#volume-month-chart', 'chartGroup') */
+    .width(.5 * width)
+    .height(400)
+    .margins({top: 10, right: 50, bottom: 30, left: 40})
+    .dimension(pathCount)
+    .group(pathCountGroup)
+    .elasticY(true)
+    // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
+    .centerBar(true)
+    // (_optional_) set gap between bars manually in px, `default=2`
+    .gap(1)
+    // (_optional_) set filter brush rounding
+    .round(dc.round.floor)
+    .alwaysUseRounding(true)
+    .x(d3.scale.linear().domain([0, 9000000]))
+    .renderHorizontalGridLines(true)
+    // Customize the filter displayed in the control span
+    .filterPrinter(function (filters) {
+        console.log(filters);
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]/1000000) + 'M -> ' + numberFormat(filter[1]/1000000) + 'M';
+        return s;
     });
 
-    var dayOfWeekGroup = dayOfWeek.group();
-    console.log(dayOfWeekGroup);
+// Customize axes
+path_count_chart.xAxis().tickFormat(
+    function (v) {return (v/1000000) + 'M'; });
+path_count_chart.yAxis().ticks(5);
+
+
+
+var nodeCount = ndxMD.dimension(function (d) {
+    return d.nodes.length;
+});
+var nodeCountGroup = nodeCount.group();
 
 node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
     .width(.5*width)
     .height(400)
     .margins({top: 20, left: 10, right: 10, bottom: 20})
-    .group(dayOfWeekGroup)
-    .dimension(dayOfWeek)
+    .group(nodeCountGroup)
+    .dimension(nodeCount)
     // Assign colors to each value in the x scale domain
     .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
     .label(function (d) {
-        console.log(d);
         return d.key;
     })
     // Title sets the row text
