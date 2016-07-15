@@ -6,8 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
+    <style>
+        .glyphicon {
+          position: static;
+          color:white;
+          font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
@@ -504,7 +511,7 @@ roi_chart
     .centerBar(true)
     .xAxisLabel("ROI")
     .yAxisLabel("Count")
-    .gap(57)
+    .gap(73)
     .x(d3.scale.linear().domain([0, 5]))
     .renderHorizontalGridLines(true)
     .filterPrinter(function (filters) {
@@ -558,7 +565,7 @@ path_count_chart.yAxis().ticks(5);
 
 
 var nodeCount = ndxP2P.dimension(function (d) {
-    return d.nodes.length;
+    return d.nodes.length - 1;
 });
 var nodeCountGroup = nodeCount.group();
 
