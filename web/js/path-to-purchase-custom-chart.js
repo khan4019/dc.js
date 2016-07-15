@@ -2,7 +2,7 @@ function renderPathChart(chartData) {
     d3.select("#p2pChart svg").remove();
     var margin = {top: 20, right: 80, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        height = 480 - margin.top - margin.bottom;
 
     var config = {
         chartId: '#p2pChart',
