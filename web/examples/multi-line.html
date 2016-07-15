@@ -14,6 +14,7 @@
 <script type="text/javascript" src="../js/d3.js"></script>
 <script type="text/javascript" src="../js/crossfilter.js"></script>
 <script type="text/javascript" src="../js/dc.js"></script>
+<script type="text/javascript" src="../js/path-to-purchase-custom-chart.js"></script>
 <script type="text/javascript" src="morley.js"></script>
 <script type="text/javascript" src="../p2pData2.js"></script>
 
@@ -37,16 +38,17 @@
 
             <div class="clearfix"></div>
         </div>
-        <div id="path-count-chart" class="dc-chart span6">
-            <strong>Path Count</strong>
-            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
-            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();" style="display: none;">reset</a>
+        <div id="path-chart2" class="dc-chart span6">
+            <strong>Path to Purchase</strong>
+            <a class="reset" href="javascript:path_chart2.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
 
             <div class="clearfix"></div>
         </div>
     </div>
     <div class="row">
-        <div id="node-count-chart" class="dc-chart span6">
+        <div id="node-count-chart" class="dc-chart span4">
             <strong>Node Count</strong>
             <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();" style="display: none;">
                 reset
@@ -54,7 +56,14 @@
 
             <div class="clearfix"></div>
         </div>
-        <div id="roi-chart" class="dc-chart span6">
+        <div id="path-count-chart" class="dc-chart span4">
+            <strong>Path Count</strong>
+            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();" style="display: none;">reset</a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="roi-chart" class="dc-chart span4">
             <strong>ROI</strong>
             <span class="reset" style="display: none;">range: <span class="filter"></span></span>
             <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
@@ -65,14 +74,14 @@
         </div>
     </div>
     <div class="row">
-<!--         <div id="p2p-chart" class="dc-chart span6">
-            <strong>P2P</strong>
-            <a class="reset" href="javascript:second_chart.filterAll(); dc.redrawAll();" style="display: none;">
-                reset
-            </a>
-
+        <div id="custom-chart" class="dc-chart span6">
+            <strong>Custom D3 P2P Chart</strong>
+            <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+            <div id="p2pChart">
+                <svg></svg>
+            </div>
             <div class="clearfix"></div>
-        </div> -->
+        </div>
         
     </div>
 
@@ -92,6 +101,16 @@
         <div id="temp-chart" class="dc-chart span6">
             <strong>Temperature</strong>
             <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="pathId-chart" class="dc-chart span6">
+            <strong>Temperature</strong>
+            <a class="reset" href="javascript:pathId_chart.filterAll(); dc.redrawAll();" style="display: none;">
                 reset
             </a>
 
@@ -120,45 +139,126 @@ var data = [
  ['1379953200', 'field_1', 97, 60],
  ['1379953200', 'field_2', 84, 20],
  ['1379953200', 'field_3', 85, 40],
- ['1379953200', 'field_4', 88, 50],
+ ['1379953200', 'field_4', 50, 50],
  ['1379954400', 'field_1', 89, 60],
  ['1379954400', 'field_2', 52, 20],
  ['1379954400', 'field_3', 98, 40],
  ['1379955600', 'field_1', 95, 60],
- ['1379955600', 'field_2', 88, 12],
- ['1379955600', 'field_3', 57, 95],
- ['1379955600', 'field_4', 94, 80],
- ['1379956800', 'field_1', 77, 51],
- ['1379956800', 'field_2', 50, 19],
- ['1379956800', 'field_3', 58, 23],
- ['1379956800', 'field_4', 99, 29],
- ['1379958000', 'field_1', 75, 28],
- ['1379958000', 'field_2', 57, 16],
- ['1379958000', 'field_3', 65, 53],
- ['1379958000', 'field_4', 84, 37],
- ['1379959200', 'field_1', 98, 72],
- ['1379959200', 'field_2', 71, 63],
- ['1379959200', 'field_3', 50, 68],
- ['1379959200', 'field_4', 51, 72],
- ['1379960400', 'field_1', 91, 64],
- ['1379960400', 'field_2', 64, 77],
- ['1379960400', 'field_3', 89, 13],
- ['1379960400', 'field_4', 62, 85],
- ['1379961600', 'field_1', 82, 69],
- ['1379961600', 'field_2', 53, 70],
- ['1379961600', 'field_3', 74, 48],
- ['1379961600', 'field_4', 66, 29]
+ ['1379955600', 'field_2', 88, 20],
+ ['1379955600', 'field_5', 57, 55],
+ ['1379955600', 'field_4', 50, 50],
+ ['1379956800', 'field_7', 77, 65],
+ ['1379956800', 'field_2', 50, 20],
+ ['1379956800', 'field_5', 58, 55],
+ ['1379956800', 'field_4', 50, 50],
+ ['1379958000', 'field_7', 75, 65],
+ ['1379958000', 'field_2', 57, 20],
+ ['1379958000', 'field_5', 65, 55],
+ ['1379958000', 'field_8', 50, 30],
+ ['1379959200', 'field_7', 98, 65],
+ ['1379959200', 'field_2', 71, 20],
+ ['1379959200', 'field_6', 50, 45],
+ ['1379959200', 'field_8', 50, 30],
+ ['1379960400', 'field_7', 91, 65],
+ ['1379960400', 'field_2', 64, 20],
+ ['1379960400', 'field_6', 89, 45],
+ ['1379960400', 'field_8', 50, 30],
+ ['1379961600', 'field_7', 82, 65],
+ ['1379961600', 'field_2', 53, 20],
+ ['1379961600', 'field_6', 74, 45],
+ ['1379961600', 'field_8', 50, 30]
  ];
 
+    var dummyData = [
+    {
+        pathCount:533158,
+        conversionRate:0.0034,
+        impressionPerNode:2.01,
+        roi:2.22,
+        effectiveness:0.56,
+        nodes:[
+            {
+                label:'purchase',
+                time:0,
+                pathNumber:1
+            },
+            {
+                label:'Yahoo',
+                time:3.5,
+                volume:1,
+                pathNumber:1
+            }
+        ]
+    },
+    {
+        pathCount:533158,
+        conversionRate:0.0034,
+        impressionPerNode:2.01,
+        roi:2.22,
+        effectiveness:0.56,
+        nodes:[
+            {
+                label:'purchase',
+                time:0,
+                pathNumber:3
+            },
+            {
+                label:'Yahoo',
+                time:3.5,
+                volume:0.65,
+                pathNumber:3
+            },
+            {
+                label:'ESPN2',
+                time:13.5,
+                volume:0.35,
+                pathNumber:3
+            }
+        ]
+    },
+    {
+        pathCount:691524,
+        conversionRate:0.0032,
+        impressionPerNode:1.34,
+        roi:2.03,
+        effectiveness:0.47,
+        nodes:[
+            {
+                label:'purchase',
+                time:0,
+                pathNumber:6
+            },
+            {
+                label:'ESPN',
+                time:1.5,
+                volume:0.5,
+                pathNumber:6
+            },
+            {
+                label:'Buzzfeed',
+                time:9.5,
+                volume:0.35,
+                pathNumber:6
+            },
+            {
+                label:'Yahoo',
+                time:19.5,
+                volume:0.15,
+                pathNumber:6
+            }
+        ]
+    }
+   ];
 
  var dataset = data.map(coerce_row);
 
 var numberFormat = d3.format('.2f');
 // charts
 var time_chart = dc.compositeChart("#time-chart"),
-    // second_chart = dc.seriesChart("#p2p-chart"),
+    pathId_chart = dc.barChart('#pathId-chart'),
     temp_chart = dc.barChart("#temp-chart"),
     path_chart = dc.compositeChart("#path-chart"),
+    path_chart2 = dc.compositeChart("#path-chart2"),
     roi_chart = dc.barChart('#roi-chart'),
     node_count_chart = dc.rowChart('#node-count-chart'),
     path_count_chart = dc.barChart('#path-count-chart'),
@@ -189,7 +289,7 @@ var addMD = function(p, d){ return d.roi;},
     ndxP2P = crossfilter(p2pData),
     allMD = ndxP2P.groupAll().reduce(addMD, remMD, iniMD),
     pathIdGroup = ndxP2P.dimension(function(d){ return d.pathId;}).group(),
-    pathId_nodes = ndxP2P.dimension(function(d) { return JSON.stringify([d.pathId, d.nodes]);}),
+    pathId_nodes = ndxP2P.dimension(function(d) { return d.pathId;}),
     pathId_nodesGroup = pathId_nodes.group().reduce(addMD2, remMD2, iniMD),
     time_fieldMD = ndxP2P.dimension(function(d) { return d.pathId;}),
     date_accMD = function(d){ return d.time;},
@@ -261,7 +361,7 @@ temp_chart
     .renderHorizontalGridLines(true);
 
 
-path_chart
+path_chart2
     .width(.5 * width)
     .height(200)
     .dimension(pathId_nodes)
@@ -274,20 +374,19 @@ path_chart
     .renderVerticalGridLines(true)
     //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
     .brushOn(false)
-    .compose(pathIdGroup.all().map(function(d, fi){
+    .compose(pathIdGroup.top(10).map(function(d, fi){
         var field = d.key;
         return dc.lineChart(path_chart)
             .group({
                 all: function(){
-                    var kk = pathId_nodesGroup.all().filter(function(d){ return field_accMD(d) == field;});
-                    var vals  = JSON.parse(kk[0].key);
-                    var output = vals[1].map(function (d) {
+                    var kk = pathId_nodesGroup.all().filter(function(d){ return d.key == field;});
+                    // console.log(kk[0].value);
+                    var output = kk[0].value.map(function (d) {
                         return{
                             key:d.time,
                             value:d.pathId
                         };
                     })
-                    // console.log(output);
                     return output;
                 }
             }, field)
@@ -303,6 +402,11 @@ path_chart
 //node length count works
 var nodeLenDim = ndxP2P.dimension(function (d) { return d.nodes.length; });
 var groupThatWorks = nodeLenDim.group();
+
+var nodeLenDim2 = ndxP2P.dimension(function (d) { return d.nodes.length-1; });
+var groupThatWorks2 = nodeLenDim2.group();
+
+// console.log(groupThatWorks2.all());
 
 //
 var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
@@ -323,58 +427,63 @@ var groupDoesntWork = runDimension.group().reduce(addMD, remMD, iniMD);
 //   }
 // };})(filteredGroup);
 
-// path_chart
-//     .width(.5 * width)
-//     .height(400)
-//     .dimension(time_fieldMD)
-//     .elasticY(true)
-//     // .elasticX(true)
-//     .xAxisLabel("Days before purchase")
-//     .yAxisLabel("Path")
-//     .x(d3.scale.linear().domain([0,100]))
-//     .renderHorizontalGridLines(true)
-//     .renderVerticalGridLines(true)
-//     //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
-//     .brushOn(false)
-//     .compose([
-//         dc.lineChart(path_chart).group(groupThatWorks).renderDataPoints(true)
-//         //.valueAccessor(xAxis_acc).keyAccessor(yAxis_acc)
+path_chart
+    .width(.5 * width)
+    .height(200)
+    .dimension(runDimension)
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Days before purchase")
+    .yAxisLabel("Path")
+    .x(d3.scale.linear().domain([0,10]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+    .brushOn(false)
+    .on('renderlet', function(chart) {
+        // console.log('update chart');
+        // // renderPathChart(dummyData);
+        // var abc =  pathIdGroup;
+        // console.log(abc.size());
+    })
+    .compose([
+        dc.lineChart(path_chart).group(groupThatWorks).renderDataPoints(true)
+    ]);
 
-//     ]);
 
 
-var addC = function(p, d){ return p + d.count;},
-    remC = function(p, d){ return p - d.count;},
-    addT = function(p, d){ return d.nodes;},
-    remT = function(p, d){ return d.nodes;},
-    iniT = function(){ return {};},
-    // ndx = crossfilter(dataset),
-    // all = ndx.groupAll().reduce(addC, remC, ini),
-    // fields = ndx.dimension(function(d){ return d.field;}).group(),
-    time_field2 = ndxP2P.dimension(function(d) { return [d.pathId, d.nodes];}),
-    time_fields2 = time_field2.group().reduce(addT, remT, iniT);
-    // temperature2 = ndx.dimension(function(d){return d.temperature;}),
-    // temperatures2 = temperature.group().reduce(addC, remC, ini);
-    // extent = d3.extent(dataset, function(d){return d.time;}),
-    // date_format = d3.time.format("%b %d %I:%M %p");
-
-// second_chart
-//     .width(.5 * width)
-//     .height(200)
-//     .dimension(time_field2)
-//     .group(time_fields2)
-//     .seriesAccessor(function(d) { console.log(d.value); return d.key[0]; })
-//     .keyAccessor(function(d) {return d.value[0].time;})
-//     .valueAccessor(function(d) {return d.value[0].pathId;})
-//     .elasticY(true)
-//     // .elasticX(true)
-//     .xAxisLabel("Observation Time")
-//     .yAxisLabel("Temperature")
-//     .x(d3.scale.linear().domain([0,27]))
-//     .renderHorizontalGridLines(true)
-//     .renderVerticalGridLines(true)
-//     .legend(dc.legend().x(0.35*width).y(20).itemHeight(13).gap(5))
-//     .brushOn(false);
+//PathId chart
+pathId_chart
+    .width(.5 * width)
+    .height(200)
+    .dimension(runDimension)
+    .group(runDimension.group())
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Days before purchase")
+    .yAxisLabel("Path")
+    .x(d3.scale.linear().domain([0,100]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    .centerBar(true)
+    .brushOn(true)
+    .on('renderlet', function(chart) {
+        //TODO: sort by ROI
+        var newData = runDimension.top(10).map(function (path, pathNumber) {
+            
+            path.nodes.map(function (node) {
+                node.pathNumber = pathNumber + 1;
+                return node;
+            });
+            return path;
+        }); 
+        // // console.log(newData[0].nodes);
+        // var rand = Math.random();
+        // var cut = (rand > 0.7) ? 3 : (rand > 0.3) ? 2: 1;
+        // var fakeNew = dummyData.slice(0,cut);
+        // console.log(fakeNew.length);
+        renderPathChart(newData);
+    });
 
 
 
@@ -386,7 +495,7 @@ var roiCountGroup = roiCount.group();
 
 
 roi_chart
-    .width(.5 * width)
+    .width(.35 * width)
     .height(200)
     .margins({top: 10, right: 50, bottom: 30, left: 30}) //
     .dimension(roiCount)
@@ -395,7 +504,7 @@ roi_chart
     .centerBar(true)
     .xAxisLabel("ROI")
     .yAxisLabel("Count")
-    .gap(90)
+    .gap(57)
     .x(d3.scale.linear().domain([0, 5]))
     .renderHorizontalGridLines(true)
     .filterPrinter(function (filters) {
@@ -422,7 +531,7 @@ var pathCount = ndxP2P.dimension(function (d) {
 var pathCountGroup = pathCount.group();    
 
 path_count_chart 
-    .width(.5 * width)
+    .width(.35 * width)
     .height(200)
     .margins({top: 10, right: 50, bottom: 30, left: 30})
     .dimension(pathCount)
@@ -454,8 +563,8 @@ var nodeCount = ndxP2P.dimension(function (d) {
 var nodeCountGroup = nodeCount.group();
 
 node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
-    .width(.5*width)
-    .height(200)
+    .width(.3*width)
+    .height(180)
     .margins({top: 20, left: 10, right: 10, bottom: 20})
     .group(nodeCountGroup)
     .dimension(nodeCount)
