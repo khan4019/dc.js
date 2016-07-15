@@ -147,7 +147,7 @@ time_chart
     .dimension(time_field)
     .group(time_fields)
     .seriesAccessor(function(d) { return d.key[1]; })
-    .keyAccessor(function(d) {return d.key[0];})
+    .keyAccessor(function(d) {console.log(d.key[0]); return d.key[0];})
     .elasticY(true)
     // .elasticX(true)
     .xAxisLabel("Observation Time")

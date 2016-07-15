@@ -2,17 +2,18 @@ import json
 import random
 import math
 
-sites = ['Yahoo', 'ESPN2', 'Buzzfeed', 'MSN', 'NYTimes', 'eBay', 'YouTube', '']
+sites = ['Yahoo', 'ESPN', 'Buzzfeed', 'MSN', 'NYTimes', 'eBay', 'YouTube', 'AOL']
 
 def make_node(time, pathId):
-    days = 27 - time
-    this_time = i / 2 * random.random() * days
-    time = round(this_time + time, 1)
+    days = 27 - time -2
+    temp_time = time + 1 + random.random()*days/2
+    round_time = round(temp_time, 1)
     label = sites[random.randint(0, len(sites) - 1)]
-    return new_node(label, time, pathId)
+    vol = round(random.random(),2)
+    return new_node(label, round_time, pathId, vol)
 
-def new_node(label, time, pathId):
-    return {'label': label, 'time': time, 'pathId': pathId}
+def new_node(label, time, pathId, vol):
+    return {'label': label, 'time': time, 'pathId': pathId, 'volume': vol}
 
 def make_item(pathId):
     item = {}
@@ -24,8 +25,8 @@ def make_item(pathId):
     item['pathId'] = pathId
     
     nodes = []
-    i = random.randint(1, 8)
-    nodes.append(new_node('purchase', 0, pathId))
+    i = random.randint(2, 8)
+    nodes.append(new_node('purchase', 0, pathId, 1))
     time = 0
     for x in range(1, i):
         node = make_node(time, pathId)

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dc.js multi-line chart</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
+</head>
+
+<body>
+<script type="text/javascript" src="../js/d3.js"></script>
+<script type="text/javascript" src="../js/crossfilter.js"></script>
+<script type="text/javascript" src="../js/dc.js"></script>
+<script type="text/javascript" src="morley.js"></script>
+<script type="text/javascript" src="../p2pData2.js"></script>
+
+
+<div class="container">
+    <h1>Multi-Line Chart in dc.js</h1>
+
+    <div class="row">
+        <div id="data-count" class="span12">
+            Showing <span class="filter-count"/></span> of <span class="total-count"></span> data points
+            | <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="path-chart" class="dc-chart span6">
+            <strong>Path to Purchase</strong>
+            <a class="reset" href="javascript:path_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="path-count-chart" class="dc-chart span6">
+            <strong>Path Count</strong>
+            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();" style="display: none;">reset</a>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="node-count-chart" class="dc-chart span6">
+            <strong>Node Count</strong>
+            <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="roi-chart" class="dc-chart span6">
+            <strong>ROI</strong>
+            <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="row">
+<!--         <div id="p2p-chart" class="dc-chart span6">
+            <strong>P2P</strong>
+            <a class="reset" href="javascript:second_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div> -->
+        
+    </div>
+
+    <div class="row">
+        <div id="time-chart" class="dc-chart span6">
+            <strong>Time</strong>
+            <small class="text-muted">
+            <time id="date-start" datetime="2012-08-26 20:09-0700">8:09pm on August 26th, 2012</time> &ndash;
+            <time id="date-end" datetime="2012-08-26 20:09-0700">8:09pm on August 26th, 2012</time>
+            </small>
+            <a class="reset" href="javascript:time_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+        <div id="temp-chart" class="dc-chart span6">
+            <strong>Temperature</strong>
+            <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</div> <!-- end container -->
+
+<script type="text/javascript">
+// Make sure our data is typed properly.
+var coerce_row = function(d){
+    return {
+        time: new Date(+d[0] * 1000.0),
+        field: d[1],
+        temperature: +d[2],
+        count: +d[3],
+    };
+};
+var data = [
+ //['time', 'text', 'temperature', 'count'],
+ ['1379952000', 'field_1', 91, 60],
+ ['1379952000', 'field_2', 50, 20],
+ ['1379952000', 'field_3', 88, 40],
+ ['1379952000', 'field_4', 50, 50],
+ ['1379953200', 'field_1', 97, 60],
+ ['1379953200', 'field_2', 84, 20],
+ ['1379953200', 'field_3', 85, 40],
+ ['1379953200', 'field_4', 88, 50],
+ ['1379954400', 'field_1', 89, 60],
+ ['1379954400', 'field_2', 52, 20],
+ ['1379954400', 'field_3', 98, 40],
+ ['1379955600', 'field_1', 95, 60],
+ ['1379955600', 'field_2', 88, 12],
+ ['1379955600', 'field_3', 57, 95],
+ ['1379955600', 'field_4', 94, 80],
+ ['1379956800', 'field_1', 77, 51],
+ ['1379956800', 'field_2', 50, 19],
+ ['1379956800', 'field_3', 58, 23],
+ ['1379956800', 'field_4', 99, 29],
+ ['1379958000', 'field_1', 75, 28],
+ ['1379958000', 'field_2', 57, 16],
+ ['1379958000', 'field_3', 65, 53],
+ ['1379958000', 'field_4', 84, 37],
+ ['1379959200', 'field_1', 98, 72],
+ ['1379959200', 'field_2', 71, 63],
+ ['1379959200', 'field_3', 50, 68],
+ ['1379959200', 'field_4', 51, 72],
+ ['1379960400', 'field_1', 91, 64],
+ ['1379960400', 'field_2', 64, 77],
+ ['1379960400', 'field_3', 89, 13],
+ ['1379960400', 'field_4', 62, 85],
+ ['1379961600', 'field_1', 82, 69],
+ ['1379961600', 'field_2', 53, 70],
+ ['1379961600', 'field_3', 74, 48],
+ ['1379961600', 'field_4', 66, 29]
+ ];
+
+var p2pData = [  
+   {  
+      "roi":0.57,
+      "pathCount":8666112,
+      "impressionPerNode":2.5,
+      "conversionRate":0.038,
+      "pathId":1,
+      "time":3.8,
+      "label":"Yahoo",
+      "effectiveness":1.4
+   },
+   {  
+      "roi":0.49,
+      "pathCount":51322,
+      "impressionPerNode":6.91,
+      "conversionRate":0.001,
+      "pathId":1,
+      "time":24.1,
+      "label":"MSN",
+      "effectiveness":0.19
+   },
+   {  
+      "roi":2.45,
+      "pathCount":10590,
+      "impressionPerNode":7.13,
+      "conversionRate":0.024,
+      "pathId":2,
+      "time":4.1,
+      "label":"MSN",
+      "effectiveness":0.65
+   },
+   {  
+      "roi":0.22,
+      "pathCount":745583,
+      "impressionPerNode":3.87,
+      "conversionRate":0.034,
+      "pathId":2,
+      "time":15.7,
+       "label":"eBay",
+      "effectiveness":0.28
+   },
+   {  
+      "roi":0.13,
+      "pathCount":625602,
+      "impressionPerNode":7.11,
+      "conversionRate":0.016,
+      "pathId":2,
+      "time":21.6,
+        "label":"MSN",
+      "effectiveness":0.97
+   },
+   {  
+      "roi":2.3,
+      "pathCount":389772,
+      "impressionPerNode":5.08,
+      "conversionRate":0.015,
+      "pathId":3,
+            "time":7.8,
+            "label":"Yahoo",
+      "effectiveness":0.81
+   },
+   {  
+      "roi":0.16,
+      "pathCount":1933957,
+      "impressionPerNode":6.71,
+      "conversionRate":0.033,
+      "pathId":3,
+            "time":20,
+            "label":"purchase",
+      "effectiveness":0.46
+   },
+   {  
+      "roi":0.31,
+      "pathCount":5997373,
+      "impressionPerNode":1.83,
+      "conversionRate":0.063,
+      "pathId":4,
+            "time":5.4,
+            "label":"Buzzfeed",
+      "effectiveness":0.67
+   },
+   {  
+      "roi":0.07,
+      "pathCount":307949,
+      "impressionPerNode":4.73,
+      "conversionRate":0.002,
+      "pathId":4,
+            "time":17.0,
+            "label":"YouTube",
+      "effectiveness":0.82
+   },
+   {  
+      "roi":0.93,
+      "pathCount":3771502,
+      "impressionPerNode":5.68,
+      "conversionRate":0.091,
+      "pathId":4,
+            "time":21.7,
+            "label":"NYTimes",
+      "effectiveness":0.71
+   },
+   {  
+      "roi":1.2,
+      "pathCount":1994306,
+      "impressionPerNode":2.47,
+      "conversionRate":0.009,
+      "pathId":5,
+            "time":5.2,
+            "label":"NYTimes",
+      "effectiveness":0.23
+   },
+   {  
+      "roi":0.17,
+      "pathCount":2909716,
+      "impressionPerNode":6.36,
+      "conversionRate":0.013,
+      "pathId":5,
+            "time":13,
+            "label":"purchase",
+      "effectiveness":0.84
+   },
+   {  
+      "roi":2.87,
+      "pathCount":552931,
+      "impressionPerNode":7.56,
+      "conversionRate":0.026,
+      "pathId":6,
+            "label":"Buzzfeed",
+            "time":5.5,
+      "effectiveness":1.02
+   },
+   {  
+      "roi":2.4,
+      "pathCount":1221605,
+      "impressionPerNode":1.32,
+      "conversionRate":0.006,
+      "pathId":6,
+            "time":13.2,
+            "label":"MSN",
+      "effectiveness":0.52
+   },
+   {  
+      "roi":0.64,
+      "pathCount":8056837,
+      "impressionPerNode":7.28,
+      "conversionRate":0.018,
+      "pathId":7,
+            "time":7.7,
+            "label":"eBay",
+      "effectiveness":0.1
+   },
+   {  
+      "roi":0.08,
+      "pathCount":1325192,
+      "impressionPerNode":4.2,
+      "conversionRate":0.005,
+      "pathId":7,
+            "time":9.2,
+            "label":"eBay",
+      "effectiveness":1.73
+   },
+   {  
+      "roi":0.79,
+      "pathCount":4326675,
+      "impressionPerNode":3.53,
+      "conversionRate":0.007,
+      "pathId":7,
+            "time":12.8,
+            "label":"NYTimes",
+      "effectiveness":0.07
+   },
+   {  
+      "roi":0.46,
+      "pathCount":4437532,
+      "impressionPerNode":3.73,
+      "conversionRate":0.021,
+      "pathId":8,
+            "time":4.6,
+            "label":"MSN",
+      "effectiveness":0.05
+   },
+   {  
+      "roi":0.01,
+      "pathCount":4115031,
+      "impressionPerNode":7.6,
+      "conversionRate":0.041,
+      "pathId":9,
+            "time":3.2,
+            "label":"ESPN2",
+      "effectiveness":0.07
+   },
+   {  
+      "roi":1.43,
+      "pathCount":345557,
+      "impressionPerNode":7.44,
+      "conversionRate":0.002,
+      "pathId":9,
+            "time":11.1,
+            "label":"YouTube",
+      "effectiveness":0.45
+   }];
+
+ var dataset = data.map(coerce_row);
+
+var numberFormat = d3.format('.2f');
+// charts
+var time_chart = dc.compositeChart("#time-chart"),
+    // second_chart = dc.seriesChart("#p2p-chart"),
+    temp_chart = dc.barChart("#temp-chart"),
+    path_chart = dc.compositeChart("#path-chart"),
+    roi_chart = dc.barChart('#roi-chart'),
+    node_count_chart = dc.rowChart('#node-count-chart'),
+    path_count_chart = dc.barChart('#path-count-chart'),
+    width = temp_chart.root()[0][0].parentElement.clientWidth;
+
+// cross filter
+var add = function(p, d){ return p + d.count;},
+    rem = function(p, d){ return p - d.count;},
+    ini = function(){ return 0;},
+    ndx = crossfilter(dataset),
+    all = ndx.groupAll().reduce(add, rem, ini),
+    fields = ndx.dimension(function(d){ return d.field;}).group(),
+    time_field = ndx.dimension(function(d) { return JSON.stringify([d.time, d.field]);}),
+    date_acc = function(d){ return new Date(JSON.parse(d.key)[0]);},
+    field_acc = function(d){ return JSON.parse(d.key)[1];},
+    time_fields = time_field.group().reduce(add, rem, ini),
+    temperature = ndx.dimension(function(d){return d.temperature;}),
+    temperatures = temperature.group().reduce(add, rem, ini);
+    extent = d3.extent(dataset, function(d){return d.time;}),
+    date_format = d3.time.format("%b %d %I:%M %p");
+
+//roi charts
+var addMD = function(p, d){ return d.roi;},
+    remMD = function(p, d){ return d.roi;},
+    addMD2 = function(p, d){ return d.nodes;},
+    remMD2 = function(p, d){ return d.nodes;},
+    iniMD = function(){ return {};},
+    ndxP2P = crossfilter(p2pData),
+    allMD = ndxP2P.groupAll().reduce(addMD, remMD, iniMD),
+    pathIdGroup = ndxP2P.dimension(function(d){ return d.pathId;}).group(),
+    pathId_nodes = ndxP2P.dimension(function(d) { return JSON.stringify([d.pathId, d.nodes]);}),
+    pathId_nodesGroup = pathId_nodes.group().reduce(addMD2, remMD2, iniMD),
+    time_fieldMD = ndxP2P.dimension(function(d) { return d.pathId;}),
+    date_accMD = function(d){ return d.time;},
+    time_fieldsMD = time_fieldMD.group().reduce(addMD2, remMD2, iniMD),
+    // extent = d3.extent(dataset, function(d){return d.time;}),
+    // date_format = d3.time.format("%b %d %I:%M %p");
+    field_accMD = function(d){ return JSON.parse(d.key)[0];},
+    xAxis_acc = function (d) { return d.time;},
+    yAxis_acc = function (d) { return d.pathId;},
+    xAxis_accMD = function (d) { return d.key;},
+    yAxis_accMD = function (d) { return d.value;};
+
+
+d3.select("#date-start")
+    .attr("datetime", extent[0])
+    .text(date_format(extent[0]));
+d3.select("#date-end")
+    .attr("datetime", extent[1])
+    .text(date_format(extent[1]));
+
+dc.dataCount("#data-count")
+// Since the number of records (returned by .size()) isn't the same as the number
+// of data points we're aggregating, supply a size-like object that returns the
+// total number of data points represented.
+    .dimension({size: function(){return dataset.reduce(add, 0);}})
+    .group(all);
+
+
+time_chart
+    .width(.5 * width)
+    .height(200)
+    .dimension(time_field)
+    .elasticY(true)
+    .elasticX(true)
+    .xAxisLabel("Observation Time")
+    .yAxisLabel("Count")
+    .x(d3.time.scale().domain(extent))
+    //.renderDataPoints(true)
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    .legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+    .brushOn(false)
+    .compose(fields.all().map(function(d, fi){
+        var field = d.key;
+        return dc.lineChart(time_chart)
+            .group({
+                all: function(){
+                    var kk = time_fields.all().filter(function(d){ return field_acc(d) == field;});
+                    // console.log(kk);
+                    return kk;
+                }
+            }, field)
+            .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
+            .colorAccessor(function(){ return fi;})
+            .renderDataPoints(true)
+            .keyAccessor(date_acc);
+    }));
+
+temp_chart
+    .width(.5 * width)
+    .height(200)
+    .dimension(temperature)
+    .x(d3.scale.linear().domain([0, 100]))
+    .xAxisLabel("Temperature °F")
+    .elasticX(true)
+    .group(temperatures)
+    .elasticY(true)
+    .yAxisLabel("Count")
+    .renderHorizontalGridLines(true);
+
+
+path_chart
+    .width(.5 * width)
+    .height(200)
+    .dimension(pathId_nodes)
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Days before purchase")
+    .yAxisLabel("Path")
+    .x(d3.scale.linear().domain([0,100]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+    .brushOn(false)
+    .compose(pathIdGroup.all().map(function(d, fi){
+        var field = d.key;
+        return dc.lineChart(path_chart)
+            .group({
+                all: function(){
+                    var kk = pathId_nodesGroup.all().filter(function(d){ return field_accMD(d) == field;});
+                    var vals  = JSON.parse(kk[0].key);
+                    var output = vals[1].map(function (d) {
+                        return{
+                            key:d.time,
+                            value:d.pathId
+                        };
+                    })
+                    // console.log(output);
+                    return output;
+                }
+            }, field)
+            .colors(['#1f77b4', '#ff7f0e', '#2ca02c','#d62728'])
+            .colorAccessor(function(d){ return fi;})
+            .renderDataPoints(true)
+            // .valueAccessor(yAxis_accMD)
+            // .keyAccessor(xAxis_accMD);
+    }));
+
+
+
+//node length count works
+var nodeLenDim = ndxP2P.dimension(function (d) { return d.pathId; });
+var groupThatWorks = nodeLenDim.group();
+
+var nodeLenDim2 = ndxP2P.dimension(function (d) { return d.pathId; });
+var groupThatWorks2 = nodeLenDim2.group();
+
+console.log(groupThatWorks2.all());
+
+//
+var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
+var groupDoesntWork = runDimension.group().reduce(addMD, remMD, iniMD);
+
+
+
+
+// var filteredGroup = (function (source_group) {return {
+//   all:function () {
+//     return source_group.top(10);
+//   }
+// };})(groupDoesntWork);
+
+// var top1Filter = (function (source_group) {return {
+//   all:function () {
+//     return source_group.top(1);
+//   }
+// };})(filteredGroup);
+
+// path_chart
+//     .width(.5 * width)
+//     .height(200)
+//     .dimension(time_fieldMD)
+//     .elasticY(true)
+//     // .elasticX(true)
+//     .xAxisLabel("Days before purchase")
+//     .yAxisLabel("Path")
+//     .x(d3.scale.linear().domain([0,100]))
+//     .renderHorizontalGridLines(true)
+//     .renderVerticalGridLines(true)
+//     //.legend(dc.legend().x(0.35*width).y(260).itemHeight(13).gap(5))
+//     .brushOn(false)
+//     .compose([
+//         dc.lineChart(path_chart).group(groupThatWorks).renderDataPoints(true)
+//         //.valueAccessor(xAxis_acc).keyAccessor(yAxis_acc)
+//         ,
+//         dc.lineChart(path_chart).group(groupThatWorks2).renderDataPoints(true)
+
+//     ]);
+
+
+var addC = function(p, d){ return p + d.count;},
+    remC = function(p, d){ return p - d.count;},
+    addT = function(p, d){ return d.nodes;},
+    remT = function(p, d){ return d.nodes;},
+    iniT = function(){ return {};},
+    // ndx = crossfilter(dataset),
+    // all = ndx.groupAll().reduce(addC, remC, ini),
+    // fields = ndx.dimension(function(d){ return d.field;}).group(),
+    time_field2 = ndxP2P.dimension(function(d) { return [d.pathId, d.nodes];}),
+    time_fields2 = time_field2.group().reduce(addT, remT, iniT);
+    // temperature2 = ndx.dimension(function(d){return d.temperature;}),
+    // temperatures2 = temperature.group().reduce(addC, remC, ini);
+    // extent = d3.extent(dataset, function(d){return d.time;}),
+    // date_format = d3.time.format("%b %d %I:%M %p");
+
+// second_chart
+//     .width(.5 * width)
+//     .height(200)
+//     .dimension(time_field2)
+//     .group(time_fields2)
+//     .seriesAccessor(function(d) { console.log(d.value); return d.key[0]; })
+//     .keyAccessor(function(d) {return d.value[0].time;})
+//     .valueAccessor(function(d) {return d.value[0].pathId;})
+//     .elasticY(true)
+//     // .elasticX(true)
+//     .xAxisLabel("Observation Time")
+//     .yAxisLabel("Temperature")
+//     .x(d3.scale.linear().domain([0,27]))
+//     .renderHorizontalGridLines(true)
+//     .renderVerticalGridLines(true)
+//     .legend(dc.legend().x(0.35*width).y(20).itemHeight(13).gap(5))
+//     .brushOn(false);
+
+
+
+//roi chart
+var roiCount = ndxP2P.dimension(function (d) {
+    return Math.ceil(d.roi*10)/10;
+});
+var roiCountGroup = roiCount.group();
+
+
+roi_chart
+    .width(.5 * width)
+    .height(200)
+    .margins({top: 10, right: 50, bottom: 30, left: 30}) //
+    .dimension(roiCount)
+    .group(roiCountGroup)
+    .elasticY(true)
+    .centerBar(true)
+    .xAxisLabel("ROI")
+    .yAxisLabel("Count")
+    .gap(90)
+    .x(d3.scale.linear().domain([0, 5]))
+    .renderHorizontalGridLines(true)
+    .filterPrinter(function (filters) {
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
+        return s;
+    });
+
+// Customize axes
+// roi_chart.xAxis().tickFormat(
+//     function (v) {return (v/1000000) + 'M'; });
+roi_chart.yAxis().ticks(5);
+
+
+
+var pathCount = ndxP2P.dimension(function (d) {
+    var pathCount = d.pathCount, k100 = 100000, k = 1000;
+    if (pathCount > k100*10) {
+        return Math.floor(pathCount/k100)*k100;
+    } else {
+        return Math.floor(pathCount/k)*k;
+    }
+});
+var pathCountGroup = pathCount.group();    
+
+path_count_chart 
+    .width(.5 * width)
+    .height(200)
+    .margins({top: 10, right: 50, bottom: 30, left: 30})
+    .dimension(pathCount)
+    .group(pathCountGroup)
+    .elasticY(true)
+    .xAxisLabel("Path Count")
+    .yAxisLabel("Count")
+    .gap(1)
+    .centerBar(true)
+    .alwaysUseRounding(true)
+    .x(d3.scale.linear().domain([0, 9000000]))
+    .renderHorizontalGridLines(true)
+    .filterPrinter(function (filters) {
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]/1000000) + 'M -> ' + numberFormat(filter[1]/1000000) + 'M';
+        return s;
+    });
+
+// Customize axes
+path_count_chart.xAxis().tickFormat(
+    function (v) {return (v/1000000) + 'M'; });
+path_count_chart.yAxis().ticks(5);
+
+
+
+var nodeCount = ndxP2P.dimension(function (d) {
+    // return d.nodes.length;
+});
+var nodeCountGroup = nodeCount.group();
+
+node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+    .width(.5*width)
+    .height(200)
+    .margins({top: 20, left: 10, right: 10, bottom: 20})
+    .group(nodeCountGroup)
+    .dimension(nodeCount)
+    // Assign colors to each value in the x scale domain
+    .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
+    .label(function (d) {
+        return d.key;
+    })
+    // Title sets the row text
+    .title(function (d) {
+        return d;
+    })
+    .elasticX(true)
+    .xAxis().ticks(4);    
+
+dc.renderAll();
+
+</script>
+</body>
+</html>
