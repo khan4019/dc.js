@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dc.js multi-line chart attempt</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
+</head>
+
+<body>
+<script type="text/javascript" src="../js/d3.js"></script>
+<script type="text/javascript" src="../js/crossfilter.js"></script>
+<script type="text/javascript" src="../js/dc.js"></script>
+<script type="text/javascript" src="morley.js"></script>
+<script type="text/javascript" src="../p2pData2.js"></script>
+
+
+<div class="container">
+    <h1>Multi-Line Chart in dc.js</h1>
+
+    <div class="row">
+        <div id="data-count" class="span12">
+            Showing <span class="filter-count"/></span> of <span class="total-count"></span> data points
+            | <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="time-chart" class="dc-chart span6">
+            <strong>Time</strong>
+            <small class="text-muted">
+            <time id="date-start" datetime="2012-08-26 20:09-0700">8:09pm on August 26th, 2012</time> &ndash;
+            <time id="date-end" datetime="2012-08-26 20:09-0700">8:09pm on August 26th, 2012</time>
+            </small>
+            <a class="reset" href="javascript:time_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="temp-chart" class="dc-chart span6">
+            <strong>Temperature</strong>
+            <a class="reset" href="javascript:temp_chart.filterAll(); dc.redrawAll();" style="display: none;">
+                reset
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</div> <!-- end container -->
+
+<script type="text/javascript">
+// charts
+var time_chart = dc.seriesChart("#time-chart"),
+    temp_chart = dc.barChart("#temp-chart"),
+    width = temp_chart.root()[0][0].parentElement.clientWidth;
+
+var coerce_row = function(d){
+    return {
+        time: d[0],
+        field: d[1],
+        temperature: +d[2],
+        count: +d[3],
+    };
+};
+var data = [
+ //['time', 'text', 'temperature', 'count'],
+ ['5', 'field_1', 80, 56],
+ ['4', 'field_2', 50, 20],
+ ['2', 'field_3', 70, 24],
+ ['1', 'field_4', 60, 37],
+ ['2', 'field_1', 80, 58],
+ ['12', 'field_2', 50, 86],
+ ['13', 'field_3', 70, 62],
+ ['8', 'field_4', 60, 73],
+ ['5', 'field_1', 80, 38],
+ ['6', 'field_2', 50, 26],
+ ['5', 'field_3', 70, 66],
+ ['3', 'field_4', 60, 38],
+ ['2', 'field_1', 80, 98],
+ ['22', 'field_2', 50, 12],
+ ['22', 'field_7', 20, 95],
+ ['24', 'field_8', 30, 80],
+ ['14', 'field_5', 40, 51],
+ ['7', 'field_6', 10, 19],
+ ['5', 'field_7', 20, 23],
+ ['13', 'field_8', 30, 29],
+ ['8', 'field_5', 40, 28],
+ ['21', 'field_6', 10, 16],
+ ['15', 'field_7', 20, 53],
+ ['8', 'field_8', 30, 37],
+ // ['1379959200', 'field_1', 98, 72],
+ // ['1379959200', 'field_4', 71, 63],
+ // ['1379959200', 'field_6', 50, 68],
+ // ['1379959200', 'field_9', 51, 72],
+ // ['1379960400', 'field_5', 91, 64],
+ // ['1379960400', 'field_6', 64, 77],
+ // ['1379960400', 'field_8', 89, 13],
+ // ['1379960400', 'field_9', 62, 85],
+ // ['1379961600', 'field_5', 82, 69],
+ // ['1379961600', 'field_6', 53, 70],
+ // ['1379961600', 'field_9', 74, 48],
+ // ['1379961600', 'field_7', 66, 29]
+ ];
+
+ var dataset = data.map(coerce_row);
+
+
+var addC = function(p, d){ return p + d.count;},
+    remC = function(p, d){ return p - d.count;},
+    addT = function(p, d){ return p + d.temperature;},
+    remT = function(p, d){ return p - d.temperature;},
+    ini = function(){ return 0;},
+    ndx = crossfilter(dataset),
+    all = ndx.groupAll().reduce(addC, remC, ini),
+    fields = ndx.dimension(function(d){ return d.field;}).group(),
+    time_field = ndx.dimension(function(d) { return [d.time, d.field];}),
+    time_fields = time_field.group().reduce(addT, remT, ini),
+    temperature = ndx.dimension(function(d){return d.temperature;}),
+    temperatures = temperature.group().reduce(addC, remC, ini);
+    extent = d3.extent(dataset, function(d){return d.time;}),
+    date_format = d3.time.format("%b %d %I:%M %p"),
+
+// d3.select("#date-start")
+//     .attr("datetime", extent[0])
+//     .text(date_format(extent[0]));
+// d3.select("#date-end")
+//     .attr("datetime", extent[1])
+//     .text(date_format(extent[1]));
+
+dc.dataCount("#data-count")
+// Since the number of records (returned by .size()) isn't the same as the number
+// of data points we're aggregating, supply a size-like object that returns the
+// total number of data points represented.
+    .dimension({size: function(){return dataset.reduce(addC, 0);}})
+    .group(all);
+
+time_chart
+    .width(.5 * width)
+    .height(400)
+    .dimension(time_field)
+    .group(time_fields)
+    .seriesAccessor(function(d) { return d.key[1]; })
+    .keyAccessor(function(d) {return d.key[0];})
+    .elasticY(true)
+    // .elasticX(true)
+    .xAxisLabel("Observation Time")
+    .yAxisLabel("Temperature")
+    .x(d3.scale.linear().domain([0,27]))
+    .renderHorizontalGridLines(true)
+    .renderVerticalGridLines(true)
+    .legend(dc.legend().x(0.35*width).y(20).itemHeight(13).gap(5))
+    .brushOn(false);
+
+temp_chart
+    .width(.5 * width)
+    .dimension(temperature)
+    .x(d3.scale.linear().domain([0, 100]))
+    .xAxisLabel("Temperature °F")
+    .elasticX(true)
+    .height(400)
+    .group(temperatures)
+    .elasticY(true)
+    .yAxisLabel("Count")
+    .renderHorizontalGridLines(true);
+
+dc.renderAll();
+
+</script>
+</body>
+</html>
