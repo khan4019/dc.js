@@ -1,5 +1,5 @@
 function renderPathChart(chartData) {
-
+    d3.select("#p2pChart svg").remove();
     var margin = {top: 20, right: 80, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -46,7 +46,7 @@ function renderPathChart(chartData) {
     
     var margin = config.margin;
 
-    var svg = d3.select(config.chartId + ' svg')
+    var svg = d3.select(config.chartId).append('svg')
         .attr('width', width + margin.left + margin.right)
         .attr('height', height + margin.top + margin.bottom)
         .append('g')
@@ -126,7 +126,7 @@ function renderPathChart(chartData) {
         .attr('y', function(d) {return y(d.pathNumber + 0.35 - 0.7 * d.volume);})
         .attr('height', function() {return 40;});    
 
-    //update
+
 
     //exit  
     // touchNodes.exit().remove(); 
@@ -181,6 +181,7 @@ function renderPathChart(chartData) {
                 .attr('text-anchor', 'middle')
                 .style('font-size','11px')
                 .style('fill', 'white')
+                .attr('class', 'node-volume')
                 .text(function(d) {
                    return d.volume*100 + '%';
                 });
@@ -191,7 +192,7 @@ function renderPathChart(chartData) {
             fishBowl.attr('clip-path', function(d) { return 'url(#clip' + d.pathNumber + d.time + ')'; });
             
             //touchNodes.selectAll('text').remove();
-            svg.selectAll('text').remove();
+            svg.selectAll('.node-volume').remove();
 
            
         });
