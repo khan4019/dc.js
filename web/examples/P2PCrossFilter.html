@@ -17,6 +17,15 @@
           color:white;
           font-size: 16px;
         }
+        .legend {
+            padding: 5px;
+            font: 10px sans-serif;
+            background: yellow;
+            box-shadow: 2px 2px 1px #888;
+        }
+        #pathId-chart{
+            visibility: hidden;
+        }
     </style>
 </head>
 
@@ -40,7 +49,6 @@
     <div class="row">
         <div id="custom-chart" class="dc-chart span6">
             <strong>Custom D3 P2P Chart</strong>
-            <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
             <div id="p2pChart">
                 <svg></svg>
             </div>
@@ -233,7 +241,7 @@ node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
     .group(nodeCountGroup)
     .dimension(nodeCount)
     // Assign colors to each value in the x scale domain
-    .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
+    .ordinalColors(['#3182bd'])
     .label(function (d) {
         return d.key;
     })

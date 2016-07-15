@@ -66,6 +66,8 @@ function renderPathChart(chartData) {
             }
         });
     });
+    //remove purchase
+    nodeLabels.shift();
     
     color.domain(nodeLabels);
 
@@ -170,6 +172,34 @@ function renderPathChart(chartData) {
         .append('xhtml:span')
         .attr('class', 'glyphicon glyphicon-shopping-cart');    
     
+        // add legend   
+    var legend = svg.append("g")
+        .attr("class", "legend")
+        .attr("x", width - 65)
+        .attr("y", 50)
+        .attr("height", 100)
+        .attr("width", 100)
+        .attr('transform', 'translate(-20,50)')    
+      
+    
+    legend.selectAll('rect')
+      .data(nodeLabels)
+      .enter()
+      .append("circle")
+      .attr('r', 5)
+      .attr("cx", function(d, i){ return 42 +  i *  70;})
+      .attr("cy", -45)
+      .style("fill", function(d) { return color(d);});
+      
+    legend.selectAll('text')
+      .data(nodeLabels)
+      .enter()
+      .append("text")
+      .style('font-size','10px')
+      .attr("x", function(d, i){ return 50 + i *  70;})
+      .attr("y", -42)
+      .text(function(d) { return d;});
+
     
     svg.selectAll('circle').on('mouseover', function(d) {       
             fishBowl.attr('clip-path', null);
@@ -182,9 +212,7 @@ function renderPathChart(chartData) {
                 .style('font-size','11px')
                 .style('fill', 'white')
                 .attr('class', 'node-volume')
-                .text(function(d) {
-                   return d.volume*100 + '%';
-                });
+                .text(function(d) { console.log(d.volume*100 + '%'); return d.volume*100 + '%';});
 
             })
                              

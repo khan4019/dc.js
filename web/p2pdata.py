@@ -5,7 +5,7 @@ import math
 sites = ['Yahoo', 'ESPN', 'Buzzfeed', 'MSN', 'NYTimes', 'eBay', 'YouTube', 'AOL']
 
 def make_node(time, pathId):
-    days = 27 - time -2
+    days = 28 - time
     temp_time = time + 1 + random.random()*days/2
     round_time = round(temp_time, 1)
     label = sites[random.randint(0, len(sites) - 1)]
