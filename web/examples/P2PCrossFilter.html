@@ -23,9 +23,7 @@
             background: yellow;
             box-shadow: 2px 2px 1px #888;
         }
-        #pathId-chart{
-            visibility: hidden;
-        }
+        
     </style>
 </head>
 
@@ -81,28 +79,15 @@
             <div class="clearfix"></div>
         </div>
     </div>
-    
-    <div class="row">
-        <div id="pathId-chart" class="dc-chart span6">
-            <strong>Path Id Chart</strong>
-            <a class="reset" href="javascript:pathId_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
-                reset
-            </a>
 
-            <div class="clearfix"></div>
-        </div>
-    </div>
 
 </div> <!-- end container -->
 
 <script type="text/javascript">
-// Make sure our data is typed properly.
-
 
 var numberFormat = d3.format('.2f');
 // charts
-var pathId_chart = dc.barChart('#pathId-chart'),
-    roi_chart = dc.barChart('#roi-chart'),
+var roi_chart = dc.barChart('#roi-chart'),
     node_count_chart = dc.rowChart('#node-count-chart'),
     path_count_chart = dc.barChart('#path-count-chart'),
     width = roi_chart.root()[0][0].parentElement.clientWidth;
@@ -129,7 +114,6 @@ var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
 drawPathChart();
 function drawPathChart() {
     //TODO: sort by ROI
-    console.log('inside draw');
     var newData = runDimension.top(10).map(function (path, pathNumber) {
         
         path.nodes.map(function (node) {
@@ -141,26 +125,6 @@ function drawPathChart() {
     renderPathChart(newData);
     document.getElementById('pathCount').innerHTML = newData.length;
 }
-
-//PathId chart
-pathId_chart
-    .width(.5 * width)
-    .height(200)
-    .dimension(runDimension)
-    .group(runDimension.group())
-    .elasticY(true)
-    // .elasticX(true)
-    .xAxisLabel("Days before purchase")
-    .yAxisLabel("Path")
-    .x(d3.scale.linear().domain([0,100]))
-    .renderHorizontalGridLines(true)
-    .renderVerticalGridLines(true)
-    .centerBar(true)
-    .brushOn(true)
-    .on('renderlet', function(chart) {
-        
-    });
-
 
 
 //roi chart
@@ -185,7 +149,6 @@ roi_chart
     .renderHorizontalGridLines(true)
     .filterPrinter(function (filters) {
         drawPathChart();
-        console.log('filterPrint');
         var filter = filters[0], s = '';
         s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
         return s;
@@ -247,7 +210,6 @@ node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
     .margins({top: 20, left: 10, right: 10, bottom: 20})
     .group(nodeCountGroup)
     .dimension(nodeCount)
-    // Assign colors to each value in the x scale domain
     .ordinalColors(['#3182bd'])
     .label(function (d) {
         return d.key;

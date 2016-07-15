@@ -9,6 +9,7 @@ function renderPathChart(chartData) {
         margin: margin
     };
 
+    var duration = 500;
 
     var x = d3.scale.linear()
         .range([0, width]);
@@ -93,12 +94,10 @@ function renderPathChart(chartData) {
 
     purchasePaths.append('path')
         .attr('class', 'line')
-        .attr('d', function(d) { 
-            return line(d.nodes); 
-        })
-        .style('stroke', function(d) { 
-            return color(d.name); 
-        });
+        .transition()
+        .duration(duration)
+        .attr('d', function(d) { return line(d.nodes); })
+        .style('stroke', function(d) { return 'gray'; });
 
     
 
