@@ -43,7 +43,7 @@
     <div class="row">
         <div id="data-count" class="span12">
             Showing <span id="pathCount">10</span> paths (filtered: <span class="filter-count"></span>) from <span class="total-count"></span> paths
-            | <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+            | <a href="javascript:dc.filterAll(); dc.renderAll();drawPathChart();">Reset All</a>
         </div>
     </div>
     <div class="row">
@@ -58,7 +58,7 @@
     <div class="row">
         <div id="node-count-chart" class="dc-chart span4">
             <strong>Node Count</strong>
-            <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();" style="display: none;">
+            <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
                 reset
             </a>
 
@@ -67,14 +67,14 @@
         <div id="path-count-chart" class="dc-chart span4">
             <strong>Path Count</strong>
             <span class="reset" style="display: none;">range: <span class="filter"></span></span>
-            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();" style="display: none;">reset</a>
+            <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">reset</a>
 
             <div class="clearfix"></div>
         </div>
         <div id="roi-chart" class="dc-chart span4">
             <strong>ROI</strong>
             <span class="reset" style="display: none;">range: <span class="filter"></span></span>
-            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();" style="display: none;">
+            <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
                 reset
             </a>
 
@@ -85,7 +85,7 @@
     <div class="row">
         <div id="pathId-chart" class="dc-chart span6">
             <strong>Path Id Chart</strong>
-            <a class="reset" href="javascript:pathId_chart.filterAll(); dc.redrawAll();" style="display: none;">
+            <a class="reset" href="javascript:pathId_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
                 reset
             </a>
 
@@ -126,7 +126,21 @@ dc.dataCount("#data-count")
 
 //
 var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
-
+drawPathChart();
+function drawPathChart() {
+    //TODO: sort by ROI
+    console.log('inside draw');
+    var newData = runDimension.top(10).map(function (path, pathNumber) {
+        
+        path.nodes.map(function (node) {
+            node.pathNumber = pathNumber + 1;
+            return node;
+        });
+        return path;
+    }); 
+    renderPathChart(newData);
+    document.getElementById('pathCount').innerHTML = newData.length;
+}
 
 //PathId chart
 pathId_chart
@@ -144,17 +158,7 @@ pathId_chart
     .centerBar(true)
     .brushOn(true)
     .on('renderlet', function(chart) {
-        //TODO: sort by ROI
-        var newData = runDimension.top(10).map(function (path, pathNumber) {
-            
-            path.nodes.map(function (node) {
-                node.pathNumber = pathNumber + 1;
-                return node;
-            });
-            return path;
-        }); 
-        document.getElementById('pathCount').innerHTML = newData.length;
-        renderPathChart(newData);
+        
     });
 
 
@@ -180,6 +184,8 @@ roi_chart
     .x(d3.scale.linear().domain([0, 5]))
     .renderHorizontalGridLines(true)
     .filterPrinter(function (filters) {
+        drawPathChart();
+        console.log('filterPrint');
         var filter = filters[0], s = '';
         s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
         return s;
@@ -217,6 +223,7 @@ path_count_chart
     .x(d3.scale.linear().domain([0, 9000000]))
     .renderHorizontalGridLines(true)
     .filterPrinter(function (filters) {
+        drawPathChart();
         var filter = filters[0], s = '';
         s += numberFormat(filter[0]/1000000) + 'M -> ' + numberFormat(filter[1]/1000000) + 'M';
         return s;
@@ -250,7 +257,11 @@ node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
         return d;
     })
     .elasticX(true)
-    .xAxis().ticks(4);    
+    .filterPrinter(function (filters) {
+        drawPathChart();
+      
+    })
+    .xAxis().ticks(5);    
 
 dc.renderAll();
 

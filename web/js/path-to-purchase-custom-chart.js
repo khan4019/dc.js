@@ -187,7 +187,7 @@ function renderPathChart(chartData) {
       .enter()
       .append("circle")
       .attr('r', 5)
-      .attr("cx", function(d, i){ return 42 +  i *  70;})
+      .attr("cx", function(d, i){ return 42 +  i *  60;})
       .attr("cy", -45)
       .style("fill", function(d) { return color(d);});
       
@@ -196,7 +196,7 @@ function renderPathChart(chartData) {
       .enter()
       .append("text")
       .style('font-size','10px')
-      .attr("x", function(d, i){ return 50 + i *  70;})
+      .attr("x", function(d, i){ return 50 + i *  60;})
       .attr("y", -42)
       .text(function(d) { return d;});
 
@@ -212,7 +212,7 @@ function renderPathChart(chartData) {
                 .style('font-size','11px')
                 .style('fill', 'white')
                 .attr('class', 'node-volume')
-                .text(function(d) { console.log(d.volume*100 + '%'); return d.volume*100 + '%';});
+                .text(function(d) { return (d.volume*100).toFixed(0) + '%';});
 
             })
                              
