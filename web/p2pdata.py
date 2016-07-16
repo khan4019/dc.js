@@ -4,9 +4,9 @@ import math
 
 sites = ['Yahoo', 'ESPN', 'Buzzfeed', 'MSN', 'NYTimes', 'eBay', 'YouTube', 'AOL']
 
-def make_node(time, pathId, x ):
+def make_node(time, pathId, x, i ):
     days = 28 - time
-    temp_time = time + 1 + random.random()*days/2
+    temp_time = time + 2 + random.random()*days/(8-x)
     round_time = round(temp_time, 1)
     label = sites[random.randint(0, len(sites) - 1)]
     vol = round(random.random()/ (1+x),2)
@@ -25,12 +25,12 @@ def make_item(pathId):
     item['pathId'] = pathId
     
     nodes = []
-    i = random.randint(2, 8)
+    i = int(math.ceil(random.random()*random.random()*8))
     nodes.append(new_node('purchase', 0, pathId, 0))
     time = 0
     total_volume = 0
-    for x in range(1, i):
-        node = make_node(time, pathId, x)
+    for x in range(0, i):
+        node = make_node(time, pathId, x, i)
         nodes.append(node)
         total_volume += node['volume']
         time = node['time']
@@ -42,7 +42,7 @@ def make_item(pathId):
 
 
 rows = []
-for i in range(1,100):
+for i in range(1,1001):
     pathId = i
     rows.append(make_item(pathId))
 

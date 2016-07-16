@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
     <style>
         #p2pChart{
-            height: 480px;
+            height: 500px;
         }
 
         #p2pChart .y.axis text{
@@ -177,11 +177,7 @@ roi_chart.yAxis().ticks(5);
 
 var pathCount = ndxP2P.dimension(function (d) {
     var pathCount = d.pathCount, k100 = 100000, k = 1000;
-    if (pathCount > k100*10) {
-        return Math.floor(pathCount/k100)*k100;
-    } else {
-        return Math.floor(pathCount/k)*k;
-    }
+    return Math.floor(pathCount/k100)*k100;
 });
 var pathCountGroup = pathCount.group();    
 

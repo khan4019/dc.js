@@ -2,7 +2,7 @@ function renderPathChart(chartData) {
     d3.select("#p2pChart svg").remove();
     var margin = {top: 20, right: 80, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
-        height = 480 - margin.top - margin.bottom;
+        height = 500 - margin.top - margin.bottom;
 
     var config = {
         chartId: '#p2pChart',
@@ -132,7 +132,7 @@ function renderPathChart(chartData) {
     //exit  
     // touchNodes.exit().remove(); 
 
-    var nodeCircles = nodes.append('circle')
+    nodes.append('circle')
         .attr('r', 15)
         .attr('stroke',function (d) { return (d.time) ? color(d.label) : '#D3D3D3';})
         .style('fill', function(d) { return (d.time) ? 'white' : '#D3D3D3'; })
@@ -150,13 +150,6 @@ function renderPathChart(chartData) {
         .attr('cy', function(d) { return y(d.pathNumber);})
         .attr('clip-path', function(d) { return 'url(#clip' + d.pathNumber + d.time + ')'; });
     
-    nodeCircles.append('text')
-        .attr('x', function(d){return x(d.time+0.35);})
-        .attr('y', function(d) { return y(d.pathNumber - 0.13);})
-        .style('font-size','11px')
-        .style('fill', 'red')
-        .text(function(d){ return d.label + '%';});
-
 
     //shopping cart    
     shoppingNodes.append('svg:foreignObject')
