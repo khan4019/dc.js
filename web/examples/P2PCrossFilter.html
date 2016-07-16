@@ -19,6 +19,15 @@
         #p2pChart .y.axis line{
             display: none;
         }
+        .dc-data-table{
+            margin-top: -22px;
+        }
+        .dc-data-table tr{
+            height: 42px;
+        }
+        .dc-table-group{
+            display:none
+        }
         .glyphicon {
           position: static;
           color:white;
@@ -46,7 +55,7 @@
     <h1>Path to Purchase: Cross Filter</h1>
 
     <div class="row">
-        <div id="data-count" class="span12">
+        <div id="data-count" class="span8">
             Showing <span id="pathCount">10</span> paths (filtered: <span class="filter-count"></span>) from <span class="total-count"></span> paths
             | <a href="javascript:dc.filterAll(); dc.renderAll();drawPathChart();">Reset All</a>
         </div>
@@ -57,6 +66,10 @@
                 <svg></svg>
             </div>
             <div class="clearfix"></div>
+        </div>
+        <div class="span4 col-md-2">
+            <table class="table table-hover dc-data-table">
+            </table>
         </div>
     </div>
     <div class="row">
@@ -96,6 +109,7 @@ var numberFormat = d3.format('.2f');
 var roi_chart = dc.barChart('#roi-chart'),
     node_count_chart = dc.rowChart('#node-count-chart'),
     path_count_chart = dc.barChart('#path-count-chart'),
+    pathGrid = dc.dataTable('.dc-data-table');
     width = roi_chart.root()[0][0].parentElement.clientWidth;
 
 // cross filter
@@ -143,7 +157,7 @@ drawPathChart();
 
 //roi chart
 var roiCount = ndxP2P.dimension(function (d) {
-    return Math.ceil(d.roi*10)/10;
+    return Math.ceil(d['ROI']*10)/10;
 });
 var roiCountGroup = roiCount.group();
 
@@ -176,7 +190,7 @@ roi_chart.yAxis().ticks(5);
 
 
 var pathCount = ndxP2P.dimension(function (d) {
-    var pathCount = d.pathCount, k100 = 100000, k = 1000;
+    var pathCount = d['Path Count'], k100 = 100000, k = 1000;
     return Math.floor(pathCount/k100)*k100;
 });
 var pathCountGroup = pathCount.group();    
@@ -234,6 +248,63 @@ node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
       
     })
     .xAxis().ticks(5);    
+
+pathGrid /* dc.dataTable('.dc-data-table', 'chartGroup') */
+        .dimension(runDimension)
+        // Data table does not use crossfilter group but rather a closure
+        // as a grouping function
+        .group(function (d) {
+            console.log(d);
+        })
+        // (_optional_) max number of records to be shown, `default = 25`
+        .size(10)
+        // There are several ways to specify the columns; see the data-table documentation.
+        // This code demonstrates generating the column header automatically based on the columns.
+        .columns([
+            {
+                label:'Path Count',
+                format:function (d) {
+                    var pathCount = d['Path Count'];
+                    if(pathCount > 1000000){
+                        return (pathCount / 1000000).toFixed(2) + 'M';
+                    }
+                    else{
+                        return (pathCount/1000).toFixed(0) + 'K';    
+                    }
+                    
+                }
+            },
+            {
+                label: 'Conversion Rate',
+                format: function (d) {
+                    return (d['Conversion Rate'] *100).toFixed(3) + '%';
+                }
+            },
+            {
+                label:'ROI',
+                format:function (d) {
+                    return d.ROI.toFixed(2);
+                }
+            },
+            {
+                label:'Effectiveness',
+                format:function (d) {
+                    return d.Effectiveness.toFixed(2);
+                }
+            },
+            'Impression Per Node'
+        ])
+
+        // (_optional_) sort using the given field, `default = function(d){return d;}`
+        .sortBy(function (d) {
+            return d['ROI'];
+        })
+        // (_optional_) sort order, `default = d3.ascending`
+        .order(d3.descending)
+        // (_optional_) custom renderlet to post-process chart using [D3](http://d3js.org)
+        .on('renderlet', function (table) {
+            table.selectAll('.dc-table-group').classed('info', true);
+        });    
 
 dc.renderAll();
 

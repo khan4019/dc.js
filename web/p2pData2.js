@@ -1,9 +1,9 @@
 var p2pData = [
   {
-    "roi": 1.91,
-    "pathCount": 5238198,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.052,
+    "ROI": 1.91,
+    "Path Count": 5238198,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.052,
     "pathId": 1,
     "nodes": [
       {
@@ -31,13 +31,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.5
+    "Effectiveness": 0.5
   },
   {
-    "roi": 0.31,
-    "pathCount": 4475997,
-    "impressionPerNode": 0.23,
-    "conversionRate": 0.034,
+    "ROI": 0.31,
+    "Path Count": 4475997,
+    "Impression Per Node": 0.23,
+    "Conversion Rate": 0.034,
     "pathId": 2,
     "nodes": [
       {
@@ -53,13 +53,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 3.19,
-    "pathCount": 2312484,
-    "impressionPerNode": 3.67,
-    "conversionRate": 0.022,
+    "ROI": 3.19,
+    "Path Count": 2312484,
+    "Impression Per Node": 3.67,
+    "Conversion Rate": 0.022,
     "pathId": 3,
     "nodes": [
       {
@@ -81,13 +81,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.84,
-    "pathCount": 374265,
-    "impressionPerNode": 7.89,
-    "conversionRate": 0.008,
+    "ROI": 0.84,
+    "Path Count": 374265,
+    "Impression Per Node": 7.89,
+    "Conversion Rate": 0.008,
     "pathId": 4,
     "nodes": [
       {
@@ -121,13 +121,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.0,
-    "pathCount": 289104,
-    "impressionPerNode": 4.39,
-    "conversionRate": 0.034,
+    "ROI": 0.0,
+    "Path Count": 289104,
+    "Impression Per Node": 4.39,
+    "Conversion Rate": 0.034,
     "pathId": 5,
     "nodes": [
       {
@@ -149,13 +149,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 1.45,
-    "pathCount": 938771,
-    "impressionPerNode": 6.85,
-    "conversionRate": 0.002,
+    "ROI": 1.45,
+    "Path Count": 938771,
+    "Impression Per Node": 6.85,
+    "Conversion Rate": 0.002,
     "pathId": 6,
     "nodes": [
       {
@@ -183,13 +183,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.09,
-    "pathCount": 3319588,
-    "impressionPerNode": 4.89,
-    "conversionRate": 0.061,
+    "ROI": 0.09,
+    "Path Count": 3319588,
+    "Impression Per Node": 4.89,
+    "Conversion Rate": 0.061,
     "pathId": 7,
     "nodes": [
       {
@@ -223,13 +223,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.87
+    "Effectiveness": 0.87
   },
   {
-    "roi": 0.71,
-    "pathCount": 6066849,
-    "impressionPerNode": 3.27,
-    "conversionRate": 0.044,
+    "ROI": 0.71,
+    "Path Count": 6066849,
+    "Impression Per Node": 3.27,
+    "Conversion Rate": 0.044,
     "pathId": 8,
     "nodes": [
       {
@@ -245,13 +245,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.05
+    "Effectiveness": 1.05
   },
   {
-    "roi": 0.19,
-    "pathCount": 2048134,
-    "impressionPerNode": 2.19,
-    "conversionRate": 0.015,
+    "ROI": 0.19,
+    "Path Count": 2048134,
+    "Impression Per Node": 2.19,
+    "Conversion Rate": 0.015,
     "pathId": 9,
     "nodes": [
       {
@@ -267,13 +267,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 1.11,
-    "pathCount": 1480381,
-    "impressionPerNode": 7.97,
-    "conversionRate": 0.042,
+    "ROI": 1.11,
+    "Path Count": 1480381,
+    "Impression Per Node": 7.97,
+    "Conversion Rate": 0.042,
     "pathId": 10,
     "nodes": [
       {
@@ -289,13 +289,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 1.64,
-    "pathCount": 600843,
-    "impressionPerNode": 1.0,
-    "conversionRate": 0.022,
+    "ROI": 1.64,
+    "Path Count": 600843,
+    "Impression Per Node": 1.0,
+    "Conversion Rate": 0.022,
     "pathId": 11,
     "nodes": [
       {
@@ -329,13 +329,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.99
+    "Effectiveness": 0.99
   },
   {
-    "roi": 1.12,
-    "pathCount": 1075635,
-    "impressionPerNode": 3.4,
-    "conversionRate": 0.002,
+    "ROI": 1.12,
+    "Path Count": 1075635,
+    "Impression Per Node": 3.4,
+    "Conversion Rate": 0.002,
     "pathId": 12,
     "nodes": [
       {
@@ -363,13 +363,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 1.05,
-    "pathCount": 213620,
-    "impressionPerNode": 6.72,
-    "conversionRate": 0.048,
+    "ROI": 1.05,
+    "Path Count": 213620,
+    "Impression Per Node": 6.72,
+    "Conversion Rate": 0.048,
     "pathId": 13,
     "nodes": [
       {
@@ -391,13 +391,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.18,
-    "pathCount": 921038,
-    "impressionPerNode": 5.68,
-    "conversionRate": 0.006,
+    "ROI": 0.18,
+    "Path Count": 921038,
+    "Impression Per Node": 5.68,
+    "Conversion Rate": 0.006,
     "pathId": 14,
     "nodes": [
       {
@@ -425,13 +425,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.75
+    "Effectiveness": 2.75
   },
   {
-    "roi": 0.03,
-    "pathCount": 667275,
-    "impressionPerNode": 2.03,
-    "conversionRate": 0.001,
+    "ROI": 0.03,
+    "Path Count": 667275,
+    "Impression Per Node": 2.03,
+    "Conversion Rate": 0.001,
     "pathId": 15,
     "nodes": [
       {
@@ -447,13 +447,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.73
+    "Effectiveness": 0.73
   },
   {
-    "roi": 0.88,
-    "pathCount": 7376124,
-    "impressionPerNode": 4.02,
-    "conversionRate": 0.024,
+    "ROI": 0.88,
+    "Path Count": 7376124,
+    "Impression Per Node": 4.02,
+    "Conversion Rate": 0.024,
     "pathId": 16,
     "nodes": [
       {
@@ -481,13 +481,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.82
+    "Effectiveness": 1.82
   },
   {
-    "roi": 1.38,
-    "pathCount": 273,
-    "impressionPerNode": 0.9,
-    "conversionRate": 0.026,
+    "ROI": 1.38,
+    "Path Count": 273,
+    "Impression Per Node": 0.9,
+    "Conversion Rate": 0.026,
     "pathId": 17,
     "nodes": [
       {
@@ -503,13 +503,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.32
+    "Effectiveness": 1.32
   },
   {
-    "roi": 0.34,
-    "pathCount": 50201,
-    "impressionPerNode": 7.71,
-    "conversionRate": 0.0,
+    "ROI": 0.34,
+    "Path Count": 50201,
+    "Impression Per Node": 7.71,
+    "Conversion Rate": 0.0,
     "pathId": 18,
     "nodes": [
       {
@@ -555,13 +555,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.57
+    "Effectiveness": 1.57
   },
   {
-    "roi": 3.15,
-    "pathCount": 948748,
-    "impressionPerNode": 6.87,
-    "conversionRate": 0.034,
+    "ROI": 3.15,
+    "Path Count": 948748,
+    "Impression Per Node": 6.87,
+    "Conversion Rate": 0.034,
     "pathId": 19,
     "nodes": [
       {
@@ -589,13 +589,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.06
+    "Effectiveness": 1.06
   },
   {
-    "roi": 0.06,
-    "pathCount": 2843250,
-    "impressionPerNode": 7.55,
-    "conversionRate": 0.043,
+    "ROI": 0.06,
+    "Path Count": 2843250,
+    "Impression Per Node": 7.55,
+    "Conversion Rate": 0.043,
     "pathId": 20,
     "nodes": [
       {
@@ -617,13 +617,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 0.91,
-    "pathCount": 7928341,
-    "impressionPerNode": 7.41,
-    "conversionRate": 0.0,
+    "ROI": 0.91,
+    "Path Count": 7928341,
+    "Impression Per Node": 7.41,
+    "Conversion Rate": 0.0,
     "pathId": 21,
     "nodes": [
       {
@@ -639,13 +639,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.1
+    "Effectiveness": 2.1
   },
   {
-    "roi": 2.26,
-    "pathCount": 260564,
-    "impressionPerNode": 5.04,
-    "conversionRate": 0.014,
+    "ROI": 2.26,
+    "Path Count": 260564,
+    "Impression Per Node": 5.04,
+    "Conversion Rate": 0.014,
     "pathId": 22,
     "nodes": [
       {
@@ -679,13 +679,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 2.69,
-    "pathCount": 543870,
-    "impressionPerNode": 3.44,
-    "conversionRate": 0.075,
+    "ROI": 2.69,
+    "Path Count": 543870,
+    "Impression Per Node": 3.44,
+    "Conversion Rate": 0.075,
     "pathId": 23,
     "nodes": [
       {
@@ -737,13 +737,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 1.29,
-    "pathCount": 451828,
-    "impressionPerNode": 7.01,
-    "conversionRate": 0.012,
+    "ROI": 1.29,
+    "Path Count": 451828,
+    "Impression Per Node": 7.01,
+    "Conversion Rate": 0.012,
     "pathId": 24,
     "nodes": [
       {
@@ -783,13 +783,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.81
+    "Effectiveness": 1.81
   },
   {
-    "roi": 3.54,
-    "pathCount": 8887440,
-    "impressionPerNode": 1.7,
-    "conversionRate": 0.084,
+    "ROI": 3.54,
+    "Path Count": 8887440,
+    "Impression Per Node": 1.7,
+    "Conversion Rate": 0.084,
     "pathId": 25,
     "nodes": [
       {
@@ -817,13 +817,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.48
+    "Effectiveness": 0.48
   },
   {
-    "roi": 0.31,
-    "pathCount": 5722834,
-    "impressionPerNode": 5.06,
-    "conversionRate": 0.022,
+    "ROI": 0.31,
+    "Path Count": 5722834,
+    "Impression Per Node": 5.06,
+    "Conversion Rate": 0.022,
     "pathId": 26,
     "nodes": [
       {
@@ -851,13 +851,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 0.76,
-    "pathCount": 1284944,
-    "impressionPerNode": 4.93,
-    "conversionRate": 0.002,
+    "ROI": 0.76,
+    "Path Count": 1284944,
+    "Impression Per Node": 4.93,
+    "Conversion Rate": 0.002,
     "pathId": 27,
     "nodes": [
       {
@@ -873,13 +873,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.09,
-    "pathCount": 5620668,
-    "impressionPerNode": 6.74,
-    "conversionRate": 0.001,
+    "ROI": 0.09,
+    "Path Count": 5620668,
+    "Impression Per Node": 6.74,
+    "Conversion Rate": 0.001,
     "pathId": 28,
     "nodes": [
       {
@@ -907,13 +907,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.47
+    "Effectiveness": 1.47
   },
   {
-    "roi": 0.24,
-    "pathCount": 3197858,
-    "impressionPerNode": 1.99,
-    "conversionRate": 0.01,
+    "ROI": 0.24,
+    "Path Count": 3197858,
+    "Impression Per Node": 1.99,
+    "Conversion Rate": 0.01,
     "pathId": 29,
     "nodes": [
       {
@@ -929,13 +929,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.22
+    "Effectiveness": 1.22
   },
   {
-    "roi": 0.35,
-    "pathCount": 2185180,
-    "impressionPerNode": 6.59,
-    "conversionRate": 0.012,
+    "ROI": 0.35,
+    "Path Count": 2185180,
+    "Impression Per Node": 6.59,
+    "Conversion Rate": 0.012,
     "pathId": 30,
     "nodes": [
       {
@@ -951,13 +951,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.41
+    "Effectiveness": 2.41
   },
   {
-    "roi": 0.02,
-    "pathCount": 2121921,
-    "impressionPerNode": 7.59,
-    "conversionRate": 0.025,
+    "ROI": 0.02,
+    "Path Count": 2121921,
+    "Impression Per Node": 7.59,
+    "Conversion Rate": 0.025,
     "pathId": 31,
     "nodes": [
       {
@@ -979,13 +979,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.61
+    "Effectiveness": 0.61
   },
   {
-    "roi": 0.56,
-    "pathCount": 1851341,
-    "impressionPerNode": 7.06,
-    "conversionRate": 0.001,
+    "ROI": 0.56,
+    "Path Count": 1851341,
+    "Impression Per Node": 7.06,
+    "Conversion Rate": 0.001,
     "pathId": 32,
     "nodes": [
       {
@@ -1007,13 +1007,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.63
+    "Effectiveness": 2.63
   },
   {
-    "roi": 0.5,
-    "pathCount": 1331274,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.018,
+    "ROI": 0.5,
+    "Path Count": 1331274,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.018,
     "pathId": 33,
     "nodes": [
       {
@@ -1047,13 +1047,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.41
+    "Effectiveness": 1.41
   },
   {
-    "roi": 0.66,
-    "pathCount": 424512,
-    "impressionPerNode": 7.99,
-    "conversionRate": 0.045,
+    "ROI": 0.66,
+    "Path Count": 424512,
+    "Impression Per Node": 7.99,
+    "Conversion Rate": 0.045,
     "pathId": 34,
     "nodes": [
       {
@@ -1099,13 +1099,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.21,
-    "pathCount": 2500011,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.006,
+    "ROI": 0.21,
+    "Path Count": 2500011,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.006,
     "pathId": 35,
     "nodes": [
       {
@@ -1121,13 +1121,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.07,
-    "pathCount": 2577763,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.013,
+    "ROI": 0.07,
+    "Path Count": 2577763,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.013,
     "pathId": 36,
     "nodes": [
       {
@@ -1143,13 +1143,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.76
+    "Effectiveness": 1.76
   },
   {
-    "roi": 2.73,
-    "pathCount": 3227539,
-    "impressionPerNode": 7.82,
-    "conversionRate": 0.053,
+    "ROI": 2.73,
+    "Path Count": 3227539,
+    "Impression Per Node": 7.82,
+    "Conversion Rate": 0.053,
     "pathId": 37,
     "nodes": [
       {
@@ -1165,13 +1165,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.01,
-    "pathCount": 1968015,
-    "impressionPerNode": 3.85,
-    "conversionRate": 0.002,
+    "ROI": 0.01,
+    "Path Count": 1968015,
+    "Impression Per Node": 3.85,
+    "Conversion Rate": 0.002,
     "pathId": 38,
     "nodes": [
       {
@@ -1187,13 +1187,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.8,
-    "pathCount": 113483,
-    "impressionPerNode": 4.99,
-    "conversionRate": 0.006,
+    "ROI": 0.8,
+    "Path Count": 113483,
+    "Impression Per Node": 4.99,
+    "Conversion Rate": 0.006,
     "pathId": 39,
     "nodes": [
       {
@@ -1215,13 +1215,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 3.03,
-    "pathCount": 6131305,
-    "impressionPerNode": 5.14,
-    "conversionRate": 0.009,
+    "ROI": 3.03,
+    "Path Count": 6131305,
+    "Impression Per Node": 5.14,
+    "Conversion Rate": 0.009,
     "pathId": 40,
     "nodes": [
       {
@@ -1237,13 +1237,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.28
+    "Effectiveness": 0.28
   },
   {
-    "roi": 0.58,
-    "pathCount": 6101578,
-    "impressionPerNode": 4.24,
-    "conversionRate": 0.067,
+    "ROI": 0.58,
+    "Path Count": 6101578,
+    "Impression Per Node": 4.24,
+    "Conversion Rate": 0.067,
     "pathId": 41,
     "nodes": [
       {
@@ -1265,13 +1265,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.46,
-    "pathCount": 1499552,
-    "impressionPerNode": 5.11,
-    "conversionRate": 0.009,
+    "ROI": 0.46,
+    "Path Count": 1499552,
+    "Impression Per Node": 5.11,
+    "Conversion Rate": 0.009,
     "pathId": 42,
     "nodes": [
       {
@@ -1317,13 +1317,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.38,
-    "pathCount": 2183257,
-    "impressionPerNode": 1.73,
-    "conversionRate": 0.012,
+    "ROI": 0.38,
+    "Path Count": 2183257,
+    "Impression Per Node": 1.73,
+    "Conversion Rate": 0.012,
     "pathId": 43,
     "nodes": [
       {
@@ -1339,13 +1339,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 1.24,
-    "pathCount": 240912,
-    "impressionPerNode": 5.81,
-    "conversionRate": 0.01,
+    "ROI": 1.24,
+    "Path Count": 240912,
+    "Impression Per Node": 5.81,
+    "Conversion Rate": 0.01,
     "pathId": 44,
     "nodes": [
       {
@@ -1361,13 +1361,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.37
+    "Effectiveness": 2.37
   },
   {
-    "roi": 0.29,
-    "pathCount": 96379,
-    "impressionPerNode": 6.34,
-    "conversionRate": 0.032,
+    "ROI": 0.29,
+    "Path Count": 96379,
+    "Impression Per Node": 6.34,
+    "Conversion Rate": 0.032,
     "pathId": 45,
     "nodes": [
       {
@@ -1383,13 +1383,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.31,
-    "pathCount": 423396,
-    "impressionPerNode": 5.06,
-    "conversionRate": 0.017,
+    "ROI": 0.31,
+    "Path Count": 423396,
+    "Impression Per Node": 5.06,
+    "Conversion Rate": 0.017,
     "pathId": 46,
     "nodes": [
       {
@@ -1435,13 +1435,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 2.63,
-    "pathCount": 1555322,
-    "impressionPerNode": 6.76,
-    "conversionRate": 0.056,
+    "ROI": 2.63,
+    "Path Count": 1555322,
+    "Impression Per Node": 6.76,
+    "Conversion Rate": 0.056,
     "pathId": 47,
     "nodes": [
       {
@@ -1457,13 +1457,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 0.82,
-    "pathCount": 41681,
-    "impressionPerNode": 7.88,
-    "conversionRate": 0.0,
+    "ROI": 0.82,
+    "Path Count": 41681,
+    "Impression Per Node": 7.88,
+    "Conversion Rate": 0.0,
     "pathId": 48,
     "nodes": [
       {
@@ -1479,13 +1479,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 0.74,
-    "pathCount": 3086346,
-    "impressionPerNode": 3.72,
-    "conversionRate": 0.034,
+    "ROI": 0.74,
+    "Path Count": 3086346,
+    "Impression Per Node": 3.72,
+    "Conversion Rate": 0.034,
     "pathId": 49,
     "nodes": [
       {
@@ -1519,13 +1519,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.53,
-    "pathCount": 192267,
-    "impressionPerNode": 8.0,
-    "conversionRate": 0.046,
+    "ROI": 0.53,
+    "Path Count": 192267,
+    "Impression Per Node": 8.0,
+    "Conversion Rate": 0.046,
     "pathId": 50,
     "nodes": [
       {
@@ -1547,13 +1547,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 3.52,
-    "pathCount": 4128212,
-    "impressionPerNode": 4.49,
-    "conversionRate": 0.004,
+    "ROI": 3.52,
+    "Path Count": 4128212,
+    "Impression Per Node": 4.49,
+    "Conversion Rate": 0.004,
     "pathId": 51,
     "nodes": [
       {
@@ -1581,13 +1581,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.84,
-    "pathCount": 354690,
-    "impressionPerNode": 3.22,
-    "conversionRate": 0.064,
+    "ROI": 0.84,
+    "Path Count": 354690,
+    "Impression Per Node": 3.22,
+    "Conversion Rate": 0.064,
     "pathId": 52,
     "nodes": [
       {
@@ -1603,13 +1603,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.9,
-    "pathCount": 3265584,
-    "impressionPerNode": 6.98,
-    "conversionRate": 0.003,
+    "ROI": 1.9,
+    "Path Count": 3265584,
+    "Impression Per Node": 6.98,
+    "Conversion Rate": 0.003,
     "pathId": 53,
     "nodes": [
       {
@@ -1625,13 +1625,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.32,
-    "pathCount": 1076582,
-    "impressionPerNode": 7.27,
-    "conversionRate": 0.001,
+    "ROI": 0.32,
+    "Path Count": 1076582,
+    "Impression Per Node": 7.27,
+    "Conversion Rate": 0.001,
     "pathId": 54,
     "nodes": [
       {
@@ -1653,13 +1653,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.15,
-    "pathCount": 335737,
-    "impressionPerNode": 7.43,
-    "conversionRate": 0.072,
+    "ROI": 0.15,
+    "Path Count": 335737,
+    "Impression Per Node": 7.43,
+    "Conversion Rate": 0.072,
     "pathId": 55,
     "nodes": [
       {
@@ -1687,13 +1687,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.72
+    "Effectiveness": 0.72
   },
   {
-    "roi": 0.45,
-    "pathCount": 6539,
-    "impressionPerNode": 7.71,
-    "conversionRate": 0.032,
+    "ROI": 0.45,
+    "Path Count": 6539,
+    "Impression Per Node": 7.71,
+    "Conversion Rate": 0.032,
     "pathId": 56,
     "nodes": [
       {
@@ -1715,13 +1715,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.01,
-    "pathCount": 1801880,
-    "impressionPerNode": 5.09,
-    "conversionRate": 0.038,
+    "ROI": 0.01,
+    "Path Count": 1801880,
+    "Impression Per Node": 5.09,
+    "Conversion Rate": 0.038,
     "pathId": 57,
     "nodes": [
       {
@@ -1743,13 +1743,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.7
+    "Effectiveness": 0.7
   },
   {
-    "roi": 1.26,
-    "pathCount": 189068,
-    "impressionPerNode": 7.3,
-    "conversionRate": 0.009,
+    "ROI": 1.26,
+    "Path Count": 189068,
+    "Impression Per Node": 7.3,
+    "Conversion Rate": 0.009,
     "pathId": 58,
     "nodes": [
       {
@@ -1765,13 +1765,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.45
+    "Effectiveness": 1.45
   },
   {
-    "roi": 2.18,
-    "pathCount": 247775,
-    "impressionPerNode": 0.99,
-    "conversionRate": 0.014,
+    "ROI": 2.18,
+    "Path Count": 247775,
+    "Impression Per Node": 0.99,
+    "Conversion Rate": 0.014,
     "pathId": 59,
     "nodes": [
       {
@@ -1793,13 +1793,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.43
+    "Effectiveness": 0.43
   },
   {
-    "roi": 1.1,
-    "pathCount": 1542886,
-    "impressionPerNode": 3.77,
-    "conversionRate": 0.041,
+    "ROI": 1.1,
+    "Path Count": 1542886,
+    "Impression Per Node": 3.77,
+    "Conversion Rate": 0.041,
     "pathId": 60,
     "nodes": [
       {
@@ -1845,13 +1845,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 0.99,
-    "pathCount": 6563128,
-    "impressionPerNode": 7.78,
-    "conversionRate": 0.052,
+    "ROI": 0.99,
+    "Path Count": 6563128,
+    "Impression Per Node": 7.78,
+    "Conversion Rate": 0.052,
     "pathId": 61,
     "nodes": [
       {
@@ -1867,13 +1867,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 1.44,
-    "pathCount": 1732592,
-    "impressionPerNode": 6.53,
-    "conversionRate": 0.066,
+    "ROI": 1.44,
+    "Path Count": 1732592,
+    "Impression Per Node": 6.53,
+    "Conversion Rate": 0.066,
     "pathId": 62,
     "nodes": [
       {
@@ -1895,13 +1895,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.5
+    "Effectiveness": 1.5
   },
   {
-    "roi": 0.12,
-    "pathCount": 176002,
-    "impressionPerNode": 4.31,
-    "conversionRate": 0.0,
+    "ROI": 0.12,
+    "Path Count": 176002,
+    "Impression Per Node": 4.31,
+    "Conversion Rate": 0.0,
     "pathId": 63,
     "nodes": [
       {
@@ -1917,13 +1917,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.19,
-    "pathCount": 3818086,
-    "impressionPerNode": 7.11,
-    "conversionRate": 0.051,
+    "ROI": 0.19,
+    "Path Count": 3818086,
+    "Impression Per Node": 7.11,
+    "Conversion Rate": 0.051,
     "pathId": 64,
     "nodes": [
       {
@@ -1939,13 +1939,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.31
+    "Effectiveness": 2.31
   },
   {
-    "roi": 0.01,
-    "pathCount": 220818,
-    "impressionPerNode": 4.33,
-    "conversionRate": 0.027,
+    "ROI": 0.01,
+    "Path Count": 220818,
+    "Impression Per Node": 4.33,
+    "Conversion Rate": 0.027,
     "pathId": 65,
     "nodes": [
       {
@@ -1967,13 +1967,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.12,
-    "pathCount": 2246757,
-    "impressionPerNode": 4.23,
-    "conversionRate": 0.021,
+    "ROI": 0.12,
+    "Path Count": 2246757,
+    "Impression Per Node": 4.23,
+    "Conversion Rate": 0.021,
     "pathId": 66,
     "nodes": [
       {
@@ -2013,13 +2013,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.15
+    "Effectiveness": 1.15
   },
   {
-    "roi": 0.91,
-    "pathCount": 7863073,
-    "impressionPerNode": 6.13,
-    "conversionRate": 0.024,
+    "ROI": 0.91,
+    "Path Count": 7863073,
+    "Impression Per Node": 6.13,
+    "Conversion Rate": 0.024,
     "pathId": 67,
     "nodes": [
       {
@@ -2053,13 +2053,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.53
+    "Effectiveness": 0.53
   },
   {
-    "roi": 0.12,
-    "pathCount": 1088484,
-    "impressionPerNode": 6.71,
-    "conversionRate": 0.001,
+    "ROI": 0.12,
+    "Path Count": 1088484,
+    "Impression Per Node": 6.71,
+    "Conversion Rate": 0.001,
     "pathId": 68,
     "nodes": [
       {
@@ -2099,13 +2099,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.89
+    "Effectiveness": 0.89
   },
   {
-    "roi": 0.02,
-    "pathCount": 5659875,
-    "impressionPerNode": 5.46,
-    "conversionRate": 0.028,
+    "ROI": 0.02,
+    "Path Count": 5659875,
+    "Impression Per Node": 5.46,
+    "Conversion Rate": 0.028,
     "pathId": 69,
     "nodes": [
       {
@@ -2139,13 +2139,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 0.12,
-    "pathCount": 1348152,
-    "impressionPerNode": 7.42,
-    "conversionRate": 0.001,
+    "ROI": 0.12,
+    "Path Count": 1348152,
+    "Impression Per Node": 7.42,
+    "Conversion Rate": 0.001,
     "pathId": 70,
     "nodes": [
       {
@@ -2167,13 +2167,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.52
+    "Effectiveness": 1.52
   },
   {
-    "roi": 2.39,
-    "pathCount": 435987,
-    "impressionPerNode": 4.3,
-    "conversionRate": 0.032,
+    "ROI": 2.39,
+    "Path Count": 435987,
+    "Impression Per Node": 4.3,
+    "Conversion Rate": 0.032,
     "pathId": 71,
     "nodes": [
       {
@@ -2189,13 +2189,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.59
+    "Effectiveness": 0.59
   },
   {
-    "roi": 0.73,
-    "pathCount": 4592506,
-    "impressionPerNode": 6.35,
-    "conversionRate": 0.055,
+    "ROI": 0.73,
+    "Path Count": 4592506,
+    "Impression Per Node": 6.35,
+    "Conversion Rate": 0.055,
     "pathId": 72,
     "nodes": [
       {
@@ -2211,13 +2211,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.3,
-    "pathCount": 1924816,
-    "impressionPerNode": 5.24,
-    "conversionRate": 0.023,
+    "ROI": 0.3,
+    "Path Count": 1924816,
+    "Impression Per Node": 5.24,
+    "Conversion Rate": 0.023,
     "pathId": 73,
     "nodes": [
       {
@@ -2233,13 +2233,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 0.01,
-    "pathCount": 1061350,
-    "impressionPerNode": 5.57,
-    "conversionRate": 0.022,
+    "ROI": 0.01,
+    "Path Count": 1061350,
+    "Impression Per Node": 5.57,
+    "Conversion Rate": 0.022,
     "pathId": 74,
     "nodes": [
       {
@@ -2255,13 +2255,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.44
+    "Effectiveness": 0.44
   },
   {
-    "roi": 0.95,
-    "pathCount": 2497451,
-    "impressionPerNode": 7.29,
-    "conversionRate": 0.057,
+    "ROI": 0.95,
+    "Path Count": 2497451,
+    "Impression Per Node": 7.29,
+    "Conversion Rate": 0.057,
     "pathId": 75,
     "nodes": [
       {
@@ -2283,13 +2283,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.74
+    "Effectiveness": 1.74
   },
   {
-    "roi": 0.56,
-    "pathCount": 363676,
-    "impressionPerNode": 4.99,
-    "conversionRate": 0.036,
+    "ROI": 0.56,
+    "Path Count": 363676,
+    "Impression Per Node": 4.99,
+    "Conversion Rate": 0.036,
     "pathId": 76,
     "nodes": [
       {
@@ -2305,13 +2305,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 0.11,
-    "pathCount": 4428437,
-    "impressionPerNode": 3.09,
-    "conversionRate": 0.0,
+    "ROI": 0.11,
+    "Path Count": 4428437,
+    "Impression Per Node": 3.09,
+    "Conversion Rate": 0.0,
     "pathId": 77,
     "nodes": [
       {
@@ -2339,13 +2339,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 1.75,
-    "pathCount": 1260047,
-    "impressionPerNode": 4.81,
-    "conversionRate": 0.005,
+    "ROI": 1.75,
+    "Path Count": 1260047,
+    "Impression Per Node": 4.81,
+    "Conversion Rate": 0.005,
     "pathId": 78,
     "nodes": [
       {
@@ -2361,13 +2361,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 1.15,
-    "pathCount": 228062,
-    "impressionPerNode": 4.56,
-    "conversionRate": 0.024,
+    "ROI": 1.15,
+    "Path Count": 228062,
+    "Impression Per Node": 4.56,
+    "Conversion Rate": 0.024,
     "pathId": 79,
     "nodes": [
       {
@@ -2407,13 +2407,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.85
+    "Effectiveness": 1.85
   },
   {
-    "roi": 0.32,
-    "pathCount": 948127,
-    "impressionPerNode": 6.98,
-    "conversionRate": 0.004,
+    "ROI": 0.32,
+    "Path Count": 948127,
+    "Impression Per Node": 6.98,
+    "Conversion Rate": 0.004,
     "pathId": 80,
     "nodes": [
       {
@@ -2429,13 +2429,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.0
+    "Effectiveness": 2.0
   },
   {
-    "roi": 0.4,
-    "pathCount": 4220840,
-    "impressionPerNode": 7.82,
-    "conversionRate": 0.075,
+    "ROI": 0.4,
+    "Path Count": 4220840,
+    "Impression Per Node": 7.82,
+    "Conversion Rate": 0.075,
     "pathId": 81,
     "nodes": [
       {
@@ -2457,13 +2457,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.86
+    "Effectiveness": 0.86
   },
   {
-    "roi": 2.99,
-    "pathCount": 1702250,
-    "impressionPerNode": 6.79,
-    "conversionRate": 0.0,
+    "ROI": 2.99,
+    "Path Count": 1702250,
+    "Impression Per Node": 6.79,
+    "Conversion Rate": 0.0,
     "pathId": 82,
     "nodes": [
       {
@@ -2503,13 +2503,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.2,
-    "pathCount": 5034671,
-    "impressionPerNode": 1.43,
-    "conversionRate": 0.0,
+    "ROI": 0.2,
+    "Path Count": 5034671,
+    "Impression Per Node": 1.43,
+    "Conversion Rate": 0.0,
     "pathId": 83,
     "nodes": [
       {
@@ -2525,13 +2525,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 1.28,
-    "pathCount": 802313,
-    "impressionPerNode": 7.0,
-    "conversionRate": 0.03,
+    "ROI": 1.28,
+    "Path Count": 802313,
+    "Impression Per Node": 7.0,
+    "Conversion Rate": 0.03,
     "pathId": 84,
     "nodes": [
       {
@@ -2547,13 +2547,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.86
+    "Effectiveness": 0.86
   },
   {
-    "roi": 1.04,
-    "pathCount": 3264614,
-    "impressionPerNode": 3.2,
-    "conversionRate": 0.023,
+    "ROI": 1.04,
+    "Path Count": 3264614,
+    "Impression Per Node": 3.2,
+    "Conversion Rate": 0.023,
     "pathId": 85,
     "nodes": [
       {
@@ -2587,13 +2587,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.28
+    "Effectiveness": 0.28
   },
   {
-    "roi": 1.48,
-    "pathCount": 4472725,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.0,
+    "ROI": 1.48,
+    "Path Count": 4472725,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.0,
     "pathId": 86,
     "nodes": [
       {
@@ -2633,13 +2633,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.81
+    "Effectiveness": 0.81
   },
   {
-    "roi": 0.04,
-    "pathCount": 1969094,
-    "impressionPerNode": 7.01,
-    "conversionRate": 0.013,
+    "ROI": 0.04,
+    "Path Count": 1969094,
+    "Impression Per Node": 7.01,
+    "Conversion Rate": 0.013,
     "pathId": 87,
     "nodes": [
       {
@@ -2661,13 +2661,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 1.79,
-    "pathCount": 4933485,
-    "impressionPerNode": 7.59,
-    "conversionRate": 0.042,
+    "ROI": 1.79,
+    "Path Count": 4933485,
+    "Impression Per Node": 7.59,
+    "Conversion Rate": 0.042,
     "pathId": 88,
     "nodes": [
       {
@@ -2713,13 +2713,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 1.02,
-    "pathCount": 2622597,
-    "impressionPerNode": 2.47,
-    "conversionRate": 0.073,
+    "ROI": 1.02,
+    "Path Count": 2622597,
+    "Impression Per Node": 2.47,
+    "Conversion Rate": 0.073,
     "pathId": 89,
     "nodes": [
       {
@@ -2735,13 +2735,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.16,
-    "pathCount": 31193,
-    "impressionPerNode": 3.54,
-    "conversionRate": 0.048,
+    "ROI": 0.16,
+    "Path Count": 31193,
+    "Impression Per Node": 3.54,
+    "Conversion Rate": 0.048,
     "pathId": 90,
     "nodes": [
       {
@@ -2757,13 +2757,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 1.19,
-    "pathCount": 319957,
-    "impressionPerNode": 1.99,
-    "conversionRate": 0.002,
+    "ROI": 1.19,
+    "Path Count": 319957,
+    "Impression Per Node": 1.99,
+    "Conversion Rate": 0.002,
     "pathId": 91,
     "nodes": [
       {
@@ -2785,13 +2785,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 2.99,
-    "pathCount": 559837,
-    "impressionPerNode": 6.46,
-    "conversionRate": 0.003,
+    "ROI": 2.99,
+    "Path Count": 559837,
+    "Impression Per Node": 6.46,
+    "Conversion Rate": 0.003,
     "pathId": 92,
     "nodes": [
       {
@@ -2807,13 +2807,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.21
+    "Effectiveness": 2.21
   },
   {
-    "roi": 0.33,
-    "pathCount": 2700189,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.013,
+    "ROI": 0.33,
+    "Path Count": 2700189,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.013,
     "pathId": 93,
     "nodes": [
       {
@@ -2835,13 +2835,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 1.24,
-    "pathCount": 4122512,
-    "impressionPerNode": 3.33,
-    "conversionRate": 0.056,
+    "ROI": 1.24,
+    "Path Count": 4122512,
+    "Impression Per Node": 3.33,
+    "Conversion Rate": 0.056,
     "pathId": 94,
     "nodes": [
       {
@@ -2857,13 +2857,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.57,
-    "pathCount": 2341757,
-    "impressionPerNode": 5.39,
-    "conversionRate": 0.062,
+    "ROI": 0.57,
+    "Path Count": 2341757,
+    "Impression Per Node": 5.39,
+    "Conversion Rate": 0.062,
     "pathId": 95,
     "nodes": [
       {
@@ -2879,13 +2879,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.88
+    "Effectiveness": 0.88
   },
   {
-    "roi": 1.11,
-    "pathCount": 5140907,
-    "impressionPerNode": 4.78,
-    "conversionRate": 0.013,
+    "ROI": 1.11,
+    "Path Count": 5140907,
+    "Impression Per Node": 4.78,
+    "Conversion Rate": 0.013,
     "pathId": 96,
     "nodes": [
       {
@@ -2901,13 +2901,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 1.61,
-    "pathCount": 3090908,
-    "impressionPerNode": 6.56,
-    "conversionRate": 0.019,
+    "ROI": 1.61,
+    "Path Count": 3090908,
+    "Impression Per Node": 6.56,
+    "Conversion Rate": 0.019,
     "pathId": 97,
     "nodes": [
       {
@@ -2941,13 +2941,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.17
+    "Effectiveness": 1.17
   },
   {
-    "roi": 0.25,
-    "pathCount": 210609,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.024,
+    "ROI": 0.25,
+    "Path Count": 210609,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.024,
     "pathId": 98,
     "nodes": [
       {
@@ -2975,13 +2975,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 1.07,
-    "pathCount": 1663746,
-    "impressionPerNode": 7.94,
-    "conversionRate": 0.028,
+    "ROI": 1.07,
+    "Path Count": 1663746,
+    "Impression Per Node": 7.94,
+    "Conversion Rate": 0.028,
     "pathId": 99,
     "nodes": [
       {
@@ -3003,13 +3003,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.36,
-    "pathCount": 6706179,
-    "impressionPerNode": 2.74,
-    "conversionRate": 0.015,
+    "ROI": 0.36,
+    "Path Count": 6706179,
+    "Impression Per Node": 2.74,
+    "Conversion Rate": 0.015,
     "pathId": 100,
     "nodes": [
       {
@@ -3025,13 +3025,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.95
+    "Effectiveness": 0.95
   },
   {
-    "roi": 0.9,
-    "pathCount": 83306,
-    "impressionPerNode": 3.69,
-    "conversionRate": 0.012,
+    "ROI": 0.9,
+    "Path Count": 83306,
+    "Impression Per Node": 3.69,
+    "Conversion Rate": 0.012,
     "pathId": 101,
     "nodes": [
       {
@@ -3065,13 +3065,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 4.28,
-    "pathCount": 2695282,
-    "impressionPerNode": 3.55,
-    "conversionRate": 0.0,
+    "ROI": 4.28,
+    "Path Count": 2695282,
+    "Impression Per Node": 3.55,
+    "Conversion Rate": 0.0,
     "pathId": 102,
     "nodes": [
       {
@@ -3093,13 +3093,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 1.56,
-    "pathCount": 717250,
-    "impressionPerNode": 2.19,
-    "conversionRate": 0.037,
+    "ROI": 1.56,
+    "Path Count": 717250,
+    "Impression Per Node": 2.19,
+    "Conversion Rate": 0.037,
     "pathId": 103,
     "nodes": [
       {
@@ -3121,13 +3121,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 1.94,
-    "pathCount": 1556150,
-    "impressionPerNode": 2.29,
-    "conversionRate": 0.001,
+    "ROI": 1.94,
+    "Path Count": 1556150,
+    "Impression Per Node": 2.29,
+    "Conversion Rate": 0.001,
     "pathId": 104,
     "nodes": [
       {
@@ -3179,13 +3179,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.17,
-    "pathCount": 1627710,
-    "impressionPerNode": 3.88,
-    "conversionRate": 0.036,
+    "ROI": 0.17,
+    "Path Count": 1627710,
+    "Impression Per Node": 3.88,
+    "Conversion Rate": 0.036,
     "pathId": 105,
     "nodes": [
       {
@@ -3201,13 +3201,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.04
+    "Effectiveness": 2.04
   },
   {
-    "roi": 3.79,
-    "pathCount": 3263017,
-    "impressionPerNode": 5.79,
-    "conversionRate": 0.006,
+    "ROI": 3.79,
+    "Path Count": 3263017,
+    "Impression Per Node": 5.79,
+    "Conversion Rate": 0.006,
     "pathId": 106,
     "nodes": [
       {
@@ -3223,13 +3223,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 3.6,
-    "pathCount": 2578753,
-    "impressionPerNode": 7.58,
-    "conversionRate": 0.004,
+    "ROI": 3.6,
+    "Path Count": 2578753,
+    "Impression Per Node": 7.58,
+    "Conversion Rate": 0.004,
     "pathId": 107,
     "nodes": [
       {
@@ -3251,13 +3251,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 0.03,
-    "pathCount": 310391,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.006,
+    "ROI": 0.03,
+    "Path Count": 310391,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.006,
     "pathId": 108,
     "nodes": [
       {
@@ -3309,13 +3309,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 2.14,
-    "pathCount": 266069,
-    "impressionPerNode": 2.98,
-    "conversionRate": 0.053,
+    "ROI": 2.14,
+    "Path Count": 266069,
+    "Impression Per Node": 2.98,
+    "Conversion Rate": 0.053,
     "pathId": 109,
     "nodes": [
       {
@@ -3343,13 +3343,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.9
+    "Effectiveness": 0.9
   },
   {
-    "roi": 2.61,
-    "pathCount": 912624,
-    "impressionPerNode": 2.97,
-    "conversionRate": 0.009,
+    "ROI": 2.61,
+    "Path Count": 912624,
+    "Impression Per Node": 2.97,
+    "Conversion Rate": 0.009,
     "pathId": 110,
     "nodes": [
       {
@@ -3377,13 +3377,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.82
+    "Effectiveness": 1.82
   },
   {
-    "roi": 0.95,
-    "pathCount": 558617,
-    "impressionPerNode": 2.52,
-    "conversionRate": 0.009,
+    "ROI": 0.95,
+    "Path Count": 558617,
+    "Impression Per Node": 2.52,
+    "Conversion Rate": 0.009,
     "pathId": 111,
     "nodes": [
       {
@@ -3399,13 +3399,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.1,
-    "pathCount": 2396615,
-    "impressionPerNode": 4.57,
-    "conversionRate": 0.0,
+    "ROI": 0.1,
+    "Path Count": 2396615,
+    "Impression Per Node": 4.57,
+    "Conversion Rate": 0.0,
     "pathId": 112,
     "nodes": [
       {
@@ -3433,13 +3433,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.3
+    "Effectiveness": 0.3
   },
   {
-    "roi": 3.35,
-    "pathCount": 982510,
-    "impressionPerNode": 5.18,
-    "conversionRate": 0.01,
+    "ROI": 3.35,
+    "Path Count": 982510,
+    "Impression Per Node": 5.18,
+    "Conversion Rate": 0.01,
     "pathId": 113,
     "nodes": [
       {
@@ -3473,13 +3473,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.12,
-    "pathCount": 572575,
-    "impressionPerNode": 5.18,
-    "conversionRate": 0.053,
+    "ROI": 0.12,
+    "Path Count": 572575,
+    "Impression Per Node": 5.18,
+    "Conversion Rate": 0.053,
     "pathId": 114,
     "nodes": [
       {
@@ -3525,13 +3525,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.17
+    "Effectiveness": 2.17
   },
   {
-    "roi": 0.25,
-    "pathCount": 448332,
-    "impressionPerNode": 5.36,
-    "conversionRate": 0.049,
+    "ROI": 0.25,
+    "Path Count": 448332,
+    "Impression Per Node": 5.36,
+    "Conversion Rate": 0.049,
     "pathId": 115,
     "nodes": [
       {
@@ -3547,13 +3547,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.5
+    "Effectiveness": 2.5
   },
   {
-    "roi": 0.56,
-    "pathCount": 7245630,
-    "impressionPerNode": 4.1,
-    "conversionRate": 0.003,
+    "ROI": 0.56,
+    "Path Count": 7245630,
+    "Impression Per Node": 4.1,
+    "Conversion Rate": 0.003,
     "pathId": 116,
     "nodes": [
       {
@@ -3575,13 +3575,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.26
+    "Effectiveness": 1.26
   },
   {
-    "roi": 3.7,
-    "pathCount": 1021384,
-    "impressionPerNode": 7.24,
-    "conversionRate": 0.035,
+    "ROI": 3.7,
+    "Path Count": 1021384,
+    "Impression Per Node": 7.24,
+    "Conversion Rate": 0.035,
     "pathId": 117,
     "nodes": [
       {
@@ -3633,13 +3633,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.81,
-    "pathCount": 4010649,
-    "impressionPerNode": 5.66,
-    "conversionRate": 0.016,
+    "ROI": 0.81,
+    "Path Count": 4010649,
+    "Impression Per Node": 5.66,
+    "Conversion Rate": 0.016,
     "pathId": 118,
     "nodes": [
       {
@@ -3655,13 +3655,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.97
+    "Effectiveness": 1.97
   },
   {
-    "roi": 0.94,
-    "pathCount": 2426590,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.039,
+    "ROI": 0.94,
+    "Path Count": 2426590,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.039,
     "pathId": 119,
     "nodes": [
       {
@@ -3683,13 +3683,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 0.17,
-    "pathCount": 215400,
-    "impressionPerNode": 3.94,
-    "conversionRate": 0.025,
+    "ROI": 0.17,
+    "Path Count": 215400,
+    "Impression Per Node": 3.94,
+    "Conversion Rate": 0.025,
     "pathId": 120,
     "nodes": [
       {
@@ -3723,13 +3723,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 1.67,
-    "pathCount": 4777233,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.002,
+    "ROI": 1.67,
+    "Path Count": 4777233,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.002,
     "pathId": 121,
     "nodes": [
       {
@@ -3745,13 +3745,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.56,
-    "pathCount": 4258635,
-    "impressionPerNode": 5.72,
-    "conversionRate": 0.021,
+    "ROI": 0.56,
+    "Path Count": 4258635,
+    "Impression Per Node": 5.72,
+    "Conversion Rate": 0.021,
     "pathId": 122,
     "nodes": [
       {
@@ -3767,13 +3767,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.5
+    "Effectiveness": 0.5
   },
   {
-    "roi": 0.13,
-    "pathCount": 358419,
-    "impressionPerNode": 7.86,
-    "conversionRate": 0.03,
+    "ROI": 0.13,
+    "Path Count": 358419,
+    "Impression Per Node": 7.86,
+    "Conversion Rate": 0.03,
     "pathId": 123,
     "nodes": [
       {
@@ -3795,13 +3795,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 2.82
+    "Effectiveness": 2.82
   },
   {
-    "roi": 2.53,
-    "pathCount": 3176904,
-    "impressionPerNode": 7.37,
-    "conversionRate": 0.005,
+    "ROI": 2.53,
+    "Path Count": 3176904,
+    "Impression Per Node": 7.37,
+    "Conversion Rate": 0.005,
     "pathId": 124,
     "nodes": [
       {
@@ -3853,13 +3853,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.09
+    "Effectiveness": 2.09
   },
   {
-    "roi": 0.3,
-    "pathCount": 30327,
-    "impressionPerNode": 3.03,
-    "conversionRate": 0.002,
+    "ROI": 0.3,
+    "Path Count": 30327,
+    "Impression Per Node": 3.03,
+    "Conversion Rate": 0.002,
     "pathId": 125,
     "nodes": [
       {
@@ -3893,13 +3893,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.4,
-    "pathCount": 468997,
-    "impressionPerNode": 5.74,
-    "conversionRate": 0.06,
+    "ROI": 0.4,
+    "Path Count": 468997,
+    "Impression Per Node": 5.74,
+    "Conversion Rate": 0.06,
     "pathId": 126,
     "nodes": [
       {
@@ -3915,13 +3915,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.07
+    "Effectiveness": 2.07
   },
   {
-    "roi": 2.26,
-    "pathCount": 1882726,
-    "impressionPerNode": 6.25,
-    "conversionRate": 0.049,
+    "ROI": 2.26,
+    "Path Count": 1882726,
+    "Impression Per Node": 6.25,
+    "Conversion Rate": 0.049,
     "pathId": 127,
     "nodes": [
       {
@@ -3961,13 +3961,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.37,
-    "pathCount": 2317244,
-    "impressionPerNode": 7.62,
-    "conversionRate": 0.041,
+    "ROI": 0.37,
+    "Path Count": 2317244,
+    "Impression Per Node": 7.62,
+    "Conversion Rate": 0.041,
     "pathId": 128,
     "nodes": [
       {
@@ -3989,13 +3989,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.55,
-    "pathCount": 6016351,
-    "impressionPerNode": 3.72,
-    "conversionRate": 0.072,
+    "ROI": 0.55,
+    "Path Count": 6016351,
+    "Impression Per Node": 3.72,
+    "Conversion Rate": 0.072,
     "pathId": 129,
     "nodes": [
       {
@@ -4011,13 +4011,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.92
+    "Effectiveness": 0.92
   },
   {
-    "roi": 2.18,
-    "pathCount": 2435062,
-    "impressionPerNode": 2.79,
-    "conversionRate": 0.034,
+    "ROI": 2.18,
+    "Path Count": 2435062,
+    "Impression Per Node": 2.79,
+    "Conversion Rate": 0.034,
     "pathId": 130,
     "nodes": [
       {
@@ -4069,13 +4069,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 1.19,
-    "pathCount": 1745377,
-    "impressionPerNode": 6.41,
-    "conversionRate": 0.071,
+    "ROI": 1.19,
+    "Path Count": 1745377,
+    "Impression Per Node": 6.41,
+    "Conversion Rate": 0.071,
     "pathId": 131,
     "nodes": [
       {
@@ -4109,13 +4109,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.03
+    "Effectiveness": 1.03
   },
   {
-    "roi": 0.67,
-    "pathCount": 965306,
-    "impressionPerNode": 5.02,
-    "conversionRate": 0.076,
+    "ROI": 0.67,
+    "Path Count": 965306,
+    "Impression Per Node": 5.02,
+    "Conversion Rate": 0.076,
     "pathId": 132,
     "nodes": [
       {
@@ -4131,13 +4131,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.41,
-    "pathCount": 2859025,
-    "impressionPerNode": 6.52,
-    "conversionRate": 0.016,
+    "ROI": 0.41,
+    "Path Count": 2859025,
+    "Impression Per Node": 6.52,
+    "Conversion Rate": 0.016,
     "pathId": 133,
     "nodes": [
       {
@@ -4159,13 +4159,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.05,
-    "pathCount": 51500,
-    "impressionPerNode": 2.71,
-    "conversionRate": 0.027,
+    "ROI": 0.05,
+    "Path Count": 51500,
+    "Impression Per Node": 2.71,
+    "Conversion Rate": 0.027,
     "pathId": 134,
     "nodes": [
       {
@@ -4181,13 +4181,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.54
+    "Effectiveness": 2.54
   },
   {
-    "roi": 1.41,
-    "pathCount": 5104730,
-    "impressionPerNode": 5.97,
-    "conversionRate": 0.029,
+    "ROI": 1.41,
+    "Path Count": 5104730,
+    "Impression Per Node": 5.97,
+    "Conversion Rate": 0.029,
     "pathId": 135,
     "nodes": [
       {
@@ -4215,13 +4215,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.78
+    "Effectiveness": 1.78
   },
   {
-    "roi": 1.8,
-    "pathCount": 154447,
-    "impressionPerNode": 3.85,
-    "conversionRate": 0.014,
+    "ROI": 1.8,
+    "Path Count": 154447,
+    "Impression Per Node": 3.85,
+    "Conversion Rate": 0.014,
     "pathId": 136,
     "nodes": [
       {
@@ -4261,13 +4261,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 3.01,
-    "pathCount": 467280,
-    "impressionPerNode": 5.74,
-    "conversionRate": 0.034,
+    "ROI": 3.01,
+    "Path Count": 467280,
+    "Impression Per Node": 5.74,
+    "Conversion Rate": 0.034,
     "pathId": 137,
     "nodes": [
       {
@@ -4283,13 +4283,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.0,
-    "pathCount": 574576,
-    "impressionPerNode": 7.0,
-    "conversionRate": 0.057,
+    "ROI": 0.0,
+    "Path Count": 574576,
+    "Impression Per Node": 7.0,
+    "Conversion Rate": 0.057,
     "pathId": 138,
     "nodes": [
       {
@@ -4305,13 +4305,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 1.07,
-    "pathCount": 773950,
-    "impressionPerNode": 3.14,
-    "conversionRate": 0.068,
+    "ROI": 1.07,
+    "Path Count": 773950,
+    "Impression Per Node": 3.14,
+    "Conversion Rate": 0.068,
     "pathId": 139,
     "nodes": [
       {
@@ -4357,13 +4357,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 3.87,
-    "pathCount": 4788359,
-    "impressionPerNode": 6.22,
-    "conversionRate": 0.004,
+    "ROI": 3.87,
+    "Path Count": 4788359,
+    "Impression Per Node": 6.22,
+    "Conversion Rate": 0.004,
     "pathId": 140,
     "nodes": [
       {
@@ -4379,13 +4379,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.94,
-    "pathCount": 2856165,
-    "impressionPerNode": 4.06,
-    "conversionRate": 0.04,
+    "ROI": 0.94,
+    "Path Count": 2856165,
+    "Impression Per Node": 4.06,
+    "Conversion Rate": 0.04,
     "pathId": 141,
     "nodes": [
       {
@@ -4401,13 +4401,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 1.57,
-    "pathCount": 107223,
-    "impressionPerNode": 7.74,
-    "conversionRate": 0.0,
+    "ROI": 1.57,
+    "Path Count": 107223,
+    "Impression Per Node": 7.74,
+    "Conversion Rate": 0.0,
     "pathId": 142,
     "nodes": [
       {
@@ -4447,13 +4447,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.81
+    "Effectiveness": 1.81
   },
   {
-    "roi": 0.51,
-    "pathCount": 570347,
-    "impressionPerNode": 5.46,
-    "conversionRate": 0.037,
+    "ROI": 0.51,
+    "Path Count": 570347,
+    "Impression Per Node": 5.46,
+    "Conversion Rate": 0.037,
     "pathId": 143,
     "nodes": [
       {
@@ -4469,13 +4469,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.8,
-    "pathCount": 5953230,
-    "impressionPerNode": 7.37,
-    "conversionRate": 0.037,
+    "ROI": 0.8,
+    "Path Count": 5953230,
+    "Impression Per Node": 7.37,
+    "Conversion Rate": 0.037,
     "pathId": 144,
     "nodes": [
       {
@@ -4521,13 +4521,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 2.25,
-    "pathCount": 5251030,
-    "impressionPerNode": 4.91,
-    "conversionRate": 0.003,
+    "ROI": 2.25,
+    "Path Count": 5251030,
+    "Impression Per Node": 4.91,
+    "Conversion Rate": 0.003,
     "pathId": 145,
     "nodes": [
       {
@@ -4555,13 +4555,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.61,
-    "pathCount": 1158427,
-    "impressionPerNode": 7.6,
-    "conversionRate": 0.02,
+    "ROI": 0.61,
+    "Path Count": 1158427,
+    "Impression Per Node": 7.6,
+    "Conversion Rate": 0.02,
     "pathId": 146,
     "nodes": [
       {
@@ -4619,13 +4619,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.97
+    "Effectiveness": 1.97
   },
   {
-    "roi": 0.45,
-    "pathCount": 8274008,
-    "impressionPerNode": 2.54,
-    "conversionRate": 0.028,
+    "ROI": 0.45,
+    "Path Count": 8274008,
+    "Impression Per Node": 2.54,
+    "Conversion Rate": 0.028,
     "pathId": 147,
     "nodes": [
       {
@@ -4671,13 +4671,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.74
+    "Effectiveness": 1.74
   },
   {
-    "roi": 0.52,
-    "pathCount": 876796,
-    "impressionPerNode": 6.82,
-    "conversionRate": 0.029,
+    "ROI": 0.52,
+    "Path Count": 876796,
+    "Impression Per Node": 6.82,
+    "Conversion Rate": 0.029,
     "pathId": 148,
     "nodes": [
       {
@@ -4705,13 +4705,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 2.74,
-    "pathCount": 481224,
-    "impressionPerNode": 5.67,
-    "conversionRate": 0.074,
+    "ROI": 2.74,
+    "Path Count": 481224,
+    "Impression Per Node": 5.67,
+    "Conversion Rate": 0.074,
     "pathId": 149,
     "nodes": [
       {
@@ -4733,13 +4733,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.48
+    "Effectiveness": 0.48
   },
   {
-    "roi": 0.33,
-    "pathCount": 283575,
-    "impressionPerNode": 7.72,
-    "conversionRate": 0.007,
+    "ROI": 0.33,
+    "Path Count": 283575,
+    "Impression Per Node": 7.72,
+    "Conversion Rate": 0.007,
     "pathId": 150,
     "nodes": [
       {
@@ -4761,13 +4761,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 3.68,
-    "pathCount": 4784822,
-    "impressionPerNode": 0.79,
-    "conversionRate": 0.004,
+    "ROI": 3.68,
+    "Path Count": 4784822,
+    "Impression Per Node": 0.79,
+    "Conversion Rate": 0.004,
     "pathId": 151,
     "nodes": [
       {
@@ -4795,13 +4795,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 0.43,
-    "pathCount": 2990014,
-    "impressionPerNode": 7.62,
-    "conversionRate": 0.013,
+    "ROI": 0.43,
+    "Path Count": 2990014,
+    "Impression Per Node": 7.62,
+    "Conversion Rate": 0.013,
     "pathId": 152,
     "nodes": [
       {
@@ -4817,13 +4817,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 1.95,
-    "pathCount": 806666,
-    "impressionPerNode": 4.42,
-    "conversionRate": 0.056,
+    "ROI": 1.95,
+    "Path Count": 806666,
+    "Impression Per Node": 4.42,
+    "Conversion Rate": 0.056,
     "pathId": 153,
     "nodes": [
       {
@@ -4875,13 +4875,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.73
+    "Effectiveness": 0.73
   },
   {
-    "roi": 0.3,
-    "pathCount": 1740747,
-    "impressionPerNode": 7.4,
-    "conversionRate": 0.006,
+    "ROI": 0.3,
+    "Path Count": 1740747,
+    "Impression Per Node": 7.4,
+    "Conversion Rate": 0.006,
     "pathId": 154,
     "nodes": [
       {
@@ -4903,13 +4903,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 1.73,
-    "pathCount": 647733,
-    "impressionPerNode": 5.62,
-    "conversionRate": 0.009,
+    "ROI": 1.73,
+    "Path Count": 647733,
+    "Impression Per Node": 5.62,
+    "Conversion Rate": 0.009,
     "pathId": 155,
     "nodes": [
       {
@@ -4925,13 +4925,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.93
+    "Effectiveness": 1.93
   },
   {
-    "roi": 2.09,
-    "pathCount": 2956520,
-    "impressionPerNode": 5.62,
-    "conversionRate": 0.041,
+    "ROI": 2.09,
+    "Path Count": 2956520,
+    "Impression Per Node": 5.62,
+    "Conversion Rate": 0.041,
     "pathId": 156,
     "nodes": [
       {
@@ -4959,13 +4959,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 2.99,
-    "pathCount": 127475,
-    "impressionPerNode": 6.38,
-    "conversionRate": 0.016,
+    "ROI": 2.99,
+    "Path Count": 127475,
+    "Impression Per Node": 6.38,
+    "Conversion Rate": 0.016,
     "pathId": 157,
     "nodes": [
       {
@@ -4981,13 +4981,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.66
+    "Effectiveness": 0.66
   },
   {
-    "roi": 0.57,
-    "pathCount": 764449,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.014,
+    "ROI": 0.57,
+    "Path Count": 764449,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.014,
     "pathId": 158,
     "nodes": [
       {
@@ -5033,13 +5033,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 1.84,
-    "pathCount": 3660719,
-    "impressionPerNode": 7.7,
-    "conversionRate": 0.046,
+    "ROI": 1.84,
+    "Path Count": 3660719,
+    "Impression Per Node": 7.7,
+    "Conversion Rate": 0.046,
     "pathId": 159,
     "nodes": [
       {
@@ -5067,13 +5067,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.34
+    "Effectiveness": 1.34
   },
   {
-    "roi": 3.4,
-    "pathCount": 1173505,
-    "impressionPerNode": 6.85,
-    "conversionRate": 0.005,
+    "ROI": 3.4,
+    "Path Count": 1173505,
+    "Impression Per Node": 6.85,
+    "Conversion Rate": 0.005,
     "pathId": 160,
     "nodes": [
       {
@@ -5095,13 +5095,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.35
+    "Effectiveness": 0.35
   },
   {
-    "roi": 0.78,
-    "pathCount": 2370091,
-    "impressionPerNode": 4.49,
-    "conversionRate": 0.001,
+    "ROI": 0.78,
+    "Path Count": 2370091,
+    "Impression Per Node": 4.49,
+    "Conversion Rate": 0.001,
     "pathId": 161,
     "nodes": [
       {
@@ -5129,13 +5129,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.99
+    "Effectiveness": 1.99
   },
   {
-    "roi": 1.58,
-    "pathCount": 4151393,
-    "impressionPerNode": 6.24,
-    "conversionRate": 0.012,
+    "ROI": 1.58,
+    "Path Count": 4151393,
+    "Impression Per Node": 6.24,
+    "Conversion Rate": 0.012,
     "pathId": 162,
     "nodes": [
       {
@@ -5175,13 +5175,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 0.46,
-    "pathCount": 6094544,
-    "impressionPerNode": 4.14,
-    "conversionRate": 0.064,
+    "ROI": 0.46,
+    "Path Count": 6094544,
+    "Impression Per Node": 4.14,
+    "Conversion Rate": 0.064,
     "pathId": 163,
     "nodes": [
       {
@@ -5215,13 +5215,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.66,
-    "pathCount": 5719798,
-    "impressionPerNode": 4.95,
-    "conversionRate": 0.065,
+    "ROI": 0.66,
+    "Path Count": 5719798,
+    "Impression Per Node": 4.95,
+    "Conversion Rate": 0.065,
     "pathId": 164,
     "nodes": [
       {
@@ -5249,13 +5249,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.26
+    "Effectiveness": 1.26
   },
   {
-    "roi": 0.48,
-    "pathCount": 3224749,
-    "impressionPerNode": 7.75,
-    "conversionRate": 0.048,
+    "ROI": 0.48,
+    "Path Count": 3224749,
+    "Impression Per Node": 7.75,
+    "Conversion Rate": 0.048,
     "pathId": 165,
     "nodes": [
       {
@@ -5277,13 +5277,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.85
+    "Effectiveness": 0.85
   },
   {
-    "roi": 0.09,
-    "pathCount": 5293766,
-    "impressionPerNode": 4.02,
-    "conversionRate": 0.016,
+    "ROI": 0.09,
+    "Path Count": 5293766,
+    "Impression Per Node": 4.02,
+    "Conversion Rate": 0.016,
     "pathId": 166,
     "nodes": [
       {
@@ -5311,13 +5311,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.66
+    "Effectiveness": 1.66
   },
   {
-    "roi": 0.82,
-    "pathCount": 76867,
-    "impressionPerNode": 5.37,
-    "conversionRate": 0.065,
+    "ROI": 0.82,
+    "Path Count": 76867,
+    "Impression Per Node": 5.37,
+    "Conversion Rate": 0.065,
     "pathId": 167,
     "nodes": [
       {
@@ -5351,13 +5351,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.39
+    "Effectiveness": 1.39
   },
   {
-    "roi": 0.8,
-    "pathCount": 6367348,
-    "impressionPerNode": 6.73,
-    "conversionRate": 0.011,
+    "ROI": 0.8,
+    "Path Count": 6367348,
+    "Impression Per Node": 6.73,
+    "Conversion Rate": 0.011,
     "pathId": 168,
     "nodes": [
       {
@@ -5391,13 +5391,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.29,
-    "pathCount": 2348111,
-    "impressionPerNode": 2.57,
-    "conversionRate": 0.02,
+    "ROI": 0.29,
+    "Path Count": 2348111,
+    "Impression Per Node": 2.57,
+    "Conversion Rate": 0.02,
     "pathId": 169,
     "nodes": [
       {
@@ -5419,13 +5419,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.44
+    "Effectiveness": 1.44
   },
   {
-    "roi": 3.3,
-    "pathCount": 2112796,
-    "impressionPerNode": 3.96,
-    "conversionRate": 0.058,
+    "ROI": 3.3,
+    "Path Count": 2112796,
+    "Impression Per Node": 3.96,
+    "Conversion Rate": 0.058,
     "pathId": 170,
     "nodes": [
       {
@@ -5453,13 +5453,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 0.21,
-    "pathCount": 8168670,
-    "impressionPerNode": 6.24,
-    "conversionRate": 0.009,
+    "ROI": 0.21,
+    "Path Count": 8168670,
+    "Impression Per Node": 6.24,
+    "Conversion Rate": 0.009,
     "pathId": 171,
     "nodes": [
       {
@@ -5475,13 +5475,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.35
+    "Effectiveness": 0.35
   },
   {
-    "roi": 1.85,
-    "pathCount": 811643,
-    "impressionPerNode": 3.69,
-    "conversionRate": 0.047,
+    "ROI": 1.85,
+    "Path Count": 811643,
+    "Impression Per Node": 3.69,
+    "Conversion Rate": 0.047,
     "pathId": 172,
     "nodes": [
       {
@@ -5509,13 +5509,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 2.7,
-    "pathCount": 2647028,
-    "impressionPerNode": 7.26,
-    "conversionRate": 0.057,
+    "ROI": 2.7,
+    "Path Count": 2647028,
+    "Impression Per Node": 7.26,
+    "Conversion Rate": 0.057,
     "pathId": 173,
     "nodes": [
       {
@@ -5531,13 +5531,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.57
+    "Effectiveness": 1.57
   },
   {
-    "roi": 0.8,
-    "pathCount": 2222501,
-    "impressionPerNode": 7.75,
-    "conversionRate": 0.002,
+    "ROI": 0.8,
+    "Path Count": 2222501,
+    "Impression Per Node": 7.75,
+    "Conversion Rate": 0.002,
     "pathId": 174,
     "nodes": [
       {
@@ -5571,13 +5571,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.32
+    "Effectiveness": 1.32
   },
   {
-    "roi": 0.12,
-    "pathCount": 1201208,
-    "impressionPerNode": 2.91,
-    "conversionRate": 0.029,
+    "ROI": 0.12,
+    "Path Count": 1201208,
+    "Impression Per Node": 2.91,
+    "Conversion Rate": 0.029,
     "pathId": 175,
     "nodes": [
       {
@@ -5617,13 +5617,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 3.11,
-    "pathCount": 445375,
-    "impressionPerNode": 6.14,
-    "conversionRate": 0.025,
+    "ROI": 3.11,
+    "Path Count": 445375,
+    "Impression Per Node": 6.14,
+    "Conversion Rate": 0.025,
     "pathId": 176,
     "nodes": [
       {
@@ -5663,13 +5663,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.48
+    "Effectiveness": 1.48
   },
   {
-    "roi": 0.36,
-    "pathCount": 382391,
-    "impressionPerNode": 1.46,
-    "conversionRate": 0.038,
+    "ROI": 0.36,
+    "Path Count": 382391,
+    "Impression Per Node": 1.46,
+    "Conversion Rate": 0.038,
     "pathId": 177,
     "nodes": [
       {
@@ -5685,13 +5685,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.61
+    "Effectiveness": 1.61
   },
   {
-    "roi": 0.92,
-    "pathCount": 4815408,
-    "impressionPerNode": 6.04,
-    "conversionRate": 0.019,
+    "ROI": 0.92,
+    "Path Count": 4815408,
+    "Impression Per Node": 6.04,
+    "Conversion Rate": 0.019,
     "pathId": 178,
     "nodes": [
       {
@@ -5707,13 +5707,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.44,
-    "pathCount": 1587618,
-    "impressionPerNode": 3.27,
-    "conversionRate": 0.016,
+    "ROI": 0.44,
+    "Path Count": 1587618,
+    "Impression Per Node": 3.27,
+    "Conversion Rate": 0.016,
     "pathId": 179,
     "nodes": [
       {
@@ -5729,13 +5729,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 0.66,
-    "pathCount": 708456,
-    "impressionPerNode": 0.94,
-    "conversionRate": 0.002,
+    "ROI": 0.66,
+    "Path Count": 708456,
+    "Impression Per Node": 0.94,
+    "Conversion Rate": 0.002,
     "pathId": 180,
     "nodes": [
       {
@@ -5757,13 +5757,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.73,
-    "pathCount": 914275,
-    "impressionPerNode": 4.31,
-    "conversionRate": 0.015,
+    "ROI": 1.73,
+    "Path Count": 914275,
+    "Impression Per Node": 4.31,
+    "Conversion Rate": 0.015,
     "pathId": 181,
     "nodes": [
       {
@@ -5803,13 +5803,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 0.65,
-    "pathCount": 4691630,
-    "impressionPerNode": 7.11,
-    "conversionRate": 0.007,
+    "ROI": 0.65,
+    "Path Count": 4691630,
+    "Impression Per Node": 7.11,
+    "Conversion Rate": 0.007,
     "pathId": 182,
     "nodes": [
       {
@@ -5855,13 +5855,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.66
+    "Effectiveness": 0.66
   },
   {
-    "roi": 3.31,
-    "pathCount": 4104099,
-    "impressionPerNode": 5.07,
-    "conversionRate": 0.032,
+    "ROI": 3.31,
+    "Path Count": 4104099,
+    "Impression Per Node": 5.07,
+    "Conversion Rate": 0.032,
     "pathId": 183,
     "nodes": [
       {
@@ -5895,13 +5895,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.69,
-    "pathCount": 1355649,
-    "impressionPerNode": 6.99,
-    "conversionRate": 0.019,
+    "ROI": 0.69,
+    "Path Count": 1355649,
+    "Impression Per Node": 6.99,
+    "Conversion Rate": 0.019,
     "pathId": 184,
     "nodes": [
       {
@@ -5923,13 +5923,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.52
+    "Effectiveness": 2.52
   },
   {
-    "roi": 2.77,
-    "pathCount": 1300991,
-    "impressionPerNode": 5.48,
-    "conversionRate": 0.019,
+    "ROI": 2.77,
+    "Path Count": 1300991,
+    "Impression Per Node": 5.48,
+    "Conversion Rate": 0.019,
     "pathId": 185,
     "nodes": [
       {
@@ -5945,13 +5945,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 1.83,
-    "pathCount": 2439205,
-    "impressionPerNode": 7.58,
-    "conversionRate": 0.007,
+    "ROI": 1.83,
+    "Path Count": 2439205,
+    "Impression Per Node": 7.58,
+    "Conversion Rate": 0.007,
     "pathId": 186,
     "nodes": [
       {
@@ -5967,13 +5967,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 1.57,
-    "pathCount": 904378,
-    "impressionPerNode": 5.61,
-    "conversionRate": 0.011,
+    "ROI": 1.57,
+    "Path Count": 904378,
+    "Impression Per Node": 5.61,
+    "Conversion Rate": 0.011,
     "pathId": 187,
     "nodes": [
       {
@@ -5995,13 +5995,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 2.84,
-    "pathCount": 15290,
-    "impressionPerNode": 4.32,
-    "conversionRate": 0.024,
+    "ROI": 2.84,
+    "Path Count": 15290,
+    "Impression Per Node": 4.32,
+    "Conversion Rate": 0.024,
     "pathId": 188,
     "nodes": [
       {
@@ -6017,13 +6017,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.01
+    "Effectiveness": 1.01
   },
   {
-    "roi": 0.6,
-    "pathCount": 326425,
-    "impressionPerNode": 5.58,
-    "conversionRate": 0.0,
+    "ROI": 0.6,
+    "Path Count": 326425,
+    "Impression Per Node": 5.58,
+    "Conversion Rate": 0.0,
     "pathId": 189,
     "nodes": [
       {
@@ -6063,13 +6063,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 0.3,
-    "pathCount": 6519500,
-    "impressionPerNode": 7.79,
-    "conversionRate": 0.039,
+    "ROI": 0.3,
+    "Path Count": 6519500,
+    "Impression Per Node": 7.79,
+    "Conversion Rate": 0.039,
     "pathId": 190,
     "nodes": [
       {
@@ -6103,13 +6103,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.71
+    "Effectiveness": 1.71
   },
   {
-    "roi": 0.36,
-    "pathCount": 5918277,
-    "impressionPerNode": 7.96,
-    "conversionRate": 0.004,
+    "ROI": 0.36,
+    "Path Count": 5918277,
+    "Impression Per Node": 7.96,
+    "Conversion Rate": 0.004,
     "pathId": 191,
     "nodes": [
       {
@@ -6143,13 +6143,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 1.51,
-    "pathCount": 46146,
-    "impressionPerNode": 7.49,
-    "conversionRate": 0.041,
+    "ROI": 1.51,
+    "Path Count": 46146,
+    "Impression Per Node": 7.49,
+    "Conversion Rate": 0.041,
     "pathId": 192,
     "nodes": [
       {
@@ -6171,13 +6171,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.92
+    "Effectiveness": 1.92
   },
   {
-    "roi": 0.05,
-    "pathCount": 439072,
-    "impressionPerNode": 6.54,
-    "conversionRate": 0.014,
+    "ROI": 0.05,
+    "Path Count": 439072,
+    "Impression Per Node": 6.54,
+    "Conversion Rate": 0.014,
     "pathId": 193,
     "nodes": [
       {
@@ -6193,13 +6193,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.3,
-    "pathCount": 1284707,
-    "impressionPerNode": 7.81,
-    "conversionRate": 0.005,
+    "ROI": 0.3,
+    "Path Count": 1284707,
+    "Impression Per Node": 7.81,
+    "Conversion Rate": 0.005,
     "pathId": 194,
     "nodes": [
       {
@@ -6215,13 +6215,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.3
+    "Effectiveness": 0.3
   },
   {
-    "roi": 0.44,
-    "pathCount": 3688484,
-    "impressionPerNode": 5.71,
-    "conversionRate": 0.037,
+    "ROI": 0.44,
+    "Path Count": 3688484,
+    "Impression Per Node": 5.71,
+    "Conversion Rate": 0.037,
     "pathId": 195,
     "nodes": [
       {
@@ -6237,13 +6237,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.07,
-    "pathCount": 380448,
-    "impressionPerNode": 7.5,
-    "conversionRate": 0.048,
+    "ROI": 0.07,
+    "Path Count": 380448,
+    "Impression Per Node": 7.5,
+    "Conversion Rate": 0.048,
     "pathId": 196,
     "nodes": [
       {
@@ -6259,13 +6259,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 3.55,
-    "pathCount": 7394724,
-    "impressionPerNode": 7.93,
-    "conversionRate": 0.04,
+    "ROI": 3.55,
+    "Path Count": 7394724,
+    "Impression Per Node": 7.93,
+    "Conversion Rate": 0.04,
     "pathId": 197,
     "nodes": [
       {
@@ -6293,13 +6293,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.74
+    "Effectiveness": 1.74
   },
   {
-    "roi": 1.91,
-    "pathCount": 595859,
-    "impressionPerNode": 3.95,
-    "conversionRate": 0.011,
+    "ROI": 1.91,
+    "Path Count": 595859,
+    "Impression Per Node": 3.95,
+    "Conversion Rate": 0.011,
     "pathId": 198,
     "nodes": [
       {
@@ -6315,13 +6315,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.33,
-    "pathCount": 2290699,
-    "impressionPerNode": 6.02,
-    "conversionRate": 0.014,
+    "ROI": 0.33,
+    "Path Count": 2290699,
+    "Impression Per Node": 6.02,
+    "Conversion Rate": 0.014,
     "pathId": 199,
     "nodes": [
       {
@@ -6343,13 +6343,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 0.96,
-    "pathCount": 3605304,
-    "impressionPerNode": 3.12,
-    "conversionRate": 0.026,
+    "ROI": 0.96,
+    "Path Count": 3605304,
+    "Impression Per Node": 3.12,
+    "Conversion Rate": 0.026,
     "pathId": 200,
     "nodes": [
       {
@@ -6401,13 +6401,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.65
+    "Effectiveness": 0.65
   },
   {
-    "roi": 0.05,
-    "pathCount": 737721,
-    "impressionPerNode": 6.49,
-    "conversionRate": 0.055,
+    "ROI": 0.05,
+    "Path Count": 737721,
+    "Impression Per Node": 6.49,
+    "Conversion Rate": 0.055,
     "pathId": 201,
     "nodes": [
       {
@@ -6453,13 +6453,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.99
+    "Effectiveness": 0.99
   },
   {
-    "roi": 2.78,
-    "pathCount": 1766573,
-    "impressionPerNode": 3.11,
-    "conversionRate": 0.061,
+    "ROI": 2.78,
+    "Path Count": 1766573,
+    "Impression Per Node": 3.11,
+    "Conversion Rate": 0.061,
     "pathId": 202,
     "nodes": [
       {
@@ -6475,13 +6475,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.76
+    "Effectiveness": 1.76
   },
   {
-    "roi": 2.88,
-    "pathCount": 1078160,
-    "impressionPerNode": 6.75,
-    "conversionRate": 0.015,
+    "ROI": 2.88,
+    "Path Count": 1078160,
+    "Impression Per Node": 6.75,
+    "Conversion Rate": 0.015,
     "pathId": 203,
     "nodes": [
       {
@@ -6515,13 +6515,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.98
+    "Effectiveness": 1.98
   },
   {
-    "roi": 1.65,
-    "pathCount": 254316,
-    "impressionPerNode": 2.84,
-    "conversionRate": 0.026,
+    "ROI": 1.65,
+    "Path Count": 254316,
+    "Impression Per Node": 2.84,
+    "Conversion Rate": 0.026,
     "pathId": 204,
     "nodes": [
       {
@@ -6537,13 +6537,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.62,
-    "pathCount": 3579051,
-    "impressionPerNode": 5.26,
-    "conversionRate": 0.016,
+    "ROI": 0.62,
+    "Path Count": 3579051,
+    "Impression Per Node": 5.26,
+    "Conversion Rate": 0.016,
     "pathId": 205,
     "nodes": [
       {
@@ -6565,13 +6565,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.8
+    "Effectiveness": 1.8
   },
   {
-    "roi": 0.14,
-    "pathCount": 1186247,
-    "impressionPerNode": 4.38,
-    "conversionRate": 0.006,
+    "ROI": 0.14,
+    "Path Count": 1186247,
+    "Impression Per Node": 4.38,
+    "Conversion Rate": 0.006,
     "pathId": 206,
     "nodes": [
       {
@@ -6611,13 +6611,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 0.67,
-    "pathCount": 1319207,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.071,
+    "ROI": 0.67,
+    "Path Count": 1319207,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.071,
     "pathId": 207,
     "nodes": [
       {
@@ -6633,13 +6633,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 1.25,
-    "pathCount": 4900080,
-    "impressionPerNode": 1.13,
-    "conversionRate": 0.016,
+    "ROI": 1.25,
+    "Path Count": 4900080,
+    "Impression Per Node": 1.13,
+    "Conversion Rate": 0.016,
     "pathId": 208,
     "nodes": [
       {
@@ -6685,13 +6685,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.9
+    "Effectiveness": 1.9
   },
   {
-    "roi": 0.95,
-    "pathCount": 2813821,
-    "impressionPerNode": 5.49,
-    "conversionRate": 0.032,
+    "ROI": 0.95,
+    "Path Count": 2813821,
+    "Impression Per Node": 5.49,
+    "Conversion Rate": 0.032,
     "pathId": 209,
     "nodes": [
       {
@@ -6725,13 +6725,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 1.78,
-    "pathCount": 3829851,
-    "impressionPerNode": 7.18,
-    "conversionRate": 0.005,
+    "ROI": 1.78,
+    "Path Count": 3829851,
+    "Impression Per Node": 7.18,
+    "Conversion Rate": 0.005,
     "pathId": 210,
     "nodes": [
       {
@@ -6747,13 +6747,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 0.82,
-    "pathCount": 2138912,
-    "impressionPerNode": 6.55,
-    "conversionRate": 0.014,
+    "ROI": 0.82,
+    "Path Count": 2138912,
+    "Impression Per Node": 6.55,
+    "Conversion Rate": 0.014,
     "pathId": 211,
     "nodes": [
       {
@@ -6769,13 +6769,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.21
+    "Effectiveness": 1.21
   },
   {
-    "roi": 0.09,
-    "pathCount": 3439293,
-    "impressionPerNode": 2.62,
-    "conversionRate": 0.056,
+    "ROI": 0.09,
+    "Path Count": 3439293,
+    "Impression Per Node": 2.62,
+    "Conversion Rate": 0.056,
     "pathId": 212,
     "nodes": [
       {
@@ -6791,13 +6791,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 3.28,
-    "pathCount": 6808951,
-    "impressionPerNode": 5.16,
-    "conversionRate": 0.022,
+    "ROI": 3.28,
+    "Path Count": 6808951,
+    "Impression Per Node": 5.16,
+    "Conversion Rate": 0.022,
     "pathId": 213,
     "nodes": [
       {
@@ -6819,13 +6819,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.7
+    "Effectiveness": 0.7
   },
   {
-    "roi": 0.73,
-    "pathCount": 8464586,
-    "impressionPerNode": 2.8,
-    "conversionRate": 0.023,
+    "ROI": 0.73,
+    "Path Count": 8464586,
+    "Impression Per Node": 2.8,
+    "Conversion Rate": 0.023,
     "pathId": 214,
     "nodes": [
       {
@@ -6871,13 +6871,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.96
+    "Effectiveness": 1.96
   },
   {
-    "roi": 0.59,
-    "pathCount": 316649,
-    "impressionPerNode": 6.75,
-    "conversionRate": 0.031,
+    "ROI": 0.59,
+    "Path Count": 316649,
+    "Impression Per Node": 6.75,
+    "Conversion Rate": 0.031,
     "pathId": 215,
     "nodes": [
       {
@@ -6911,13 +6911,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.97,
-    "pathCount": 6406829,
-    "impressionPerNode": 7.62,
-    "conversionRate": 0.019,
+    "ROI": 0.97,
+    "Path Count": 6406829,
+    "Impression Per Node": 7.62,
+    "Conversion Rate": 0.019,
     "pathId": 216,
     "nodes": [
       {
@@ -6939,13 +6939,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.97
+    "Effectiveness": 0.97
   },
   {
-    "roi": 0.23,
-    "pathCount": 2869618,
-    "impressionPerNode": 5.15,
-    "conversionRate": 0.003,
+    "ROI": 0.23,
+    "Path Count": 2869618,
+    "Impression Per Node": 5.15,
+    "Conversion Rate": 0.003,
     "pathId": 217,
     "nodes": [
       {
@@ -6979,13 +6979,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 0.87,
-    "pathCount": 2853438,
-    "impressionPerNode": 3.86,
-    "conversionRate": 0.021,
+    "ROI": 0.87,
+    "Path Count": 2853438,
+    "Impression Per Node": 3.86,
+    "Conversion Rate": 0.021,
     "pathId": 218,
     "nodes": [
       {
@@ -7007,13 +7007,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.27,
-    "pathCount": 3860380,
-    "impressionPerNode": 2.28,
-    "conversionRate": 0.0,
+    "ROI": 0.27,
+    "Path Count": 3860380,
+    "Impression Per Node": 2.28,
+    "Conversion Rate": 0.0,
     "pathId": 219,
     "nodes": [
       {
@@ -7035,13 +7035,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.72
+    "Effectiveness": 0.72
   },
   {
-    "roi": 1.42,
-    "pathCount": 1098917,
-    "impressionPerNode": 5.0,
-    "conversionRate": 0.006,
+    "ROI": 1.42,
+    "Path Count": 1098917,
+    "Impression Per Node": 5.0,
+    "Conversion Rate": 0.006,
     "pathId": 220,
     "nodes": [
       {
@@ -7087,13 +7087,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.34
+    "Effectiveness": 2.34
   },
   {
-    "roi": 0.24,
-    "pathCount": 4163667,
-    "impressionPerNode": 7.84,
-    "conversionRate": 0.034,
+    "ROI": 0.24,
+    "Path Count": 4163667,
+    "Impression Per Node": 7.84,
+    "Conversion Rate": 0.034,
     "pathId": 221,
     "nodes": [
       {
@@ -7115,13 +7115,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.57,
-    "pathCount": 62315,
-    "impressionPerNode": 3.98,
-    "conversionRate": 0.011,
+    "ROI": 0.57,
+    "Path Count": 62315,
+    "Impression Per Node": 3.98,
+    "Conversion Rate": 0.011,
     "pathId": 222,
     "nodes": [
       {
@@ -7137,13 +7137,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 3.49,
-    "pathCount": 575731,
-    "impressionPerNode": 4.3,
-    "conversionRate": 0.017,
+    "ROI": 3.49,
+    "Path Count": 575731,
+    "Impression Per Node": 4.3,
+    "Conversion Rate": 0.017,
     "pathId": 223,
     "nodes": [
       {
@@ -7159,13 +7159,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.67
+    "Effectiveness": 0.67
   },
   {
-    "roi": 0.43,
-    "pathCount": 5581938,
-    "impressionPerNode": 7.38,
-    "conversionRate": 0.087,
+    "ROI": 0.43,
+    "Path Count": 5581938,
+    "Impression Per Node": 7.38,
+    "Conversion Rate": 0.087,
     "pathId": 224,
     "nodes": [
       {
@@ -7181,13 +7181,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.25
+    "Effectiveness": 1.25
   },
   {
-    "roi": 0.17,
-    "pathCount": 2106072,
-    "impressionPerNode": 3.02,
-    "conversionRate": 0.015,
+    "ROI": 0.17,
+    "Path Count": 2106072,
+    "Impression Per Node": 3.02,
+    "Conversion Rate": 0.015,
     "pathId": 225,
     "nodes": [
       {
@@ -7203,13 +7203,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.92
+    "Effectiveness": 0.92
   },
   {
-    "roi": 0.82,
-    "pathCount": 2383194,
-    "impressionPerNode": 7.66,
-    "conversionRate": 0.009,
+    "ROI": 0.82,
+    "Path Count": 2383194,
+    "Impression Per Node": 7.66,
+    "Conversion Rate": 0.009,
     "pathId": 226,
     "nodes": [
       {
@@ -7249,13 +7249,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.55
+    "Effectiveness": 1.55
   },
   {
-    "roi": 0.22,
-    "pathCount": 1583060,
-    "impressionPerNode": 4.02,
-    "conversionRate": 0.009,
+    "ROI": 0.22,
+    "Path Count": 1583060,
+    "Impression Per Node": 4.02,
+    "Conversion Rate": 0.009,
     "pathId": 227,
     "nodes": [
       {
@@ -7301,13 +7301,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.59
+    "Effectiveness": 0.59
   },
   {
-    "roi": 0.33,
-    "pathCount": 484444,
-    "impressionPerNode": 6.7,
-    "conversionRate": 0.008,
+    "ROI": 0.33,
+    "Path Count": 484444,
+    "Impression Per Node": 6.7,
+    "Conversion Rate": 0.008,
     "pathId": 228,
     "nodes": [
       {
@@ -7329,13 +7329,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.25,
-    "pathCount": 2946130,
-    "impressionPerNode": 6.69,
-    "conversionRate": 0.025,
+    "ROI": 0.25,
+    "Path Count": 2946130,
+    "Impression Per Node": 6.69,
+    "Conversion Rate": 0.025,
     "pathId": 229,
     "nodes": [
       {
@@ -7351,13 +7351,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.36,
-    "pathCount": 4702155,
-    "impressionPerNode": 5.14,
-    "conversionRate": 0.009,
+    "ROI": 0.36,
+    "Path Count": 4702155,
+    "Impression Per Node": 5.14,
+    "Conversion Rate": 0.009,
     "pathId": 230,
     "nodes": [
       {
@@ -7379,13 +7379,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.92,
-    "pathCount": 2310433,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.004,
+    "ROI": 1.92,
+    "Path Count": 2310433,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.004,
     "pathId": 231,
     "nodes": [
       {
@@ -7413,13 +7413,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.24
+    "Effectiveness": 1.24
   },
   {
-    "roi": 1.89,
-    "pathCount": 2126906,
-    "impressionPerNode": 6.62,
-    "conversionRate": 0.049,
+    "ROI": 1.89,
+    "Path Count": 2126906,
+    "Impression Per Node": 6.62,
+    "Conversion Rate": 0.049,
     "pathId": 232,
     "nodes": [
       {
@@ -7441,13 +7441,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.57
+    "Effectiveness": 2.57
   },
   {
-    "roi": 0.72,
-    "pathCount": 2146832,
-    "impressionPerNode": 1.93,
-    "conversionRate": 0.006,
+    "ROI": 0.72,
+    "Path Count": 2146832,
+    "Impression Per Node": 1.93,
+    "Conversion Rate": 0.006,
     "pathId": 233,
     "nodes": [
       {
@@ -7493,13 +7493,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.4
+    "Effectiveness": 1.4
   },
   {
-    "roi": 0.37,
-    "pathCount": 1202022,
-    "impressionPerNode": 4.1,
-    "conversionRate": 0.071,
+    "ROI": 0.37,
+    "Path Count": 1202022,
+    "Impression Per Node": 4.1,
+    "Conversion Rate": 0.071,
     "pathId": 234,
     "nodes": [
       {
@@ -7521,13 +7521,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.51
+    "Effectiveness": 1.51
   },
   {
-    "roi": 0.42,
-    "pathCount": 3499796,
-    "impressionPerNode": 7.19,
-    "conversionRate": 0.035,
+    "ROI": 0.42,
+    "Path Count": 3499796,
+    "Impression Per Node": 7.19,
+    "Conversion Rate": 0.035,
     "pathId": 235,
     "nodes": [
       {
@@ -7549,13 +7549,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.09
+    "Effectiveness": 2.09
   },
   {
-    "roi": 0.09,
-    "pathCount": 4739939,
-    "impressionPerNode": 3.72,
-    "conversionRate": 0.028,
+    "ROI": 0.09,
+    "Path Count": 4739939,
+    "Impression Per Node": 3.72,
+    "Conversion Rate": 0.028,
     "pathId": 236,
     "nodes": [
       {
@@ -7571,13 +7571,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 1.55,
-    "pathCount": 4995934,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.003,
+    "ROI": 1.55,
+    "Path Count": 4995934,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.003,
     "pathId": 237,
     "nodes": [
       {
@@ -7611,13 +7611,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.64
+    "Effectiveness": 0.64
   },
   {
-    "roi": 1.97,
-    "pathCount": 4995047,
-    "impressionPerNode": 4.83,
-    "conversionRate": 0.014,
+    "ROI": 1.97,
+    "Path Count": 4995047,
+    "Impression Per Node": 4.83,
+    "Conversion Rate": 0.014,
     "pathId": 238,
     "nodes": [
       {
@@ -7633,13 +7633,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 0.98,
-    "pathCount": 780353,
-    "impressionPerNode": 6.84,
-    "conversionRate": 0.034,
+    "ROI": 0.98,
+    "Path Count": 780353,
+    "Impression Per Node": 6.84,
+    "Conversion Rate": 0.034,
     "pathId": 239,
     "nodes": [
       {
@@ -7655,13 +7655,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 0.03,
-    "pathCount": 6048818,
-    "impressionPerNode": 6.79,
-    "conversionRate": 0.024,
+    "ROI": 0.03,
+    "Path Count": 6048818,
+    "Impression Per Node": 6.79,
+    "Conversion Rate": 0.024,
     "pathId": 240,
     "nodes": [
       {
@@ -7695,13 +7695,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 0.24,
-    "pathCount": 2044769,
-    "impressionPerNode": 7.9,
-    "conversionRate": 0.013,
+    "ROI": 0.24,
+    "Path Count": 2044769,
+    "Impression Per Node": 7.9,
+    "Conversion Rate": 0.013,
     "pathId": 241,
     "nodes": [
       {
@@ -7723,13 +7723,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.57
+    "Effectiveness": 1.57
   },
   {
-    "roi": 2.54,
-    "pathCount": 1009670,
-    "impressionPerNode": 7.54,
-    "conversionRate": 0.058,
+    "ROI": 2.54,
+    "Path Count": 1009670,
+    "Impression Per Node": 7.54,
+    "Conversion Rate": 0.058,
     "pathId": 242,
     "nodes": [
       {
@@ -7757,13 +7757,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 3.16,
-    "pathCount": 3220688,
-    "impressionPerNode": 5.47,
-    "conversionRate": 0.033,
+    "ROI": 3.16,
+    "Path Count": 3220688,
+    "Impression Per Node": 5.47,
+    "Conversion Rate": 0.033,
     "pathId": 243,
     "nodes": [
       {
@@ -7779,13 +7779,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.66,
-    "pathCount": 3979215,
-    "impressionPerNode": 4.84,
-    "conversionRate": 0.021,
+    "ROI": 0.66,
+    "Path Count": 3979215,
+    "Impression Per Node": 4.84,
+    "Conversion Rate": 0.021,
     "pathId": 244,
     "nodes": [
       {
@@ -7801,13 +7801,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.33,
-    "pathCount": 943739,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.001,
+    "ROI": 0.33,
+    "Path Count": 943739,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.001,
     "pathId": 245,
     "nodes": [
       {
@@ -7823,13 +7823,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.36,
-    "pathCount": 1428557,
-    "impressionPerNode": 5.15,
-    "conversionRate": 0.033,
+    "ROI": 0.36,
+    "Path Count": 1428557,
+    "Impression Per Node": 5.15,
+    "Conversion Rate": 0.033,
     "pathId": 246,
     "nodes": [
       {
@@ -7869,13 +7869,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.27
+    "Effectiveness": 1.27
   },
   {
-    "roi": 0.27,
-    "pathCount": 1885786,
-    "impressionPerNode": 6.02,
-    "conversionRate": 0.023,
+    "ROI": 0.27,
+    "Path Count": 1885786,
+    "Impression Per Node": 6.02,
+    "Conversion Rate": 0.023,
     "pathId": 247,
     "nodes": [
       {
@@ -7897,13 +7897,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.91
+    "Effectiveness": 1.91
   },
   {
-    "roi": 0.84,
-    "pathCount": 3839656,
-    "impressionPerNode": 7.96,
-    "conversionRate": 0.022,
+    "ROI": 0.84,
+    "Path Count": 3839656,
+    "Impression Per Node": 7.96,
+    "Conversion Rate": 0.022,
     "pathId": 248,
     "nodes": [
       {
@@ -7925,13 +7925,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.21,
-    "pathCount": 1891121,
-    "impressionPerNode": 5.88,
-    "conversionRate": 0.02,
+    "ROI": 0.21,
+    "Path Count": 1891121,
+    "Impression Per Node": 5.88,
+    "Conversion Rate": 0.02,
     "pathId": 249,
     "nodes": [
       {
@@ -7947,13 +7947,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.22
+    "Effectiveness": 2.22
   },
   {
-    "roi": 1.46,
-    "pathCount": 654755,
-    "impressionPerNode": 5.01,
-    "conversionRate": 0.018,
+    "ROI": 1.46,
+    "Path Count": 654755,
+    "Impression Per Node": 5.01,
+    "Conversion Rate": 0.018,
     "pathId": 250,
     "nodes": [
       {
@@ -7981,13 +7981,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.97,
-    "pathCount": 8084300,
-    "impressionPerNode": 5.02,
-    "conversionRate": 0.009,
+    "ROI": 0.97,
+    "Path Count": 8084300,
+    "Impression Per Node": 5.02,
+    "Conversion Rate": 0.009,
     "pathId": 251,
     "nodes": [
       {
@@ -8027,13 +8027,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.86,
-    "pathCount": 93906,
-    "impressionPerNode": 1.74,
-    "conversionRate": 0.057,
+    "ROI": 0.86,
+    "Path Count": 93906,
+    "Impression Per Node": 1.74,
+    "Conversion Rate": 0.057,
     "pathId": 252,
     "nodes": [
       {
@@ -8067,13 +8067,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 0.24,
-    "pathCount": 307006,
-    "impressionPerNode": 7.26,
-    "conversionRate": 0.059,
+    "ROI": 0.24,
+    "Path Count": 307006,
+    "Impression Per Node": 7.26,
+    "Conversion Rate": 0.059,
     "pathId": 253,
     "nodes": [
       {
@@ -8101,13 +8101,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 1.25,
-    "pathCount": 1330077,
-    "impressionPerNode": 4.8,
-    "conversionRate": 0.027,
+    "ROI": 1.25,
+    "Path Count": 1330077,
+    "Impression Per Node": 4.8,
+    "Conversion Rate": 0.027,
     "pathId": 254,
     "nodes": [
       {
@@ -8123,13 +8123,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.32
+    "Effectiveness": 0.32
   },
   {
-    "roi": 1.07,
-    "pathCount": 1924286,
-    "impressionPerNode": 5.48,
-    "conversionRate": 0.038,
+    "ROI": 1.07,
+    "Path Count": 1924286,
+    "Impression Per Node": 5.48,
+    "Conversion Rate": 0.038,
     "pathId": 255,
     "nodes": [
       {
@@ -8151,13 +8151,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.66
+    "Effectiveness": 1.66
   },
   {
-    "roi": 4.8,
-    "pathCount": 857301,
-    "impressionPerNode": 6.16,
-    "conversionRate": 0.028,
+    "ROI": 4.8,
+    "Path Count": 857301,
+    "Impression Per Node": 6.16,
+    "Conversion Rate": 0.028,
     "pathId": 256,
     "nodes": [
       {
@@ -8179,13 +8179,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.78
+    "Effectiveness": 0.78
   },
   {
-    "roi": 1.72,
-    "pathCount": 2183371,
-    "impressionPerNode": 5.36,
-    "conversionRate": 0.039,
+    "ROI": 1.72,
+    "Path Count": 2183371,
+    "Impression Per Node": 5.36,
+    "Conversion Rate": 0.039,
     "pathId": 257,
     "nodes": [
       {
@@ -8207,13 +8207,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 0.07,
-    "pathCount": 4363657,
-    "impressionPerNode": 7.64,
-    "conversionRate": 0.018,
+    "ROI": 0.07,
+    "Path Count": 4363657,
+    "Impression Per Node": 7.64,
+    "Conversion Rate": 0.018,
     "pathId": 258,
     "nodes": [
       {
@@ -8229,13 +8229,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 2.05,
-    "pathCount": 4941915,
-    "impressionPerNode": 7.61,
-    "conversionRate": 0.01,
+    "ROI": 2.05,
+    "Path Count": 4941915,
+    "Impression Per Node": 7.61,
+    "Conversion Rate": 0.01,
     "pathId": 259,
     "nodes": [
       {
@@ -8257,13 +8257,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 0.12,
-    "pathCount": 611629,
-    "impressionPerNode": 7.42,
-    "conversionRate": 0.006,
+    "ROI": 0.12,
+    "Path Count": 611629,
+    "Impression Per Node": 7.42,
+    "Conversion Rate": 0.006,
     "pathId": 260,
     "nodes": [
       {
@@ -8297,13 +8297,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 1.35,
-    "pathCount": 2712117,
-    "impressionPerNode": 8.0,
-    "conversionRate": 0.043,
+    "ROI": 1.35,
+    "Path Count": 2712117,
+    "Impression Per Node": 8.0,
+    "Conversion Rate": 0.043,
     "pathId": 261,
     "nodes": [
       {
@@ -8331,13 +8331,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.79
+    "Effectiveness": 1.79
   },
   {
-    "roi": 0.8,
-    "pathCount": 1420357,
-    "impressionPerNode": 7.6,
-    "conversionRate": 0.029,
+    "ROI": 0.8,
+    "Path Count": 1420357,
+    "Impression Per Node": 7.6,
+    "Conversion Rate": 0.029,
     "pathId": 262,
     "nodes": [
       {
@@ -8353,13 +8353,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 0.45,
-    "pathCount": 5252376,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.016,
+    "ROI": 0.45,
+    "Path Count": 5252376,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.016,
     "pathId": 263,
     "nodes": [
       {
@@ -8375,13 +8375,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 1.33,
-    "pathCount": 921559,
-    "impressionPerNode": 5.59,
-    "conversionRate": 0.041,
+    "ROI": 1.33,
+    "Path Count": 921559,
+    "Impression Per Node": 5.59,
+    "Conversion Rate": 0.041,
     "pathId": 264,
     "nodes": [
       {
@@ -8397,13 +8397,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.86,
-    "pathCount": 1842142,
-    "impressionPerNode": 6.35,
-    "conversionRate": 0.041,
+    "ROI": 0.86,
+    "Path Count": 1842142,
+    "Impression Per Node": 6.35,
+    "Conversion Rate": 0.041,
     "pathId": 265,
     "nodes": [
       {
@@ -8425,13 +8425,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.01
+    "Effectiveness": 1.01
   },
   {
-    "roi": 0.49,
-    "pathCount": 3979693,
-    "impressionPerNode": 4.49,
-    "conversionRate": 0.015,
+    "ROI": 0.49,
+    "Path Count": 3979693,
+    "Impression Per Node": 4.49,
+    "Conversion Rate": 0.015,
     "pathId": 266,
     "nodes": [
       {
@@ -8453,13 +8453,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.03
+    "Effectiveness": 1.03
   },
   {
-    "roi": 0.59,
-    "pathCount": 5706788,
-    "impressionPerNode": 3.18,
-    "conversionRate": 0.0,
+    "ROI": 0.59,
+    "Path Count": 5706788,
+    "Impression Per Node": 3.18,
+    "Conversion Rate": 0.0,
     "pathId": 267,
     "nodes": [
       {
@@ -8487,13 +8487,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 1.59,
-    "pathCount": 27270,
-    "impressionPerNode": 4.68,
-    "conversionRate": 0.038,
+    "ROI": 1.59,
+    "Path Count": 27270,
+    "Impression Per Node": 4.68,
+    "Conversion Rate": 0.038,
     "pathId": 268,
     "nodes": [
       {
@@ -8533,13 +8533,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.65
+    "Effectiveness": 0.65
   },
   {
-    "roi": 4.16,
-    "pathCount": 580050,
-    "impressionPerNode": 3.27,
-    "conversionRate": 0.012,
+    "ROI": 4.16,
+    "Path Count": 580050,
+    "Impression Per Node": 3.27,
+    "Conversion Rate": 0.012,
     "pathId": 269,
     "nodes": [
       {
@@ -8597,13 +8597,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.0
+    "Effectiveness": 2.0
   },
   {
-    "roi": 0.14,
-    "pathCount": 1095279,
-    "impressionPerNode": 3.75,
-    "conversionRate": 0.001,
+    "ROI": 0.14,
+    "Path Count": 1095279,
+    "Impression Per Node": 3.75,
+    "Conversion Rate": 0.001,
     "pathId": 270,
     "nodes": [
       {
@@ -8619,13 +8619,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 1.92,
-    "pathCount": 8773639,
-    "impressionPerNode": 7.62,
-    "conversionRate": 0.029,
+    "ROI": 1.92,
+    "Path Count": 8773639,
+    "Impression Per Node": 7.62,
+    "Conversion Rate": 0.029,
     "pathId": 271,
     "nodes": [
       {
@@ -8647,13 +8647,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 1.78,
-    "pathCount": 6275689,
-    "impressionPerNode": 4.86,
-    "conversionRate": 0.002,
+    "ROI": 1.78,
+    "Path Count": 6275689,
+    "Impression Per Node": 4.86,
+    "Conversion Rate": 0.002,
     "pathId": 272,
     "nodes": [
       {
@@ -8693,13 +8693,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.0
+    "Effectiveness": 2.0
   },
   {
-    "roi": 1.34,
-    "pathCount": 1560194,
-    "impressionPerNode": 2.61,
-    "conversionRate": 0.008,
+    "ROI": 1.34,
+    "Path Count": 1560194,
+    "Impression Per Node": 2.61,
+    "Conversion Rate": 0.008,
     "pathId": 273,
     "nodes": [
       {
@@ -8733,13 +8733,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.4,
-    "pathCount": 2539953,
-    "impressionPerNode": 5.82,
-    "conversionRate": 0.01,
+    "ROI": 0.4,
+    "Path Count": 2539953,
+    "Impression Per Node": 5.82,
+    "Conversion Rate": 0.01,
     "pathId": 274,
     "nodes": [
       {
@@ -8755,13 +8755,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 0.42,
-    "pathCount": 2252927,
-    "impressionPerNode": 7.82,
-    "conversionRate": 0.03,
+    "ROI": 0.42,
+    "Path Count": 2252927,
+    "Impression Per Node": 7.82,
+    "Conversion Rate": 0.03,
     "pathId": 275,
     "nodes": [
       {
@@ -8795,13 +8795,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 1.25,
-    "pathCount": 1899817,
-    "impressionPerNode": 7.25,
-    "conversionRate": 0.001,
+    "ROI": 1.25,
+    "Path Count": 1899817,
+    "Impression Per Node": 7.25,
+    "Conversion Rate": 0.001,
     "pathId": 276,
     "nodes": [
       {
@@ -8817,13 +8817,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 1.17,
-    "pathCount": 805732,
-    "impressionPerNode": 6.43,
-    "conversionRate": 0.004,
+    "ROI": 1.17,
+    "Path Count": 805732,
+    "Impression Per Node": 6.43,
+    "Conversion Rate": 0.004,
     "pathId": 277,
     "nodes": [
       {
@@ -8839,13 +8839,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.16,
-    "pathCount": 5470671,
-    "impressionPerNode": 4.11,
-    "conversionRate": 0.003,
+    "ROI": 0.16,
+    "Path Count": 5470671,
+    "Impression Per Node": 4.11,
+    "Conversion Rate": 0.003,
     "pathId": 278,
     "nodes": [
       {
@@ -8861,13 +8861,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 0.17,
-    "pathCount": 4846299,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.025,
+    "ROI": 0.17,
+    "Path Count": 4846299,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.025,
     "pathId": 279,
     "nodes": [
       {
@@ -8895,13 +8895,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 0.41,
-    "pathCount": 2740618,
-    "impressionPerNode": 7.64,
-    "conversionRate": 0.014,
+    "ROI": 0.41,
+    "Path Count": 2740618,
+    "Impression Per Node": 7.64,
+    "Conversion Rate": 0.014,
     "pathId": 280,
     "nodes": [
       {
@@ -8941,13 +8941,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 0.53,
-    "pathCount": 7893464,
-    "impressionPerNode": 6.6,
-    "conversionRate": 0.028,
+    "ROI": 0.53,
+    "Path Count": 7893464,
+    "Impression Per Node": 6.6,
+    "Conversion Rate": 0.028,
     "pathId": 281,
     "nodes": [
       {
@@ -8969,13 +8969,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 1.5,
-    "pathCount": 8987868,
-    "impressionPerNode": 6.4,
-    "conversionRate": 0.036,
+    "ROI": 1.5,
+    "Path Count": 8987868,
+    "Impression Per Node": 6.4,
+    "Conversion Rate": 0.036,
     "pathId": 282,
     "nodes": [
       {
@@ -8997,13 +8997,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.44
+    "Effectiveness": 0.44
   },
   {
-    "roi": 0.02,
-    "pathCount": 2871127,
-    "impressionPerNode": 5.55,
-    "conversionRate": 0.015,
+    "ROI": 0.02,
+    "Path Count": 2871127,
+    "Impression Per Node": 5.55,
+    "Conversion Rate": 0.015,
     "pathId": 283,
     "nodes": [
       {
@@ -9025,13 +9025,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 0.17,
-    "pathCount": 3568539,
-    "impressionPerNode": 3.6,
-    "conversionRate": 0.081,
+    "ROI": 0.17,
+    "Path Count": 3568539,
+    "Impression Per Node": 3.6,
+    "Conversion Rate": 0.081,
     "pathId": 284,
     "nodes": [
       {
@@ -9047,13 +9047,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 3.13,
-    "pathCount": 5488959,
-    "impressionPerNode": 4.59,
-    "conversionRate": 0.052,
+    "ROI": 3.13,
+    "Path Count": 5488959,
+    "Impression Per Node": 4.59,
+    "Conversion Rate": 0.052,
     "pathId": 285,
     "nodes": [
       {
@@ -9069,13 +9069,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.14
+    "Effectiveness": 1.14
   },
   {
-    "roi": 0.26,
-    "pathCount": 7404102,
-    "impressionPerNode": 3.81,
-    "conversionRate": 0.003,
+    "ROI": 0.26,
+    "Path Count": 7404102,
+    "Impression Per Node": 3.81,
+    "Conversion Rate": 0.003,
     "pathId": 286,
     "nodes": [
       {
@@ -9115,13 +9115,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.79
+    "Effectiveness": 1.79
   },
   {
-    "roi": 0.64,
-    "pathCount": 6768417,
-    "impressionPerNode": 6.34,
-    "conversionRate": 0.036,
+    "ROI": 0.64,
+    "Path Count": 6768417,
+    "Impression Per Node": 6.34,
+    "Conversion Rate": 0.036,
     "pathId": 287,
     "nodes": [
       {
@@ -9137,13 +9137,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 1.07,
-    "pathCount": 5585911,
-    "impressionPerNode": 7.84,
-    "conversionRate": 0.005,
+    "ROI": 1.07,
+    "Path Count": 5585911,
+    "Impression Per Node": 7.84,
+    "Conversion Rate": 0.005,
     "pathId": 288,
     "nodes": [
       {
@@ -9171,13 +9171,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 3.46,
-    "pathCount": 3531249,
-    "impressionPerNode": 7.19,
-    "conversionRate": 0.027,
+    "ROI": 3.46,
+    "Path Count": 3531249,
+    "Impression Per Node": 7.19,
+    "Conversion Rate": 0.027,
     "pathId": 289,
     "nodes": [
       {
@@ -9205,13 +9205,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.75,
-    "pathCount": 2735924,
-    "impressionPerNode": 7.87,
-    "conversionRate": 0.029,
+    "ROI": 1.75,
+    "Path Count": 2735924,
+    "Impression Per Node": 7.87,
+    "Conversion Rate": 0.029,
     "pathId": 290,
     "nodes": [
       {
@@ -9227,13 +9227,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.32
+    "Effectiveness": 0.32
   },
   {
-    "roi": 0.91,
-    "pathCount": 2589100,
-    "impressionPerNode": 2.37,
-    "conversionRate": 0.003,
+    "ROI": 0.91,
+    "Path Count": 2589100,
+    "Impression Per Node": 2.37,
+    "Conversion Rate": 0.003,
     "pathId": 291,
     "nodes": [
       {
@@ -9255,13 +9255,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.97
+    "Effectiveness": 0.97
   },
   {
-    "roi": 0.24,
-    "pathCount": 66996,
-    "impressionPerNode": 6.58,
-    "conversionRate": 0.014,
+    "ROI": 0.24,
+    "Path Count": 66996,
+    "Impression Per Node": 6.58,
+    "Conversion Rate": 0.014,
     "pathId": 292,
     "nodes": [
       {
@@ -9277,13 +9277,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.49,
-    "pathCount": 1344577,
-    "impressionPerNode": 6.23,
-    "conversionRate": 0.003,
+    "ROI": 0.49,
+    "Path Count": 1344577,
+    "Impression Per Node": 6.23,
+    "Conversion Rate": 0.003,
     "pathId": 293,
     "nodes": [
       {
@@ -9311,13 +9311,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.28
+    "Effectiveness": 1.28
   },
   {
-    "roi": 0.53,
-    "pathCount": 840847,
-    "impressionPerNode": 6.57,
-    "conversionRate": 0.015,
+    "ROI": 0.53,
+    "Path Count": 840847,
+    "Impression Per Node": 6.57,
+    "Conversion Rate": 0.015,
     "pathId": 294,
     "nodes": [
       {
@@ -9333,13 +9333,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.26
+    "Effectiveness": 1.26
   },
   {
-    "roi": 1.11,
-    "pathCount": 1148722,
-    "impressionPerNode": 6.64,
-    "conversionRate": 0.034,
+    "ROI": 1.11,
+    "Path Count": 1148722,
+    "Impression Per Node": 6.64,
+    "Conversion Rate": 0.034,
     "pathId": 295,
     "nodes": [
       {
@@ -9373,13 +9373,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 2.11,
-    "pathCount": 2236859,
-    "impressionPerNode": 5.52,
-    "conversionRate": 0.084,
+    "ROI": 2.11,
+    "Path Count": 2236859,
+    "Impression Per Node": 5.52,
+    "Conversion Rate": 0.084,
     "pathId": 296,
     "nodes": [
       {
@@ -9395,13 +9395,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.08
+    "Effectiveness": 1.08
   },
   {
-    "roi": 1.62,
-    "pathCount": 4900555,
-    "impressionPerNode": 6.15,
-    "conversionRate": 0.003,
+    "ROI": 1.62,
+    "Path Count": 4900555,
+    "Impression Per Node": 6.15,
+    "Conversion Rate": 0.003,
     "pathId": 297,
     "nodes": [
       {
@@ -9441,13 +9441,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.07
+    "Effectiveness": 1.07
   },
   {
-    "roi": 2.44,
-    "pathCount": 6845009,
-    "impressionPerNode": 6.32,
-    "conversionRate": 0.027,
+    "ROI": 2.44,
+    "Path Count": 6845009,
+    "Impression Per Node": 6.32,
+    "Conversion Rate": 0.027,
     "pathId": 298,
     "nodes": [
       {
@@ -9463,13 +9463,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.6,
-    "pathCount": 5571620,
-    "impressionPerNode": 7.75,
-    "conversionRate": 0.046,
+    "ROI": 0.6,
+    "Path Count": 5571620,
+    "Impression Per Node": 7.75,
+    "Conversion Rate": 0.046,
     "pathId": 299,
     "nodes": [
       {
@@ -9509,13 +9509,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.32
+    "Effectiveness": 1.32
   },
   {
-    "roi": 0.56,
-    "pathCount": 1519887,
-    "impressionPerNode": 7.26,
-    "conversionRate": 0.027,
+    "ROI": 0.56,
+    "Path Count": 1519887,
+    "Impression Per Node": 7.26,
+    "Conversion Rate": 0.027,
     "pathId": 300,
     "nodes": [
       {
@@ -9531,13 +9531,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.0,
-    "pathCount": 2300744,
-    "impressionPerNode": 2.1,
-    "conversionRate": 0.011,
+    "ROI": 0.0,
+    "Path Count": 2300744,
+    "Impression Per Node": 2.1,
+    "Conversion Rate": 0.011,
     "pathId": 301,
     "nodes": [
       {
@@ -9565,13 +9565,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.91,
-    "pathCount": 1004157,
-    "impressionPerNode": 1.78,
-    "conversionRate": 0.028,
+    "ROI": 0.91,
+    "Path Count": 1004157,
+    "Impression Per Node": 1.78,
+    "Conversion Rate": 0.028,
     "pathId": 302,
     "nodes": [
       {
@@ -9593,13 +9593,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 1.11,
-    "pathCount": 4057608,
-    "impressionPerNode": 4.65,
-    "conversionRate": 0.025,
+    "ROI": 1.11,
+    "Path Count": 4057608,
+    "Impression Per Node": 4.65,
+    "Conversion Rate": 0.025,
     "pathId": 303,
     "nodes": [
       {
@@ -9615,13 +9615,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.62
+    "Effectiveness": 1.62
   },
   {
-    "roi": 0.6,
-    "pathCount": 2314722,
-    "impressionPerNode": 5.81,
-    "conversionRate": 0.007,
+    "ROI": 0.6,
+    "Path Count": 2314722,
+    "Impression Per Node": 5.81,
+    "Conversion Rate": 0.007,
     "pathId": 304,
     "nodes": [
       {
@@ -9673,13 +9673,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.16
+    "Effectiveness": 1.16
   },
   {
-    "roi": 0.13,
-    "pathCount": 369544,
-    "impressionPerNode": 1.85,
-    "conversionRate": 0.021,
+    "ROI": 0.13,
+    "Path Count": 369544,
+    "Impression Per Node": 1.85,
+    "Conversion Rate": 0.021,
     "pathId": 305,
     "nodes": [
       {
@@ -9731,13 +9731,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.27,
-    "pathCount": 1980965,
-    "impressionPerNode": 2.3,
-    "conversionRate": 0.003,
+    "ROI": 0.27,
+    "Path Count": 1980965,
+    "Impression Per Node": 2.3,
+    "Conversion Rate": 0.003,
     "pathId": 306,
     "nodes": [
       {
@@ -9753,13 +9753,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 2.46,
-    "pathCount": 462389,
-    "impressionPerNode": 5.84,
-    "conversionRate": 0.004,
+    "ROI": 2.46,
+    "Path Count": 462389,
+    "Impression Per Node": 5.84,
+    "Conversion Rate": 0.004,
     "pathId": 307,
     "nodes": [
       {
@@ -9775,13 +9775,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.03
+    "Effectiveness": 1.03
   },
   {
-    "roi": 0.71,
-    "pathCount": 5953397,
-    "impressionPerNode": 7.37,
-    "conversionRate": 0.002,
+    "ROI": 0.71,
+    "Path Count": 5953397,
+    "Impression Per Node": 7.37,
+    "Conversion Rate": 0.002,
     "pathId": 308,
     "nodes": [
       {
@@ -9833,13 +9833,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.7,
-    "pathCount": 4165,
-    "impressionPerNode": 4.3,
-    "conversionRate": 0.006,
+    "ROI": 0.7,
+    "Path Count": 4165,
+    "Impression Per Node": 4.3,
+    "Conversion Rate": 0.006,
     "pathId": 309,
     "nodes": [
       {
@@ -9855,13 +9855,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 1.85,
-    "pathCount": 1897453,
-    "impressionPerNode": 4.99,
-    "conversionRate": 0.027,
+    "ROI": 1.85,
+    "Path Count": 1897453,
+    "Impression Per Node": 4.99,
+    "Conversion Rate": 0.027,
     "pathId": 310,
     "nodes": [
       {
@@ -9883,13 +9883,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.88
+    "Effectiveness": 1.88
   },
   {
-    "roi": 0.3,
-    "pathCount": 551525,
-    "impressionPerNode": 5.17,
-    "conversionRate": 0.021,
+    "ROI": 0.3,
+    "Path Count": 551525,
+    "Impression Per Node": 5.17,
+    "Conversion Rate": 0.021,
     "pathId": 311,
     "nodes": [
       {
@@ -9905,13 +9905,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.1
+    "Effectiveness": 1.1
   },
   {
-    "roi": 1.53,
-    "pathCount": 4373860,
-    "impressionPerNode": 7.73,
-    "conversionRate": 0.04,
+    "ROI": 1.53,
+    "Path Count": 4373860,
+    "Impression Per Node": 7.73,
+    "Conversion Rate": 0.04,
     "pathId": 312,
     "nodes": [
       {
@@ -9927,13 +9927,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 1.39,
-    "pathCount": 1322780,
-    "impressionPerNode": 2.53,
-    "conversionRate": 0.001,
+    "ROI": 1.39,
+    "Path Count": 1322780,
+    "Impression Per Node": 2.53,
+    "Conversion Rate": 0.001,
     "pathId": 313,
     "nodes": [
       {
@@ -9967,13 +9967,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 1.92,
-    "pathCount": 5345740,
-    "impressionPerNode": 3.45,
-    "conversionRate": 0.003,
+    "ROI": 1.92,
+    "Path Count": 5345740,
+    "Impression Per Node": 3.45,
+    "Conversion Rate": 0.003,
     "pathId": 314,
     "nodes": [
       {
@@ -9995,13 +9995,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 1.14,
-    "pathCount": 3136478,
-    "impressionPerNode": 5.21,
-    "conversionRate": 0.0,
+    "ROI": 1.14,
+    "Path Count": 3136478,
+    "Impression Per Node": 5.21,
+    "Conversion Rate": 0.0,
     "pathId": 315,
     "nodes": [
       {
@@ -10035,13 +10035,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.53
+    "Effectiveness": 1.53
   },
   {
-    "roi": 0.44,
-    "pathCount": 137163,
-    "impressionPerNode": 7.99,
-    "conversionRate": 0.008,
+    "ROI": 0.44,
+    "Path Count": 137163,
+    "Impression Per Node": 7.99,
+    "Conversion Rate": 0.008,
     "pathId": 316,
     "nodes": [
       {
@@ -10057,13 +10057,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.39,
-    "pathCount": 5070765,
-    "impressionPerNode": 1.97,
-    "conversionRate": 0.015,
+    "ROI": 0.39,
+    "Path Count": 5070765,
+    "Impression Per Node": 1.97,
+    "Conversion Rate": 0.015,
     "pathId": 317,
     "nodes": [
       {
@@ -10085,13 +10085,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.78
+    "Effectiveness": 1.78
   },
   {
-    "roi": 1.33,
-    "pathCount": 2270443,
-    "impressionPerNode": 6.01,
-    "conversionRate": 0.034,
+    "ROI": 1.33,
+    "Path Count": 2270443,
+    "Impression Per Node": 6.01,
+    "Conversion Rate": 0.034,
     "pathId": 318,
     "nodes": [
       {
@@ -10137,13 +10137,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 3.14,
-    "pathCount": 1188727,
-    "impressionPerNode": 5.46,
-    "conversionRate": 0.038,
+    "ROI": 3.14,
+    "Path Count": 1188727,
+    "Impression Per Node": 5.46,
+    "Conversion Rate": 0.038,
     "pathId": 319,
     "nodes": [
       {
@@ -10159,13 +10159,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.68
+    "Effectiveness": 0.68
   },
   {
-    "roi": 4.62,
-    "pathCount": 523089,
-    "impressionPerNode": 5.51,
-    "conversionRate": 0.07,
+    "ROI": 4.62,
+    "Path Count": 523089,
+    "Impression Per Node": 5.51,
+    "Conversion Rate": 0.07,
     "pathId": 320,
     "nodes": [
       {
@@ -10193,13 +10193,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 3.2,
-    "pathCount": 3337495,
-    "impressionPerNode": 4.4,
-    "conversionRate": 0.011,
+    "ROI": 3.2,
+    "Path Count": 3337495,
+    "Impression Per Node": 4.4,
+    "Conversion Rate": 0.011,
     "pathId": 321,
     "nodes": [
       {
@@ -10215,13 +10215,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.46
+    "Effectiveness": 1.46
   },
   {
-    "roi": 0.67,
-    "pathCount": 16063,
-    "impressionPerNode": 7.02,
-    "conversionRate": 0.037,
+    "ROI": 0.67,
+    "Path Count": 16063,
+    "Impression Per Node": 7.02,
+    "Conversion Rate": 0.037,
     "pathId": 322,
     "nodes": [
       {
@@ -10237,13 +10237,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 0.75,
-    "pathCount": 3370293,
-    "impressionPerNode": 4.47,
-    "conversionRate": 0.018,
+    "ROI": 0.75,
+    "Path Count": 3370293,
+    "Impression Per Node": 4.47,
+    "Conversion Rate": 0.018,
     "pathId": 323,
     "nodes": [
       {
@@ -10265,13 +10265,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.04
+    "Effectiveness": 1.04
   },
   {
-    "roi": 0.62,
-    "pathCount": 1787785,
-    "impressionPerNode": 7.84,
-    "conversionRate": 0.004,
+    "ROI": 0.62,
+    "Path Count": 1787785,
+    "Impression Per Node": 7.84,
+    "Conversion Rate": 0.004,
     "pathId": 324,
     "nodes": [
       {
@@ -10299,13 +10299,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.13
+    "Effectiveness": 1.13
   },
   {
-    "roi": 0.02,
-    "pathCount": 1211840,
-    "impressionPerNode": 6.16,
-    "conversionRate": 0.0,
+    "ROI": 0.02,
+    "Path Count": 1211840,
+    "Impression Per Node": 6.16,
+    "Conversion Rate": 0.0,
     "pathId": 325,
     "nodes": [
       {
@@ -10321,13 +10321,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.29,
-    "pathCount": 152249,
-    "impressionPerNode": 6.4,
-    "conversionRate": 0.042,
+    "ROI": 0.29,
+    "Path Count": 152249,
+    "Impression Per Node": 6.4,
+    "Conversion Rate": 0.042,
     "pathId": 326,
     "nodes": [
       {
@@ -10361,13 +10361,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.16
+    "Effectiveness": 1.16
   },
   {
-    "roi": 1.78,
-    "pathCount": 314730,
-    "impressionPerNode": 3.6,
-    "conversionRate": 0.002,
+    "ROI": 1.78,
+    "Path Count": 314730,
+    "Impression Per Node": 3.6,
+    "Conversion Rate": 0.002,
     "pathId": 327,
     "nodes": [
       {
@@ -10395,13 +10395,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 2.96,
-    "pathCount": 1242651,
-    "impressionPerNode": 3.61,
-    "conversionRate": 0.028,
+    "ROI": 2.96,
+    "Path Count": 1242651,
+    "Impression Per Node": 3.61,
+    "Conversion Rate": 0.028,
     "pathId": 328,
     "nodes": [
       {
@@ -10417,13 +10417,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.76,
-    "pathCount": 108877,
-    "impressionPerNode": 7.91,
-    "conversionRate": 0.001,
+    "ROI": 0.76,
+    "Path Count": 108877,
+    "Impression Per Node": 7.91,
+    "Conversion Rate": 0.001,
     "pathId": 329,
     "nodes": [
       {
@@ -10445,13 +10445,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.19
+    "Effectiveness": 1.19
   },
   {
-    "roi": 0.75,
-    "pathCount": 4348106,
-    "impressionPerNode": 2.37,
-    "conversionRate": 0.005,
+    "ROI": 0.75,
+    "Path Count": 4348106,
+    "Impression Per Node": 2.37,
+    "Conversion Rate": 0.005,
     "pathId": 330,
     "nodes": [
       {
@@ -10473,13 +10473,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.98
+    "Effectiveness": 1.98
   },
   {
-    "roi": 2.09,
-    "pathCount": 1377247,
-    "impressionPerNode": 3.61,
-    "conversionRate": 0.021,
+    "ROI": 2.09,
+    "Path Count": 1377247,
+    "Impression Per Node": 3.61,
+    "Conversion Rate": 0.021,
     "pathId": 331,
     "nodes": [
       {
@@ -10495,13 +10495,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 3.69,
-    "pathCount": 265983,
-    "impressionPerNode": 7.07,
-    "conversionRate": 0.01,
+    "ROI": 3.69,
+    "Path Count": 265983,
+    "Impression Per Node": 7.07,
+    "Conversion Rate": 0.01,
     "pathId": 332,
     "nodes": [
       {
@@ -10523,13 +10523,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.67
+    "Effectiveness": 2.67
   },
   {
-    "roi": 0.23,
-    "pathCount": 8792563,
-    "impressionPerNode": 7.49,
-    "conversionRate": 0.055,
+    "ROI": 0.23,
+    "Path Count": 8792563,
+    "Impression Per Node": 7.49,
+    "Conversion Rate": 0.055,
     "pathId": 333,
     "nodes": [
       {
@@ -10545,13 +10545,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.31,
-    "pathCount": 1512286,
-    "impressionPerNode": 6.03,
-    "conversionRate": 0.008,
+    "ROI": 0.31,
+    "Path Count": 1512286,
+    "Impression Per Node": 6.03,
+    "Conversion Rate": 0.008,
     "pathId": 334,
     "nodes": [
       {
@@ -10585,13 +10585,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.42,
-    "pathCount": 1456767,
-    "impressionPerNode": 7.97,
-    "conversionRate": 0.003,
+    "ROI": 0.42,
+    "Path Count": 1456767,
+    "Impression Per Node": 7.97,
+    "Conversion Rate": 0.003,
     "pathId": 335,
     "nodes": [
       {
@@ -10607,13 +10607,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 0.72,
-    "pathCount": 325681,
-    "impressionPerNode": 4.99,
-    "conversionRate": 0.016,
+    "ROI": 0.72,
+    "Path Count": 325681,
+    "Impression Per Node": 4.99,
+    "Conversion Rate": 0.016,
     "pathId": 336,
     "nodes": [
       {
@@ -10647,13 +10647,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 1.58,
-    "pathCount": 305602,
-    "impressionPerNode": 7.95,
-    "conversionRate": 0.0,
+    "ROI": 1.58,
+    "Path Count": 305602,
+    "Impression Per Node": 7.95,
+    "Conversion Rate": 0.0,
     "pathId": 337,
     "nodes": [
       {
@@ -10693,13 +10693,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.05,
-    "pathCount": 1873297,
-    "impressionPerNode": 7.1,
-    "conversionRate": 0.004,
+    "ROI": 0.05,
+    "Path Count": 1873297,
+    "Impression Per Node": 7.1,
+    "Conversion Rate": 0.004,
     "pathId": 338,
     "nodes": [
       {
@@ -10715,13 +10715,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 0.2,
-    "pathCount": 2575333,
-    "impressionPerNode": 6.41,
-    "conversionRate": 0.009,
+    "ROI": 0.2,
+    "Path Count": 2575333,
+    "Impression Per Node": 6.41,
+    "Conversion Rate": 0.009,
     "pathId": 339,
     "nodes": [
       {
@@ -10737,13 +10737,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 3.86,
-    "pathCount": 1372389,
-    "impressionPerNode": 5.08,
-    "conversionRate": 0.023,
+    "ROI": 3.86,
+    "Path Count": 1372389,
+    "Impression Per Node": 5.08,
+    "Conversion Rate": 0.023,
     "pathId": 340,
     "nodes": [
       {
@@ -10759,13 +10759,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 0.45,
-    "pathCount": 749950,
-    "impressionPerNode": 5.57,
-    "conversionRate": 0.029,
+    "ROI": 0.45,
+    "Path Count": 749950,
+    "Impression Per Node": 5.57,
+    "Conversion Rate": 0.029,
     "pathId": 341,
     "nodes": [
       {
@@ -10781,13 +10781,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.11
+    "Effectiveness": 1.11
   },
   {
-    "roi": 4.22,
-    "pathCount": 687415,
-    "impressionPerNode": 5.12,
-    "conversionRate": 0.02,
+    "ROI": 4.22,
+    "Path Count": 687415,
+    "Impression Per Node": 5.12,
+    "Conversion Rate": 0.02,
     "pathId": 342,
     "nodes": [
       {
@@ -10815,13 +10815,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.51
+    "Effectiveness": 1.51
   },
   {
-    "roi": 3.13,
-    "pathCount": 332174,
-    "impressionPerNode": 6.88,
-    "conversionRate": 0.023,
+    "ROI": 3.13,
+    "Path Count": 332174,
+    "Impression Per Node": 6.88,
+    "Conversion Rate": 0.023,
     "pathId": 343,
     "nodes": [
       {
@@ -10855,13 +10855,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 3.47,
-    "pathCount": 4463876,
-    "impressionPerNode": 7.28,
-    "conversionRate": 0.003,
+    "ROI": 3.47,
+    "Path Count": 4463876,
+    "Impression Per Node": 7.28,
+    "Conversion Rate": 0.003,
     "pathId": 344,
     "nodes": [
       {
@@ -10889,13 +10889,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.48
+    "Effectiveness": 0.48
   },
   {
-    "roi": 3.87,
-    "pathCount": 2381709,
-    "impressionPerNode": 7.17,
-    "conversionRate": 0.005,
+    "ROI": 3.87,
+    "Path Count": 2381709,
+    "Impression Per Node": 7.17,
+    "Conversion Rate": 0.005,
     "pathId": 345,
     "nodes": [
       {
@@ -10929,13 +10929,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 1.04,
-    "pathCount": 4880852,
-    "impressionPerNode": 5.75,
-    "conversionRate": 0.043,
+    "ROI": 1.04,
+    "Path Count": 4880852,
+    "Impression Per Node": 5.75,
+    "Conversion Rate": 0.043,
     "pathId": 346,
     "nodes": [
       {
@@ -10951,13 +10951,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.88
+    "Effectiveness": 1.88
   },
   {
-    "roi": 2.25,
-    "pathCount": 1599630,
-    "impressionPerNode": 5.3,
-    "conversionRate": 0.004,
+    "ROI": 2.25,
+    "Path Count": 1599630,
+    "Impression Per Node": 5.3,
+    "Conversion Rate": 0.004,
     "pathId": 347,
     "nodes": [
       {
@@ -11009,13 +11009,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.05,
-    "pathCount": 5477627,
-    "impressionPerNode": 5.74,
-    "conversionRate": 0.032,
+    "ROI": 0.05,
+    "Path Count": 5477627,
+    "Impression Per Node": 5.74,
+    "Conversion Rate": 0.032,
     "pathId": 348,
     "nodes": [
       {
@@ -11037,13 +11037,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 2.57,
-    "pathCount": 829470,
-    "impressionPerNode": 6.33,
-    "conversionRate": 0.034,
+    "ROI": 2.57,
+    "Path Count": 829470,
+    "Impression Per Node": 6.33,
+    "Conversion Rate": 0.034,
     "pathId": 349,
     "nodes": [
       {
@@ -11065,13 +11065,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 2.0,
-    "pathCount": 5359063,
-    "impressionPerNode": 5.21,
-    "conversionRate": 0.075,
+    "ROI": 2.0,
+    "Path Count": 5359063,
+    "Impression Per Node": 5.21,
+    "Conversion Rate": 0.075,
     "pathId": 350,
     "nodes": [
       {
@@ -11105,13 +11105,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.02,
-    "pathCount": 83645,
-    "impressionPerNode": 3.93,
-    "conversionRate": 0.005,
+    "ROI": 0.02,
+    "Path Count": 83645,
+    "Impression Per Node": 3.93,
+    "Conversion Rate": 0.005,
     "pathId": 351,
     "nodes": [
       {
@@ -11133,13 +11133,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 0.17,
-    "pathCount": 7034712,
-    "impressionPerNode": 6.82,
-    "conversionRate": 0.011,
+    "ROI": 0.17,
+    "Path Count": 7034712,
+    "Impression Per Node": 6.82,
+    "Conversion Rate": 0.011,
     "pathId": 352,
     "nodes": [
       {
@@ -11167,13 +11167,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 0.68,
-    "pathCount": 456499,
-    "impressionPerNode": 7.85,
-    "conversionRate": 0.0,
+    "ROI": 0.68,
+    "Path Count": 456499,
+    "Impression Per Node": 7.85,
+    "Conversion Rate": 0.0,
     "pathId": 353,
     "nodes": [
       {
@@ -11201,13 +11201,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.75
+    "Effectiveness": 1.75
   },
   {
-    "roi": 1.06,
-    "pathCount": 4119759,
-    "impressionPerNode": 1.5,
-    "conversionRate": 0.001,
+    "ROI": 1.06,
+    "Path Count": 4119759,
+    "Impression Per Node": 1.5,
+    "Conversion Rate": 0.001,
     "pathId": 354,
     "nodes": [
       {
@@ -11259,13 +11259,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.19,
-    "pathCount": 2577474,
-    "impressionPerNode": 5.43,
-    "conversionRate": 0.034,
+    "ROI": 0.19,
+    "Path Count": 2577474,
+    "Impression Per Node": 5.43,
+    "Conversion Rate": 0.034,
     "pathId": 355,
     "nodes": [
       {
@@ -11299,13 +11299,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.0
+    "Effectiveness": 1.0
   },
   {
-    "roi": 0.35,
-    "pathCount": 2765127,
-    "impressionPerNode": 5.23,
-    "conversionRate": 0.01,
+    "ROI": 0.35,
+    "Path Count": 2765127,
+    "Impression Per Node": 5.23,
+    "Conversion Rate": 0.01,
     "pathId": 356,
     "nodes": [
       {
@@ -11327,13 +11327,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.91
+    "Effectiveness": 0.91
   },
   {
-    "roi": 0.96,
-    "pathCount": 812564,
-    "impressionPerNode": 6.9,
-    "conversionRate": 0.013,
+    "ROI": 0.96,
+    "Path Count": 812564,
+    "Impression Per Node": 6.9,
+    "Conversion Rate": 0.013,
     "pathId": 357,
     "nodes": [
       {
@@ -11385,13 +11385,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.66
+    "Effectiveness": 1.66
   },
   {
-    "roi": 0.95,
-    "pathCount": 1716019,
-    "impressionPerNode": 4.97,
-    "conversionRate": 0.0,
+    "ROI": 0.95,
+    "Path Count": 1716019,
+    "Impression Per Node": 4.97,
+    "Conversion Rate": 0.0,
     "pathId": 358,
     "nodes": [
       {
@@ -11413,13 +11413,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 2.48,
-    "pathCount": 6696841,
-    "impressionPerNode": 6.53,
-    "conversionRate": 0.027,
+    "ROI": 2.48,
+    "Path Count": 6696841,
+    "Impression Per Node": 6.53,
+    "Conversion Rate": 0.027,
     "pathId": 359,
     "nodes": [
       {
@@ -11435,13 +11435,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.03
+    "Effectiveness": 1.03
   },
   {
-    "roi": 1.37,
-    "pathCount": 1497638,
-    "impressionPerNode": 5.4,
-    "conversionRate": 0.048,
+    "ROI": 1.37,
+    "Path Count": 1497638,
+    "Impression Per Node": 5.4,
+    "Conversion Rate": 0.048,
     "pathId": 360,
     "nodes": [
       {
@@ -11457,13 +11457,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.87,
-    "pathCount": 5554292,
-    "impressionPerNode": 7.3,
-    "conversionRate": 0.027,
+    "ROI": 0.87,
+    "Path Count": 5554292,
+    "Impression Per Node": 7.3,
+    "Conversion Rate": 0.027,
     "pathId": 361,
     "nodes": [
       {
@@ -11485,13 +11485,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 1.73,
-    "pathCount": 4226543,
-    "impressionPerNode": 5.97,
-    "conversionRate": 0.034,
+    "ROI": 1.73,
+    "Path Count": 4226543,
+    "Impression Per Node": 5.97,
+    "Conversion Rate": 0.034,
     "pathId": 362,
     "nodes": [
       {
@@ -11519,13 +11519,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 4.23,
-    "pathCount": 1839767,
-    "impressionPerNode": 7.77,
-    "conversionRate": 0.018,
+    "ROI": 4.23,
+    "Path Count": 1839767,
+    "Impression Per Node": 7.77,
+    "Conversion Rate": 0.018,
     "pathId": 363,
     "nodes": [
       {
@@ -11565,13 +11565,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.53
+    "Effectiveness": 0.53
   },
   {
-    "roi": 2.43,
-    "pathCount": 963448,
-    "impressionPerNode": 4.51,
-    "conversionRate": 0.002,
+    "ROI": 2.43,
+    "Path Count": 963448,
+    "Impression Per Node": 4.51,
+    "Conversion Rate": 0.002,
     "pathId": 364,
     "nodes": [
       {
@@ -11587,13 +11587,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.62
+    "Effectiveness": 2.62
   },
   {
-    "roi": 0.25,
-    "pathCount": 2114674,
-    "impressionPerNode": 5.54,
-    "conversionRate": 0.0,
+    "ROI": 0.25,
+    "Path Count": 2114674,
+    "Impression Per Node": 5.54,
+    "Conversion Rate": 0.0,
     "pathId": 365,
     "nodes": [
       {
@@ -11621,13 +11621,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 0.37,
-    "pathCount": 208554,
-    "impressionPerNode": 2.89,
-    "conversionRate": 0.04,
+    "ROI": 0.37,
+    "Path Count": 208554,
+    "Impression Per Node": 2.89,
+    "Conversion Rate": 0.04,
     "pathId": 366,
     "nodes": [
       {
@@ -11649,13 +11649,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.51,
-    "pathCount": 4083840,
-    "impressionPerNode": 7.93,
-    "conversionRate": 0.001,
+    "ROI": 0.51,
+    "Path Count": 4083840,
+    "Impression Per Node": 7.93,
+    "Conversion Rate": 0.001,
     "pathId": 367,
     "nodes": [
       {
@@ -11689,13 +11689,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.42
+    "Effectiveness": 2.42
   },
   {
-    "roi": 0.89,
-    "pathCount": 3152331,
-    "impressionPerNode": 3.38,
-    "conversionRate": 0.027,
+    "ROI": 0.89,
+    "Path Count": 3152331,
+    "Impression Per Node": 3.38,
+    "Conversion Rate": 0.027,
     "pathId": 368,
     "nodes": [
       {
@@ -11723,13 +11723,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.01
+    "Effectiveness": 2.01
   },
   {
-    "roi": 0.39,
-    "pathCount": 4495941,
-    "impressionPerNode": 3.87,
-    "conversionRate": 0.026,
+    "ROI": 0.39,
+    "Path Count": 4495941,
+    "Impression Per Node": 3.87,
+    "Conversion Rate": 0.026,
     "pathId": 369,
     "nodes": [
       {
@@ -11757,13 +11757,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.38
+    "Effectiveness": 0.38
   },
   {
-    "roi": 0.16,
-    "pathCount": 463438,
-    "impressionPerNode": 7.08,
-    "conversionRate": 0.004,
+    "ROI": 0.16,
+    "Path Count": 463438,
+    "Impression Per Node": 7.08,
+    "Conversion Rate": 0.004,
     "pathId": 370,
     "nodes": [
       {
@@ -11779,13 +11779,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 0.46,
-    "pathCount": 468254,
-    "impressionPerNode": 6.27,
-    "conversionRate": 0.008,
+    "ROI": 0.46,
+    "Path Count": 468254,
+    "Impression Per Node": 6.27,
+    "Conversion Rate": 0.008,
     "pathId": 371,
     "nodes": [
       {
@@ -11801,13 +11801,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 1.33,
-    "pathCount": 1555276,
-    "impressionPerNode": 6.79,
-    "conversionRate": 0.063,
+    "ROI": 1.33,
+    "Path Count": 1555276,
+    "Impression Per Node": 6.79,
+    "Conversion Rate": 0.063,
     "pathId": 372,
     "nodes": [
       {
@@ -11841,13 +11841,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 1.58,
-    "pathCount": 2871404,
-    "impressionPerNode": 6.1,
-    "conversionRate": 0.03,
+    "ROI": 1.58,
+    "Path Count": 2871404,
+    "Impression Per Node": 6.1,
+    "Conversion Rate": 0.03,
     "pathId": 373,
     "nodes": [
       {
@@ -11893,13 +11893,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 3.42,
-    "pathCount": 779952,
-    "impressionPerNode": 1.95,
-    "conversionRate": 0.011,
+    "ROI": 3.42,
+    "Path Count": 779952,
+    "Impression Per Node": 1.95,
+    "Conversion Rate": 0.011,
     "pathId": 374,
     "nodes": [
       {
@@ -11915,13 +11915,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 0.43,
-    "pathCount": 1472149,
-    "impressionPerNode": 7.98,
-    "conversionRate": 0.066,
+    "ROI": 0.43,
+    "Path Count": 1472149,
+    "Impression Per Node": 7.98,
+    "Conversion Rate": 0.066,
     "pathId": 375,
     "nodes": [
       {
@@ -11955,13 +11955,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.35,
-    "pathCount": 108938,
-    "impressionPerNode": 4.34,
-    "conversionRate": 0.012,
+    "ROI": 2.35,
+    "Path Count": 108938,
+    "Impression Per Node": 4.34,
+    "Conversion Rate": 0.012,
     "pathId": 376,
     "nodes": [
       {
@@ -11995,13 +11995,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.17
+    "Effectiveness": 1.17
   },
   {
-    "roi": 0.05,
-    "pathCount": 1708716,
-    "impressionPerNode": 7.71,
-    "conversionRate": 0.051,
+    "ROI": 0.05,
+    "Path Count": 1708716,
+    "Impression Per Node": 7.71,
+    "Conversion Rate": 0.051,
     "pathId": 377,
     "nodes": [
       {
@@ -12023,13 +12023,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.8
+    "Effectiveness": 0.8
   },
   {
-    "roi": 0.25,
-    "pathCount": 4503493,
-    "impressionPerNode": 5.94,
-    "conversionRate": 0.026,
+    "ROI": 0.25,
+    "Path Count": 4503493,
+    "Impression Per Node": 5.94,
+    "Conversion Rate": 0.026,
     "pathId": 378,
     "nodes": [
       {
@@ -12057,13 +12057,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 0.84,
-    "pathCount": 329685,
-    "impressionPerNode": 7.42,
-    "conversionRate": 0.029,
+    "ROI": 0.84,
+    "Path Count": 329685,
+    "Impression Per Node": 7.42,
+    "Conversion Rate": 0.029,
     "pathId": 379,
     "nodes": [
       {
@@ -12085,13 +12085,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.43
+    "Effectiveness": 1.43
   },
   {
-    "roi": 0.69,
-    "pathCount": 111450,
-    "impressionPerNode": 7.6,
-    "conversionRate": 0.008,
+    "ROI": 0.69,
+    "Path Count": 111450,
+    "Impression Per Node": 7.6,
+    "Conversion Rate": 0.008,
     "pathId": 380,
     "nodes": [
       {
@@ -12107,13 +12107,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 1.04,
-    "pathCount": 5358813,
-    "impressionPerNode": 4.63,
-    "conversionRate": 0.003,
+    "ROI": 1.04,
+    "Path Count": 5358813,
+    "Impression Per Node": 4.63,
+    "Conversion Rate": 0.003,
     "pathId": 381,
     "nodes": [
       {
@@ -12153,13 +12153,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.35
+    "Effectiveness": 0.35
   },
   {
-    "roi": 0.1,
-    "pathCount": 159714,
-    "impressionPerNode": 6.53,
-    "conversionRate": 0.012,
+    "ROI": 0.1,
+    "Path Count": 159714,
+    "Impression Per Node": 6.53,
+    "Conversion Rate": 0.012,
     "pathId": 382,
     "nodes": [
       {
@@ -12181,13 +12181,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 4.11,
-    "pathCount": 429082,
-    "impressionPerNode": 7.22,
-    "conversionRate": 0.032,
+    "ROI": 4.11,
+    "Path Count": 429082,
+    "Impression Per Node": 7.22,
+    "Conversion Rate": 0.032,
     "pathId": 383,
     "nodes": [
       {
@@ -12203,13 +12203,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 2.26,
-    "pathCount": 1447451,
-    "impressionPerNode": 4.37,
-    "conversionRate": 0.008,
+    "ROI": 2.26,
+    "Path Count": 1447451,
+    "Impression Per Node": 4.37,
+    "Conversion Rate": 0.008,
     "pathId": 384,
     "nodes": [
       {
@@ -12225,13 +12225,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.91
+    "Effectiveness": 1.91
   },
   {
-    "roi": 0.15,
-    "pathCount": 5196921,
-    "impressionPerNode": 6.1,
-    "conversionRate": 0.005,
+    "ROI": 0.15,
+    "Path Count": 5196921,
+    "Impression Per Node": 6.1,
+    "Conversion Rate": 0.005,
     "pathId": 385,
     "nodes": [
       {
@@ -12253,13 +12253,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.38
+    "Effectiveness": 0.38
   },
   {
-    "roi": 0.88,
-    "pathCount": 607744,
-    "impressionPerNode": 7.65,
-    "conversionRate": 0.023,
+    "ROI": 0.88,
+    "Path Count": 607744,
+    "Impression Per Node": 7.65,
+    "Conversion Rate": 0.023,
     "pathId": 386,
     "nodes": [
       {
@@ -12275,13 +12275,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 0.79,
-    "pathCount": 692995,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.026,
+    "ROI": 0.79,
+    "Path Count": 692995,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.026,
     "pathId": 387,
     "nodes": [
       {
@@ -12321,13 +12321,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.61
+    "Effectiveness": 0.61
   },
   {
-    "roi": 0.8,
-    "pathCount": 1186068,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.04,
+    "ROI": 0.8,
+    "Path Count": 1186068,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.04,
     "pathId": 388,
     "nodes": [
       {
@@ -12343,13 +12343,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.65
+    "Effectiveness": 2.65
   },
   {
-    "roi": 0.2,
-    "pathCount": 4421040,
-    "impressionPerNode": 4.35,
-    "conversionRate": 0.038,
+    "ROI": 0.2,
+    "Path Count": 4421040,
+    "Impression Per Node": 4.35,
+    "Conversion Rate": 0.038,
     "pathId": 389,
     "nodes": [
       {
@@ -12365,13 +12365,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.92
+    "Effectiveness": 0.92
   },
   {
-    "roi": 0.49,
-    "pathCount": 470431,
-    "impressionPerNode": 5.8,
-    "conversionRate": 0.005,
+    "ROI": 0.49,
+    "Path Count": 470431,
+    "Impression Per Node": 5.8,
+    "Conversion Rate": 0.005,
     "pathId": 390,
     "nodes": [
       {
@@ -12387,13 +12387,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.17,
-    "pathCount": 7042044,
-    "impressionPerNode": 5.3,
-    "conversionRate": 0.007,
+    "ROI": 1.17,
+    "Path Count": 7042044,
+    "Impression Per Node": 5.3,
+    "Conversion Rate": 0.007,
     "pathId": 391,
     "nodes": [
       {
@@ -12415,13 +12415,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 1.27,
-    "pathCount": 1781448,
-    "impressionPerNode": 4.61,
-    "conversionRate": 0.054,
+    "ROI": 1.27,
+    "Path Count": 1781448,
+    "Impression Per Node": 4.61,
+    "Conversion Rate": 0.054,
     "pathId": 392,
     "nodes": [
       {
@@ -12437,13 +12437,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.21,
-    "pathCount": 1655268,
-    "impressionPerNode": 3.95,
-    "conversionRate": 0.034,
+    "ROI": 0.21,
+    "Path Count": 1655268,
+    "Impression Per Node": 3.95,
+    "Conversion Rate": 0.034,
     "pathId": 393,
     "nodes": [
       {
@@ -12471,13 +12471,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 0.4,
-    "pathCount": 3889050,
-    "impressionPerNode": 5.52,
-    "conversionRate": 0.001,
+    "ROI": 0.4,
+    "Path Count": 3889050,
+    "Impression Per Node": 5.52,
+    "Conversion Rate": 0.001,
     "pathId": 394,
     "nodes": [
       {
@@ -12499,13 +12499,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.78
+    "Effectiveness": 0.78
   },
   {
-    "roi": 0.37,
-    "pathCount": 811916,
-    "impressionPerNode": 7.11,
-    "conversionRate": 0.037,
+    "ROI": 0.37,
+    "Path Count": 811916,
+    "Impression Per Node": 7.11,
+    "Conversion Rate": 0.037,
     "pathId": 395,
     "nodes": [
       {
@@ -12521,13 +12521,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 0.29,
-    "pathCount": 2565971,
-    "impressionPerNode": 5.86,
-    "conversionRate": 0.004,
+    "ROI": 0.29,
+    "Path Count": 2565971,
+    "Impression Per Node": 5.86,
+    "Conversion Rate": 0.004,
     "pathId": 396,
     "nodes": [
       {
@@ -12567,13 +12567,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.44
+    "Effectiveness": 1.44
   },
   {
-    "roi": 0.23,
-    "pathCount": 5569656,
-    "impressionPerNode": 6.78,
-    "conversionRate": 0.007,
+    "ROI": 0.23,
+    "Path Count": 5569656,
+    "Impression Per Node": 6.78,
+    "Conversion Rate": 0.007,
     "pathId": 397,
     "nodes": [
       {
@@ -12589,13 +12589,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 3.15,
-    "pathCount": 1860056,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.011,
+    "ROI": 3.15,
+    "Path Count": 1860056,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.011,
     "pathId": 398,
     "nodes": [
       {
@@ -12617,13 +12617,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 2.02,
-    "pathCount": 5747974,
-    "impressionPerNode": 7.36,
-    "conversionRate": 0.061,
+    "ROI": 2.02,
+    "Path Count": 5747974,
+    "Impression Per Node": 7.36,
+    "Conversion Rate": 0.061,
     "pathId": 399,
     "nodes": [
       {
@@ -12639,13 +12639,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.89
+    "Effectiveness": 0.89
   },
   {
-    "roi": 0.0,
-    "pathCount": 1762492,
-    "impressionPerNode": 5.21,
-    "conversionRate": 0.003,
+    "ROI": 0.0,
+    "Path Count": 1762492,
+    "Impression Per Node": 5.21,
+    "Conversion Rate": 0.003,
     "pathId": 400,
     "nodes": [
       {
@@ -12661,13 +12661,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.16
+    "Effectiveness": 1.16
   },
   {
-    "roi": 0.06,
-    "pathCount": 1435813,
-    "impressionPerNode": 7.45,
-    "conversionRate": 0.007,
+    "ROI": 0.06,
+    "Path Count": 1435813,
+    "Impression Per Node": 7.45,
+    "Conversion Rate": 0.007,
     "pathId": 401,
     "nodes": [
       {
@@ -12689,13 +12689,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.64
+    "Effectiveness": 0.64
   },
   {
-    "roi": 1.28,
-    "pathCount": 691807,
-    "impressionPerNode": 5.24,
-    "conversionRate": 0.029,
+    "ROI": 1.28,
+    "Path Count": 691807,
+    "Impression Per Node": 5.24,
+    "Conversion Rate": 0.029,
     "pathId": 402,
     "nodes": [
       {
@@ -12729,13 +12729,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 2.83,
-    "pathCount": 8191190,
-    "impressionPerNode": 4.31,
-    "conversionRate": 0.004,
+    "ROI": 2.83,
+    "Path Count": 8191190,
+    "Impression Per Node": 4.31,
+    "Conversion Rate": 0.004,
     "pathId": 403,
     "nodes": [
       {
@@ -12763,13 +12763,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.47
+    "Effectiveness": 1.47
   },
   {
-    "roi": 0.27,
-    "pathCount": 2318554,
-    "impressionPerNode": 7.98,
-    "conversionRate": 0.02,
+    "ROI": 0.27,
+    "Path Count": 2318554,
+    "Impression Per Node": 7.98,
+    "Conversion Rate": 0.02,
     "pathId": 404,
     "nodes": [
       {
@@ -12797,13 +12797,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.2,
-    "pathCount": 1818855,
-    "impressionPerNode": 5.1,
-    "conversionRate": 0.048,
+    "ROI": 0.2,
+    "Path Count": 1818855,
+    "Impression Per Node": 5.1,
+    "Conversion Rate": 0.048,
     "pathId": 405,
     "nodes": [
       {
@@ -12819,13 +12819,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 1.26,
-    "pathCount": 5448383,
-    "impressionPerNode": 5.78,
-    "conversionRate": 0.012,
+    "ROI": 1.26,
+    "Path Count": 5448383,
+    "Impression Per Node": 5.78,
+    "Conversion Rate": 0.012,
     "pathId": 406,
     "nodes": [
       {
@@ -12841,13 +12841,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 2.37,
-    "pathCount": 1313982,
-    "impressionPerNode": 6.31,
-    "conversionRate": 0.002,
+    "ROI": 2.37,
+    "Path Count": 1313982,
+    "Impression Per Node": 6.31,
+    "Conversion Rate": 0.002,
     "pathId": 407,
     "nodes": [
       {
@@ -12887,13 +12887,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.51
+    "Effectiveness": 0.51
   },
   {
-    "roi": 0.0,
-    "pathCount": 4693865,
-    "impressionPerNode": 7.71,
-    "conversionRate": 0.081,
+    "ROI": 0.0,
+    "Path Count": 4693865,
+    "Impression Per Node": 7.71,
+    "Conversion Rate": 0.081,
     "pathId": 408,
     "nodes": [
       {
@@ -12933,13 +12933,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 0.01,
-    "pathCount": 858600,
-    "impressionPerNode": 7.0,
-    "conversionRate": 0.0,
+    "ROI": 0.01,
+    "Path Count": 858600,
+    "Impression Per Node": 7.0,
+    "Conversion Rate": 0.0,
     "pathId": 409,
     "nodes": [
       {
@@ -12955,13 +12955,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 2.48,
-    "pathCount": 8834568,
-    "impressionPerNode": 4.21,
-    "conversionRate": 0.022,
+    "ROI": 2.48,
+    "Path Count": 8834568,
+    "Impression Per Node": 4.21,
+    "Conversion Rate": 0.022,
     "pathId": 410,
     "nodes": [
       {
@@ -12989,13 +12989,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.48
+    "Effectiveness": 1.48
   },
   {
-    "roi": 0.08,
-    "pathCount": 512475,
-    "impressionPerNode": 5.03,
-    "conversionRate": 0.011,
+    "ROI": 0.08,
+    "Path Count": 512475,
+    "Impression Per Node": 5.03,
+    "Conversion Rate": 0.011,
     "pathId": 411,
     "nodes": [
       {
@@ -13023,13 +13023,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 0.34,
-    "pathCount": 214081,
-    "impressionPerNode": 6.74,
-    "conversionRate": 0.073,
+    "ROI": 0.34,
+    "Path Count": 214081,
+    "Impression Per Node": 6.74,
+    "Conversion Rate": 0.073,
     "pathId": 412,
     "nodes": [
       {
@@ -13063,13 +13063,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.19,
-    "pathCount": 3903788,
-    "impressionPerNode": 4.91,
-    "conversionRate": 0.037,
+    "ROI": 0.19,
+    "Path Count": 3903788,
+    "Impression Per Node": 4.91,
+    "Conversion Rate": 0.037,
     "pathId": 413,
     "nodes": [
       {
@@ -13085,13 +13085,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.87
+    "Effectiveness": 1.87
   },
   {
-    "roi": 0.62,
-    "pathCount": 4283644,
-    "impressionPerNode": 5.51,
-    "conversionRate": 0.051,
+    "ROI": 0.62,
+    "Path Count": 4283644,
+    "Impression Per Node": 5.51,
+    "Conversion Rate": 0.051,
     "pathId": 414,
     "nodes": [
       {
@@ -13107,13 +13107,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.81,
-    "pathCount": 1700228,
-    "impressionPerNode": 3.28,
-    "conversionRate": 0.004,
+    "ROI": 0.81,
+    "Path Count": 1700228,
+    "Impression Per Node": 3.28,
+    "Conversion Rate": 0.004,
     "pathId": 415,
     "nodes": [
       {
@@ -13129,13 +13129,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.62,
-    "pathCount": 461333,
-    "impressionPerNode": 6.13,
-    "conversionRate": 0.002,
+    "ROI": 2.62,
+    "Path Count": 461333,
+    "Impression Per Node": 6.13,
+    "Conversion Rate": 0.002,
     "pathId": 416,
     "nodes": [
       {
@@ -13163,13 +13163,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 0.02,
-    "pathCount": 3707533,
-    "impressionPerNode": 7.5,
-    "conversionRate": 0.025,
+    "ROI": 0.02,
+    "Path Count": 3707533,
+    "Impression Per Node": 7.5,
+    "Conversion Rate": 0.025,
     "pathId": 417,
     "nodes": [
       {
@@ -13191,13 +13191,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.77,
-    "pathCount": 5764050,
-    "impressionPerNode": 5.73,
-    "conversionRate": 0.008,
+    "ROI": 0.77,
+    "Path Count": 5764050,
+    "Impression Per Node": 5.73,
+    "Conversion Rate": 0.008,
     "pathId": 418,
     "nodes": [
       {
@@ -13225,13 +13225,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.35
+    "Effectiveness": 0.35
   },
   {
-    "roi": 0.18,
-    "pathCount": 2698798,
-    "impressionPerNode": 6.58,
-    "conversionRate": 0.019,
+    "ROI": 0.18,
+    "Path Count": 2698798,
+    "Impression Per Node": 6.58,
+    "Conversion Rate": 0.019,
     "pathId": 419,
     "nodes": [
       {
@@ -13265,13 +13265,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 0.22,
-    "pathCount": 265370,
-    "impressionPerNode": 5.88,
-    "conversionRate": 0.09,
+    "ROI": 0.22,
+    "Path Count": 265370,
+    "Impression Per Node": 5.88,
+    "Conversion Rate": 0.09,
     "pathId": 420,
     "nodes": [
       {
@@ -13287,13 +13287,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.46
+    "Effectiveness": 1.46
   },
   {
-    "roi": 0.34,
-    "pathCount": 3296056,
-    "impressionPerNode": 6.41,
-    "conversionRate": 0.02,
+    "ROI": 0.34,
+    "Path Count": 3296056,
+    "Impression Per Node": 6.41,
+    "Conversion Rate": 0.02,
     "pathId": 421,
     "nodes": [
       {
@@ -13315,13 +13315,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.01,
-    "pathCount": 2300714,
-    "impressionPerNode": 7.25,
-    "conversionRate": 0.004,
+    "ROI": 0.01,
+    "Path Count": 2300714,
+    "Impression Per Node": 7.25,
+    "Conversion Rate": 0.004,
     "pathId": 422,
     "nodes": [
       {
@@ -13361,13 +13361,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 1.18,
-    "pathCount": 1060396,
-    "impressionPerNode": 5.06,
-    "conversionRate": 0.03,
+    "ROI": 1.18,
+    "Path Count": 1060396,
+    "Impression Per Node": 5.06,
+    "Conversion Rate": 0.03,
     "pathId": 423,
     "nodes": [
       {
@@ -13389,13 +13389,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.11
+    "Effectiveness": 2.11
   },
   {
-    "roi": 0.09,
-    "pathCount": 81848,
-    "impressionPerNode": 7.56,
-    "conversionRate": 0.035,
+    "ROI": 0.09,
+    "Path Count": 81848,
+    "Impression Per Node": 7.56,
+    "Conversion Rate": 0.035,
     "pathId": 424,
     "nodes": [
       {
@@ -13447,13 +13447,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.28
+    "Effectiveness": 0.28
   },
   {
-    "roi": 2.72,
-    "pathCount": 1847187,
-    "impressionPerNode": 6.78,
-    "conversionRate": 0.0,
+    "ROI": 2.72,
+    "Path Count": 1847187,
+    "Impression Per Node": 6.78,
+    "Conversion Rate": 0.0,
     "pathId": 425,
     "nodes": [
       {
@@ -13469,13 +13469,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.89
+    "Effectiveness": 0.89
   },
   {
-    "roi": 1.19,
-    "pathCount": 672859,
-    "impressionPerNode": 5.34,
-    "conversionRate": 0.029,
+    "ROI": 1.19,
+    "Path Count": 672859,
+    "Impression Per Node": 5.34,
+    "Conversion Rate": 0.029,
     "pathId": 426,
     "nodes": [
       {
@@ -13491,13 +13491,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 3.9,
-    "pathCount": 1564160,
-    "impressionPerNode": 6.92,
-    "conversionRate": 0.003,
+    "ROI": 3.9,
+    "Path Count": 1564160,
+    "Impression Per Node": 6.92,
+    "Conversion Rate": 0.003,
     "pathId": 427,
     "nodes": [
       {
@@ -13513,13 +13513,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.15
+    "Effectiveness": 1.15
   },
   {
-    "roi": 0.19,
-    "pathCount": 1249986,
-    "impressionPerNode": 5.43,
-    "conversionRate": 0.04,
+    "ROI": 0.19,
+    "Path Count": 1249986,
+    "Impression Per Node": 5.43,
+    "Conversion Rate": 0.04,
     "pathId": 428,
     "nodes": [
       {
@@ -13541,13 +13541,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 0.43,
-    "pathCount": 6575471,
-    "impressionPerNode": 3.06,
-    "conversionRate": 0.007,
+    "ROI": 0.43,
+    "Path Count": 6575471,
+    "Impression Per Node": 3.06,
+    "Conversion Rate": 0.007,
     "pathId": 429,
     "nodes": [
       {
@@ -13569,13 +13569,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.34,
-    "pathCount": 1998799,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.038,
+    "ROI": 0.34,
+    "Path Count": 1998799,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.038,
     "pathId": 430,
     "nodes": [
       {
@@ -13597,13 +13597,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 0.21,
-    "pathCount": 1669934,
-    "impressionPerNode": 7.13,
-    "conversionRate": 0.032,
+    "ROI": 0.21,
+    "Path Count": 1669934,
+    "Impression Per Node": 7.13,
+    "Conversion Rate": 0.032,
     "pathId": 431,
     "nodes": [
       {
@@ -13637,13 +13637,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 0.76,
-    "pathCount": 1327467,
-    "impressionPerNode": 7.81,
-    "conversionRate": 0.024,
+    "ROI": 0.76,
+    "Path Count": 1327467,
+    "Impression Per Node": 7.81,
+    "Conversion Rate": 0.024,
     "pathId": 432,
     "nodes": [
       {
@@ -13689,13 +13689,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 0.24,
-    "pathCount": 2300905,
-    "impressionPerNode": 1.04,
-    "conversionRate": 0.005,
+    "ROI": 0.24,
+    "Path Count": 2300905,
+    "Impression Per Node": 1.04,
+    "Conversion Rate": 0.005,
     "pathId": 433,
     "nodes": [
       {
@@ -13735,13 +13735,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.75
+    "Effectiveness": 1.75
   },
   {
-    "roi": 2.56,
-    "pathCount": 3640487,
-    "impressionPerNode": 4.82,
-    "conversionRate": 0.005,
+    "ROI": 2.56,
+    "Path Count": 3640487,
+    "Impression Per Node": 4.82,
+    "Conversion Rate": 0.005,
     "pathId": 434,
     "nodes": [
       {
@@ -13769,13 +13769,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 0.09,
-    "pathCount": 1082032,
-    "impressionPerNode": 1.81,
-    "conversionRate": 0.034,
+    "ROI": 0.09,
+    "Path Count": 1082032,
+    "Impression Per Node": 1.81,
+    "Conversion Rate": 0.034,
     "pathId": 435,
     "nodes": [
       {
@@ -13827,13 +13827,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.52
+    "Effectiveness": 1.52
   },
   {
-    "roi": 0.84,
-    "pathCount": 8544837,
-    "impressionPerNode": 7.15,
-    "conversionRate": 0.002,
+    "ROI": 0.84,
+    "Path Count": 8544837,
+    "Impression Per Node": 7.15,
+    "Conversion Rate": 0.002,
     "pathId": 436,
     "nodes": [
       {
@@ -13849,13 +13849,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.01,
-    "pathCount": 6104442,
-    "impressionPerNode": 2.83,
-    "conversionRate": 0.002,
+    "ROI": 0.01,
+    "Path Count": 6104442,
+    "Impression Per Node": 2.83,
+    "Conversion Rate": 0.002,
     "pathId": 437,
     "nodes": [
       {
@@ -13871,13 +13871,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.89,
-    "pathCount": 3967197,
-    "impressionPerNode": 3.76,
-    "conversionRate": 0.018,
+    "ROI": 0.89,
+    "Path Count": 3967197,
+    "Impression Per Node": 3.76,
+    "Conversion Rate": 0.018,
     "pathId": 438,
     "nodes": [
       {
@@ -13893,13 +13893,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 0.41,
-    "pathCount": 9011607,
-    "impressionPerNode": 6.02,
-    "conversionRate": 0.037,
+    "ROI": 0.41,
+    "Path Count": 9011607,
+    "Impression Per Node": 6.02,
+    "Conversion Rate": 0.037,
     "pathId": 439,
     "nodes": [
       {
@@ -13915,13 +13915,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.15,
-    "pathCount": 5886952,
-    "impressionPerNode": 5.2,
-    "conversionRate": 0.031,
+    "ROI": 0.15,
+    "Path Count": 5886952,
+    "Impression Per Node": 5.2,
+    "Conversion Rate": 0.031,
     "pathId": 440,
     "nodes": [
       {
@@ -13943,13 +13943,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.28
+    "Effectiveness": 2.28
   },
   {
-    "roi": 1.93,
-    "pathCount": 5954880,
-    "impressionPerNode": 3.77,
-    "conversionRate": 0.038,
+    "ROI": 1.93,
+    "Path Count": 5954880,
+    "Impression Per Node": 3.77,
+    "Conversion Rate": 0.038,
     "pathId": 441,
     "nodes": [
       {
@@ -13971,13 +13971,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.21
+    "Effectiveness": 1.21
   },
   {
-    "roi": 2.29,
-    "pathCount": 7988968,
-    "impressionPerNode": 2.2,
-    "conversionRate": 0.066,
+    "ROI": 2.29,
+    "Path Count": 7988968,
+    "Impression Per Node": 2.2,
+    "Conversion Rate": 0.066,
     "pathId": 442,
     "nodes": [
       {
@@ -14017,13 +14017,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.73
+    "Effectiveness": 0.73
   },
   {
-    "roi": 0.03,
-    "pathCount": 1771382,
-    "impressionPerNode": 6.56,
-    "conversionRate": 0.029,
+    "ROI": 0.03,
+    "Path Count": 1771382,
+    "Impression Per Node": 6.56,
+    "Conversion Rate": 0.029,
     "pathId": 443,
     "nodes": [
       {
@@ -14045,13 +14045,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.03
+    "Effectiveness": 2.03
   },
   {
-    "roi": 1.52,
-    "pathCount": 1744966,
-    "impressionPerNode": 3.37,
-    "conversionRate": 0.078,
+    "ROI": 1.52,
+    "Path Count": 1744966,
+    "Impression Per Node": 3.37,
+    "Conversion Rate": 0.078,
     "pathId": 444,
     "nodes": [
       {
@@ -14067,13 +14067,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.36,
-    "pathCount": 1740213,
-    "impressionPerNode": 5.72,
-    "conversionRate": 0.002,
+    "ROI": 0.36,
+    "Path Count": 1740213,
+    "Impression Per Node": 5.72,
+    "Conversion Rate": 0.002,
     "pathId": 445,
     "nodes": [
       {
@@ -14131,13 +14131,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.66,
-    "pathCount": 242165,
-    "impressionPerNode": 5.79,
-    "conversionRate": 0.004,
+    "ROI": 0.66,
+    "Path Count": 242165,
+    "Impression Per Node": 5.79,
+    "Conversion Rate": 0.004,
     "pathId": 446,
     "nodes": [
       {
@@ -14195,13 +14195,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.58
+    "Effectiveness": 1.58
   },
   {
-    "roi": 3.78,
-    "pathCount": 1380729,
-    "impressionPerNode": 5.65,
-    "conversionRate": 0.025,
+    "ROI": 3.78,
+    "Path Count": 1380729,
+    "Impression Per Node": 5.65,
+    "Conversion Rate": 0.025,
     "pathId": 447,
     "nodes": [
       {
@@ -14217,13 +14217,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.51
+    "Effectiveness": 0.51
   },
   {
-    "roi": 1.47,
-    "pathCount": 5884196,
-    "impressionPerNode": 4.65,
-    "conversionRate": 0.015,
+    "ROI": 1.47,
+    "Path Count": 5884196,
+    "Impression Per Node": 4.65,
+    "Conversion Rate": 0.015,
     "pathId": 448,
     "nodes": [
       {
@@ -14251,13 +14251,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.0
+    "Effectiveness": 1.0
   },
   {
-    "roi": 1.49,
-    "pathCount": 1306879,
-    "impressionPerNode": 4.98,
-    "conversionRate": 0.019,
+    "ROI": 1.49,
+    "Path Count": 1306879,
+    "Impression Per Node": 4.98,
+    "Conversion Rate": 0.019,
     "pathId": 449,
     "nodes": [
       {
@@ -14285,13 +14285,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.54
+    "Effectiveness": 1.54
   },
   {
-    "roi": 0.95,
-    "pathCount": 5407784,
-    "impressionPerNode": 4.14,
-    "conversionRate": 0.031,
+    "ROI": 0.95,
+    "Path Count": 5407784,
+    "Impression Per Node": 4.14,
+    "Conversion Rate": 0.031,
     "pathId": 450,
     "nodes": [
       {
@@ -14325,13 +14325,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.53
+    "Effectiveness": 2.53
   },
   {
-    "roi": 2.76,
-    "pathCount": 307018,
-    "impressionPerNode": 3.92,
-    "conversionRate": 0.009,
+    "ROI": 2.76,
+    "Path Count": 307018,
+    "Impression Per Node": 3.92,
+    "Conversion Rate": 0.009,
     "pathId": 451,
     "nodes": [
       {
@@ -14353,13 +14353,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.71
+    "Effectiveness": 1.71
   },
   {
-    "roi": 1.67,
-    "pathCount": 518564,
-    "impressionPerNode": 5.11,
-    "conversionRate": 0.005,
+    "ROI": 1.67,
+    "Path Count": 518564,
+    "Impression Per Node": 5.11,
+    "Conversion Rate": 0.005,
     "pathId": 452,
     "nodes": [
       {
@@ -14375,13 +14375,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.04,
-    "pathCount": 3006669,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.006,
+    "ROI": 0.04,
+    "Path Count": 3006669,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.006,
     "pathId": 453,
     "nodes": [
       {
@@ -14415,13 +14415,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.7
+    "Effectiveness": 0.7
   },
   {
-    "roi": 0.33,
-    "pathCount": 1357097,
-    "impressionPerNode": 4.4,
-    "conversionRate": 0.013,
+    "ROI": 0.33,
+    "Path Count": 1357097,
+    "Impression Per Node": 4.4,
+    "Conversion Rate": 0.013,
     "pathId": 454,
     "nodes": [
       {
@@ -14455,13 +14455,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.91
+    "Effectiveness": 1.91
   },
   {
-    "roi": 0.4,
-    "pathCount": 31742,
-    "impressionPerNode": 5.46,
-    "conversionRate": 0.019,
+    "ROI": 0.4,
+    "Path Count": 31742,
+    "Impression Per Node": 5.46,
+    "Conversion Rate": 0.019,
     "pathId": 455,
     "nodes": [
       {
@@ -14501,13 +14501,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 1.27,
-    "pathCount": 3728240,
-    "impressionPerNode": 1.2,
-    "conversionRate": 0.011,
+    "ROI": 1.27,
+    "Path Count": 3728240,
+    "Impression Per Node": 1.2,
+    "Conversion Rate": 0.011,
     "pathId": 456,
     "nodes": [
       {
@@ -14523,13 +14523,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.25
+    "Effectiveness": 1.25
   },
   {
-    "roi": 0.34,
-    "pathCount": 931976,
-    "impressionPerNode": 5.98,
-    "conversionRate": 0.035,
+    "ROI": 0.34,
+    "Path Count": 931976,
+    "Impression Per Node": 5.98,
+    "Conversion Rate": 0.035,
     "pathId": 457,
     "nodes": [
       {
@@ -14551,13 +14551,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 1.45,
-    "pathCount": 4175390,
-    "impressionPerNode": 6.86,
-    "conversionRate": 0.064,
+    "ROI": 1.45,
+    "Path Count": 4175390,
+    "Impression Per Node": 6.86,
+    "Conversion Rate": 0.064,
     "pathId": 458,
     "nodes": [
       {
@@ -14573,13 +14573,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 1.29,
-    "pathCount": 2732593,
-    "impressionPerNode": 5.54,
-    "conversionRate": 0.003,
+    "ROI": 1.29,
+    "Path Count": 2732593,
+    "Impression Per Node": 5.54,
+    "Conversion Rate": 0.003,
     "pathId": 459,
     "nodes": [
       {
@@ -14595,13 +14595,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.42
+    "Effectiveness": 1.42
   },
   {
-    "roi": 0.97,
-    "pathCount": 363939,
-    "impressionPerNode": 5.95,
-    "conversionRate": 0.029,
+    "ROI": 0.97,
+    "Path Count": 363939,
+    "Impression Per Node": 5.95,
+    "Conversion Rate": 0.029,
     "pathId": 460,
     "nodes": [
       {
@@ -14617,13 +14617,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.07
+    "Effectiveness": 1.07
   },
   {
-    "roi": 0.65,
-    "pathCount": 2933313,
-    "impressionPerNode": 7.4,
-    "conversionRate": 0.017,
+    "ROI": 0.65,
+    "Path Count": 2933313,
+    "Impression Per Node": 7.4,
+    "Conversion Rate": 0.017,
     "pathId": 461,
     "nodes": [
       {
@@ -14639,13 +14639,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.24,
-    "pathCount": 1015192,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.014,
+    "ROI": 0.24,
+    "Path Count": 1015192,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.014,
     "pathId": 462,
     "nodes": [
       {
@@ -14667,13 +14667,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.16
+    "Effectiveness": 2.16
   },
   {
-    "roi": 1.38,
-    "pathCount": 3594191,
-    "impressionPerNode": 2.55,
-    "conversionRate": 0.0,
+    "ROI": 1.38,
+    "Path Count": 3594191,
+    "Impression Per Node": 2.55,
+    "Conversion Rate": 0.0,
     "pathId": 463,
     "nodes": [
       {
@@ -14689,13 +14689,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 2.26,
-    "pathCount": 414059,
-    "impressionPerNode": 5.06,
-    "conversionRate": 0.009,
+    "ROI": 2.26,
+    "Path Count": 414059,
+    "Impression Per Node": 5.06,
+    "Conversion Rate": 0.009,
     "pathId": 464,
     "nodes": [
       {
@@ -14717,13 +14717,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 2.34,
-    "pathCount": 530832,
-    "impressionPerNode": 5.55,
-    "conversionRate": 0.002,
+    "ROI": 2.34,
+    "Path Count": 530832,
+    "Impression Per Node": 5.55,
+    "Conversion Rate": 0.002,
     "pathId": 465,
     "nodes": [
       {
@@ -14763,13 +14763,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 1.84,
-    "pathCount": 2117252,
-    "impressionPerNode": 5.31,
-    "conversionRate": 0.039,
+    "ROI": 1.84,
+    "Path Count": 2117252,
+    "Impression Per Node": 5.31,
+    "Conversion Rate": 0.039,
     "pathId": 466,
     "nodes": [
       {
@@ -14785,13 +14785,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 2.82,
-    "pathCount": 2710704,
-    "impressionPerNode": 7.04,
-    "conversionRate": 0.008,
+    "ROI": 2.82,
+    "Path Count": 2710704,
+    "Impression Per Node": 7.04,
+    "Conversion Rate": 0.008,
     "pathId": 467,
     "nodes": [
       {
@@ -14807,13 +14807,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.99,
-    "pathCount": 1693889,
-    "impressionPerNode": 7.76,
-    "conversionRate": 0.002,
+    "ROI": 0.99,
+    "Path Count": 1693889,
+    "Impression Per Node": 7.76,
+    "Conversion Rate": 0.002,
     "pathId": 468,
     "nodes": [
       {
@@ -14829,13 +14829,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 4.79,
-    "pathCount": 2166232,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.043,
+    "ROI": 4.79,
+    "Path Count": 2166232,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.043,
     "pathId": 469,
     "nodes": [
       {
@@ -14869,13 +14869,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 1.11,
-    "pathCount": 4610064,
-    "impressionPerNode": 4.94,
-    "conversionRate": 0.093,
+    "ROI": 1.11,
+    "Path Count": 4610064,
+    "Impression Per Node": 4.94,
+    "Conversion Rate": 0.093,
     "pathId": 470,
     "nodes": [
       {
@@ -14897,13 +14897,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 3.14,
-    "pathCount": 483778,
-    "impressionPerNode": 7.96,
-    "conversionRate": 0.013,
+    "ROI": 3.14,
+    "Path Count": 483778,
+    "Impression Per Node": 7.96,
+    "Conversion Rate": 0.013,
     "pathId": 471,
     "nodes": [
       {
@@ -14949,13 +14949,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 1.61,
-    "pathCount": 3500908,
-    "impressionPerNode": 4.46,
-    "conversionRate": 0.059,
+    "ROI": 1.61,
+    "Path Count": 3500908,
+    "Impression Per Node": 4.46,
+    "Conversion Rate": 0.059,
     "pathId": 472,
     "nodes": [
       {
@@ -14989,13 +14989,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 1.17,
-    "pathCount": 5420148,
-    "impressionPerNode": 7.6,
-    "conversionRate": 0.016,
+    "ROI": 1.17,
+    "Path Count": 5420148,
+    "Impression Per Node": 7.6,
+    "Conversion Rate": 0.016,
     "pathId": 473,
     "nodes": [
       {
@@ -15011,13 +15011,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 0.07,
-    "pathCount": 2839540,
-    "impressionPerNode": 7.11,
-    "conversionRate": 0.006,
+    "ROI": 0.07,
+    "Path Count": 2839540,
+    "Impression Per Node": 7.11,
+    "Conversion Rate": 0.006,
     "pathId": 474,
     "nodes": [
       {
@@ -15045,13 +15045,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 0.31,
-    "pathCount": 2023935,
-    "impressionPerNode": 4.64,
-    "conversionRate": 0.063,
+    "ROI": 0.31,
+    "Path Count": 2023935,
+    "Impression Per Node": 4.64,
+    "Conversion Rate": 0.063,
     "pathId": 475,
     "nodes": [
       {
@@ -15085,13 +15085,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.65,
-    "pathCount": 1174705,
-    "impressionPerNode": 4.48,
-    "conversionRate": 0.065,
+    "ROI": 0.65,
+    "Path Count": 1174705,
+    "Impression Per Node": 4.48,
+    "Conversion Rate": 0.065,
     "pathId": 476,
     "nodes": [
       {
@@ -15113,13 +15113,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.19,
-    "pathCount": 126926,
-    "impressionPerNode": 3.76,
-    "conversionRate": 0.062,
+    "ROI": 0.19,
+    "Path Count": 126926,
+    "Impression Per Node": 3.76,
+    "Conversion Rate": 0.062,
     "pathId": 477,
     "nodes": [
       {
@@ -15135,13 +15135,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 2.2,
-    "pathCount": 101626,
-    "impressionPerNode": 7.14,
-    "conversionRate": 0.012,
+    "ROI": 2.2,
+    "Path Count": 101626,
+    "Impression Per Node": 7.14,
+    "Conversion Rate": 0.012,
     "pathId": 478,
     "nodes": [
       {
@@ -15169,13 +15169,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.93
+    "Effectiveness": 0.93
   },
   {
-    "roi": 4.53,
-    "pathCount": 295703,
-    "impressionPerNode": 6.17,
-    "conversionRate": 0.014,
+    "ROI": 4.53,
+    "Path Count": 295703,
+    "Impression Per Node": 6.17,
+    "Conversion Rate": 0.014,
     "pathId": 479,
     "nodes": [
       {
@@ -15191,13 +15191,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 0.25,
-    "pathCount": 8335857,
-    "impressionPerNode": 7.17,
-    "conversionRate": 0.001,
+    "ROI": 0.25,
+    "Path Count": 8335857,
+    "Impression Per Node": 7.17,
+    "Conversion Rate": 0.001,
     "pathId": 480,
     "nodes": [
       {
@@ -15231,13 +15231,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.03
+    "Effectiveness": 1.03
   },
   {
-    "roi": 0.95,
-    "pathCount": 1796587,
-    "impressionPerNode": 7.58,
-    "conversionRate": 0.004,
+    "ROI": 0.95,
+    "Path Count": 1796587,
+    "Impression Per Node": 7.58,
+    "Conversion Rate": 0.004,
     "pathId": 481,
     "nodes": [
       {
@@ -15259,13 +15259,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 1.47,
-    "pathCount": 7743210,
-    "impressionPerNode": 5.33,
-    "conversionRate": 0.003,
+    "ROI": 1.47,
+    "Path Count": 7743210,
+    "Impression Per Node": 5.33,
+    "Conversion Rate": 0.003,
     "pathId": 482,
     "nodes": [
       {
@@ -15281,13 +15281,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.92,
-    "pathCount": 8375207,
-    "impressionPerNode": 1.97,
-    "conversionRate": 0.0,
+    "ROI": 0.92,
+    "Path Count": 8375207,
+    "Impression Per Node": 1.97,
+    "Conversion Rate": 0.0,
     "pathId": 483,
     "nodes": [
       {
@@ -15303,13 +15303,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.29
+    "Effectiveness": 1.29
   },
   {
-    "roi": 0.12,
-    "pathCount": 1155307,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.032,
+    "ROI": 0.12,
+    "Path Count": 1155307,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.032,
     "pathId": 484,
     "nodes": [
       {
@@ -15331,13 +15331,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.42
+    "Effectiveness": 1.42
   },
   {
-    "roi": 1.96,
-    "pathCount": 7386468,
-    "impressionPerNode": 3.27,
-    "conversionRate": 0.013,
+    "ROI": 1.96,
+    "Path Count": 7386468,
+    "Impression Per Node": 3.27,
+    "Conversion Rate": 0.013,
     "pathId": 485,
     "nodes": [
       {
@@ -15359,13 +15359,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.12
+    "Effectiveness": 2.12
   },
   {
-    "roi": 2.81,
-    "pathCount": 286066,
-    "impressionPerNode": 6.86,
-    "conversionRate": 0.054,
+    "ROI": 2.81,
+    "Path Count": 286066,
+    "Impression Per Node": 6.86,
+    "Conversion Rate": 0.054,
     "pathId": 486,
     "nodes": [
       {
@@ -15393,13 +15393,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 1.91,
-    "pathCount": 1238092,
-    "impressionPerNode": 4.4,
-    "conversionRate": 0.003,
+    "ROI": 1.91,
+    "Path Count": 1238092,
+    "Impression Per Node": 4.4,
+    "Conversion Rate": 0.003,
     "pathId": 487,
     "nodes": [
       {
@@ -15415,13 +15415,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 0.17,
-    "pathCount": 2595057,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.009,
+    "ROI": 0.17,
+    "Path Count": 2595057,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.009,
     "pathId": 488,
     "nodes": [
       {
@@ -15443,13 +15443,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.97
+    "Effectiveness": 0.97
   },
   {
-    "roi": 0.19,
-    "pathCount": 2174171,
-    "impressionPerNode": 5.29,
-    "conversionRate": 0.017,
+    "ROI": 0.19,
+    "Path Count": 2174171,
+    "Impression Per Node": 5.29,
+    "Conversion Rate": 0.017,
     "pathId": 489,
     "nodes": [
       {
@@ -15471,13 +15471,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.4
+    "Effectiveness": 0.4
   },
   {
-    "roi": 0.78,
-    "pathCount": 598906,
-    "impressionPerNode": 3.09,
-    "conversionRate": 0.001,
+    "ROI": 0.78,
+    "Path Count": 598906,
+    "Impression Per Node": 3.09,
+    "Conversion Rate": 0.001,
     "pathId": 490,
     "nodes": [
       {
@@ -15499,13 +15499,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 3.14,
-    "pathCount": 1435136,
-    "impressionPerNode": 7.98,
-    "conversionRate": 0.003,
+    "ROI": 3.14,
+    "Path Count": 1435136,
+    "Impression Per Node": 7.98,
+    "Conversion Rate": 0.003,
     "pathId": 491,
     "nodes": [
       {
@@ -15521,13 +15521,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.89
+    "Effectiveness": 1.89
   },
   {
-    "roi": 1.21,
-    "pathCount": 3741646,
-    "impressionPerNode": 4.99,
-    "conversionRate": 0.0,
+    "ROI": 1.21,
+    "Path Count": 3741646,
+    "Impression Per Node": 4.99,
+    "Conversion Rate": 0.0,
     "pathId": 492,
     "nodes": [
       {
@@ -15543,13 +15543,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 0.72,
-    "pathCount": 8115714,
-    "impressionPerNode": 4.69,
-    "conversionRate": 0.066,
+    "ROI": 0.72,
+    "Path Count": 8115714,
+    "Impression Per Node": 4.69,
+    "Conversion Rate": 0.066,
     "pathId": 493,
     "nodes": [
       {
@@ -15583,13 +15583,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 2.41,
-    "pathCount": 5979275,
-    "impressionPerNode": 7.96,
-    "conversionRate": 0.004,
+    "ROI": 2.41,
+    "Path Count": 5979275,
+    "Impression Per Node": 7.96,
+    "Conversion Rate": 0.004,
     "pathId": 494,
     "nodes": [
       {
@@ -15611,13 +15611,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.7,
-    "pathCount": 1610321,
-    "impressionPerNode": 3.27,
-    "conversionRate": 0.026,
+    "ROI": 0.7,
+    "Path Count": 1610321,
+    "Impression Per Node": 3.27,
+    "Conversion Rate": 0.026,
     "pathId": 495,
     "nodes": [
       {
@@ -15633,13 +15633,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 3.97,
-    "pathCount": 31684,
-    "impressionPerNode": 7.16,
-    "conversionRate": 0.005,
+    "ROI": 3.97,
+    "Path Count": 31684,
+    "Impression Per Node": 7.16,
+    "Conversion Rate": 0.005,
     "pathId": 496,
     "nodes": [
       {
@@ -15679,13 +15679,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.01,
-    "pathCount": 680264,
-    "impressionPerNode": 4.35,
-    "conversionRate": 0.018,
+    "ROI": 0.01,
+    "Path Count": 680264,
+    "Impression Per Node": 4.35,
+    "Conversion Rate": 0.018,
     "pathId": 497,
     "nodes": [
       {
@@ -15701,13 +15701,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.72
+    "Effectiveness": 0.72
   },
   {
-    "roi": 0.49,
-    "pathCount": 3367193,
-    "impressionPerNode": 4.71,
-    "conversionRate": 0.005,
+    "ROI": 0.49,
+    "Path Count": 3367193,
+    "Impression Per Node": 4.71,
+    "Conversion Rate": 0.005,
     "pathId": 498,
     "nodes": [
       {
@@ -15735,13 +15735,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 3.49,
-    "pathCount": 6873161,
-    "impressionPerNode": 7.87,
-    "conversionRate": 0.018,
+    "ROI": 3.49,
+    "Path Count": 6873161,
+    "Impression Per Node": 7.87,
+    "Conversion Rate": 0.018,
     "pathId": 499,
     "nodes": [
       {
@@ -15769,13 +15769,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.22,
-    "pathCount": 1652493,
-    "impressionPerNode": 6.24,
-    "conversionRate": 0.02,
+    "ROI": 0.22,
+    "Path Count": 1652493,
+    "Impression Per Node": 6.24,
+    "Conversion Rate": 0.02,
     "pathId": 500,
     "nodes": [
       {
@@ -15827,13 +15827,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.59,
-    "pathCount": 2871662,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.027,
+    "ROI": 2.59,
+    "Path Count": 2871662,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.027,
     "pathId": 501,
     "nodes": [
       {
@@ -15879,13 +15879,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 2.34,
-    "pathCount": 7300238,
-    "impressionPerNode": 2.66,
-    "conversionRate": 0.028,
+    "ROI": 2.34,
+    "Path Count": 7300238,
+    "Impression Per Node": 2.66,
+    "Conversion Rate": 0.028,
     "pathId": 502,
     "nodes": [
       {
@@ -15901,13 +15901,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.96
+    "Effectiveness": 0.96
   },
   {
-    "roi": 1.76,
-    "pathCount": 5315826,
-    "impressionPerNode": 6.9,
-    "conversionRate": 0.014,
+    "ROI": 1.76,
+    "Path Count": 5315826,
+    "Impression Per Node": 6.9,
+    "Conversion Rate": 0.014,
     "pathId": 503,
     "nodes": [
       {
@@ -15923,13 +15923,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.09
+    "Effectiveness": 2.09
   },
   {
-    "roi": 0.27,
-    "pathCount": 6875616,
-    "impressionPerNode": 6.69,
-    "conversionRate": 0.03,
+    "ROI": 0.27,
+    "Path Count": 6875616,
+    "Impression Per Node": 6.69,
+    "Conversion Rate": 0.03,
     "pathId": 504,
     "nodes": [
       {
@@ -15951,13 +15951,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 0.04,
-    "pathCount": 3282088,
-    "impressionPerNode": 2.22,
-    "conversionRate": 0.007,
+    "ROI": 0.04,
+    "Path Count": 3282088,
+    "Impression Per Node": 2.22,
+    "Conversion Rate": 0.007,
     "pathId": 505,
     "nodes": [
       {
@@ -15991,13 +15991,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.38
+    "Effectiveness": 0.38
   },
   {
-    "roi": 0.2,
-    "pathCount": 9088793,
-    "impressionPerNode": 6.08,
-    "conversionRate": 0.007,
+    "ROI": 0.2,
+    "Path Count": 9088793,
+    "Impression Per Node": 6.08,
+    "Conversion Rate": 0.007,
     "pathId": 506,
     "nodes": [
       {
@@ -16013,13 +16013,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 0.18,
-    "pathCount": 1122339,
-    "impressionPerNode": 6.36,
-    "conversionRate": 0.001,
+    "ROI": 0.18,
+    "Path Count": 1122339,
+    "Impression Per Node": 6.36,
+    "Conversion Rate": 0.001,
     "pathId": 507,
     "nodes": [
       {
@@ -16059,13 +16059,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.05
+    "Effectiveness": 1.05
   },
   {
-    "roi": 0.26,
-    "pathCount": 1377041,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.013,
+    "ROI": 0.26,
+    "Path Count": 1377041,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.013,
     "pathId": 508,
     "nodes": [
       {
@@ -16087,13 +16087,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.89
+    "Effectiveness": 0.89
   },
   {
-    "roi": 1.44,
-    "pathCount": 2409645,
-    "impressionPerNode": 3.37,
-    "conversionRate": 0.024,
+    "ROI": 1.44,
+    "Path Count": 2409645,
+    "Impression Per Node": 3.37,
+    "Conversion Rate": 0.024,
     "pathId": 509,
     "nodes": [
       {
@@ -16109,13 +16109,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.34
+    "Effectiveness": 1.34
   },
   {
-    "roi": 3.08,
-    "pathCount": 3138862,
-    "impressionPerNode": 7.02,
-    "conversionRate": 0.021,
+    "ROI": 3.08,
+    "Path Count": 3138862,
+    "Impression Per Node": 7.02,
+    "Conversion Rate": 0.021,
     "pathId": 510,
     "nodes": [
       {
@@ -16131,13 +16131,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 1.97,
-    "pathCount": 1755840,
-    "impressionPerNode": 5.72,
-    "conversionRate": 0.016,
+    "ROI": 1.97,
+    "Path Count": 1755840,
+    "Impression Per Node": 5.72,
+    "Conversion Rate": 0.016,
     "pathId": 511,
     "nodes": [
       {
@@ -16159,13 +16159,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.06,
-    "pathCount": 7157656,
-    "impressionPerNode": 7.99,
-    "conversionRate": 0.009,
+    "ROI": 0.06,
+    "Path Count": 7157656,
+    "Impression Per Node": 7.99,
+    "Conversion Rate": 0.009,
     "pathId": 512,
     "nodes": [
       {
@@ -16205,13 +16205,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.64
+    "Effectiveness": 0.64
   },
   {
-    "roi": 0.3,
-    "pathCount": 6085157,
-    "impressionPerNode": 7.21,
-    "conversionRate": 0.092,
+    "ROI": 0.3,
+    "Path Count": 6085157,
+    "Impression Per Node": 7.21,
+    "Conversion Rate": 0.092,
     "pathId": 513,
     "nodes": [
       {
@@ -16257,13 +16257,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.56
+    "Effectiveness": 0.56
   },
   {
-    "roi": 1.18,
-    "pathCount": 244305,
-    "impressionPerNode": 5.08,
-    "conversionRate": 0.014,
+    "ROI": 1.18,
+    "Path Count": 244305,
+    "Impression Per Node": 5.08,
+    "Conversion Rate": 0.014,
     "pathId": 514,
     "nodes": [
       {
@@ -16279,13 +16279,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 0.73,
-    "pathCount": 5642608,
-    "impressionPerNode": 6.86,
-    "conversionRate": 0.018,
+    "ROI": 0.73,
+    "Path Count": 5642608,
+    "Impression Per Node": 6.86,
+    "Conversion Rate": 0.018,
     "pathId": 515,
     "nodes": [
       {
@@ -16319,13 +16319,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.55,
-    "pathCount": 7168755,
-    "impressionPerNode": 4.83,
-    "conversionRate": 0.03,
+    "ROI": 2.55,
+    "Path Count": 7168755,
+    "Impression Per Node": 4.83,
+    "Conversion Rate": 0.03,
     "pathId": 516,
     "nodes": [
       {
@@ -16347,13 +16347,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 0.02,
-    "pathCount": 1134372,
-    "impressionPerNode": 6.81,
-    "conversionRate": 0.057,
+    "ROI": 0.02,
+    "Path Count": 1134372,
+    "Impression Per Node": 6.81,
+    "Conversion Rate": 0.057,
     "pathId": 517,
     "nodes": [
       {
@@ -16405,13 +16405,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 1.78,
-    "pathCount": 6836866,
-    "impressionPerNode": 7.9,
-    "conversionRate": 0.033,
+    "ROI": 1.78,
+    "Path Count": 6836866,
+    "Impression Per Node": 7.9,
+    "Conversion Rate": 0.033,
     "pathId": 518,
     "nodes": [
       {
@@ -16433,13 +16433,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.91
+    "Effectiveness": 1.91
   },
   {
-    "roi": 1.23,
-    "pathCount": 1587841,
-    "impressionPerNode": 2.7,
-    "conversionRate": 0.03,
+    "ROI": 1.23,
+    "Path Count": 1587841,
+    "Impression Per Node": 2.7,
+    "Conversion Rate": 0.03,
     "pathId": 519,
     "nodes": [
       {
@@ -16467,13 +16467,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.72
+    "Effectiveness": 1.72
   },
   {
-    "roi": 1.71,
-    "pathCount": 2447680,
-    "impressionPerNode": 6.86,
-    "conversionRate": 0.034,
+    "ROI": 1.71,
+    "Path Count": 2447680,
+    "Impression Per Node": 6.86,
+    "Conversion Rate": 0.034,
     "pathId": 520,
     "nodes": [
       {
@@ -16519,13 +16519,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.07,
-    "pathCount": 623909,
-    "impressionPerNode": 7.65,
-    "conversionRate": 0.015,
+    "ROI": 0.07,
+    "Path Count": 623909,
+    "Impression Per Node": 7.65,
+    "Conversion Rate": 0.015,
     "pathId": 521,
     "nodes": [
       {
@@ -16571,13 +16571,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 2.24
+    "Effectiveness": 2.24
   },
   {
-    "roi": 2.96,
-    "pathCount": 38942,
-    "impressionPerNode": 4.31,
-    "conversionRate": 0.029,
+    "ROI": 2.96,
+    "Path Count": 38942,
+    "Impression Per Node": 4.31,
+    "Conversion Rate": 0.029,
     "pathId": 522,
     "nodes": [
       {
@@ -16605,13 +16605,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 2.48,
-    "pathCount": 4630060,
-    "impressionPerNode": 3.91,
-    "conversionRate": 0.006,
+    "ROI": 2.48,
+    "Path Count": 4630060,
+    "Impression Per Node": 3.91,
+    "Conversion Rate": 0.006,
     "pathId": 523,
     "nodes": [
       {
@@ -16633,13 +16633,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.36
+    "Effectiveness": 1.36
   },
   {
-    "roi": 1.44,
-    "pathCount": 820726,
-    "impressionPerNode": 6.88,
-    "conversionRate": 0.013,
+    "ROI": 1.44,
+    "Path Count": 820726,
+    "Impression Per Node": 6.88,
+    "Conversion Rate": 0.013,
     "pathId": 524,
     "nodes": [
       {
@@ -16661,13 +16661,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.78
+    "Effectiveness": 0.78
   },
   {
-    "roi": 0.79,
-    "pathCount": 1718722,
-    "impressionPerNode": 0.43,
-    "conversionRate": 0.019,
+    "ROI": 0.79,
+    "Path Count": 1718722,
+    "Impression Per Node": 0.43,
+    "Conversion Rate": 0.019,
     "pathId": 525,
     "nodes": [
       {
@@ -16707,13 +16707,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 0.6,
-    "pathCount": 295902,
-    "impressionPerNode": 3.3,
-    "conversionRate": 0.014,
+    "ROI": 0.6,
+    "Path Count": 295902,
+    "Impression Per Node": 3.3,
+    "Conversion Rate": 0.014,
     "pathId": 526,
     "nodes": [
       {
@@ -16759,13 +16759,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 1.43,
-    "pathCount": 269036,
-    "impressionPerNode": 6.05,
-    "conversionRate": 0.065,
+    "ROI": 1.43,
+    "Path Count": 269036,
+    "Impression Per Node": 6.05,
+    "Conversion Rate": 0.065,
     "pathId": 527,
     "nodes": [
       {
@@ -16781,13 +16781,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 0.9,
-    "pathCount": 94972,
-    "impressionPerNode": 6.52,
-    "conversionRate": 0.019,
+    "ROI": 0.9,
+    "Path Count": 94972,
+    "Impression Per Node": 6.52,
+    "Conversion Rate": 0.019,
     "pathId": 528,
     "nodes": [
       {
@@ -16833,13 +16833,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 0.88,
-    "pathCount": 726495,
-    "impressionPerNode": 5.28,
-    "conversionRate": 0.03,
+    "ROI": 0.88,
+    "Path Count": 726495,
+    "Impression Per Node": 5.28,
+    "Conversion Rate": 0.03,
     "pathId": 529,
     "nodes": [
       {
@@ -16855,13 +16855,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 0.17,
-    "pathCount": 1877830,
-    "impressionPerNode": 5.87,
-    "conversionRate": 0.01,
+    "ROI": 0.17,
+    "Path Count": 1877830,
+    "Impression Per Node": 5.87,
+    "Conversion Rate": 0.01,
     "pathId": 530,
     "nodes": [
       {
@@ -16877,13 +16877,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.43
+    "Effectiveness": 0.43
   },
   {
-    "roi": 1.27,
-    "pathCount": 149086,
-    "impressionPerNode": 6.65,
-    "conversionRate": 0.016,
+    "ROI": 1.27,
+    "Path Count": 149086,
+    "Impression Per Node": 6.65,
+    "Conversion Rate": 0.016,
     "pathId": 531,
     "nodes": [
       {
@@ -16941,13 +16941,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 2.21,
-    "pathCount": 422982,
-    "impressionPerNode": 6.82,
-    "conversionRate": 0.045,
+    "ROI": 2.21,
+    "Path Count": 422982,
+    "Impression Per Node": 6.82,
+    "Conversion Rate": 0.045,
     "pathId": 532,
     "nodes": [
       {
@@ -16969,13 +16969,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 1.49,
-    "pathCount": 1290953,
-    "impressionPerNode": 3.0,
-    "conversionRate": 0.009,
+    "ROI": 1.49,
+    "Path Count": 1290953,
+    "Impression Per Node": 3.0,
+    "Conversion Rate": 0.009,
     "pathId": 533,
     "nodes": [
       {
@@ -16997,13 +16997,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.07
+    "Effectiveness": 1.07
   },
   {
-    "roi": 3.84,
-    "pathCount": 2528179,
-    "impressionPerNode": 7.63,
-    "conversionRate": 0.016,
+    "ROI": 3.84,
+    "Path Count": 2528179,
+    "Impression Per Node": 7.63,
+    "Conversion Rate": 0.016,
     "pathId": 534,
     "nodes": [
       {
@@ -17031,13 +17031,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.46
+    "Effectiveness": 1.46
   },
   {
-    "roi": 3.46,
-    "pathCount": 1094407,
-    "impressionPerNode": 7.19,
-    "conversionRate": 0.018,
+    "ROI": 3.46,
+    "Path Count": 1094407,
+    "Impression Per Node": 7.19,
+    "Conversion Rate": 0.018,
     "pathId": 535,
     "nodes": [
       {
@@ -17053,13 +17053,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.01,
-    "pathCount": 60534,
-    "impressionPerNode": 7.91,
-    "conversionRate": 0.027,
+    "ROI": 0.01,
+    "Path Count": 60534,
+    "Impression Per Node": 7.91,
+    "Conversion Rate": 0.027,
     "pathId": 536,
     "nodes": [
       {
@@ -17087,13 +17087,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 2.01
+    "Effectiveness": 2.01
   },
   {
-    "roi": 0.34,
-    "pathCount": 2355070,
-    "impressionPerNode": 6.89,
-    "conversionRate": 0.028,
+    "ROI": 0.34,
+    "Path Count": 2355070,
+    "Impression Per Node": 6.89,
+    "Conversion Rate": 0.028,
     "pathId": 537,
     "nodes": [
       {
@@ -17145,13 +17145,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.24,
-    "pathCount": 3379293,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.003,
+    "ROI": 0.24,
+    "Path Count": 3379293,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.003,
     "pathId": 538,
     "nodes": [
       {
@@ -17173,13 +17173,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.71
+    "Effectiveness": 0.71
   },
   {
-    "roi": 1.37,
-    "pathCount": 887978,
-    "impressionPerNode": 5.35,
-    "conversionRate": 0.039,
+    "ROI": 1.37,
+    "Path Count": 887978,
+    "Impression Per Node": 5.35,
+    "Conversion Rate": 0.039,
     "pathId": 539,
     "nodes": [
       {
@@ -17201,13 +17201,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.12,
-    "pathCount": 3777603,
-    "impressionPerNode": 2.7,
-    "conversionRate": 0.03,
+    "ROI": 0.12,
+    "Path Count": 3777603,
+    "Impression Per Node": 2.7,
+    "Conversion Rate": 0.03,
     "pathId": 540,
     "nodes": [
       {
@@ -17241,13 +17241,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.74
+    "Effectiveness": 1.74
   },
   {
-    "roi": 0.61,
-    "pathCount": 3474406,
-    "impressionPerNode": 4.06,
-    "conversionRate": 0.004,
+    "ROI": 0.61,
+    "Path Count": 3474406,
+    "Impression Per Node": 4.06,
+    "Conversion Rate": 0.004,
     "pathId": 541,
     "nodes": [
       {
@@ -17269,13 +17269,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 2.5,
-    "pathCount": 2007114,
-    "impressionPerNode": 7.83,
-    "conversionRate": 0.039,
+    "ROI": 2.5,
+    "Path Count": 2007114,
+    "Impression Per Node": 7.83,
+    "Conversion Rate": 0.039,
     "pathId": 542,
     "nodes": [
       {
@@ -17291,13 +17291,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.99
+    "Effectiveness": 0.99
   },
   {
-    "roi": 0.71,
-    "pathCount": 66179,
-    "impressionPerNode": 5.43,
-    "conversionRate": 0.018,
+    "ROI": 0.71,
+    "Path Count": 66179,
+    "Impression Per Node": 5.43,
+    "Conversion Rate": 0.018,
     "pathId": 543,
     "nodes": [
       {
@@ -17325,13 +17325,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.06
+    "Effectiveness": 1.06
   },
   {
-    "roi": 1.45,
-    "pathCount": 961662,
-    "impressionPerNode": 7.61,
-    "conversionRate": 0.002,
+    "ROI": 1.45,
+    "Path Count": 961662,
+    "Impression Per Node": 7.61,
+    "Conversion Rate": 0.002,
     "pathId": 544,
     "nodes": [
       {
@@ -17353,13 +17353,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.02,
-    "pathCount": 39365,
-    "impressionPerNode": 5.22,
-    "conversionRate": 0.037,
+    "ROI": 0.02,
+    "Path Count": 39365,
+    "Impression Per Node": 5.22,
+    "Conversion Rate": 0.037,
     "pathId": 545,
     "nodes": [
       {
@@ -17375,13 +17375,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.58
+    "Effectiveness": 2.58
   },
   {
-    "roi": 1.39,
-    "pathCount": 2880711,
-    "impressionPerNode": 5.22,
-    "conversionRate": 0.007,
+    "ROI": 1.39,
+    "Path Count": 2880711,
+    "Impression Per Node": 5.22,
+    "Conversion Rate": 0.007,
     "pathId": 546,
     "nodes": [
       {
@@ -17421,13 +17421,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.16
+    "Effectiveness": 1.16
   },
   {
-    "roi": 1.37,
-    "pathCount": 2440335,
-    "impressionPerNode": 4.84,
-    "conversionRate": 0.003,
+    "ROI": 1.37,
+    "Path Count": 2440335,
+    "Impression Per Node": 4.84,
+    "Conversion Rate": 0.003,
     "pathId": 547,
     "nodes": [
       {
@@ -17443,13 +17443,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.38
+    "Effectiveness": 0.38
   },
   {
-    "roi": 1.18,
-    "pathCount": 3347519,
-    "impressionPerNode": 5.1,
-    "conversionRate": 0.023,
+    "ROI": 1.18,
+    "Path Count": 3347519,
+    "Impression Per Node": 5.1,
+    "Conversion Rate": 0.023,
     "pathId": 548,
     "nodes": [
       {
@@ -17489,13 +17489,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.19
+    "Effectiveness": 1.19
   },
   {
-    "roi": 1.42,
-    "pathCount": 2916094,
-    "impressionPerNode": 1.26,
-    "conversionRate": 0.008,
+    "ROI": 1.42,
+    "Path Count": 2916094,
+    "Impression Per Node": 1.26,
+    "Conversion Rate": 0.008,
     "pathId": 549,
     "nodes": [
       {
@@ -17517,13 +17517,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 0.54,
-    "pathCount": 1984346,
-    "impressionPerNode": 4.66,
-    "conversionRate": 0.015,
+    "ROI": 0.54,
+    "Path Count": 1984346,
+    "Impression Per Node": 4.66,
+    "Conversion Rate": 0.015,
     "pathId": 550,
     "nodes": [
       {
@@ -17539,13 +17539,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.82
+    "Effectiveness": 0.82
   },
   {
-    "roi": 1.04,
-    "pathCount": 1387894,
-    "impressionPerNode": 7.28,
-    "conversionRate": 0.011,
+    "ROI": 1.04,
+    "Path Count": 1387894,
+    "Impression Per Node": 7.28,
+    "Conversion Rate": 0.011,
     "pathId": 551,
     "nodes": [
       {
@@ -17561,13 +17561,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.12,
-    "pathCount": 5194708,
-    "impressionPerNode": 5.35,
-    "conversionRate": 0.012,
+    "ROI": 0.12,
+    "Path Count": 5194708,
+    "Impression Per Node": 5.35,
+    "Conversion Rate": 0.012,
     "pathId": 552,
     "nodes": [
       {
@@ -17583,13 +17583,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.54,
-    "pathCount": 1440831,
-    "impressionPerNode": 7.02,
-    "conversionRate": 0.013,
+    "ROI": 0.54,
+    "Path Count": 1440831,
+    "Impression Per Node": 7.02,
+    "Conversion Rate": 0.013,
     "pathId": 553,
     "nodes": [
       {
@@ -17623,13 +17623,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 0.94,
-    "pathCount": 2854207,
-    "impressionPerNode": 7.49,
-    "conversionRate": 0.011,
+    "ROI": 0.94,
+    "Path Count": 2854207,
+    "Impression Per Node": 7.49,
+    "Conversion Rate": 0.011,
     "pathId": 554,
     "nodes": [
       {
@@ -17657,13 +17657,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.28
+    "Effectiveness": 0.28
   },
   {
-    "roi": 0.92,
-    "pathCount": 440332,
-    "impressionPerNode": 3.58,
-    "conversionRate": 0.008,
+    "ROI": 0.92,
+    "Path Count": 440332,
+    "Impression Per Node": 3.58,
+    "Conversion Rate": 0.008,
     "pathId": 555,
     "nodes": [
       {
@@ -17685,13 +17685,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.67
+    "Effectiveness": 0.67
   },
   {
-    "roi": 0.15,
-    "pathCount": 302367,
-    "impressionPerNode": 5.92,
-    "conversionRate": 0.008,
+    "ROI": 0.15,
+    "Path Count": 302367,
+    "Impression Per Node": 5.92,
+    "Conversion Rate": 0.008,
     "pathId": 556,
     "nodes": [
       {
@@ -17731,13 +17731,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 1.14,
-    "pathCount": 1792690,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.012,
+    "ROI": 1.14,
+    "Path Count": 1792690,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.012,
     "pathId": 557,
     "nodes": [
       {
@@ -17753,13 +17753,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.8
+    "Effectiveness": 0.8
   },
   {
-    "roi": 1.07,
-    "pathCount": 783891,
-    "impressionPerNode": 1.69,
-    "conversionRate": 0.005,
+    "ROI": 1.07,
+    "Path Count": 783891,
+    "Impression Per Node": 1.69,
+    "Conversion Rate": 0.005,
     "pathId": 558,
     "nodes": [
       {
@@ -17775,13 +17775,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 1.78,
-    "pathCount": 2253402,
-    "impressionPerNode": 7.12,
-    "conversionRate": 0.022,
+    "ROI": 1.78,
+    "Path Count": 2253402,
+    "Impression Per Node": 7.12,
+    "Conversion Rate": 0.022,
     "pathId": 559,
     "nodes": [
       {
@@ -17797,13 +17797,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 1.57,
-    "pathCount": 1024219,
-    "impressionPerNode": 6.08,
-    "conversionRate": 0.004,
+    "ROI": 1.57,
+    "Path Count": 1024219,
+    "Impression Per Node": 6.08,
+    "Conversion Rate": 0.004,
     "pathId": 560,
     "nodes": [
       {
@@ -17843,13 +17843,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 0.35,
-    "pathCount": 3327256,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.003,
+    "ROI": 0.35,
+    "Path Count": 3327256,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.003,
     "pathId": 561,
     "nodes": [
       {
@@ -17865,13 +17865,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.61
+    "Effectiveness": 0.61
   },
   {
-    "roi": 0.52,
-    "pathCount": 1610605,
-    "impressionPerNode": 3.41,
-    "conversionRate": 0.018,
+    "ROI": 0.52,
+    "Path Count": 1610605,
+    "Impression Per Node": 3.41,
+    "Conversion Rate": 0.018,
     "pathId": 562,
     "nodes": [
       {
@@ -17899,13 +17899,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.94
+    "Effectiveness": 0.94
   },
   {
-    "roi": 0.49,
-    "pathCount": 500897,
-    "impressionPerNode": 7.97,
-    "conversionRate": 0.019,
+    "ROI": 0.49,
+    "Path Count": 500897,
+    "Impression Per Node": 7.97,
+    "Conversion Rate": 0.019,
     "pathId": 563,
     "nodes": [
       {
@@ -17927,13 +17927,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 1.91,
-    "pathCount": 2570550,
-    "impressionPerNode": 6.01,
-    "conversionRate": 0.009,
+    "ROI": 1.91,
+    "Path Count": 2570550,
+    "Impression Per Node": 6.01,
+    "Conversion Rate": 0.009,
     "pathId": 564,
     "nodes": [
       {
@@ -17955,13 +17955,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.4
+    "Effectiveness": 1.4
   },
   {
-    "roi": 1.21,
-    "pathCount": 6993877,
-    "impressionPerNode": 1.38,
-    "conversionRate": 0.051,
+    "ROI": 1.21,
+    "Path Count": 6993877,
+    "Impression Per Node": 1.38,
+    "Conversion Rate": 0.051,
     "pathId": 565,
     "nodes": [
       {
@@ -17995,13 +17995,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.34,
-    "pathCount": 8404723,
-    "impressionPerNode": 4.21,
-    "conversionRate": 0.057,
+    "ROI": 0.34,
+    "Path Count": 8404723,
+    "Impression Per Node": 4.21,
+    "Conversion Rate": 0.057,
     "pathId": 566,
     "nodes": [
       {
@@ -18041,13 +18041,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 0.47,
-    "pathCount": 2286701,
-    "impressionPerNode": 4.97,
-    "conversionRate": 0.002,
+    "ROI": 0.47,
+    "Path Count": 2286701,
+    "Impression Per Node": 4.97,
+    "Conversion Rate": 0.002,
     "pathId": 567,
     "nodes": [
       {
@@ -18075,13 +18075,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.94
+    "Effectiveness": 0.94
   },
   {
-    "roi": 4.9,
-    "pathCount": 2536671,
-    "impressionPerNode": 6.22,
-    "conversionRate": 0.008,
+    "ROI": 4.9,
+    "Path Count": 2536671,
+    "Impression Per Node": 6.22,
+    "Conversion Rate": 0.008,
     "pathId": 568,
     "nodes": [
       {
@@ -18127,13 +18127,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 2.86,
-    "pathCount": 1573342,
-    "impressionPerNode": 5.31,
-    "conversionRate": 0.005,
+    "ROI": 2.86,
+    "Path Count": 1573342,
+    "Impression Per Node": 5.31,
+    "Conversion Rate": 0.005,
     "pathId": 569,
     "nodes": [
       {
@@ -18173,13 +18173,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.32
+    "Effectiveness": 0.32
   },
   {
-    "roi": 2.64,
-    "pathCount": 1245402,
-    "impressionPerNode": 7.56,
-    "conversionRate": 0.059,
+    "ROI": 2.64,
+    "Path Count": 1245402,
+    "Impression Per Node": 7.56,
+    "Conversion Rate": 0.059,
     "pathId": 570,
     "nodes": [
       {
@@ -18219,13 +18219,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.95
+    "Effectiveness": 1.95
   },
   {
-    "roi": 2.28,
-    "pathCount": 3588891,
-    "impressionPerNode": 6.51,
-    "conversionRate": 0.047,
+    "ROI": 2.28,
+    "Path Count": 3588891,
+    "Impression Per Node": 6.51,
+    "Conversion Rate": 0.047,
     "pathId": 571,
     "nodes": [
       {
@@ -18259,13 +18259,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.17,
-    "pathCount": 977579,
-    "impressionPerNode": 5.31,
-    "conversionRate": 0.011,
+    "ROI": 0.17,
+    "Path Count": 977579,
+    "Impression Per Node": 5.31,
+    "Conversion Rate": 0.011,
     "pathId": 572,
     "nodes": [
       {
@@ -18311,13 +18311,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.31
+    "Effectiveness": 1.31
   },
   {
-    "roi": 1.89,
-    "pathCount": 1965154,
-    "impressionPerNode": 0.91,
-    "conversionRate": 0.024,
+    "ROI": 1.89,
+    "Path Count": 1965154,
+    "Impression Per Node": 0.91,
+    "Conversion Rate": 0.024,
     "pathId": 573,
     "nodes": [
       {
@@ -18339,13 +18339,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 0.32,
-    "pathCount": 803087,
-    "impressionPerNode": 7.07,
-    "conversionRate": 0.026,
+    "ROI": 0.32,
+    "Path Count": 803087,
+    "Impression Per Node": 7.07,
+    "Conversion Rate": 0.026,
     "pathId": 574,
     "nodes": [
       {
@@ -18379,13 +18379,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.68
+    "Effectiveness": 0.68
   },
   {
-    "roi": 1.01,
-    "pathCount": 2761114,
-    "impressionPerNode": 7.92,
-    "conversionRate": 0.004,
+    "ROI": 1.01,
+    "Path Count": 2761114,
+    "Impression Per Node": 7.92,
+    "Conversion Rate": 0.004,
     "pathId": 575,
     "nodes": [
       {
@@ -18443,13 +18443,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.72
+    "Effectiveness": 1.72
   },
   {
-    "roi": 0.77,
-    "pathCount": 4204285,
-    "impressionPerNode": 3.31,
-    "conversionRate": 0.02,
+    "ROI": 0.77,
+    "Path Count": 4204285,
+    "Impression Per Node": 3.31,
+    "Conversion Rate": 0.02,
     "pathId": 576,
     "nodes": [
       {
@@ -18483,13 +18483,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.86,
-    "pathCount": 162089,
-    "impressionPerNode": 7.87,
-    "conversionRate": 0.034,
+    "ROI": 0.86,
+    "Path Count": 162089,
+    "Impression Per Node": 7.87,
+    "Conversion Rate": 0.034,
     "pathId": 577,
     "nodes": [
       {
@@ -18517,13 +18517,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.61
+    "Effectiveness": 1.61
   },
   {
-    "roi": 0.99,
-    "pathCount": 1082259,
-    "impressionPerNode": 1.98,
-    "conversionRate": 0.002,
+    "ROI": 0.99,
+    "Path Count": 1082259,
+    "Impression Per Node": 1.98,
+    "Conversion Rate": 0.002,
     "pathId": 578,
     "nodes": [
       {
@@ -18539,13 +18539,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.28,
-    "pathCount": 775053,
-    "impressionPerNode": 4.65,
-    "conversionRate": 0.055,
+    "ROI": 0.28,
+    "Path Count": 775053,
+    "Impression Per Node": 4.65,
+    "Conversion Rate": 0.055,
     "pathId": 579,
     "nodes": [
       {
@@ -18561,13 +18561,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.99
+    "Effectiveness": 0.99
   },
   {
-    "roi": 0.68,
-    "pathCount": 599976,
-    "impressionPerNode": 3.83,
-    "conversionRate": 0.019,
+    "ROI": 0.68,
+    "Path Count": 599976,
+    "Impression Per Node": 3.83,
+    "Conversion Rate": 0.019,
     "pathId": 580,
     "nodes": [
       {
@@ -18601,13 +18601,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 0.16,
-    "pathCount": 1099718,
-    "impressionPerNode": 5.98,
-    "conversionRate": 0.031,
+    "ROI": 0.16,
+    "Path Count": 1099718,
+    "Impression Per Node": 5.98,
+    "Conversion Rate": 0.031,
     "pathId": 581,
     "nodes": [
       {
@@ -18629,13 +18629,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 0.08,
-    "pathCount": 4519368,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.013,
+    "ROI": 0.08,
+    "Path Count": 4519368,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.013,
     "pathId": 582,
     "nodes": [
       {
@@ -18651,13 +18651,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.65
+    "Effectiveness": 0.65
   },
   {
-    "roi": 0.99,
-    "pathCount": 955536,
-    "impressionPerNode": 4.4,
-    "conversionRate": 0.018,
+    "ROI": 0.99,
+    "Path Count": 955536,
+    "Impression Per Node": 4.4,
+    "Conversion Rate": 0.018,
     "pathId": 583,
     "nodes": [
       {
@@ -18685,13 +18685,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.98
+    "Effectiveness": 0.98
   },
   {
-    "roi": 2.14,
-    "pathCount": 609526,
-    "impressionPerNode": 7.93,
-    "conversionRate": 0.028,
+    "ROI": 2.14,
+    "Path Count": 609526,
+    "Impression Per Node": 7.93,
+    "Conversion Rate": 0.028,
     "pathId": 584,
     "nodes": [
       {
@@ -18713,13 +18713,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.16
+    "Effectiveness": 2.16
   },
   {
-    "roi": 0.35,
-    "pathCount": 5420452,
-    "impressionPerNode": 4.7,
-    "conversionRate": 0.056,
+    "ROI": 0.35,
+    "Path Count": 5420452,
+    "Impression Per Node": 4.7,
+    "Conversion Rate": 0.056,
     "pathId": 585,
     "nodes": [
       {
@@ -18747,13 +18747,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 0.7,
-    "pathCount": 658264,
-    "impressionPerNode": 7.09,
-    "conversionRate": 0.016,
+    "ROI": 0.7,
+    "Path Count": 658264,
+    "Impression Per Node": 7.09,
+    "Conversion Rate": 0.016,
     "pathId": 586,
     "nodes": [
       {
@@ -18775,13 +18775,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.83,
-    "pathCount": 2284961,
-    "impressionPerNode": 2.6,
-    "conversionRate": 0.001,
+    "ROI": 0.83,
+    "Path Count": 2284961,
+    "Impression Per Node": 2.6,
+    "Conversion Rate": 0.001,
     "pathId": 587,
     "nodes": [
       {
@@ -18815,13 +18815,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 0.07,
-    "pathCount": 93611,
-    "impressionPerNode": 7.81,
-    "conversionRate": 0.041,
+    "ROI": 0.07,
+    "Path Count": 93611,
+    "Impression Per Node": 7.81,
+    "Conversion Rate": 0.041,
     "pathId": 588,
     "nodes": [
       {
@@ -18855,13 +18855,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.66
+    "Effectiveness": 0.66
   },
   {
-    "roi": 0.11,
-    "pathCount": 598827,
-    "impressionPerNode": 3.34,
-    "conversionRate": 0.002,
+    "ROI": 0.11,
+    "Path Count": 598827,
+    "Impression Per Node": 3.34,
+    "Conversion Rate": 0.002,
     "pathId": 589,
     "nodes": [
       {
@@ -18877,13 +18877,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.57
+    "Effectiveness": 1.57
   },
   {
-    "roi": 0.5,
-    "pathCount": 2422702,
-    "impressionPerNode": 5.75,
-    "conversionRate": 0.063,
+    "ROI": 0.5,
+    "Path Count": 2422702,
+    "Impression Per Node": 5.75,
+    "Conversion Rate": 0.063,
     "pathId": 590,
     "nodes": [
       {
@@ -18899,13 +18899,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.63,
-    "pathCount": 4823900,
-    "impressionPerNode": 7.23,
-    "conversionRate": 0.015,
+    "ROI": 0.63,
+    "Path Count": 4823900,
+    "Impression Per Node": 7.23,
+    "Conversion Rate": 0.015,
     "pathId": 591,
     "nodes": [
       {
@@ -18951,13 +18951,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.2,
-    "pathCount": 2439724,
-    "impressionPerNode": 7.42,
-    "conversionRate": 0.051,
+    "ROI": 0.2,
+    "Path Count": 2439724,
+    "Impression Per Node": 7.42,
+    "Conversion Rate": 0.051,
     "pathId": 592,
     "nodes": [
       {
@@ -18979,13 +18979,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.95
+    "Effectiveness": 0.95
   },
   {
-    "roi": 0.07,
-    "pathCount": 460647,
-    "impressionPerNode": 5.82,
-    "conversionRate": 0.002,
+    "ROI": 0.07,
+    "Path Count": 460647,
+    "Impression Per Node": 5.82,
+    "Conversion Rate": 0.002,
     "pathId": 593,
     "nodes": [
       {
@@ -19019,13 +19019,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 1.79,
-    "pathCount": 825044,
-    "impressionPerNode": 7.24,
-    "conversionRate": 0.002,
+    "ROI": 1.79,
+    "Path Count": 825044,
+    "Impression Per Node": 7.24,
+    "Conversion Rate": 0.002,
     "pathId": 594,
     "nodes": [
       {
@@ -19053,13 +19053,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.73,
-    "pathCount": 251099,
-    "impressionPerNode": 7.84,
-    "conversionRate": 0.02,
+    "ROI": 0.73,
+    "Path Count": 251099,
+    "Impression Per Node": 7.84,
+    "Conversion Rate": 0.02,
     "pathId": 595,
     "nodes": [
       {
@@ -19075,13 +19075,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 1.77,
-    "pathCount": 3834982,
-    "impressionPerNode": 5.14,
-    "conversionRate": 0.003,
+    "ROI": 1.77,
+    "Path Count": 3834982,
+    "Impression Per Node": 5.14,
+    "Conversion Rate": 0.003,
     "pathId": 596,
     "nodes": [
       {
@@ -19121,13 +19121,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.01,
-    "pathCount": 3677781,
-    "impressionPerNode": 4.53,
-    "conversionRate": 0.028,
+    "ROI": 0.01,
+    "Path Count": 3677781,
+    "Impression Per Node": 4.53,
+    "Conversion Rate": 0.028,
     "pathId": 597,
     "nodes": [
       {
@@ -19143,13 +19143,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 0.45,
-    "pathCount": 4364615,
-    "impressionPerNode": 2.84,
-    "conversionRate": 0.003,
+    "ROI": 0.45,
+    "Path Count": 4364615,
+    "Impression Per Node": 2.84,
+    "Conversion Rate": 0.003,
     "pathId": 598,
     "nodes": [
       {
@@ -19177,13 +19177,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.96
+    "Effectiveness": 0.96
   },
   {
-    "roi": 3.01,
-    "pathCount": 2581778,
-    "impressionPerNode": 2.74,
-    "conversionRate": 0.031,
+    "ROI": 3.01,
+    "Path Count": 2581778,
+    "Impression Per Node": 2.74,
+    "Conversion Rate": 0.031,
     "pathId": 599,
     "nodes": [
       {
@@ -19217,13 +19217,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 1.83,
-    "pathCount": 2331890,
-    "impressionPerNode": 5.64,
-    "conversionRate": 0.008,
+    "ROI": 1.83,
+    "Path Count": 2331890,
+    "Impression Per Node": 5.64,
+    "Conversion Rate": 0.008,
     "pathId": 600,
     "nodes": [
       {
@@ -19239,13 +19239,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.49
+    "Effectiveness": 1.49
   },
   {
-    "roi": 1.92,
-    "pathCount": 227833,
-    "impressionPerNode": 7.63,
-    "conversionRate": 0.02,
+    "ROI": 1.92,
+    "Path Count": 227833,
+    "Impression Per Node": 7.63,
+    "Conversion Rate": 0.02,
     "pathId": 601,
     "nodes": [
       {
@@ -19279,13 +19279,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 2.48
+    "Effectiveness": 2.48
   },
   {
-    "roi": 0.17,
-    "pathCount": 3666779,
-    "impressionPerNode": 4.18,
-    "conversionRate": 0.021,
+    "ROI": 0.17,
+    "Path Count": 3666779,
+    "Impression Per Node": 4.18,
+    "Conversion Rate": 0.021,
     "pathId": 602,
     "nodes": [
       {
@@ -19307,13 +19307,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.56
+    "Effectiveness": 0.56
   },
   {
-    "roi": 2.26,
-    "pathCount": 3337062,
-    "impressionPerNode": 3.94,
-    "conversionRate": 0.01,
+    "ROI": 2.26,
+    "Path Count": 3337062,
+    "Impression Per Node": 3.94,
+    "Conversion Rate": 0.01,
     "pathId": 603,
     "nodes": [
       {
@@ -19335,13 +19335,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.84
+    "Effectiveness": 1.84
   },
   {
-    "roi": 1.67,
-    "pathCount": 1207844,
-    "impressionPerNode": 4.74,
-    "conversionRate": 0.015,
+    "ROI": 1.67,
+    "Path Count": 1207844,
+    "Impression Per Node": 4.74,
+    "Conversion Rate": 0.015,
     "pathId": 604,
     "nodes": [
       {
@@ -19375,13 +19375,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.87
+    "Effectiveness": 0.87
   },
   {
-    "roi": 0.17,
-    "pathCount": 3830661,
-    "impressionPerNode": 5.22,
-    "conversionRate": 0.003,
+    "ROI": 0.17,
+    "Path Count": 3830661,
+    "Impression Per Node": 5.22,
+    "Conversion Rate": 0.003,
     "pathId": 605,
     "nodes": [
       {
@@ -19415,13 +19415,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 0.88,
-    "pathCount": 651179,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.058,
+    "ROI": 0.88,
+    "Path Count": 651179,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.058,
     "pathId": 606,
     "nodes": [
       {
@@ -19473,13 +19473,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.43
+    "Effectiveness": 0.43
   },
   {
-    "roi": 0.27,
-    "pathCount": 5360677,
-    "impressionPerNode": 1.34,
-    "conversionRate": 0.01,
+    "ROI": 0.27,
+    "Path Count": 5360677,
+    "Impression Per Node": 1.34,
+    "Conversion Rate": 0.01,
     "pathId": 607,
     "nodes": [
       {
@@ -19495,13 +19495,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 0.53,
-    "pathCount": 3498373,
-    "impressionPerNode": 2.89,
-    "conversionRate": 0.024,
+    "ROI": 0.53,
+    "Path Count": 3498373,
+    "Impression Per Node": 2.89,
+    "Conversion Rate": 0.024,
     "pathId": 608,
     "nodes": [
       {
@@ -19529,13 +19529,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.22,
-    "pathCount": 3035749,
-    "impressionPerNode": 4.3,
-    "conversionRate": 0.051,
+    "ROI": 0.22,
+    "Path Count": 3035749,
+    "Impression Per Node": 4.3,
+    "Conversion Rate": 0.051,
     "pathId": 609,
     "nodes": [
       {
@@ -19581,13 +19581,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.07
+    "Effectiveness": 2.07
   },
   {
-    "roi": 2.54,
-    "pathCount": 6243518,
-    "impressionPerNode": 7.2,
-    "conversionRate": 0.002,
+    "ROI": 2.54,
+    "Path Count": 6243518,
+    "Impression Per Node": 7.2,
+    "Conversion Rate": 0.002,
     "pathId": 610,
     "nodes": [
       {
@@ -19633,13 +19633,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 3.54,
-    "pathCount": 265022,
-    "impressionPerNode": 1.51,
-    "conversionRate": 0.024,
+    "ROI": 3.54,
+    "Path Count": 265022,
+    "Impression Per Node": 1.51,
+    "Conversion Rate": 0.024,
     "pathId": 611,
     "nodes": [
       {
@@ -19661,13 +19661,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.15
+    "Effectiveness": 1.15
   },
   {
-    "roi": 0.18,
-    "pathCount": 337828,
-    "impressionPerNode": 4.22,
-    "conversionRate": 0.017,
+    "ROI": 0.18,
+    "Path Count": 337828,
+    "Impression Per Node": 4.22,
+    "Conversion Rate": 0.017,
     "pathId": 612,
     "nodes": [
       {
@@ -19683,13 +19683,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.42,
-    "pathCount": 4375944,
-    "impressionPerNode": 5.49,
-    "conversionRate": 0.055,
+    "ROI": 0.42,
+    "Path Count": 4375944,
+    "Impression Per Node": 5.49,
+    "Conversion Rate": 0.055,
     "pathId": 613,
     "nodes": [
       {
@@ -19705,13 +19705,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.35
+    "Effectiveness": 1.35
   },
   {
-    "roi": 2.12,
-    "pathCount": 1235628,
-    "impressionPerNode": 4.97,
-    "conversionRate": 0.003,
+    "ROI": 2.12,
+    "Path Count": 1235628,
+    "Impression Per Node": 4.97,
+    "Conversion Rate": 0.003,
     "pathId": 614,
     "nodes": [
       {
@@ -19733,13 +19733,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.0,
-    "pathCount": 1806849,
-    "impressionPerNode": 5.21,
-    "conversionRate": 0.054,
+    "ROI": 0.0,
+    "Path Count": 1806849,
+    "Impression Per Node": 5.21,
+    "Conversion Rate": 0.054,
     "pathId": 615,
     "nodes": [
       {
@@ -19779,13 +19779,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 0.74,
-    "pathCount": 4614936,
-    "impressionPerNode": 7.14,
-    "conversionRate": 0.016,
+    "ROI": 0.74,
+    "Path Count": 4614936,
+    "Impression Per Node": 7.14,
+    "Conversion Rate": 0.016,
     "pathId": 616,
     "nodes": [
       {
@@ -19813,13 +19813,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 0.33,
-    "pathCount": 5117837,
-    "impressionPerNode": 4.23,
-    "conversionRate": 0.053,
+    "ROI": 0.33,
+    "Path Count": 5117837,
+    "Impression Per Node": 4.23,
+    "Conversion Rate": 0.053,
     "pathId": 617,
     "nodes": [
       {
@@ -19853,13 +19853,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 0.17,
-    "pathCount": 4302062,
-    "impressionPerNode": 4.63,
-    "conversionRate": 0.015,
+    "ROI": 0.17,
+    "Path Count": 4302062,
+    "Impression Per Node": 4.63,
+    "Conversion Rate": 0.015,
     "pathId": 618,
     "nodes": [
       {
@@ -19881,13 +19881,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 0.39,
-    "pathCount": 135566,
-    "impressionPerNode": 2.76,
-    "conversionRate": 0.005,
+    "ROI": 0.39,
+    "Path Count": 135566,
+    "Impression Per Node": 2.76,
+    "Conversion Rate": 0.005,
     "pathId": 619,
     "nodes": [
       {
@@ -19915,13 +19915,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.35
+    "Effectiveness": 0.35
   },
   {
-    "roi": 1.34,
-    "pathCount": 4430924,
-    "impressionPerNode": 6.72,
-    "conversionRate": 0.052,
+    "ROI": 1.34,
+    "Path Count": 4430924,
+    "Impression Per Node": 6.72,
+    "Conversion Rate": 0.052,
     "pathId": 620,
     "nodes": [
       {
@@ -19949,13 +19949,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 0.38,
-    "pathCount": 216816,
-    "impressionPerNode": 7.52,
-    "conversionRate": 0.034,
+    "ROI": 0.38,
+    "Path Count": 216816,
+    "Impression Per Node": 7.52,
+    "Conversion Rate": 0.034,
     "pathId": 621,
     "nodes": [
       {
@@ -19989,13 +19989,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 3.98,
-    "pathCount": 3729262,
-    "impressionPerNode": 1.29,
-    "conversionRate": 0.019,
+    "ROI": 3.98,
+    "Path Count": 3729262,
+    "Impression Per Node": 1.29,
+    "Conversion Rate": 0.019,
     "pathId": 622,
     "nodes": [
       {
@@ -20011,13 +20011,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.52,
-    "pathCount": 953387,
-    "impressionPerNode": 1.12,
-    "conversionRate": 0.008,
+    "ROI": 0.52,
+    "Path Count": 953387,
+    "Impression Per Node": 1.12,
+    "Conversion Rate": 0.008,
     "pathId": 623,
     "nodes": [
       {
@@ -20039,13 +20039,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 2.46,
-    "pathCount": 563326,
-    "impressionPerNode": 7.64,
-    "conversionRate": 0.079,
+    "ROI": 2.46,
+    "Path Count": 563326,
+    "Impression Per Node": 7.64,
+    "Conversion Rate": 0.079,
     "pathId": 624,
     "nodes": [
       {
@@ -20067,13 +20067,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.09,
-    "pathCount": 6330388,
-    "impressionPerNode": 7.99,
-    "conversionRate": 0.02,
+    "ROI": 0.09,
+    "Path Count": 6330388,
+    "Impression Per Node": 7.99,
+    "Conversion Rate": 0.02,
     "pathId": 625,
     "nodes": [
       {
@@ -20113,13 +20113,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 4.48,
-    "pathCount": 1767594,
-    "impressionPerNode": 6.15,
-    "conversionRate": 0.016,
+    "ROI": 4.48,
+    "Path Count": 1767594,
+    "Impression Per Node": 6.15,
+    "Conversion Rate": 0.016,
     "pathId": 626,
     "nodes": [
       {
@@ -20147,13 +20147,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.89
+    "Effectiveness": 0.89
   },
   {
-    "roi": 0.11,
-    "pathCount": 2203266,
-    "impressionPerNode": 5.7,
-    "conversionRate": 0.006,
+    "ROI": 0.11,
+    "Path Count": 2203266,
+    "Impression Per Node": 5.7,
+    "Conversion Rate": 0.006,
     "pathId": 627,
     "nodes": [
       {
@@ -20187,13 +20187,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 0.17,
-    "pathCount": 21251,
-    "impressionPerNode": 5.97,
-    "conversionRate": 0.001,
+    "ROI": 0.17,
+    "Path Count": 21251,
+    "Impression Per Node": 5.97,
+    "Conversion Rate": 0.001,
     "pathId": 628,
     "nodes": [
       {
@@ -20209,13 +20209,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.4
+    "Effectiveness": 1.4
   },
   {
-    "roi": 0.46,
-    "pathCount": 424005,
-    "impressionPerNode": 4.9,
-    "conversionRate": 0.004,
+    "ROI": 0.46,
+    "Path Count": 424005,
+    "Impression Per Node": 4.9,
+    "Conversion Rate": 0.004,
     "pathId": 629,
     "nodes": [
       {
@@ -20249,13 +20249,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.53
+    "Effectiveness": 0.53
   },
   {
-    "roi": 3.62,
-    "pathCount": 2556707,
-    "impressionPerNode": 7.52,
-    "conversionRate": 0.026,
+    "ROI": 3.62,
+    "Path Count": 2556707,
+    "Impression Per Node": 7.52,
+    "Conversion Rate": 0.026,
     "pathId": 630,
     "nodes": [
       {
@@ -20277,13 +20277,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.4
+    "Effectiveness": 2.4
   },
   {
-    "roi": 0.33,
-    "pathCount": 1489329,
-    "impressionPerNode": 7.77,
-    "conversionRate": 0.037,
+    "ROI": 0.33,
+    "Path Count": 1489329,
+    "Impression Per Node": 7.77,
+    "Conversion Rate": 0.037,
     "pathId": 631,
     "nodes": [
       {
@@ -20299,13 +20299,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 0.83,
-    "pathCount": 618634,
-    "impressionPerNode": 4.85,
-    "conversionRate": 0.005,
+    "ROI": 0.83,
+    "Path Count": 618634,
+    "Impression Per Node": 4.85,
+    "Conversion Rate": 0.005,
     "pathId": 632,
     "nodes": [
       {
@@ -20321,13 +20321,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 2.42,
-    "pathCount": 5548456,
-    "impressionPerNode": 4.06,
-    "conversionRate": 0.04,
+    "ROI": 2.42,
+    "Path Count": 5548456,
+    "Impression Per Node": 4.06,
+    "Conversion Rate": 0.04,
     "pathId": 633,
     "nodes": [
       {
@@ -20361,13 +20361,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.24,
-    "pathCount": 2616774,
-    "impressionPerNode": 5.31,
-    "conversionRate": 0.007,
+    "ROI": 0.24,
+    "Path Count": 2616774,
+    "Impression Per Node": 5.31,
+    "Conversion Rate": 0.007,
     "pathId": 634,
     "nodes": [
       {
@@ -20383,13 +20383,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.13
+    "Effectiveness": 2.13
   },
   {
-    "roi": 2.26,
-    "pathCount": 3950154,
-    "impressionPerNode": 3.16,
-    "conversionRate": 0.001,
+    "ROI": 2.26,
+    "Path Count": 3950154,
+    "Impression Per Node": 3.16,
+    "Conversion Rate": 0.001,
     "pathId": 635,
     "nodes": [
       {
@@ -20405,13 +20405,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.89,
-    "pathCount": 37109,
-    "impressionPerNode": 6.35,
-    "conversionRate": 0.012,
+    "ROI": 0.89,
+    "Path Count": 37109,
+    "Impression Per Node": 6.35,
+    "Conversion Rate": 0.012,
     "pathId": 636,
     "nodes": [
       {
@@ -20445,13 +20445,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 1.97,
-    "pathCount": 1821193,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.027,
+    "ROI": 1.97,
+    "Path Count": 1821193,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.027,
     "pathId": 637,
     "nodes": [
       {
@@ -20473,13 +20473,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 0.71,
-    "pathCount": 255900,
-    "impressionPerNode": 7.76,
-    "conversionRate": 0.011,
+    "ROI": 0.71,
+    "Path Count": 255900,
+    "Impression Per Node": 7.76,
+    "Conversion Rate": 0.011,
     "pathId": 638,
     "nodes": [
       {
@@ -20501,13 +20501,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 1.72,
-    "pathCount": 3516018,
-    "impressionPerNode": 7.73,
-    "conversionRate": 0.034,
+    "ROI": 1.72,
+    "Path Count": 3516018,
+    "Impression Per Node": 7.73,
+    "Conversion Rate": 0.034,
     "pathId": 639,
     "nodes": [
       {
@@ -20529,13 +20529,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 0.27,
-    "pathCount": 4712515,
-    "impressionPerNode": 5.42,
-    "conversionRate": 0.034,
+    "ROI": 0.27,
+    "Path Count": 4712515,
+    "Impression Per Node": 5.42,
+    "Conversion Rate": 0.034,
     "pathId": 640,
     "nodes": [
       {
@@ -20557,13 +20557,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.16
+    "Effectiveness": 1.16
   },
   {
-    "roi": 0.31,
-    "pathCount": 1102893,
-    "impressionPerNode": 7.47,
-    "conversionRate": 0.015,
+    "ROI": 0.31,
+    "Path Count": 1102893,
+    "Impression Per Node": 7.47,
+    "Conversion Rate": 0.015,
     "pathId": 641,
     "nodes": [
       {
@@ -20609,13 +20609,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 0.29,
-    "pathCount": 2970199,
-    "impressionPerNode": 6.31,
-    "conversionRate": 0.068,
+    "ROI": 0.29,
+    "Path Count": 2970199,
+    "Impression Per Node": 6.31,
+    "Conversion Rate": 0.068,
     "pathId": 642,
     "nodes": [
       {
@@ -20631,13 +20631,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.84,
-    "pathCount": 2318287,
-    "impressionPerNode": 6.5,
-    "conversionRate": 0.005,
+    "ROI": 0.84,
+    "Path Count": 2318287,
+    "Impression Per Node": 6.5,
+    "Conversion Rate": 0.005,
     "pathId": 643,
     "nodes": [
       {
@@ -20653,13 +20653,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.71,
-    "pathCount": 4039052,
-    "impressionPerNode": 5.44,
-    "conversionRate": 0.0,
+    "ROI": 0.71,
+    "Path Count": 4039052,
+    "Impression Per Node": 5.44,
+    "Conversion Rate": 0.0,
     "pathId": 644,
     "nodes": [
       {
@@ -20675,13 +20675,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 1.14,
-    "pathCount": 5735900,
-    "impressionPerNode": 7.8,
-    "conversionRate": 0.029,
+    "ROI": 1.14,
+    "Path Count": 5735900,
+    "Impression Per Node": 7.8,
+    "Conversion Rate": 0.029,
     "pathId": 645,
     "nodes": [
       {
@@ -20721,13 +20721,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.81
+    "Effectiveness": 0.81
   },
   {
-    "roi": 0.11,
-    "pathCount": 6342967,
-    "impressionPerNode": 5.55,
-    "conversionRate": 0.021,
+    "ROI": 0.11,
+    "Path Count": 6342967,
+    "Impression Per Node": 5.55,
+    "Conversion Rate": 0.021,
     "pathId": 646,
     "nodes": [
       {
@@ -20743,13 +20743,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.9
+    "Effectiveness": 1.9
   },
   {
-    "roi": 1.42,
-    "pathCount": 1452017,
-    "impressionPerNode": 6.71,
-    "conversionRate": 0.012,
+    "ROI": 1.42,
+    "Path Count": 1452017,
+    "Impression Per Node": 6.71,
+    "Conversion Rate": 0.012,
     "pathId": 647,
     "nodes": [
       {
@@ -20771,13 +20771,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 0.66,
-    "pathCount": 2692552,
-    "impressionPerNode": 6.19,
-    "conversionRate": 0.007,
+    "ROI": 0.66,
+    "Path Count": 2692552,
+    "Impression Per Node": 6.19,
+    "Conversion Rate": 0.007,
     "pathId": 648,
     "nodes": [
       {
@@ -20793,13 +20793,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 1.43,
-    "pathCount": 4626589,
-    "impressionPerNode": 5.9,
-    "conversionRate": 0.012,
+    "ROI": 1.43,
+    "Path Count": 4626589,
+    "Impression Per Node": 5.9,
+    "Conversion Rate": 0.012,
     "pathId": 649,
     "nodes": [
       {
@@ -20839,13 +20839,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.82,
-    "pathCount": 3051486,
-    "impressionPerNode": 2.09,
-    "conversionRate": 0.035,
+    "ROI": 0.82,
+    "Path Count": 3051486,
+    "Impression Per Node": 2.09,
+    "Conversion Rate": 0.035,
     "pathId": 650,
     "nodes": [
       {
@@ -20861,13 +20861,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.44,
-    "pathCount": 4220110,
-    "impressionPerNode": 0.77,
-    "conversionRate": 0.057,
+    "ROI": 0.44,
+    "Path Count": 4220110,
+    "Impression Per Node": 0.77,
+    "Conversion Rate": 0.057,
     "pathId": 651,
     "nodes": [
       {
@@ -20895,13 +20895,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.4,
-    "pathCount": 205659,
-    "impressionPerNode": 6.72,
-    "conversionRate": 0.001,
+    "ROI": 0.4,
+    "Path Count": 205659,
+    "Impression Per Node": 6.72,
+    "Conversion Rate": 0.001,
     "pathId": 652,
     "nodes": [
       {
@@ -20917,13 +20917,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.39,
-    "pathCount": 332864,
-    "impressionPerNode": 5.61,
-    "conversionRate": 0.028,
+    "ROI": 0.39,
+    "Path Count": 332864,
+    "Impression Per Node": 5.61,
+    "Conversion Rate": 0.028,
     "pathId": 653,
     "nodes": [
       {
@@ -20945,13 +20945,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 1.04,
-    "pathCount": 23293,
-    "impressionPerNode": 7.68,
-    "conversionRate": 0.017,
+    "ROI": 1.04,
+    "Path Count": 23293,
+    "Impression Per Node": 7.68,
+    "Conversion Rate": 0.017,
     "pathId": 654,
     "nodes": [
       {
@@ -20979,13 +20979,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.74,
-    "pathCount": 3564194,
-    "impressionPerNode": 4.33,
-    "conversionRate": 0.016,
+    "ROI": 0.74,
+    "Path Count": 3564194,
+    "Impression Per Node": 4.33,
+    "Conversion Rate": 0.016,
     "pathId": 655,
     "nodes": [
       {
@@ -21001,13 +21001,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 1.22,
-    "pathCount": 1200563,
-    "impressionPerNode": 7.9,
-    "conversionRate": 0.037,
+    "ROI": 1.22,
+    "Path Count": 1200563,
+    "Impression Per Node": 7.9,
+    "Conversion Rate": 0.037,
     "pathId": 656,
     "nodes": [
       {
@@ -21047,13 +21047,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.35,
-    "pathCount": 3514578,
-    "impressionPerNode": 4.67,
-    "conversionRate": 0.018,
+    "ROI": 0.35,
+    "Path Count": 3514578,
+    "Impression Per Node": 4.67,
+    "Conversion Rate": 0.018,
     "pathId": 657,
     "nodes": [
       {
@@ -21099,13 +21099,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.32,
-    "pathCount": 257917,
-    "impressionPerNode": 7.81,
-    "conversionRate": 0.033,
+    "ROI": 0.32,
+    "Path Count": 257917,
+    "Impression Per Node": 7.81,
+    "Conversion Rate": 0.033,
     "pathId": 658,
     "nodes": [
       {
@@ -21139,13 +21139,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 1.47,
-    "pathCount": 2429763,
-    "impressionPerNode": 1.55,
-    "conversionRate": 0.012,
+    "ROI": 1.47,
+    "Path Count": 2429763,
+    "Impression Per Node": 1.55,
+    "Conversion Rate": 0.012,
     "pathId": 659,
     "nodes": [
       {
@@ -21167,13 +21167,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.88,
-    "pathCount": 102172,
-    "impressionPerNode": 4.57,
-    "conversionRate": 0.031,
+    "ROI": 0.88,
+    "Path Count": 102172,
+    "Impression Per Node": 4.57,
+    "Conversion Rate": 0.031,
     "pathId": 660,
     "nodes": [
       {
@@ -21189,13 +21189,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 3.32,
-    "pathCount": 35134,
-    "impressionPerNode": 6.07,
-    "conversionRate": 0.006,
+    "ROI": 3.32,
+    "Path Count": 35134,
+    "Impression Per Node": 6.07,
+    "Conversion Rate": 0.006,
     "pathId": 661,
     "nodes": [
       {
@@ -21217,13 +21217,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 1.0,
-    "pathCount": 884016,
-    "impressionPerNode": 7.0,
-    "conversionRate": 0.002,
+    "ROI": 1.0,
+    "Path Count": 884016,
+    "Impression Per Node": 7.0,
+    "Conversion Rate": 0.002,
     "pathId": 662,
     "nodes": [
       {
@@ -21251,13 +21251,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.92,
-    "pathCount": 6162352,
-    "impressionPerNode": 3.07,
-    "conversionRate": 0.003,
+    "ROI": 0.92,
+    "Path Count": 6162352,
+    "Impression Per Node": 3.07,
+    "Conversion Rate": 0.003,
     "pathId": 663,
     "nodes": [
       {
@@ -21297,13 +21297,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 0.87,
-    "pathCount": 279318,
-    "impressionPerNode": 7.69,
-    "conversionRate": 0.071,
+    "ROI": 0.87,
+    "Path Count": 279318,
+    "Impression Per Node": 7.69,
+    "Conversion Rate": 0.071,
     "pathId": 664,
     "nodes": [
       {
@@ -21319,13 +21319,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.61
+    "Effectiveness": 0.61
   },
   {
-    "roi": 0.01,
-    "pathCount": 601323,
-    "impressionPerNode": 6.87,
-    "conversionRate": 0.017,
+    "ROI": 0.01,
+    "Path Count": 601323,
+    "Impression Per Node": 6.87,
+    "Conversion Rate": 0.017,
     "pathId": 665,
     "nodes": [
       {
@@ -21347,13 +21347,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 2.53,
-    "pathCount": 244685,
-    "impressionPerNode": 2.68,
-    "conversionRate": 0.002,
+    "ROI": 2.53,
+    "Path Count": 244685,
+    "Impression Per Node": 2.68,
+    "Conversion Rate": 0.002,
     "pathId": 666,
     "nodes": [
       {
@@ -21369,13 +21369,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.01
+    "Effectiveness": 1.01
   },
   {
-    "roi": 0.45,
-    "pathCount": 489784,
-    "impressionPerNode": 2.07,
-    "conversionRate": 0.027,
+    "ROI": 0.45,
+    "Path Count": 489784,
+    "Impression Per Node": 2.07,
+    "Conversion Rate": 0.027,
     "pathId": 667,
     "nodes": [
       {
@@ -21391,13 +21391,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.39,
-    "pathCount": 1962988,
-    "impressionPerNode": 4.43,
-    "conversionRate": 0.015,
+    "ROI": 0.39,
+    "Path Count": 1962988,
+    "Impression Per Node": 4.43,
+    "Conversion Rate": 0.015,
     "pathId": 668,
     "nodes": [
       {
@@ -21425,13 +21425,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.7
+    "Effectiveness": 1.7
   },
   {
-    "roi": 0.64,
-    "pathCount": 2274518,
-    "impressionPerNode": 4.25,
-    "conversionRate": 0.029,
+    "ROI": 0.64,
+    "Path Count": 2274518,
+    "Impression Per Node": 4.25,
+    "Conversion Rate": 0.029,
     "pathId": 669,
     "nodes": [
       {
@@ -21453,13 +21453,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 0.71,
-    "pathCount": 4664084,
-    "impressionPerNode": 5.26,
-    "conversionRate": 0.072,
+    "ROI": 0.71,
+    "Path Count": 4664084,
+    "Impression Per Node": 5.26,
+    "Conversion Rate": 0.072,
     "pathId": 670,
     "nodes": [
       {
@@ -21493,13 +21493,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.3
+    "Effectiveness": 0.3
   },
   {
-    "roi": 1.14,
-    "pathCount": 354271,
-    "impressionPerNode": 3.55,
-    "conversionRate": 0.011,
+    "ROI": 1.14,
+    "Path Count": 354271,
+    "Impression Per Node": 3.55,
+    "Conversion Rate": 0.011,
     "pathId": 671,
     "nodes": [
       {
@@ -21539,13 +21539,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.02,
-    "pathCount": 1683547,
-    "impressionPerNode": 7.19,
-    "conversionRate": 0.002,
+    "ROI": 0.02,
+    "Path Count": 1683547,
+    "Impression Per Node": 7.19,
+    "Conversion Rate": 0.002,
     "pathId": 672,
     "nodes": [
       {
@@ -21561,13 +21561,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.42
+    "Effectiveness": 1.42
   },
   {
-    "roi": 0.96,
-    "pathCount": 3384001,
-    "impressionPerNode": 5.18,
-    "conversionRate": 0.057,
+    "ROI": 0.96,
+    "Path Count": 3384001,
+    "Impression Per Node": 5.18,
+    "Conversion Rate": 0.057,
     "pathId": 673,
     "nodes": [
       {
@@ -21601,13 +21601,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.51
+    "Effectiveness": 1.51
   },
   {
-    "roi": 2.61,
-    "pathCount": 915209,
-    "impressionPerNode": 7.0,
-    "conversionRate": 0.011,
+    "ROI": 2.61,
+    "Path Count": 915209,
+    "Impression Per Node": 7.0,
+    "Conversion Rate": 0.011,
     "pathId": 674,
     "nodes": [
       {
@@ -21629,13 +21629,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 0.26,
-    "pathCount": 2300636,
-    "impressionPerNode": 3.54,
-    "conversionRate": 0.004,
+    "ROI": 0.26,
+    "Path Count": 2300636,
+    "Impression Per Node": 3.54,
+    "Conversion Rate": 0.004,
     "pathId": 675,
     "nodes": [
       {
@@ -21681,13 +21681,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 1.23,
-    "pathCount": 146881,
-    "impressionPerNode": 4.63,
-    "conversionRate": 0.034,
+    "ROI": 1.23,
+    "Path Count": 146881,
+    "Impression Per Node": 4.63,
+    "Conversion Rate": 0.034,
     "pathId": 676,
     "nodes": [
       {
@@ -21703,13 +21703,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.43
+    "Effectiveness": 1.43
   },
   {
-    "roi": 0.45,
-    "pathCount": 99147,
-    "impressionPerNode": 3.95,
-    "conversionRate": 0.039,
+    "ROI": 0.45,
+    "Path Count": 99147,
+    "Impression Per Node": 3.95,
+    "Conversion Rate": 0.039,
     "pathId": 677,
     "nodes": [
       {
@@ -21749,13 +21749,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 1.19,
-    "pathCount": 546953,
-    "impressionPerNode": 4.41,
-    "conversionRate": 0.019,
+    "ROI": 1.19,
+    "Path Count": 546953,
+    "Impression Per Node": 4.41,
+    "Conversion Rate": 0.019,
     "pathId": 678,
     "nodes": [
       {
@@ -21801,13 +21801,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.64
+    "Effectiveness": 1.64
   },
   {
-    "roi": 0.16,
-    "pathCount": 141345,
-    "impressionPerNode": 5.15,
-    "conversionRate": 0.018,
+    "ROI": 0.16,
+    "Path Count": 141345,
+    "Impression Per Node": 5.15,
+    "Conversion Rate": 0.018,
     "pathId": 679,
     "nodes": [
       {
@@ -21823,13 +21823,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.75
+    "Effectiveness": 0.75
   },
   {
-    "roi": 0.33,
-    "pathCount": 32089,
-    "impressionPerNode": 7.55,
-    "conversionRate": 0.005,
+    "ROI": 0.33,
+    "Path Count": 32089,
+    "Impression Per Node": 7.55,
+    "Conversion Rate": 0.005,
     "pathId": 680,
     "nodes": [
       {
@@ -21857,13 +21857,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.25,
-    "pathCount": 2860143,
-    "impressionPerNode": 7.05,
-    "conversionRate": 0.028,
+    "ROI": 2.25,
+    "Path Count": 2860143,
+    "Impression Per Node": 7.05,
+    "Conversion Rate": 0.028,
     "pathId": 681,
     "nodes": [
       {
@@ -21891,13 +21891,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.08,
-    "pathCount": 7429549,
-    "impressionPerNode": 6.26,
-    "conversionRate": 0.007,
+    "ROI": 0.08,
+    "Path Count": 7429549,
+    "Impression Per Node": 6.26,
+    "Conversion Rate": 0.007,
     "pathId": 682,
     "nodes": [
       {
@@ -21937,13 +21937,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 3.04,
-    "pathCount": 1053625,
-    "impressionPerNode": 6.5,
-    "conversionRate": 0.011,
+    "ROI": 3.04,
+    "Path Count": 1053625,
+    "Impression Per Node": 6.5,
+    "Conversion Rate": 0.011,
     "pathId": 683,
     "nodes": [
       {
@@ -21977,13 +21977,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.33
+    "Effectiveness": 1.33
   },
   {
-    "roi": 0.35,
-    "pathCount": 720074,
-    "impressionPerNode": 6.69,
-    "conversionRate": 0.079,
+    "ROI": 0.35,
+    "Path Count": 720074,
+    "Impression Per Node": 6.69,
+    "Conversion Rate": 0.079,
     "pathId": 684,
     "nodes": [
       {
@@ -22011,13 +22011,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.65
+    "Effectiveness": 1.65
   },
   {
-    "roi": 0.92,
-    "pathCount": 1924702,
-    "impressionPerNode": 1.65,
-    "conversionRate": 0.012,
+    "ROI": 0.92,
+    "Path Count": 1924702,
+    "Impression Per Node": 1.65,
+    "Conversion Rate": 0.012,
     "pathId": 685,
     "nodes": [
       {
@@ -22039,13 +22039,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.4
+    "Effectiveness": 0.4
   },
   {
-    "roi": 1.1,
-    "pathCount": 3132683,
-    "impressionPerNode": 7.45,
-    "conversionRate": 0.046,
+    "ROI": 1.1,
+    "Path Count": 3132683,
+    "Impression Per Node": 7.45,
+    "Conversion Rate": 0.046,
     "pathId": 686,
     "nodes": [
       {
@@ -22061,13 +22061,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.71
+    "Effectiveness": 1.71
   },
   {
-    "roi": 0.87,
-    "pathCount": 57222,
-    "impressionPerNode": 2.87,
-    "conversionRate": 0.0,
+    "ROI": 0.87,
+    "Path Count": 57222,
+    "Impression Per Node": 2.87,
+    "Conversion Rate": 0.0,
     "pathId": 687,
     "nodes": [
       {
@@ -22083,13 +22083,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.93
+    "Effectiveness": 1.93
   },
   {
-    "roi": 1.03,
-    "pathCount": 990354,
-    "impressionPerNode": 2.08,
-    "conversionRate": 0.038,
+    "ROI": 1.03,
+    "Path Count": 990354,
+    "Impression Per Node": 2.08,
+    "Conversion Rate": 0.038,
     "pathId": 688,
     "nodes": [
       {
@@ -22111,13 +22111,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.56,
-    "pathCount": 292236,
-    "impressionPerNode": 2.12,
-    "conversionRate": 0.018,
+    "ROI": 0.56,
+    "Path Count": 292236,
+    "Impression Per Node": 2.12,
+    "Conversion Rate": 0.018,
     "pathId": 689,
     "nodes": [
       {
@@ -22163,13 +22163,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.67
+    "Effectiveness": 1.67
   },
   {
-    "roi": 2.25,
-    "pathCount": 3082591,
-    "impressionPerNode": 7.27,
-    "conversionRate": 0.02,
+    "ROI": 2.25,
+    "Path Count": 3082591,
+    "Impression Per Node": 7.27,
+    "Conversion Rate": 0.02,
     "pathId": 690,
     "nodes": [
       {
@@ -22185,13 +22185,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.73,
-    "pathCount": 1588917,
-    "impressionPerNode": 5.22,
-    "conversionRate": 0.005,
+    "ROI": 0.73,
+    "Path Count": 1588917,
+    "Impression Per Node": 5.22,
+    "Conversion Rate": 0.005,
     "pathId": 691,
     "nodes": [
       {
@@ -22243,13 +22243,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.34,
-    "pathCount": 184566,
-    "impressionPerNode": 3.3,
-    "conversionRate": 0.039,
+    "ROI": 0.34,
+    "Path Count": 184566,
+    "Impression Per Node": 3.3,
+    "Conversion Rate": 0.039,
     "pathId": 692,
     "nodes": [
       {
@@ -22265,13 +22265,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.5
+    "Effectiveness": 1.5
   },
   {
-    "roi": 0.16,
-    "pathCount": 610021,
-    "impressionPerNode": 6.9,
-    "conversionRate": 0.013,
+    "ROI": 0.16,
+    "Path Count": 610021,
+    "Impression Per Node": 6.9,
+    "Conversion Rate": 0.013,
     "pathId": 693,
     "nodes": [
       {
@@ -22293,13 +22293,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 3.91,
-    "pathCount": 1267786,
-    "impressionPerNode": 4.48,
-    "conversionRate": 0.015,
+    "ROI": 3.91,
+    "Path Count": 1267786,
+    "Impression Per Node": 4.48,
+    "Conversion Rate": 0.015,
     "pathId": 694,
     "nodes": [
       {
@@ -22339,13 +22339,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 0.67,
-    "pathCount": 2418141,
-    "impressionPerNode": 3.8,
-    "conversionRate": 0.021,
+    "ROI": 0.67,
+    "Path Count": 2418141,
+    "Impression Per Node": 3.8,
+    "Conversion Rate": 0.021,
     "pathId": 695,
     "nodes": [
       {
@@ -22379,13 +22379,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 1.88,
-    "pathCount": 2305875,
-    "impressionPerNode": 2.17,
-    "conversionRate": 0.003,
+    "ROI": 1.88,
+    "Path Count": 2305875,
+    "Impression Per Node": 2.17,
+    "Conversion Rate": 0.003,
     "pathId": 696,
     "nodes": [
       {
@@ -22407,13 +22407,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.28
+    "Effectiveness": 1.28
   },
   {
-    "roi": 3.28,
-    "pathCount": 109084,
-    "impressionPerNode": 3.58,
-    "conversionRate": 0.067,
+    "ROI": 3.28,
+    "Path Count": 109084,
+    "Impression Per Node": 3.58,
+    "Conversion Rate": 0.067,
     "pathId": 697,
     "nodes": [
       {
@@ -22459,13 +22459,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.51,
-    "pathCount": 2715950,
-    "impressionPerNode": 4.38,
-    "conversionRate": 0.005,
+    "ROI": 0.51,
+    "Path Count": 2715950,
+    "Impression Per Node": 4.38,
+    "Conversion Rate": 0.005,
     "pathId": 698,
     "nodes": [
       {
@@ -22481,13 +22481,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.56
+    "Effectiveness": 0.56
   },
   {
-    "roi": 2.52,
-    "pathCount": 5136005,
-    "impressionPerNode": 1.61,
-    "conversionRate": 0.017,
+    "ROI": 2.52,
+    "Path Count": 5136005,
+    "Impression Per Node": 1.61,
+    "Conversion Rate": 0.017,
     "pathId": 699,
     "nodes": [
       {
@@ -22509,13 +22509,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 1.57,
-    "pathCount": 1451639,
-    "impressionPerNode": 7.61,
-    "conversionRate": 0.018,
+    "ROI": 1.57,
+    "Path Count": 1451639,
+    "Impression Per Node": 7.61,
+    "Conversion Rate": 0.018,
     "pathId": 700,
     "nodes": [
       {
@@ -22537,13 +22537,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.43
+    "Effectiveness": 0.43
   },
   {
-    "roi": 0.53,
-    "pathCount": 939754,
-    "impressionPerNode": 4.7,
-    "conversionRate": 0.066,
+    "ROI": 0.53,
+    "Path Count": 939754,
+    "Impression Per Node": 4.7,
+    "Conversion Rate": 0.066,
     "pathId": 701,
     "nodes": [
       {
@@ -22559,13 +22559,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 3.65,
-    "pathCount": 489438,
-    "impressionPerNode": 4.83,
-    "conversionRate": 0.053,
+    "ROI": 3.65,
+    "Path Count": 489438,
+    "Impression Per Node": 4.83,
+    "Conversion Rate": 0.053,
     "pathId": 702,
     "nodes": [
       {
@@ -22581,13 +22581,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 0.45,
-    "pathCount": 2399639,
-    "impressionPerNode": 2.81,
-    "conversionRate": 0.021,
+    "ROI": 0.45,
+    "Path Count": 2399639,
+    "Impression Per Node": 2.81,
+    "Conversion Rate": 0.021,
     "pathId": 703,
     "nodes": [
       {
@@ -22603,13 +22603,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 2.81,
-    "pathCount": 4545093,
-    "impressionPerNode": 7.24,
-    "conversionRate": 0.003,
+    "ROI": 2.81,
+    "Path Count": 4545093,
+    "Impression Per Node": 7.24,
+    "Conversion Rate": 0.003,
     "pathId": 704,
     "nodes": [
       {
@@ -22625,13 +22625,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 1.36,
-    "pathCount": 69305,
-    "impressionPerNode": 2.58,
-    "conversionRate": 0.044,
+    "ROI": 1.36,
+    "Path Count": 69305,
+    "Impression Per Node": 2.58,
+    "Conversion Rate": 0.044,
     "pathId": 705,
     "nodes": [
       {
@@ -22665,13 +22665,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.02
+    "Effectiveness": 2.02
   },
   {
-    "roi": 0.46,
-    "pathCount": 1392597,
-    "impressionPerNode": 7.16,
-    "conversionRate": 0.031,
+    "ROI": 0.46,
+    "Path Count": 1392597,
+    "Impression Per Node": 7.16,
+    "Conversion Rate": 0.031,
     "pathId": 706,
     "nodes": [
       {
@@ -22687,13 +22687,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.3
+    "Effectiveness": 1.3
   },
   {
-    "roi": 1.41,
-    "pathCount": 2933050,
-    "impressionPerNode": 3.91,
-    "conversionRate": 0.033,
+    "ROI": 1.41,
+    "Path Count": 2933050,
+    "Impression Per Node": 3.91,
+    "Conversion Rate": 0.033,
     "pathId": 707,
     "nodes": [
       {
@@ -22715,13 +22715,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 2.07,
-    "pathCount": 1164371,
-    "impressionPerNode": 4.01,
-    "conversionRate": 0.026,
+    "ROI": 2.07,
+    "Path Count": 1164371,
+    "Impression Per Node": 4.01,
+    "Conversion Rate": 0.026,
     "pathId": 708,
     "nodes": [
       {
@@ -22761,13 +22761,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 2.37,
-    "pathCount": 1394822,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.095,
+    "ROI": 2.37,
+    "Path Count": 1394822,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.095,
     "pathId": 709,
     "nodes": [
       {
@@ -22783,13 +22783,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.96,
-    "pathCount": 2884990,
-    "impressionPerNode": 4.8,
-    "conversionRate": 0.047,
+    "ROI": 0.96,
+    "Path Count": 2884990,
+    "Impression Per Node": 4.8,
+    "Conversion Rate": 0.047,
     "pathId": 710,
     "nodes": [
       {
@@ -22817,13 +22817,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.34,
-    "pathCount": 154503,
-    "impressionPerNode": 6.82,
-    "conversionRate": 0.059,
+    "ROI": 0.34,
+    "Path Count": 154503,
+    "Impression Per Node": 6.82,
+    "Conversion Rate": 0.059,
     "pathId": 711,
     "nodes": [
       {
@@ -22851,13 +22851,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.43
+    "Effectiveness": 0.43
   },
   {
-    "roi": 3.11,
-    "pathCount": 7805455,
-    "impressionPerNode": 7.64,
-    "conversionRate": 0.005,
+    "ROI": 3.11,
+    "Path Count": 7805455,
+    "Impression Per Node": 7.64,
+    "Conversion Rate": 0.005,
     "pathId": 712,
     "nodes": [
       {
@@ -22885,13 +22885,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 3.31,
-    "pathCount": 1104024,
-    "impressionPerNode": 3.54,
-    "conversionRate": 0.03,
+    "ROI": 3.31,
+    "Path Count": 1104024,
+    "Impression Per Node": 3.54,
+    "Conversion Rate": 0.03,
     "pathId": 713,
     "nodes": [
       {
@@ -22919,13 +22919,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.24,
-    "pathCount": 280084,
-    "impressionPerNode": 5.85,
-    "conversionRate": 0.03,
+    "ROI": 0.24,
+    "Path Count": 280084,
+    "Impression Per Node": 5.85,
+    "Conversion Rate": 0.03,
     "pathId": 714,
     "nodes": [
       {
@@ -22941,13 +22941,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.26
+    "Effectiveness": 2.26
   },
   {
-    "roi": 0.59,
-    "pathCount": 3247085,
-    "impressionPerNode": 6.91,
-    "conversionRate": 0.029,
+    "ROI": 0.59,
+    "Path Count": 3247085,
+    "Impression Per Node": 6.91,
+    "Conversion Rate": 0.029,
     "pathId": 715,
     "nodes": [
       {
@@ -22987,13 +22987,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.54,
-    "pathCount": 993436,
-    "impressionPerNode": 3.65,
-    "conversionRate": 0.005,
+    "ROI": 0.54,
+    "Path Count": 993436,
+    "Impression Per Node": 3.65,
+    "Conversion Rate": 0.005,
     "pathId": 716,
     "nodes": [
       {
@@ -23009,13 +23009,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.1,
-    "pathCount": 248446,
-    "impressionPerNode": 7.22,
-    "conversionRate": 0.003,
+    "ROI": 0.1,
+    "Path Count": 248446,
+    "Impression Per Node": 7.22,
+    "Conversion Rate": 0.003,
     "pathId": 717,
     "nodes": [
       {
@@ -23031,13 +23031,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 1.27,
-    "pathCount": 7474693,
-    "impressionPerNode": 5.78,
-    "conversionRate": 0.03,
+    "ROI": 1.27,
+    "Path Count": 7474693,
+    "Impression Per Node": 5.78,
+    "Conversion Rate": 0.03,
     "pathId": 718,
     "nodes": [
       {
@@ -23059,13 +23059,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.06,
-    "pathCount": 4646302,
-    "impressionPerNode": 4.05,
-    "conversionRate": 0.011,
+    "ROI": 0.06,
+    "Path Count": 4646302,
+    "Impression Per Node": 4.05,
+    "Conversion Rate": 0.011,
     "pathId": 719,
     "nodes": [
       {
@@ -23081,13 +23081,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.6
+    "Effectiveness": 1.6
   },
   {
-    "roi": 1.69,
-    "pathCount": 799629,
-    "impressionPerNode": 3.1,
-    "conversionRate": 0.014,
+    "ROI": 1.69,
+    "Path Count": 799629,
+    "Impression Per Node": 3.1,
+    "Conversion Rate": 0.014,
     "pathId": 720,
     "nodes": [
       {
@@ -23127,13 +23127,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 3.32,
-    "pathCount": 1979926,
-    "impressionPerNode": 5.24,
-    "conversionRate": 0.002,
+    "ROI": 3.32,
+    "Path Count": 1979926,
+    "Impression Per Node": 5.24,
+    "Conversion Rate": 0.002,
     "pathId": 721,
     "nodes": [
       {
@@ -23149,13 +23149,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.94
+    "Effectiveness": 0.94
   },
   {
-    "roi": 0.2,
-    "pathCount": 1136501,
-    "impressionPerNode": 3.13,
-    "conversionRate": 0.023,
+    "ROI": 0.2,
+    "Path Count": 1136501,
+    "Impression Per Node": 3.13,
+    "Conversion Rate": 0.023,
     "pathId": 722,
     "nodes": [
       {
@@ -23177,13 +23177,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.93
+    "Effectiveness": 1.93
   },
   {
-    "roi": 3.78,
-    "pathCount": 125132,
-    "impressionPerNode": 2.58,
-    "conversionRate": 0.001,
+    "ROI": 3.78,
+    "Path Count": 125132,
+    "Impression Per Node": 2.58,
+    "Conversion Rate": 0.001,
     "pathId": 723,
     "nodes": [
       {
@@ -23235,13 +23235,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.05,
-    "pathCount": 6789357,
-    "impressionPerNode": 4.05,
-    "conversionRate": 0.002,
+    "ROI": 0.05,
+    "Path Count": 6789357,
+    "Impression Per Node": 4.05,
+    "Conversion Rate": 0.002,
     "pathId": 724,
     "nodes": [
       {
@@ -23257,13 +23257,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 1.39,
-    "pathCount": 152804,
-    "impressionPerNode": 7.93,
-    "conversionRate": 0.009,
+    "ROI": 1.39,
+    "Path Count": 152804,
+    "Impression Per Node": 7.93,
+    "Conversion Rate": 0.009,
     "pathId": 725,
     "nodes": [
       {
@@ -23303,13 +23303,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 0.2,
-    "pathCount": 4460272,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.021,
+    "ROI": 0.2,
+    "Path Count": 4460272,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.021,
     "pathId": 726,
     "nodes": [
       {
@@ -23343,13 +23343,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.14
+    "Effectiveness": 1.14
   },
   {
-    "roi": 0.35,
-    "pathCount": 1126770,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.015,
+    "ROI": 0.35,
+    "Path Count": 1126770,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.015,
     "pathId": 727,
     "nodes": [
       {
@@ -23389,13 +23389,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.28
+    "Effectiveness": 1.28
   },
   {
-    "roi": 2.55,
-    "pathCount": 2115566,
-    "impressionPerNode": 6.5,
-    "conversionRate": 0.047,
+    "ROI": 2.55,
+    "Path Count": 2115566,
+    "Impression Per Node": 6.5,
+    "Conversion Rate": 0.047,
     "pathId": 728,
     "nodes": [
       {
@@ -23417,13 +23417,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.51
+    "Effectiveness": 1.51
   },
   {
-    "roi": 1.61,
-    "pathCount": 461982,
-    "impressionPerNode": 4.23,
-    "conversionRate": 0.034,
+    "ROI": 1.61,
+    "Path Count": 461982,
+    "Impression Per Node": 4.23,
+    "Conversion Rate": 0.034,
     "pathId": 729,
     "nodes": [
       {
@@ -23451,13 +23451,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.46,
-    "pathCount": 7049076,
-    "impressionPerNode": 2.55,
-    "conversionRate": 0.042,
+    "ROI": 0.46,
+    "Path Count": 7049076,
+    "Impression Per Node": 2.55,
+    "Conversion Rate": 0.042,
     "pathId": 730,
     "nodes": [
       {
@@ -23473,13 +23473,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 0.3,
-    "pathCount": 310213,
-    "impressionPerNode": 7.98,
-    "conversionRate": 0.003,
+    "ROI": 0.3,
+    "Path Count": 310213,
+    "Impression Per Node": 7.98,
+    "Conversion Rate": 0.003,
     "pathId": 731,
     "nodes": [
       {
@@ -23513,13 +23513,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.84
+    "Effectiveness": 0.84
   },
   {
-    "roi": 0.36,
-    "pathCount": 108379,
-    "impressionPerNode": 2.33,
-    "conversionRate": 0.0,
+    "ROI": 0.36,
+    "Path Count": 108379,
+    "Impression Per Node": 2.33,
+    "Conversion Rate": 0.0,
     "pathId": 732,
     "nodes": [
       {
@@ -23535,13 +23535,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.44
+    "Effectiveness": 0.44
   },
   {
-    "roi": 0.41,
-    "pathCount": 2216096,
-    "impressionPerNode": 3.02,
-    "conversionRate": 0.02,
+    "ROI": 0.41,
+    "Path Count": 2216096,
+    "Impression Per Node": 3.02,
+    "Conversion Rate": 0.02,
     "pathId": 733,
     "nodes": [
       {
@@ -23557,13 +23557,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.62
+    "Effectiveness": 1.62
   },
   {
-    "roi": 3.17,
-    "pathCount": 3357529,
-    "impressionPerNode": 7.3,
-    "conversionRate": 0.086,
+    "ROI": 3.17,
+    "Path Count": 3357529,
+    "Impression Per Node": 7.3,
+    "Conversion Rate": 0.086,
     "pathId": 734,
     "nodes": [
       {
@@ -23585,13 +23585,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.8
+    "Effectiveness": 0.8
   },
   {
-    "roi": 2.45,
-    "pathCount": 2861912,
-    "impressionPerNode": 2.76,
-    "conversionRate": 0.051,
+    "ROI": 2.45,
+    "Path Count": 2861912,
+    "Impression Per Node": 2.76,
+    "Conversion Rate": 0.051,
     "pathId": 735,
     "nodes": [
       {
@@ -23607,13 +23607,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.73
+    "Effectiveness": 1.73
   },
   {
-    "roi": 0.59,
-    "pathCount": 1474894,
-    "impressionPerNode": 6.57,
-    "conversionRate": 0.003,
+    "ROI": 0.59,
+    "Path Count": 1474894,
+    "Impression Per Node": 6.57,
+    "Conversion Rate": 0.003,
     "pathId": 736,
     "nodes": [
       {
@@ -23629,13 +23629,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 2.71,
-    "pathCount": 451878,
-    "impressionPerNode": 3.35,
-    "conversionRate": 0.0,
+    "ROI": 2.71,
+    "Path Count": 451878,
+    "Impression Per Node": 3.35,
+    "Conversion Rate": 0.0,
     "pathId": 737,
     "nodes": [
       {
@@ -23675,13 +23675,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 0.02,
-    "pathCount": 4383189,
-    "impressionPerNode": 3.93,
-    "conversionRate": 0.021,
+    "ROI": 0.02,
+    "Path Count": 4383189,
+    "Impression Per Node": 3.93,
+    "Conversion Rate": 0.021,
     "pathId": 738,
     "nodes": [
       {
@@ -23703,13 +23703,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.2
+    "Effectiveness": 1.2
   },
   {
-    "roi": 0.1,
-    "pathCount": 1543226,
-    "impressionPerNode": 3.34,
-    "conversionRate": 0.003,
+    "ROI": 0.1,
+    "Path Count": 1543226,
+    "Impression Per Node": 3.34,
+    "Conversion Rate": 0.003,
     "pathId": 739,
     "nodes": [
       {
@@ -23761,13 +23761,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 3.29,
-    "pathCount": 376556,
-    "impressionPerNode": 6.17,
-    "conversionRate": 0.052,
+    "ROI": 3.29,
+    "Path Count": 376556,
+    "Impression Per Node": 6.17,
+    "Conversion Rate": 0.052,
     "pathId": 740,
     "nodes": [
       {
@@ -23807,13 +23807,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.71
+    "Effectiveness": 1.71
   },
   {
-    "roi": 1.94,
-    "pathCount": 8299416,
-    "impressionPerNode": 6.36,
-    "conversionRate": 0.076,
+    "ROI": 1.94,
+    "Path Count": 8299416,
+    "Impression Per Node": 6.36,
+    "Conversion Rate": 0.076,
     "pathId": 741,
     "nodes": [
       {
@@ -23835,13 +23835,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 1.57,
-    "pathCount": 1075065,
-    "impressionPerNode": 3.02,
-    "conversionRate": 0.008,
+    "ROI": 1.57,
+    "Path Count": 1075065,
+    "Impression Per Node": 3.02,
+    "Conversion Rate": 0.008,
     "pathId": 742,
     "nodes": [
       {
@@ -23875,13 +23875,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.51
+    "Effectiveness": 0.51
   },
   {
-    "roi": 0.94,
-    "pathCount": 4826407,
-    "impressionPerNode": 1.81,
-    "conversionRate": 0.002,
+    "ROI": 0.94,
+    "Path Count": 4826407,
+    "Impression Per Node": 1.81,
+    "Conversion Rate": 0.002,
     "pathId": 743,
     "nodes": [
       {
@@ -23903,13 +23903,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.78,
-    "pathCount": 681959,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.021,
+    "ROI": 0.78,
+    "Path Count": 681959,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.021,
     "pathId": 744,
     "nodes": [
       {
@@ -23943,13 +23943,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.7,
-    "pathCount": 2703110,
-    "impressionPerNode": 7.69,
-    "conversionRate": 0.031,
+    "ROI": 0.7,
+    "Path Count": 2703110,
+    "Impression Per Node": 7.69,
+    "Conversion Rate": 0.031,
     "pathId": 745,
     "nodes": [
       {
@@ -23965,13 +23965,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 2.44,
-    "pathCount": 5029216,
-    "impressionPerNode": 1.82,
-    "conversionRate": 0.054,
+    "ROI": 2.44,
+    "Path Count": 5029216,
+    "Impression Per Node": 1.82,
+    "Conversion Rate": 0.054,
     "pathId": 746,
     "nodes": [
       {
@@ -23993,13 +23993,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 1.29,
-    "pathCount": 7554954,
-    "impressionPerNode": 6.78,
-    "conversionRate": 0.002,
+    "ROI": 1.29,
+    "Path Count": 7554954,
+    "Impression Per Node": 6.78,
+    "Conversion Rate": 0.002,
     "pathId": 747,
     "nodes": [
       {
@@ -24039,13 +24039,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 2.53,
-    "pathCount": 5583939,
-    "impressionPerNode": 7.89,
-    "conversionRate": 0.004,
+    "ROI": 2.53,
+    "Path Count": 5583939,
+    "Impression Per Node": 7.89,
+    "Conversion Rate": 0.004,
     "pathId": 748,
     "nodes": [
       {
@@ -24061,13 +24061,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.81
+    "Effectiveness": 1.81
   },
   {
-    "roi": 0.79,
-    "pathCount": 2859605,
-    "impressionPerNode": 7.36,
-    "conversionRate": 0.017,
+    "ROI": 0.79,
+    "Path Count": 2859605,
+    "Impression Per Node": 7.36,
+    "Conversion Rate": 0.017,
     "pathId": 749,
     "nodes": [
       {
@@ -24083,13 +24083,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 0.94,
-    "pathCount": 1434805,
-    "impressionPerNode": 3.19,
-    "conversionRate": 0.013,
+    "ROI": 0.94,
+    "Path Count": 1434805,
+    "Impression Per Node": 3.19,
+    "Conversion Rate": 0.013,
     "pathId": 750,
     "nodes": [
       {
@@ -24111,13 +24111,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.95
+    "Effectiveness": 1.95
   },
   {
-    "roi": 1.11,
-    "pathCount": 3911256,
-    "impressionPerNode": 5.31,
-    "conversionRate": 0.026,
+    "ROI": 1.11,
+    "Path Count": 3911256,
+    "Impression Per Node": 5.31,
+    "Conversion Rate": 0.026,
     "pathId": 751,
     "nodes": [
       {
@@ -24163,13 +24163,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 1.36,
-    "pathCount": 16938,
-    "impressionPerNode": 7.59,
-    "conversionRate": 0.011,
+    "ROI": 1.36,
+    "Path Count": 16938,
+    "Impression Per Node": 7.59,
+    "Conversion Rate": 0.011,
     "pathId": 752,
     "nodes": [
       {
@@ -24185,13 +24185,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 1.93,
-    "pathCount": 995827,
-    "impressionPerNode": 3.84,
-    "conversionRate": 0.063,
+    "ROI": 1.93,
+    "Path Count": 995827,
+    "Impression Per Node": 3.84,
+    "Conversion Rate": 0.063,
     "pathId": 753,
     "nodes": [
       {
@@ -24207,13 +24207,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 2.69,
-    "pathCount": 340678,
-    "impressionPerNode": 6.91,
-    "conversionRate": 0.0,
+    "ROI": 2.69,
+    "Path Count": 340678,
+    "Impression Per Node": 6.91,
+    "Conversion Rate": 0.0,
     "pathId": 754,
     "nodes": [
       {
@@ -24235,13 +24235,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.91
+    "Effectiveness": 0.91
   },
   {
-    "roi": 2.93,
-    "pathCount": 236687,
-    "impressionPerNode": 5.86,
-    "conversionRate": 0.006,
+    "ROI": 2.93,
+    "Path Count": 236687,
+    "Impression Per Node": 5.86,
+    "Conversion Rate": 0.006,
     "pathId": 755,
     "nodes": [
       {
@@ -24257,13 +24257,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 0.03,
-    "pathCount": 394317,
-    "impressionPerNode": 6.33,
-    "conversionRate": 0.034,
+    "ROI": 0.03,
+    "Path Count": 394317,
+    "Impression Per Node": 6.33,
+    "Conversion Rate": 0.034,
     "pathId": 756,
     "nodes": [
       {
@@ -24279,13 +24279,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.11
+    "Effectiveness": 0.11
   },
   {
-    "roi": 0.02,
-    "pathCount": 3884212,
-    "impressionPerNode": 7.09,
-    "conversionRate": 0.001,
+    "ROI": 0.02,
+    "Path Count": 3884212,
+    "Impression Per Node": 7.09,
+    "Conversion Rate": 0.001,
     "pathId": 757,
     "nodes": [
       {
@@ -24307,13 +24307,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.9
+    "Effectiveness": 1.9
   },
   {
-    "roi": 3.64,
-    "pathCount": 1748186,
-    "impressionPerNode": 2.53,
-    "conversionRate": 0.054,
+    "ROI": 3.64,
+    "Path Count": 1748186,
+    "Impression Per Node": 2.53,
+    "Conversion Rate": 0.054,
     "pathId": 758,
     "nodes": [
       {
@@ -24341,13 +24341,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.25
+    "Effectiveness": 0.25
   },
   {
-    "roi": 0.25,
-    "pathCount": 310298,
-    "impressionPerNode": 7.8,
-    "conversionRate": 0.017,
+    "ROI": 0.25,
+    "Path Count": 310298,
+    "Impression Per Node": 7.8,
+    "Conversion Rate": 0.017,
     "pathId": 759,
     "nodes": [
       {
@@ -24363,13 +24363,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 1.24,
-    "pathCount": 706328,
-    "impressionPerNode": 4.68,
-    "conversionRate": 0.0,
+    "ROI": 1.24,
+    "Path Count": 706328,
+    "Impression Per Node": 4.68,
+    "Conversion Rate": 0.0,
     "pathId": 760,
     "nodes": [
       {
@@ -24385,13 +24385,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.64
+    "Effectiveness": 1.64
   },
   {
-    "roi": 2.26,
-    "pathCount": 1871861,
-    "impressionPerNode": 5.87,
-    "conversionRate": 0.039,
+    "ROI": 2.26,
+    "Path Count": 1871861,
+    "Impression Per Node": 5.87,
+    "Conversion Rate": 0.039,
     "pathId": 761,
     "nodes": [
       {
@@ -24407,13 +24407,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.45
+    "Effectiveness": 1.45
   },
   {
-    "roi": 1.66,
-    "pathCount": 1933060,
-    "impressionPerNode": 7.41,
-    "conversionRate": 0.005,
+    "ROI": 1.66,
+    "Path Count": 1933060,
+    "Impression Per Node": 7.41,
+    "Conversion Rate": 0.005,
     "pathId": 762,
     "nodes": [
       {
@@ -24429,13 +24429,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 1.74,
-    "pathCount": 162540,
-    "impressionPerNode": 5.0,
-    "conversionRate": 0.017,
+    "ROI": 1.74,
+    "Path Count": 162540,
+    "Impression Per Node": 5.0,
+    "Conversion Rate": 0.017,
     "pathId": 763,
     "nodes": [
       {
@@ -24469,13 +24469,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.32
+    "Effectiveness": 0.32
   },
   {
-    "roi": 0.15,
-    "pathCount": 1585296,
-    "impressionPerNode": 7.24,
-    "conversionRate": 0.057,
+    "ROI": 0.15,
+    "Path Count": 1585296,
+    "Impression Per Node": 7.24,
+    "Conversion Rate": 0.057,
     "pathId": 764,
     "nodes": [
       {
@@ -24491,13 +24491,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.75
+    "Effectiveness": 0.75
   },
   {
-    "roi": 1.18,
-    "pathCount": 2438838,
-    "impressionPerNode": 2.95,
-    "conversionRate": 0.0,
+    "ROI": 1.18,
+    "Path Count": 2438838,
+    "Impression Per Node": 2.95,
+    "Conversion Rate": 0.0,
     "pathId": 765,
     "nodes": [
       {
@@ -24519,13 +24519,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 2.25,
-    "pathCount": 3558531,
-    "impressionPerNode": 4.8,
-    "conversionRate": 0.008,
+    "ROI": 2.25,
+    "Path Count": 3558531,
+    "Impression Per Node": 4.8,
+    "Conversion Rate": 0.008,
     "pathId": 766,
     "nodes": [
       {
@@ -24541,13 +24541,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 1.89,
-    "pathCount": 26298,
-    "impressionPerNode": 1.94,
-    "conversionRate": 0.034,
+    "ROI": 1.89,
+    "Path Count": 26298,
+    "Impression Per Node": 1.94,
+    "Conversion Rate": 0.034,
     "pathId": 767,
     "nodes": [
       {
@@ -24569,13 +24569,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.53
+    "Effectiveness": 0.53
   },
   {
-    "roi": 0.54,
-    "pathCount": 2247761,
-    "impressionPerNode": 4.19,
-    "conversionRate": 0.008,
+    "ROI": 0.54,
+    "Path Count": 2247761,
+    "Impression Per Node": 4.19,
+    "Conversion Rate": 0.008,
     "pathId": 768,
     "nodes": [
       {
@@ -24597,13 +24597,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 0.28,
-    "pathCount": 4693291,
-    "impressionPerNode": 7.41,
-    "conversionRate": 0.028,
+    "ROI": 0.28,
+    "Path Count": 4693291,
+    "Impression Per Node": 7.41,
+    "Conversion Rate": 0.028,
     "pathId": 769,
     "nodes": [
       {
@@ -24655,13 +24655,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 3.15,
-    "pathCount": 676449,
-    "impressionPerNode": 3.79,
-    "conversionRate": 0.026,
+    "ROI": 3.15,
+    "Path Count": 676449,
+    "Impression Per Node": 3.79,
+    "Conversion Rate": 0.026,
     "pathId": 770,
     "nodes": [
       {
@@ -24689,13 +24689,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.71
+    "Effectiveness": 0.71
   },
   {
-    "roi": 0.54,
-    "pathCount": 5719387,
-    "impressionPerNode": 7.81,
-    "conversionRate": 0.02,
+    "ROI": 0.54,
+    "Path Count": 5719387,
+    "Impression Per Node": 7.81,
+    "Conversion Rate": 0.02,
     "pathId": 771,
     "nodes": [
       {
@@ -24729,13 +24729,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 3.25,
-    "pathCount": 452710,
-    "impressionPerNode": 5.82,
-    "conversionRate": 0.003,
+    "ROI": 3.25,
+    "Path Count": 452710,
+    "Impression Per Node": 5.82,
+    "Conversion Rate": 0.003,
     "pathId": 772,
     "nodes": [
       {
@@ -24775,13 +24775,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.13
+    "Effectiveness": 1.13
   },
   {
-    "roi": 2.05,
-    "pathCount": 2107197,
-    "impressionPerNode": 1.21,
-    "conversionRate": 0.068,
+    "ROI": 2.05,
+    "Path Count": 2107197,
+    "Impression Per Node": 1.21,
+    "Conversion Rate": 0.068,
     "pathId": 773,
     "nodes": [
       {
@@ -24803,13 +24803,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 0.26,
-    "pathCount": 4617836,
-    "impressionPerNode": 6.78,
-    "conversionRate": 0.013,
+    "ROI": 0.26,
+    "Path Count": 4617836,
+    "Impression Per Node": 6.78,
+    "Conversion Rate": 0.013,
     "pathId": 774,
     "nodes": [
       {
@@ -24825,13 +24825,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 4.3,
-    "pathCount": 9668,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.049,
+    "ROI": 4.3,
+    "Path Count": 9668,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.049,
     "pathId": 775,
     "nodes": [
       {
@@ -24847,13 +24847,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.65
+    "Effectiveness": 0.65
   },
   {
-    "roi": 1.5,
-    "pathCount": 5454305,
-    "impressionPerNode": 5.7,
-    "conversionRate": 0.034,
+    "ROI": 1.5,
+    "Path Count": 5454305,
+    "Impression Per Node": 5.7,
+    "Conversion Rate": 0.034,
     "pathId": 776,
     "nodes": [
       {
@@ -24869,13 +24869,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 2.99,
-    "pathCount": 3388444,
-    "impressionPerNode": 2.28,
-    "conversionRate": 0.048,
+    "ROI": 2.99,
+    "Path Count": 3388444,
+    "Impression Per Node": 2.28,
+    "Conversion Rate": 0.048,
     "pathId": 777,
     "nodes": [
       {
@@ -24903,13 +24903,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 1.97,
-    "pathCount": 3846,
-    "impressionPerNode": 7.66,
-    "conversionRate": 0.028,
+    "ROI": 1.97,
+    "Path Count": 3846,
+    "Impression Per Node": 7.66,
+    "Conversion Rate": 0.028,
     "pathId": 778,
     "nodes": [
       {
@@ -24955,13 +24955,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.84
+    "Effectiveness": 0.84
   },
   {
-    "roi": 1.83,
-    "pathCount": 883137,
-    "impressionPerNode": 6.09,
-    "conversionRate": 0.049,
+    "ROI": 1.83,
+    "Path Count": 883137,
+    "Impression Per Node": 6.09,
+    "Conversion Rate": 0.049,
     "pathId": 779,
     "nodes": [
       {
@@ -24989,13 +24989,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 2.1,
-    "pathCount": 835766,
-    "impressionPerNode": 3.96,
-    "conversionRate": 0.001,
+    "ROI": 2.1,
+    "Path Count": 835766,
+    "Impression Per Node": 3.96,
+    "Conversion Rate": 0.001,
     "pathId": 780,
     "nodes": [
       {
@@ -25011,13 +25011,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 2.27,
-    "pathCount": 6099880,
-    "impressionPerNode": 3.93,
-    "conversionRate": 0.018,
+    "ROI": 2.27,
+    "Path Count": 6099880,
+    "Impression Per Node": 3.93,
+    "Conversion Rate": 0.018,
     "pathId": 781,
     "nodes": [
       {
@@ -25033,13 +25033,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.67
+    "Effectiveness": 0.67
   },
   {
-    "roi": 0.56,
-    "pathCount": 214927,
-    "impressionPerNode": 5.87,
-    "conversionRate": 0.012,
+    "ROI": 0.56,
+    "Path Count": 214927,
+    "Impression Per Node": 5.87,
+    "Conversion Rate": 0.012,
     "pathId": 782,
     "nodes": [
       {
@@ -25055,13 +25055,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.27
+    "Effectiveness": 1.27
   },
   {
-    "roi": 1.3,
-    "pathCount": 2238406,
-    "impressionPerNode": 5.58,
-    "conversionRate": 0.009,
+    "ROI": 1.3,
+    "Path Count": 2238406,
+    "Impression Per Node": 5.58,
+    "Conversion Rate": 0.009,
     "pathId": 783,
     "nodes": [
       {
@@ -25095,13 +25095,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 1.35,
-    "pathCount": 2906137,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.057,
+    "ROI": 1.35,
+    "Path Count": 2906137,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.057,
     "pathId": 784,
     "nodes": [
       {
@@ -25117,13 +25117,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 0.03,
-    "pathCount": 1394030,
-    "impressionPerNode": 5.66,
-    "conversionRate": 0.002,
+    "ROI": 0.03,
+    "Path Count": 1394030,
+    "Impression Per Node": 5.66,
+    "Conversion Rate": 0.002,
     "pathId": 785,
     "nodes": [
       {
@@ -25139,13 +25139,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.8
+    "Effectiveness": 0.8
   },
   {
-    "roi": 0.02,
-    "pathCount": 2321578,
-    "impressionPerNode": 2.33,
-    "conversionRate": 0.006,
+    "ROI": 0.02,
+    "Path Count": 2321578,
+    "Impression Per Node": 2.33,
+    "Conversion Rate": 0.006,
     "pathId": 786,
     "nodes": [
       {
@@ -25161,13 +25161,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.18,
-    "pathCount": 810887,
-    "impressionPerNode": 1.05,
-    "conversionRate": 0.021,
+    "ROI": 0.18,
+    "Path Count": 810887,
+    "Impression Per Node": 1.05,
+    "Conversion Rate": 0.021,
     "pathId": 787,
     "nodes": [
       {
@@ -25195,13 +25195,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 1.28,
-    "pathCount": 482675,
-    "impressionPerNode": 6.73,
-    "conversionRate": 0.022,
+    "ROI": 1.28,
+    "Path Count": 482675,
+    "Impression Per Node": 6.73,
+    "Conversion Rate": 0.022,
     "pathId": 788,
     "nodes": [
       {
@@ -25223,13 +25223,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 1.5,
-    "pathCount": 2143483,
-    "impressionPerNode": 5.03,
-    "conversionRate": 0.041,
+    "ROI": 1.5,
+    "Path Count": 2143483,
+    "Impression Per Node": 5.03,
+    "Conversion Rate": 0.041,
     "pathId": 789,
     "nodes": [
       {
@@ -25251,13 +25251,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.45
+    "Effectiveness": 2.45
   },
   {
-    "roi": 3.3,
-    "pathCount": 1515411,
-    "impressionPerNode": 3.33,
-    "conversionRate": 0.002,
+    "ROI": 3.3,
+    "Path Count": 1515411,
+    "Impression Per Node": 3.33,
+    "Conversion Rate": 0.002,
     "pathId": 790,
     "nodes": [
       {
@@ -25279,13 +25279,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.55
+    "Effectiveness": 1.55
   },
   {
-    "roi": 0.5,
-    "pathCount": 372742,
-    "impressionPerNode": 7.77,
-    "conversionRate": 0.001,
+    "ROI": 0.5,
+    "Path Count": 372742,
+    "Impression Per Node": 7.77,
+    "Conversion Rate": 0.001,
     "pathId": 791,
     "nodes": [
       {
@@ -25307,13 +25307,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 2.01,
-    "pathCount": 163496,
-    "impressionPerNode": 4.11,
-    "conversionRate": 0.004,
+    "ROI": 2.01,
+    "Path Count": 163496,
+    "Impression Per Node": 4.11,
+    "Conversion Rate": 0.004,
     "pathId": 792,
     "nodes": [
       {
@@ -25341,13 +25341,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 2.87,
-    "pathCount": 5063588,
-    "impressionPerNode": 3.06,
-    "conversionRate": 0.006,
+    "ROI": 2.87,
+    "Path Count": 5063588,
+    "Impression Per Node": 3.06,
+    "Conversion Rate": 0.006,
     "pathId": 793,
     "nodes": [
       {
@@ -25369,13 +25369,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.53
+    "Effectiveness": 0.53
   },
   {
-    "roi": 0.12,
-    "pathCount": 1730064,
-    "impressionPerNode": 7.86,
-    "conversionRate": 0.024,
+    "ROI": 0.12,
+    "Path Count": 1730064,
+    "Impression Per Node": 7.86,
+    "Conversion Rate": 0.024,
     "pathId": 794,
     "nodes": [
       {
@@ -25391,13 +25391,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.02,
-    "pathCount": 1393744,
-    "impressionPerNode": 7.52,
-    "conversionRate": 0.043,
+    "ROI": 0.02,
+    "Path Count": 1393744,
+    "Impression Per Node": 7.52,
+    "Conversion Rate": 0.043,
     "pathId": 795,
     "nodes": [
       {
@@ -25419,13 +25419,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 0.0,
-    "pathCount": 1049692,
-    "impressionPerNode": 7.95,
-    "conversionRate": 0.035,
+    "ROI": 0.0,
+    "Path Count": 1049692,
+    "Impression Per Node": 7.95,
+    "Conversion Rate": 0.035,
     "pathId": 796,
     "nodes": [
       {
@@ -25441,13 +25441,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.71
+    "Effectiveness": 0.71
   },
   {
-    "roi": 0.28,
-    "pathCount": 3017857,
-    "impressionPerNode": 4.2,
-    "conversionRate": 0.068,
+    "ROI": 0.28,
+    "Path Count": 3017857,
+    "Impression Per Node": 4.2,
+    "Conversion Rate": 0.068,
     "pathId": 797,
     "nodes": [
       {
@@ -25463,13 +25463,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.82
+    "Effectiveness": 1.82
   },
   {
-    "roi": 0.37,
-    "pathCount": 6132770,
-    "impressionPerNode": 4.95,
-    "conversionRate": 0.001,
+    "ROI": 0.37,
+    "Path Count": 6132770,
+    "Impression Per Node": 4.95,
+    "Conversion Rate": 0.001,
     "pathId": 798,
     "nodes": [
       {
@@ -25491,13 +25491,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.0
+    "Effectiveness": 0.0
   },
   {
-    "roi": 3.7,
-    "pathCount": 3219340,
-    "impressionPerNode": 5.27,
-    "conversionRate": 0.001,
+    "ROI": 3.7,
+    "Path Count": 3219340,
+    "Impression Per Node": 5.27,
+    "Conversion Rate": 0.001,
     "pathId": 799,
     "nodes": [
       {
@@ -25519,13 +25519,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.45,
-    "pathCount": 1403565,
-    "impressionPerNode": 7.35,
-    "conversionRate": 0.02,
+    "ROI": 0.45,
+    "Path Count": 1403565,
+    "Impression Per Node": 7.35,
+    "Conversion Rate": 0.02,
     "pathId": 800,
     "nodes": [
       {
@@ -25547,13 +25547,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.76,
-    "pathCount": 3520228,
-    "impressionPerNode": 4.92,
-    "conversionRate": 0.008,
+    "ROI": 0.76,
+    "Path Count": 3520228,
+    "Impression Per Node": 4.92,
+    "Conversion Rate": 0.008,
     "pathId": 801,
     "nodes": [
       {
@@ -25599,13 +25599,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.01
+    "Effectiveness": 2.01
   },
   {
-    "roi": 1.81,
-    "pathCount": 4940107,
-    "impressionPerNode": 5.64,
-    "conversionRate": 0.034,
+    "ROI": 1.81,
+    "Path Count": 4940107,
+    "Impression Per Node": 5.64,
+    "Conversion Rate": 0.034,
     "pathId": 802,
     "nodes": [
       {
@@ -25627,13 +25627,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.96
+    "Effectiveness": 1.96
   },
   {
-    "roi": 0.46,
-    "pathCount": 54131,
-    "impressionPerNode": 5.38,
-    "conversionRate": 0.017,
+    "ROI": 0.46,
+    "Path Count": 54131,
+    "Impression Per Node": 5.38,
+    "Conversion Rate": 0.017,
     "pathId": 803,
     "nodes": [
       {
@@ -25655,13 +25655,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 1.15,
-    "pathCount": 545866,
-    "impressionPerNode": 5.5,
-    "conversionRate": 0.035,
+    "ROI": 1.15,
+    "Path Count": 545866,
+    "Impression Per Node": 5.5,
+    "Conversion Rate": 0.035,
     "pathId": 804,
     "nodes": [
       {
@@ -25683,13 +25683,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 1.22,
-    "pathCount": 946361,
-    "impressionPerNode": 5.39,
-    "conversionRate": 0.017,
+    "ROI": 1.22,
+    "Path Count": 946361,
+    "Impression Per Node": 5.39,
+    "Conversion Rate": 0.017,
     "pathId": 805,
     "nodes": [
       {
@@ -25711,13 +25711,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.17,
-    "pathCount": 1143883,
-    "impressionPerNode": 6.16,
-    "conversionRate": 0.01,
+    "ROI": 0.17,
+    "Path Count": 1143883,
+    "Impression Per Node": 6.16,
+    "Conversion Rate": 0.01,
     "pathId": 806,
     "nodes": [
       {
@@ -25739,13 +25739,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.34
+    "Effectiveness": 2.34
   },
   {
-    "roi": 1.09,
-    "pathCount": 7994369,
-    "impressionPerNode": 3.99,
-    "conversionRate": 0.031,
+    "ROI": 1.09,
+    "Path Count": 7994369,
+    "Impression Per Node": 3.99,
+    "Conversion Rate": 0.031,
     "pathId": 807,
     "nodes": [
       {
@@ -25785,13 +25785,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.27
+    "Effectiveness": 2.27
   },
   {
-    "roi": 0.93,
-    "pathCount": 2206028,
-    "impressionPerNode": 5.33,
-    "conversionRate": 0.013,
+    "ROI": 0.93,
+    "Path Count": 2206028,
+    "Impression Per Node": 5.33,
+    "Conversion Rate": 0.013,
     "pathId": 808,
     "nodes": [
       {
@@ -25807,13 +25807,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 1.06,
-    "pathCount": 6400491,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.0,
+    "ROI": 1.06,
+    "Path Count": 6400491,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.0,
     "pathId": 809,
     "nodes": [
       {
@@ -25835,13 +25835,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.58
+    "Effectiveness": 1.58
   },
   {
-    "roi": 0.53,
-    "pathCount": 7496918,
-    "impressionPerNode": 6.46,
-    "conversionRate": 0.02,
+    "ROI": 0.53,
+    "Path Count": 7496918,
+    "Impression Per Node": 6.46,
+    "Conversion Rate": 0.02,
     "pathId": 810,
     "nodes": [
       {
@@ -25857,13 +25857,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 1.1,
-    "pathCount": 82306,
-    "impressionPerNode": 6.63,
-    "conversionRate": 0.002,
+    "ROI": 1.1,
+    "Path Count": 82306,
+    "Impression Per Node": 6.63,
+    "Conversion Rate": 0.002,
     "pathId": 811,
     "nodes": [
       {
@@ -25879,13 +25879,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 3.2,
-    "pathCount": 412782,
-    "impressionPerNode": 5.24,
-    "conversionRate": 0.001,
+    "ROI": 3.2,
+    "Path Count": 412782,
+    "Impression Per Node": 5.24,
+    "Conversion Rate": 0.001,
     "pathId": 812,
     "nodes": [
       {
@@ -25913,13 +25913,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.41
+    "Effectiveness": 1.41
   },
   {
-    "roi": 0.76,
-    "pathCount": 4115117,
-    "impressionPerNode": 6.07,
-    "conversionRate": 0.02,
+    "ROI": 0.76,
+    "Path Count": 4115117,
+    "Impression Per Node": 6.07,
+    "Conversion Rate": 0.02,
     "pathId": 813,
     "nodes": [
       {
@@ -25959,13 +25959,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.35
+    "Effectiveness": 1.35
   },
   {
-    "roi": 3.03,
-    "pathCount": 5353670,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.025,
+    "ROI": 3.03,
+    "Path Count": 5353670,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.025,
     "pathId": 814,
     "nodes": [
       {
@@ -26005,13 +26005,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 2.48,
-    "pathCount": 686693,
-    "impressionPerNode": 3.5,
-    "conversionRate": 0.012,
+    "ROI": 2.48,
+    "Path Count": 686693,
+    "Impression Per Node": 3.5,
+    "Conversion Rate": 0.012,
     "pathId": 815,
     "nodes": [
       {
@@ -26027,13 +26027,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.31
+    "Effectiveness": 1.31
   },
   {
-    "roi": 1.91,
-    "pathCount": 145530,
-    "impressionPerNode": 2.41,
-    "conversionRate": 0.005,
+    "ROI": 1.91,
+    "Path Count": 145530,
+    "Impression Per Node": 2.41,
+    "Conversion Rate": 0.005,
     "pathId": 816,
     "nodes": [
       {
@@ -26055,13 +26055,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.83,
-    "pathCount": 1182559,
-    "impressionPerNode": 2.81,
-    "conversionRate": 0.014,
+    "ROI": 0.83,
+    "Path Count": 1182559,
+    "Impression Per Node": 2.81,
+    "Conversion Rate": 0.014,
     "pathId": 817,
     "nodes": [
       {
@@ -26077,13 +26077,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.27,
-    "pathCount": 1555642,
-    "impressionPerNode": 7.6,
-    "conversionRate": 0.078,
+    "ROI": 0.27,
+    "Path Count": 1555642,
+    "Impression Per Node": 7.6,
+    "Conversion Rate": 0.078,
     "pathId": 818,
     "nodes": [
       {
@@ -26099,13 +26099,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.66
+    "Effectiveness": 0.66
   },
   {
-    "roi": 0.31,
-    "pathCount": 155755,
-    "impressionPerNode": 6.72,
-    "conversionRate": 0.056,
+    "ROI": 0.31,
+    "Path Count": 155755,
+    "Impression Per Node": 6.72,
+    "Conversion Rate": 0.056,
     "pathId": 819,
     "nodes": [
       {
@@ -26133,13 +26133,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.46
+    "Effectiveness": 0.46
   },
   {
-    "roi": 1.3,
-    "pathCount": 3442109,
-    "impressionPerNode": 7.65,
-    "conversionRate": 0.002,
+    "ROI": 1.3,
+    "Path Count": 3442109,
+    "Impression Per Node": 7.65,
+    "Conversion Rate": 0.002,
     "pathId": 820,
     "nodes": [
       {
@@ -26155,13 +26155,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.15
+    "Effectiveness": 1.15
   },
   {
-    "roi": 0.83,
-    "pathCount": 1155233,
-    "impressionPerNode": 6.5,
-    "conversionRate": 0.034,
+    "ROI": 0.83,
+    "Path Count": 1155233,
+    "Impression Per Node": 6.5,
+    "Conversion Rate": 0.034,
     "pathId": 821,
     "nodes": [
       {
@@ -26177,13 +26177,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.11
+    "Effectiveness": 2.11
   },
   {
-    "roi": 1.69,
-    "pathCount": 1442611,
-    "impressionPerNode": 7.42,
-    "conversionRate": 0.013,
+    "ROI": 1.69,
+    "Path Count": 1442611,
+    "Impression Per Node": 7.42,
+    "Conversion Rate": 0.013,
     "pathId": 822,
     "nodes": [
       {
@@ -26199,13 +26199,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.01
+    "Effectiveness": 1.01
   },
   {
-    "roi": 0.06,
-    "pathCount": 2815860,
-    "impressionPerNode": 7.13,
-    "conversionRate": 0.003,
+    "ROI": 0.06,
+    "Path Count": 2815860,
+    "Impression Per Node": 7.13,
+    "Conversion Rate": 0.003,
     "pathId": 823,
     "nodes": [
       {
@@ -26221,13 +26221,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 0.18,
-    "pathCount": 426159,
-    "impressionPerNode": 6.61,
-    "conversionRate": 0.01,
+    "ROI": 0.18,
+    "Path Count": 426159,
+    "Impression Per Node": 6.61,
+    "Conversion Rate": 0.01,
     "pathId": 824,
     "nodes": [
       {
@@ -26249,13 +26249,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 4.65,
-    "pathCount": 3068718,
-    "impressionPerNode": 7.04,
-    "conversionRate": 0.004,
+    "ROI": 4.65,
+    "Path Count": 3068718,
+    "Impression Per Node": 7.04,
+    "Conversion Rate": 0.004,
     "pathId": 825,
     "nodes": [
       {
@@ -26295,13 +26295,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.55
+    "Effectiveness": 1.55
   },
   {
-    "roi": 2.18,
-    "pathCount": 982648,
-    "impressionPerNode": 7.7,
-    "conversionRate": 0.062,
+    "ROI": 2.18,
+    "Path Count": 982648,
+    "Impression Per Node": 7.7,
+    "Conversion Rate": 0.062,
     "pathId": 826,
     "nodes": [
       {
@@ -26317,13 +26317,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 1.36,
-    "pathCount": 51131,
-    "impressionPerNode": 3.85,
-    "conversionRate": 0.027,
+    "ROI": 1.36,
+    "Path Count": 51131,
+    "Impression Per Node": 3.85,
+    "Conversion Rate": 0.027,
     "pathId": 827,
     "nodes": [
       {
@@ -26345,13 +26345,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.93
+    "Effectiveness": 0.93
   },
   {
-    "roi": 2.68,
-    "pathCount": 83017,
-    "impressionPerNode": 6.4,
-    "conversionRate": 0.053,
+    "ROI": 2.68,
+    "Path Count": 83017,
+    "Impression Per Node": 6.4,
+    "Conversion Rate": 0.053,
     "pathId": 828,
     "nodes": [
       {
@@ -26373,13 +26373,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 0.52,
-    "pathCount": 3997921,
-    "impressionPerNode": 4.17,
-    "conversionRate": 0.004,
+    "ROI": 0.52,
+    "Path Count": 3997921,
+    "Impression Per Node": 4.17,
+    "Conversion Rate": 0.004,
     "pathId": 829,
     "nodes": [
       {
@@ -26395,13 +26395,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 2.2
+    "Effectiveness": 2.2
   },
   {
-    "roi": 1.52,
-    "pathCount": 592708,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.0,
+    "ROI": 1.52,
+    "Path Count": 592708,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.0,
     "pathId": 830,
     "nodes": [
       {
@@ -26423,13 +26423,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 2.26,
-    "pathCount": 664772,
-    "impressionPerNode": 7.57,
-    "conversionRate": 0.011,
+    "ROI": 2.26,
+    "Path Count": 664772,
+    "Impression Per Node": 7.57,
+    "Conversion Rate": 0.011,
     "pathId": 831,
     "nodes": [
       {
@@ -26445,13 +26445,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.06
+    "Effectiveness": 1.06
   },
   {
-    "roi": 0.7,
-    "pathCount": 1201747,
-    "impressionPerNode": 7.23,
-    "conversionRate": 0.012,
+    "ROI": 0.7,
+    "Path Count": 1201747,
+    "Impression Per Node": 7.23,
+    "Conversion Rate": 0.012,
     "pathId": 832,
     "nodes": [
       {
@@ -26467,13 +26467,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 2.31,
-    "pathCount": 500886,
-    "impressionPerNode": 3.57,
-    "conversionRate": 0.009,
+    "ROI": 2.31,
+    "Path Count": 500886,
+    "Impression Per Node": 3.57,
+    "Conversion Rate": 0.009,
     "pathId": 833,
     "nodes": [
       {
@@ -26513,13 +26513,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 0.22,
-    "pathCount": 725348,
-    "impressionPerNode": 3.73,
-    "conversionRate": 0.033,
+    "ROI": 0.22,
+    "Path Count": 725348,
+    "Impression Per Node": 3.73,
+    "Conversion Rate": 0.033,
     "pathId": 834,
     "nodes": [
       {
@@ -26535,13 +26535,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 4.5,
-    "pathCount": 120701,
-    "impressionPerNode": 3.02,
-    "conversionRate": 0.015,
+    "ROI": 4.5,
+    "Path Count": 120701,
+    "Impression Per Node": 3.02,
+    "Conversion Rate": 0.015,
     "pathId": 835,
     "nodes": [
       {
@@ -26557,13 +26557,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.24
+    "Effectiveness": 0.24
   },
   {
-    "roi": 0.48,
-    "pathCount": 78735,
-    "impressionPerNode": 5.02,
-    "conversionRate": 0.057,
+    "ROI": 0.48,
+    "Path Count": 78735,
+    "Impression Per Node": 5.02,
+    "Conversion Rate": 0.057,
     "pathId": 836,
     "nodes": [
       {
@@ -26585,13 +26585,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.7
+    "Effectiveness": 1.7
   },
   {
-    "roi": 0.46,
-    "pathCount": 3073076,
-    "impressionPerNode": 6.75,
-    "conversionRate": 0.008,
+    "ROI": 0.46,
+    "Path Count": 3073076,
+    "Impression Per Node": 6.75,
+    "Conversion Rate": 0.008,
     "pathId": 837,
     "nodes": [
       {
@@ -26619,13 +26619,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.21
+    "Effectiveness": 1.21
   },
   {
-    "roi": 0.15,
-    "pathCount": 1192593,
-    "impressionPerNode": 4.97,
-    "conversionRate": 0.047,
+    "ROI": 0.15,
+    "Path Count": 1192593,
+    "Impression Per Node": 4.97,
+    "Conversion Rate": 0.047,
     "pathId": 838,
     "nodes": [
       {
@@ -26641,13 +26641,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.57
+    "Effectiveness": 0.57
   },
   {
-    "roi": 0.44,
-    "pathCount": 4307260,
-    "impressionPerNode": 7.89,
-    "conversionRate": 0.003,
+    "ROI": 0.44,
+    "Path Count": 4307260,
+    "Impression Per Node": 7.89,
+    "Conversion Rate": 0.003,
     "pathId": 839,
     "nodes": [
       {
@@ -26687,13 +26687,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.68
+    "Effectiveness": 1.68
   },
   {
-    "roi": 1.15,
-    "pathCount": 1338364,
-    "impressionPerNode": 4.11,
-    "conversionRate": 0.001,
+    "ROI": 1.15,
+    "Path Count": 1338364,
+    "Impression Per Node": 4.11,
+    "Conversion Rate": 0.001,
     "pathId": 840,
     "nodes": [
       {
@@ -26733,13 +26733,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.41
+    "Effectiveness": 0.41
   },
   {
-    "roi": 0.57,
-    "pathCount": 2383935,
-    "impressionPerNode": 5.23,
-    "conversionRate": 0.044,
+    "ROI": 0.57,
+    "Path Count": 2383935,
+    "Impression Per Node": 5.23,
+    "Conversion Rate": 0.044,
     "pathId": 841,
     "nodes": [
       {
@@ -26773,13 +26773,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.08
+    "Effectiveness": 1.08
   },
   {
-    "roi": 2.48,
-    "pathCount": 2749621,
-    "impressionPerNode": 6.6,
-    "conversionRate": 0.011,
+    "ROI": 2.48,
+    "Path Count": 2749621,
+    "Impression Per Node": 6.6,
+    "Conversion Rate": 0.011,
     "pathId": 842,
     "nodes": [
       {
@@ -26807,13 +26807,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 0.29,
-    "pathCount": 1931902,
-    "impressionPerNode": 4.5,
-    "conversionRate": 0.032,
+    "ROI": 0.29,
+    "Path Count": 1931902,
+    "Impression Per Node": 4.5,
+    "Conversion Rate": 0.032,
     "pathId": 843,
     "nodes": [
       {
@@ -26841,13 +26841,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 1.76,
-    "pathCount": 225325,
-    "impressionPerNode": 4.92,
-    "conversionRate": 0.06,
+    "ROI": 1.76,
+    "Path Count": 225325,
+    "Impression Per Node": 4.92,
+    "Conversion Rate": 0.06,
     "pathId": 844,
     "nodes": [
       {
@@ -26863,13 +26863,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 0.15,
-    "pathCount": 8538505,
-    "impressionPerNode": 7.24,
-    "conversionRate": 0.027,
+    "ROI": 0.15,
+    "Path Count": 8538505,
+    "Impression Per Node": 7.24,
+    "Conversion Rate": 0.027,
     "pathId": 845,
     "nodes": [
       {
@@ -26909,13 +26909,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.03
+    "Effectiveness": 0.03
   },
   {
-    "roi": 0.92,
-    "pathCount": 7675266,
-    "impressionPerNode": 6.62,
-    "conversionRate": 0.038,
+    "ROI": 0.92,
+    "Path Count": 7675266,
+    "Impression Per Node": 6.62,
+    "Conversion Rate": 0.038,
     "pathId": 846,
     "nodes": [
       {
@@ -26937,13 +26937,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 2.21,
-    "pathCount": 5602943,
-    "impressionPerNode": 5.5,
-    "conversionRate": 0.01,
+    "ROI": 2.21,
+    "Path Count": 5602943,
+    "Impression Per Node": 5.5,
+    "Conversion Rate": 0.01,
     "pathId": 847,
     "nodes": [
       {
@@ -26977,13 +26977,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.63
+    "Effectiveness": 0.63
   },
   {
-    "roi": 0.91,
-    "pathCount": 391139,
-    "impressionPerNode": 6.15,
-    "conversionRate": 0.049,
+    "ROI": 0.91,
+    "Path Count": 391139,
+    "Impression Per Node": 6.15,
+    "Conversion Rate": 0.049,
     "pathId": 848,
     "nodes": [
       {
@@ -26999,13 +26999,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.63
+    "Effectiveness": 2.63
   },
   {
-    "roi": 0.83,
-    "pathCount": 40927,
-    "impressionPerNode": 4.3,
-    "conversionRate": 0.007,
+    "ROI": 0.83,
+    "Path Count": 40927,
+    "Impression Per Node": 4.3,
+    "Conversion Rate": 0.007,
     "pathId": 849,
     "nodes": [
       {
@@ -27039,13 +27039,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 0.16,
-    "pathCount": 858682,
-    "impressionPerNode": 6.72,
-    "conversionRate": 0.004,
+    "ROI": 0.16,
+    "Path Count": 858682,
+    "Impression Per Node": 6.72,
+    "Conversion Rate": 0.004,
     "pathId": 850,
     "nodes": [
       {
@@ -27067,13 +27067,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.61
+    "Effectiveness": 0.61
   },
   {
-    "roi": 0.85,
-    "pathCount": 6750578,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.004,
+    "ROI": 0.85,
+    "Path Count": 6750578,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.004,
     "pathId": 851,
     "nodes": [
       {
@@ -27089,13 +27089,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 1.58,
-    "pathCount": 3045097,
-    "impressionPerNode": 3.39,
-    "conversionRate": 0.007,
+    "ROI": 1.58,
+    "Path Count": 3045097,
+    "Impression Per Node": 3.39,
+    "Conversion Rate": 0.007,
     "pathId": 852,
     "nodes": [
       {
@@ -27123,13 +27123,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.25
+    "Effectiveness": 1.25
   },
   {
-    "roi": 0.75,
-    "pathCount": 1291165,
-    "impressionPerNode": 5.7,
-    "conversionRate": 0.027,
+    "ROI": 0.75,
+    "Path Count": 1291165,
+    "Impression Per Node": 5.7,
+    "Conversion Rate": 0.027,
     "pathId": 853,
     "nodes": [
       {
@@ -27145,13 +27145,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.07,
-    "pathCount": 1630853,
-    "impressionPerNode": 3.74,
-    "conversionRate": 0.044,
+    "ROI": 0.07,
+    "Path Count": 1630853,
+    "Impression Per Node": 3.74,
+    "Conversion Rate": 0.044,
     "pathId": 854,
     "nodes": [
       {
@@ -27167,13 +27167,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.35
+    "Effectiveness": 1.35
   },
   {
-    "roi": 0.79,
-    "pathCount": 312695,
-    "impressionPerNode": 3.66,
-    "conversionRate": 0.076,
+    "ROI": 0.79,
+    "Path Count": 312695,
+    "Impression Per Node": 3.66,
+    "Conversion Rate": 0.076,
     "pathId": 855,
     "nodes": [
       {
@@ -27195,13 +27195,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.87
+    "Effectiveness": 1.87
   },
   {
-    "roi": 1.19,
-    "pathCount": 4472501,
-    "impressionPerNode": 6.42,
-    "conversionRate": 0.033,
+    "ROI": 1.19,
+    "Path Count": 4472501,
+    "Impression Per Node": 6.42,
+    "Conversion Rate": 0.033,
     "pathId": 856,
     "nodes": [
       {
@@ -27229,13 +27229,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.96
+    "Effectiveness": 0.96
   },
   {
-    "roi": 1.02,
-    "pathCount": 1378167,
-    "impressionPerNode": 6.75,
-    "conversionRate": 0.013,
+    "ROI": 1.02,
+    "Path Count": 1378167,
+    "Impression Per Node": 6.75,
+    "Conversion Rate": 0.013,
     "pathId": 857,
     "nodes": [
       {
@@ -27257,13 +27257,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.06
+    "Effectiveness": 1.06
   },
   {
-    "roi": 1.59,
-    "pathCount": 818030,
-    "impressionPerNode": 3.9,
-    "conversionRate": 0.011,
+    "ROI": 1.59,
+    "Path Count": 818030,
+    "Impression Per Node": 3.9,
+    "Conversion Rate": 0.011,
     "pathId": 858,
     "nodes": [
       {
@@ -27297,13 +27297,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.02
+    "Effectiveness": 1.02
   },
   {
-    "roi": 1.16,
-    "pathCount": 1489295,
-    "impressionPerNode": 4.8,
-    "conversionRate": 0.032,
+    "ROI": 1.16,
+    "Path Count": 1489295,
+    "Impression Per Node": 4.8,
+    "Conversion Rate": 0.032,
     "pathId": 859,
     "nodes": [
       {
@@ -27343,13 +27343,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.37
+    "Effectiveness": 1.37
   },
   {
-    "roi": 2.27,
-    "pathCount": 2915665,
-    "impressionPerNode": 3.94,
-    "conversionRate": 0.026,
+    "ROI": 2.27,
+    "Path Count": 2915665,
+    "Impression Per Node": 3.94,
+    "Conversion Rate": 0.026,
     "pathId": 860,
     "nodes": [
       {
@@ -27365,13 +27365,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.55
+    "Effectiveness": 0.55
   },
   {
-    "roi": 3.25,
-    "pathCount": 1551941,
-    "impressionPerNode": 6.7,
-    "conversionRate": 0.011,
+    "ROI": 3.25,
+    "Path Count": 1551941,
+    "Impression Per Node": 6.7,
+    "Conversion Rate": 0.011,
     "pathId": 861,
     "nodes": [
       {
@@ -27423,13 +27423,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.59
+    "Effectiveness": 0.59
   },
   {
-    "roi": 2.96,
-    "pathCount": 92443,
-    "impressionPerNode": 2.47,
-    "conversionRate": 0.047,
+    "ROI": 2.96,
+    "Path Count": 92443,
+    "Impression Per Node": 2.47,
+    "Conversion Rate": 0.047,
     "pathId": 862,
     "nodes": [
       {
@@ -27445,13 +27445,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.12
+    "Effectiveness": 1.12
   },
   {
-    "roi": 0.71,
-    "pathCount": 2540557,
-    "impressionPerNode": 5.13,
-    "conversionRate": 0.003,
+    "ROI": 0.71,
+    "Path Count": 2540557,
+    "Impression Per Node": 5.13,
+    "Conversion Rate": 0.003,
     "pathId": 863,
     "nodes": [
       {
@@ -27467,13 +27467,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.27
+    "Effectiveness": 1.27
   },
   {
-    "roi": 1.22,
-    "pathCount": 633487,
-    "impressionPerNode": 5.85,
-    "conversionRate": 0.032,
+    "ROI": 1.22,
+    "Path Count": 633487,
+    "Impression Per Node": 5.85,
+    "Conversion Rate": 0.032,
     "pathId": 864,
     "nodes": [
       {
@@ -27489,13 +27489,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.75
+    "Effectiveness": 1.75
   },
   {
-    "roi": 1.42,
-    "pathCount": 838791,
-    "impressionPerNode": 7.28,
-    "conversionRate": 0.002,
+    "ROI": 1.42,
+    "Path Count": 838791,
+    "Impression Per Node": 7.28,
+    "Conversion Rate": 0.002,
     "pathId": 865,
     "nodes": [
       {
@@ -27547,13 +27547,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.23
+    "Effectiveness": 1.23
   },
   {
-    "roi": 1.41,
-    "pathCount": 3048601,
-    "impressionPerNode": 7.65,
-    "conversionRate": 0.003,
+    "ROI": 1.41,
+    "Path Count": 3048601,
+    "Impression Per Node": 7.65,
+    "Conversion Rate": 0.003,
     "pathId": 866,
     "nodes": [
       {
@@ -27569,13 +27569,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 1.35,
-    "pathCount": 359524,
-    "impressionPerNode": 6.73,
-    "conversionRate": 0.009,
+    "ROI": 1.35,
+    "Path Count": 359524,
+    "Impression Per Node": 6.73,
+    "Conversion Rate": 0.009,
     "pathId": 867,
     "nodes": [
       {
@@ -27603,13 +27603,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.91
+    "Effectiveness": 0.91
   },
   {
-    "roi": 1.14,
-    "pathCount": 4789165,
-    "impressionPerNode": 7.86,
-    "conversionRate": 0.031,
+    "ROI": 1.14,
+    "Path Count": 4789165,
+    "Impression Per Node": 7.86,
+    "Conversion Rate": 0.031,
     "pathId": 868,
     "nodes": [
       {
@@ -27631,13 +27631,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.19
+    "Effectiveness": 2.19
   },
   {
-    "roi": 0.61,
-    "pathCount": 669367,
-    "impressionPerNode": 4.78,
-    "conversionRate": 0.015,
+    "ROI": 0.61,
+    "Path Count": 669367,
+    "Impression Per Node": 4.78,
+    "Conversion Rate": 0.015,
     "pathId": 869,
     "nodes": [
       {
@@ -27653,13 +27653,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 2.94,
-    "pathCount": 3161097,
-    "impressionPerNode": 6.54,
-    "conversionRate": 0.055,
+    "ROI": 2.94,
+    "Path Count": 3161097,
+    "Impression Per Node": 6.54,
+    "Conversion Rate": 0.055,
     "pathId": 870,
     "nodes": [
       {
@@ -27687,13 +27687,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.99
+    "Effectiveness": 1.99
   },
   {
-    "roi": 0.55,
-    "pathCount": 5677662,
-    "impressionPerNode": 3.61,
-    "conversionRate": 0.03,
+    "ROI": 0.55,
+    "Path Count": 5677662,
+    "Impression Per Node": 3.61,
+    "Conversion Rate": 0.03,
     "pathId": 871,
     "nodes": [
       {
@@ -27709,13 +27709,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.64
+    "Effectiveness": 0.64
   },
   {
-    "roi": 0.04,
-    "pathCount": 984445,
-    "impressionPerNode": 3.48,
-    "conversionRate": 0.005,
+    "ROI": 0.04,
+    "Path Count": 984445,
+    "Impression Per Node": 3.48,
+    "Conversion Rate": 0.005,
     "pathId": 872,
     "nodes": [
       {
@@ -27755,13 +27755,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.38
+    "Effectiveness": 1.38
   },
   {
-    "roi": 0.51,
-    "pathCount": 212924,
-    "impressionPerNode": 4.75,
-    "conversionRate": 0.0,
+    "ROI": 0.51,
+    "Path Count": 212924,
+    "Impression Per Node": 4.75,
+    "Conversion Rate": 0.0,
     "pathId": 873,
     "nodes": [
       {
@@ -27777,13 +27777,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.0
+    "Effectiveness": 2.0
   },
   {
-    "roi": 0.96,
-    "pathCount": 2215394,
-    "impressionPerNode": 7.94,
-    "conversionRate": 0.001,
+    "ROI": 0.96,
+    "Path Count": 2215394,
+    "Impression Per Node": 7.94,
+    "Conversion Rate": 0.001,
     "pathId": 874,
     "nodes": [
       {
@@ -27823,13 +27823,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 1.01,
-    "pathCount": 3744232,
-    "impressionPerNode": 3.86,
-    "conversionRate": 0.001,
+    "ROI": 1.01,
+    "Path Count": 3744232,
+    "Impression Per Node": 3.86,
+    "Conversion Rate": 0.001,
     "pathId": 875,
     "nodes": [
       {
@@ -27851,13 +27851,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 1.8,
-    "pathCount": 3271675,
-    "impressionPerNode": 4.02,
-    "conversionRate": 0.041,
+    "ROI": 1.8,
+    "Path Count": 3271675,
+    "Impression Per Node": 4.02,
+    "Conversion Rate": 0.041,
     "pathId": 876,
     "nodes": [
       {
@@ -27879,13 +27879,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.2
+    "Effectiveness": 0.2
   },
   {
-    "roi": 0.3,
-    "pathCount": 6020618,
-    "impressionPerNode": 7.31,
-    "conversionRate": 0.005,
+    "ROI": 0.3,
+    "Path Count": 6020618,
+    "Impression Per Node": 7.31,
+    "Conversion Rate": 0.005,
     "pathId": 877,
     "nodes": [
       {
@@ -27907,13 +27907,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.05
+    "Effectiveness": 1.05
   },
   {
-    "roi": 0.12,
-    "pathCount": 1310470,
-    "impressionPerNode": 7.84,
-    "conversionRate": 0.0,
+    "ROI": 0.12,
+    "Path Count": 1310470,
+    "Impression Per Node": 7.84,
+    "Conversion Rate": 0.0,
     "pathId": 878,
     "nodes": [
       {
@@ -27941,13 +27941,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.72
+    "Effectiveness": 0.72
   },
   {
-    "roi": 2.26,
-    "pathCount": 2565715,
-    "impressionPerNode": 7.55,
-    "conversionRate": 0.016,
+    "ROI": 2.26,
+    "Path Count": 2565715,
+    "Impression Per Node": 7.55,
+    "Conversion Rate": 0.016,
     "pathId": 879,
     "nodes": [
       {
@@ -27963,13 +27963,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 3.76,
-    "pathCount": 2173430,
-    "impressionPerNode": 3.33,
-    "conversionRate": 0.031,
+    "ROI": 3.76,
+    "Path Count": 2173430,
+    "Impression Per Node": 3.33,
+    "Conversion Rate": 0.031,
     "pathId": 880,
     "nodes": [
       {
@@ -28009,13 +28009,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.43
+    "Effectiveness": 2.43
   },
   {
-    "roi": 0.16,
-    "pathCount": 4931296,
-    "impressionPerNode": 4.95,
-    "conversionRate": 0.014,
+    "ROI": 0.16,
+    "Path Count": 4931296,
+    "Impression Per Node": 4.95,
+    "Conversion Rate": 0.014,
     "pathId": 881,
     "nodes": [
       {
@@ -28031,13 +28031,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.3
+    "Effectiveness": 0.3
   },
   {
-    "roi": 0.67,
-    "pathCount": 3412964,
-    "impressionPerNode": 6.96,
-    "conversionRate": 0.042,
+    "ROI": 0.67,
+    "Path Count": 3412964,
+    "Impression Per Node": 6.96,
+    "Conversion Rate": 0.042,
     "pathId": 882,
     "nodes": [
       {
@@ -28053,13 +28053,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 2.55,
-    "pathCount": 567845,
-    "impressionPerNode": 0.91,
-    "conversionRate": 0.024,
+    "ROI": 2.55,
+    "Path Count": 567845,
+    "Impression Per Node": 0.91,
+    "Conversion Rate": 0.024,
     "pathId": 883,
     "nodes": [
       {
@@ -28081,13 +28081,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.11
+    "Effectiveness": 1.11
   },
   {
-    "roi": 1.78,
-    "pathCount": 73167,
-    "impressionPerNode": 5.08,
-    "conversionRate": 0.004,
+    "ROI": 1.78,
+    "Path Count": 73167,
+    "Impression Per Node": 5.08,
+    "Conversion Rate": 0.004,
     "pathId": 884,
     "nodes": [
       {
@@ -28121,13 +28121,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.91
+    "Effectiveness": 0.91
   },
   {
-    "roi": 1.06,
-    "pathCount": 1426244,
-    "impressionPerNode": 5.04,
-    "conversionRate": 0.011,
+    "ROI": 1.06,
+    "Path Count": 1426244,
+    "Impression Per Node": 5.04,
+    "Conversion Rate": 0.011,
     "pathId": 885,
     "nodes": [
       {
@@ -28149,13 +28149,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 1.2,
-    "pathCount": 1866605,
-    "impressionPerNode": 4.05,
-    "conversionRate": 0.003,
+    "ROI": 1.2,
+    "Path Count": 1866605,
+    "Impression Per Node": 4.05,
+    "Conversion Rate": 0.003,
     "pathId": 886,
     "nodes": [
       {
@@ -28201,13 +28201,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.95
+    "Effectiveness": 0.95
   },
   {
-    "roi": 0.13,
-    "pathCount": 3575288,
-    "impressionPerNode": 6.69,
-    "conversionRate": 0.017,
+    "ROI": 0.13,
+    "Path Count": 3575288,
+    "Impression Per Node": 6.69,
+    "Conversion Rate": 0.017,
     "pathId": 887,
     "nodes": [
       {
@@ -28223,13 +28223,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.54
+    "Effectiveness": 1.54
   },
   {
-    "roi": 0.08,
-    "pathCount": 70714,
-    "impressionPerNode": 6.54,
-    "conversionRate": 0.003,
+    "ROI": 0.08,
+    "Path Count": 70714,
+    "Impression Per Node": 6.54,
+    "Conversion Rate": 0.003,
     "pathId": 888,
     "nodes": [
       {
@@ -28245,13 +28245,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.46
+    "Effectiveness": 0.46
   },
   {
-    "roi": 0.73,
-    "pathCount": 1656262,
-    "impressionPerNode": 2.35,
-    "conversionRate": 0.002,
+    "ROI": 0.73,
+    "Path Count": 1656262,
+    "Impression Per Node": 2.35,
+    "Conversion Rate": 0.002,
     "pathId": 889,
     "nodes": [
       {
@@ -28267,13 +28267,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.34
+    "Effectiveness": 1.34
   },
   {
-    "roi": 3.49,
-    "pathCount": 682445,
-    "impressionPerNode": 2.45,
-    "conversionRate": 0.005,
+    "ROI": 3.49,
+    "Path Count": 682445,
+    "Impression Per Node": 2.45,
+    "Conversion Rate": 0.005,
     "pathId": 890,
     "nodes": [
       {
@@ -28313,13 +28313,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.81,
-    "pathCount": 1409244,
-    "impressionPerNode": 5.67,
-    "conversionRate": 0.011,
+    "ROI": 0.81,
+    "Path Count": 1409244,
+    "Impression Per Node": 5.67,
+    "Conversion Rate": 0.011,
     "pathId": 891,
     "nodes": [
       {
@@ -28353,13 +28353,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 1.31,
-    "pathCount": 2718912,
-    "impressionPerNode": 6.24,
-    "conversionRate": 0.049,
+    "ROI": 1.31,
+    "Path Count": 2718912,
+    "Impression Per Node": 6.24,
+    "Conversion Rate": 0.049,
     "pathId": 892,
     "nodes": [
       {
@@ -28393,13 +28393,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.36
+    "Effectiveness": 0.36
   },
   {
-    "roi": 0.48,
-    "pathCount": 496302,
-    "impressionPerNode": 5.93,
-    "conversionRate": 0.0,
+    "ROI": 0.48,
+    "Path Count": 496302,
+    "Impression Per Node": 5.93,
+    "Conversion Rate": 0.0,
     "pathId": 893,
     "nodes": [
       {
@@ -28445,13 +28445,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.71
+    "Effectiveness": 0.71
   },
   {
-    "roi": 3.91,
-    "pathCount": 5430755,
-    "impressionPerNode": 6.49,
-    "conversionRate": 0.013,
+    "ROI": 3.91,
+    "Path Count": 5430755,
+    "Impression Per Node": 6.49,
+    "Conversion Rate": 0.013,
     "pathId": 894,
     "nodes": [
       {
@@ -28479,13 +28479,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.6
+    "Effectiveness": 0.6
   },
   {
-    "roi": 3.47,
-    "pathCount": 2409934,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.043,
+    "ROI": 3.47,
+    "Path Count": 2409934,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.043,
     "pathId": 895,
     "nodes": [
       {
@@ -28507,13 +28507,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 2.05,
-    "pathCount": 142081,
-    "impressionPerNode": 1.38,
-    "conversionRate": 0.005,
+    "ROI": 2.05,
+    "Path Count": 142081,
+    "Impression Per Node": 1.38,
+    "Conversion Rate": 0.005,
     "pathId": 896,
     "nodes": [
       {
@@ -28541,13 +28541,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.27
+    "Effectiveness": 0.27
   },
   {
-    "roi": 0.04,
-    "pathCount": 5287391,
-    "impressionPerNode": 5.79,
-    "conversionRate": 0.004,
+    "ROI": 0.04,
+    "Path Count": 5287391,
+    "Impression Per Node": 5.79,
+    "Conversion Rate": 0.004,
     "pathId": 897,
     "nodes": [
       {
@@ -28563,13 +28563,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.01
+    "Effectiveness": 1.01
   },
   {
-    "roi": 2.14,
-    "pathCount": 1939195,
-    "impressionPerNode": 1.63,
-    "conversionRate": 0.006,
+    "ROI": 2.14,
+    "Path Count": 1939195,
+    "Impression Per Node": 1.63,
+    "Conversion Rate": 0.006,
     "pathId": 898,
     "nodes": [
       {
@@ -28585,13 +28585,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.63
+    "Effectiveness": 1.63
   },
   {
-    "roi": 1.3,
-    "pathCount": 103243,
-    "impressionPerNode": 6.11,
-    "conversionRate": 0.002,
+    "ROI": 1.3,
+    "Path Count": 103243,
+    "Impression Per Node": 6.11,
+    "Conversion Rate": 0.002,
     "pathId": 899,
     "nodes": [
       {
@@ -28607,13 +28607,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.88
+    "Effectiveness": 0.88
   },
   {
-    "roi": 0.04,
-    "pathCount": 1335993,
-    "impressionPerNode": 6.89,
-    "conversionRate": 0.022,
+    "ROI": 0.04,
+    "Path Count": 1335993,
+    "Impression Per Node": 6.89,
+    "Conversion Rate": 0.022,
     "pathId": 900,
     "nodes": [
       {
@@ -28629,13 +28629,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.18,
-    "pathCount": 4465492,
-    "impressionPerNode": 5.48,
-    "conversionRate": 0.026,
+    "ROI": 0.18,
+    "Path Count": 4465492,
+    "Impression Per Node": 5.48,
+    "Conversion Rate": 0.026,
     "pathId": 901,
     "nodes": [
       {
@@ -28657,13 +28657,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 2.59,
-    "pathCount": 1633013,
-    "impressionPerNode": 3.47,
-    "conversionRate": 0.027,
+    "ROI": 2.59,
+    "Path Count": 1633013,
+    "Impression Per Node": 3.47,
+    "Conversion Rate": 0.027,
     "pathId": 902,
     "nodes": [
       {
@@ -28697,13 +28697,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.16,
-    "pathCount": 784901,
-    "impressionPerNode": 6.14,
-    "conversionRate": 0.023,
+    "ROI": 0.16,
+    "Path Count": 784901,
+    "Impression Per Node": 6.14,
+    "Conversion Rate": 0.023,
     "pathId": 903,
     "nodes": [
       {
@@ -28737,13 +28737,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 2.91,
-    "pathCount": 6413223,
-    "impressionPerNode": 5.42,
-    "conversionRate": 0.017,
+    "ROI": 2.91,
+    "Path Count": 6413223,
+    "Impression Per Node": 5.42,
+    "Conversion Rate": 0.017,
     "pathId": 904,
     "nodes": [
       {
@@ -28771,13 +28771,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.87
+    "Effectiveness": 0.87
   },
   {
-    "roi": 0.76,
-    "pathCount": 5182904,
-    "impressionPerNode": 6.5,
-    "conversionRate": 0.009,
+    "ROI": 0.76,
+    "Path Count": 5182904,
+    "Impression Per Node": 6.5,
+    "Conversion Rate": 0.009,
     "pathId": 905,
     "nodes": [
       {
@@ -28793,13 +28793,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.05,
-    "pathCount": 1266807,
-    "impressionPerNode": 7.54,
-    "conversionRate": 0.02,
+    "ROI": 0.05,
+    "Path Count": 1266807,
+    "Impression Per Node": 7.54,
+    "Conversion Rate": 0.02,
     "pathId": 906,
     "nodes": [
       {
@@ -28821,13 +28821,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 2.03,
-    "pathCount": 7446269,
-    "impressionPerNode": 5.96,
-    "conversionRate": 0.044,
+    "ROI": 2.03,
+    "Path Count": 7446269,
+    "Impression Per Node": 5.96,
+    "Conversion Rate": 0.044,
     "pathId": 907,
     "nodes": [
       {
@@ -28849,13 +28849,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.45
+    "Effectiveness": 0.45
   },
   {
-    "roi": 3.3,
-    "pathCount": 4696827,
-    "impressionPerNode": 2.76,
-    "conversionRate": 0.025,
+    "ROI": 3.3,
+    "Path Count": 4696827,
+    "Impression Per Node": 2.76,
+    "Conversion Rate": 0.025,
     "pathId": 908,
     "nodes": [
       {
@@ -28889,13 +28889,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 1.63,
-    "pathCount": 1656890,
-    "impressionPerNode": 4.39,
-    "conversionRate": 0.043,
+    "ROI": 1.63,
+    "Path Count": 1656890,
+    "Impression Per Node": 4.39,
+    "Conversion Rate": 0.043,
     "pathId": 909,
     "nodes": [
       {
@@ -28923,13 +28923,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.99
+    "Effectiveness": 0.99
   },
   {
-    "roi": 1.06,
-    "pathCount": 3684747,
-    "impressionPerNode": 7.55,
-    "conversionRate": 0.036,
+    "ROI": 1.06,
+    "Path Count": 3684747,
+    "Impression Per Node": 7.55,
+    "Conversion Rate": 0.036,
     "pathId": 910,
     "nodes": [
       {
@@ -28945,13 +28945,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.83
+    "Effectiveness": 0.83
   },
   {
-    "roi": 2.2,
-    "pathCount": 1049948,
-    "impressionPerNode": 7.36,
-    "conversionRate": 0.044,
+    "ROI": 2.2,
+    "Path Count": 1049948,
+    "Impression Per Node": 7.36,
+    "Conversion Rate": 0.044,
     "pathId": 911,
     "nodes": [
       {
@@ -29003,13 +29003,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.67
+    "Effectiveness": 1.67
   },
   {
-    "roi": 0.46,
-    "pathCount": 999823,
-    "impressionPerNode": 7.22,
-    "conversionRate": 0.063,
+    "ROI": 0.46,
+    "Path Count": 999823,
+    "Impression Per Node": 7.22,
+    "Conversion Rate": 0.063,
     "pathId": 912,
     "nodes": [
       {
@@ -29037,13 +29037,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.52
+    "Effectiveness": 1.52
   },
   {
-    "roi": 0.1,
-    "pathCount": 1519505,
-    "impressionPerNode": 2.43,
-    "conversionRate": 0.035,
+    "ROI": 0.1,
+    "Path Count": 1519505,
+    "Impression Per Node": 2.43,
+    "Conversion Rate": 0.035,
     "pathId": 913,
     "nodes": [
       {
@@ -29095,13 +29095,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.22,
-    "pathCount": 80051,
-    "impressionPerNode": 7.72,
-    "conversionRate": 0.023,
+    "ROI": 0.22,
+    "Path Count": 80051,
+    "Impression Per Node": 7.72,
+    "Conversion Rate": 0.023,
     "pathId": 914,
     "nodes": [
       {
@@ -29117,13 +29117,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.42
+    "Effectiveness": 0.42
   },
   {
-    "roi": 0.1,
-    "pathCount": 5407293,
-    "impressionPerNode": 0.93,
-    "conversionRate": 0.04,
+    "ROI": 0.1,
+    "Path Count": 5407293,
+    "Impression Per Node": 0.93,
+    "Conversion Rate": 0.04,
     "pathId": 915,
     "nodes": [
       {
@@ -29139,13 +29139,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.17
+    "Effectiveness": 0.17
   },
   {
-    "roi": 0.5,
-    "pathCount": 4181188,
-    "impressionPerNode": 7.63,
-    "conversionRate": 0.005,
+    "ROI": 0.5,
+    "Path Count": 4181188,
+    "Impression Per Node": 7.63,
+    "Conversion Rate": 0.005,
     "pathId": 916,
     "nodes": [
       {
@@ -29161,13 +29161,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   },
   {
-    "roi": 0.29,
-    "pathCount": 4340480,
-    "impressionPerNode": 6.75,
-    "conversionRate": 0.059,
+    "ROI": 0.29,
+    "Path Count": 4340480,
+    "Impression Per Node": 6.75,
+    "Conversion Rate": 0.059,
     "pathId": 917,
     "nodes": [
       {
@@ -29183,13 +29183,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.31
+    "Effectiveness": 0.31
   },
   {
-    "roi": 0.01,
-    "pathCount": 4123333,
-    "impressionPerNode": 3.45,
-    "conversionRate": 0.014,
+    "ROI": 0.01,
+    "Path Count": 4123333,
+    "Impression Per Node": 3.45,
+    "Conversion Rate": 0.014,
     "pathId": 918,
     "nodes": [
       {
@@ -29205,13 +29205,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.19
+    "Effectiveness": 0.19
   },
   {
-    "roi": 1.64,
-    "pathCount": 153372,
-    "impressionPerNode": 7.03,
-    "conversionRate": 0.042,
+    "ROI": 1.64,
+    "Path Count": 153372,
+    "Impression Per Node": 7.03,
+    "Conversion Rate": 0.042,
     "pathId": 919,
     "nodes": [
       {
@@ -29233,13 +29233,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.73
+    "Effectiveness": 0.73
   },
   {
-    "roi": 2.83,
-    "pathCount": 1439235,
-    "impressionPerNode": 7.04,
-    "conversionRate": 0.004,
+    "ROI": 2.83,
+    "Path Count": 1439235,
+    "Impression Per Node": 7.04,
+    "Conversion Rate": 0.004,
     "pathId": 920,
     "nodes": [
       {
@@ -29267,13 +29267,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 2.22
+    "Effectiveness": 2.22
   },
   {
-    "roi": 0.01,
-    "pathCount": 4541844,
-    "impressionPerNode": 6.61,
-    "conversionRate": 0.059,
+    "ROI": 0.01,
+    "Path Count": 4541844,
+    "Impression Per Node": 6.61,
+    "Conversion Rate": 0.059,
     "pathId": 921,
     "nodes": [
       {
@@ -29289,13 +29289,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.49
+    "Effectiveness": 0.49
   },
   {
-    "roi": 1.99,
-    "pathCount": 534336,
-    "impressionPerNode": 4.84,
-    "conversionRate": 0.023,
+    "ROI": 1.99,
+    "Path Count": 534336,
+    "Impression Per Node": 4.84,
+    "Conversion Rate": 0.023,
     "pathId": 922,
     "nodes": [
       {
@@ -29323,13 +29323,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.34
+    "Effectiveness": 1.34
   },
   {
-    "roi": 1.08,
-    "pathCount": 1094530,
-    "impressionPerNode": 5.73,
-    "conversionRate": 0.003,
+    "ROI": 1.08,
+    "Path Count": 1094530,
+    "Impression Per Node": 5.73,
+    "Conversion Rate": 0.003,
     "pathId": 923,
     "nodes": [
       {
@@ -29375,13 +29375,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 0.26,
-    "pathCount": 2731079,
-    "impressionPerNode": 7.75,
-    "conversionRate": 0.027,
+    "ROI": 0.26,
+    "Path Count": 2731079,
+    "Impression Per Node": 7.75,
+    "Conversion Rate": 0.027,
     "pathId": 924,
     "nodes": [
       {
@@ -29397,13 +29397,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 0.59,
-    "pathCount": 6082960,
-    "impressionPerNode": 7.83,
-    "conversionRate": 0.046,
+    "ROI": 0.59,
+    "Path Count": 6082960,
+    "Impression Per Node": 7.83,
+    "Conversion Rate": 0.046,
     "pathId": 925,
     "nodes": [
       {
@@ -29425,13 +29425,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.29
+    "Effectiveness": 0.29
   },
   {
-    "roi": 0.62,
-    "pathCount": 2646392,
-    "impressionPerNode": 6.47,
-    "conversionRate": 0.015,
+    "ROI": 0.62,
+    "Path Count": 2646392,
+    "Impression Per Node": 6.47,
+    "Conversion Rate": 0.015,
     "pathId": 926,
     "nodes": [
       {
@@ -29453,13 +29453,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.45
+    "Effectiveness": 1.45
   },
   {
-    "roi": 1.15,
-    "pathCount": 2363371,
-    "impressionPerNode": 7.12,
-    "conversionRate": 0.025,
+    "ROI": 1.15,
+    "Path Count": 2363371,
+    "Impression Per Node": 7.12,
+    "Conversion Rate": 0.025,
     "pathId": 927,
     "nodes": [
       {
@@ -29475,13 +29475,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 0.28,
-    "pathCount": 5334359,
-    "impressionPerNode": 5.85,
-    "conversionRate": 0.02,
+    "ROI": 0.28,
+    "Path Count": 5334359,
+    "Impression Per Node": 5.85,
+    "Conversion Rate": 0.02,
     "pathId": 928,
     "nodes": [
       {
@@ -29503,13 +29503,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.74
+    "Effectiveness": 0.74
   },
   {
-    "roi": 1.26,
-    "pathCount": 4911433,
-    "impressionPerNode": 7.45,
-    "conversionRate": 0.002,
+    "ROI": 1.26,
+    "Path Count": 4911433,
+    "Impression Per Node": 7.45,
+    "Conversion Rate": 0.002,
     "pathId": 929,
     "nodes": [
       {
@@ -29525,13 +29525,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.37
+    "Effectiveness": 0.37
   },
   {
-    "roi": 0.28,
-    "pathCount": 267982,
-    "impressionPerNode": 7.87,
-    "conversionRate": 0.0,
+    "ROI": 0.28,
+    "Path Count": 267982,
+    "Impression Per Node": 7.87,
+    "Conversion Rate": 0.0,
     "pathId": 930,
     "nodes": [
       {
@@ -29571,13 +29571,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.96
+    "Effectiveness": 1.96
   },
   {
-    "roi": 1.15,
-    "pathCount": 1040975,
-    "impressionPerNode": 7.45,
-    "conversionRate": 0.003,
+    "ROI": 1.15,
+    "Path Count": 1040975,
+    "Impression Per Node": 7.45,
+    "Conversion Rate": 0.003,
     "pathId": 931,
     "nodes": [
       {
@@ -29599,13 +29599,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.7
+    "Effectiveness": 0.7
   },
   {
-    "roi": 2.21,
-    "pathCount": 593386,
-    "impressionPerNode": 6.69,
-    "conversionRate": 0.006,
+    "ROI": 2.21,
+    "Path Count": 593386,
+    "Impression Per Node": 6.69,
+    "Conversion Rate": 0.006,
     "pathId": 932,
     "nodes": [
       {
@@ -29621,13 +29621,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.14
+    "Effectiveness": 0.14
   },
   {
-    "roi": 0.16,
-    "pathCount": 4622028,
-    "impressionPerNode": 2.21,
-    "conversionRate": 0.011,
+    "ROI": 0.16,
+    "Path Count": 4622028,
+    "Impression Per Node": 2.21,
+    "Conversion Rate": 0.011,
     "pathId": 933,
     "nodes": [
       {
@@ -29655,13 +29655,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.68
+    "Effectiveness": 1.68
   },
   {
-    "roi": 1.93,
-    "pathCount": 5560451,
-    "impressionPerNode": 5.42,
-    "conversionRate": 0.0,
+    "ROI": 1.93,
+    "Path Count": 5560451,
+    "Impression Per Node": 5.42,
+    "Conversion Rate": 0.0,
     "pathId": 934,
     "nodes": [
       {
@@ -29695,13 +29695,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.62
+    "Effectiveness": 0.62
   },
   {
-    "roi": 0.79,
-    "pathCount": 14315,
-    "impressionPerNode": 7.1,
-    "conversionRate": 0.012,
+    "ROI": 0.79,
+    "Path Count": 14315,
+    "Impression Per Node": 7.1,
+    "Conversion Rate": 0.012,
     "pathId": 935,
     "nodes": [
       {
@@ -29717,13 +29717,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 1.87
+    "Effectiveness": 1.87
   },
   {
-    "roi": 0.52,
-    "pathCount": 325553,
-    "impressionPerNode": 3.79,
-    "conversionRate": 0.008,
+    "ROI": 0.52,
+    "Path Count": 325553,
+    "Impression Per Node": 3.79,
+    "Conversion Rate": 0.008,
     "pathId": 936,
     "nodes": [
       {
@@ -29745,13 +29745,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.13
+    "Effectiveness": 0.13
   },
   {
-    "roi": 0.18,
-    "pathCount": 2930314,
-    "impressionPerNode": 2.71,
-    "conversionRate": 0.006,
+    "ROI": 0.18,
+    "Path Count": 2930314,
+    "Impression Per Node": 2.71,
+    "Conversion Rate": 0.006,
     "pathId": 937,
     "nodes": [
       {
@@ -29785,13 +29785,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.63
+    "Effectiveness": 2.63
   },
   {
-    "roi": 1.63,
-    "pathCount": 1960276,
-    "impressionPerNode": 6.39,
-    "conversionRate": 0.011,
+    "ROI": 1.63,
+    "Path Count": 1960276,
+    "Impression Per Node": 6.39,
+    "Conversion Rate": 0.011,
     "pathId": 938,
     "nodes": [
       {
@@ -29831,13 +29831,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.1
+    "Effectiveness": 0.1
   },
   {
-    "roi": 0.01,
-    "pathCount": 3759837,
-    "impressionPerNode": 7.11,
-    "conversionRate": 0.001,
+    "ROI": 0.01,
+    "Path Count": 3759837,
+    "Impression Per Node": 7.11,
+    "Conversion Rate": 0.001,
     "pathId": 939,
     "nodes": [
       {
@@ -29853,13 +29853,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.66
+    "Effectiveness": 1.66
   },
   {
-    "roi": 1.18,
-    "pathCount": 25398,
-    "impressionPerNode": 7.39,
-    "conversionRate": 0.013,
+    "ROI": 1.18,
+    "Path Count": 25398,
+    "Impression Per Node": 7.39,
+    "Conversion Rate": 0.013,
     "pathId": 940,
     "nodes": [
       {
@@ -29899,13 +29899,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.12
+    "Effectiveness": 0.12
   },
   {
-    "roi": 0.02,
-    "pathCount": 1321491,
-    "impressionPerNode": 5.26,
-    "conversionRate": 0.008,
+    "ROI": 0.02,
+    "Path Count": 1321491,
+    "Impression Per Node": 5.26,
+    "Conversion Rate": 0.008,
     "pathId": 941,
     "nodes": [
       {
@@ -29921,13 +29921,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.27
+    "Effectiveness": 1.27
   },
   {
-    "roi": 0.28,
-    "pathCount": 8350040,
-    "impressionPerNode": 7.63,
-    "conversionRate": 0.001,
+    "ROI": 0.28,
+    "Path Count": 8350040,
+    "Impression Per Node": 7.63,
+    "Conversion Rate": 0.001,
     "pathId": 942,
     "nodes": [
       {
@@ -29961,13 +29961,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.22
+    "Effectiveness": 0.22
   },
   {
-    "roi": 2.26,
-    "pathCount": 7651795,
-    "impressionPerNode": 6.94,
-    "conversionRate": 0.005,
+    "ROI": 2.26,
+    "Path Count": 7651795,
+    "Impression Per Node": 6.94,
+    "Conversion Rate": 0.005,
     "pathId": 943,
     "nodes": [
       {
@@ -29989,13 +29989,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.54
+    "Effectiveness": 0.54
   },
   {
-    "roi": 0.53,
-    "pathCount": 772521,
-    "impressionPerNode": 6.41,
-    "conversionRate": 0.033,
+    "ROI": 0.53,
+    "Path Count": 772521,
+    "Impression Per Node": 6.41,
+    "Conversion Rate": 0.033,
     "pathId": 944,
     "nodes": [
       {
@@ -30047,13 +30047,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.69
+    "Effectiveness": 0.69
   },
   {
-    "roi": 0.2,
-    "pathCount": 2559580,
-    "impressionPerNode": 5.99,
-    "conversionRate": 0.014,
+    "ROI": 0.2,
+    "Path Count": 2559580,
+    "Impression Per Node": 5.99,
+    "Conversion Rate": 0.014,
     "pathId": 945,
     "nodes": [
       {
@@ -30069,13 +30069,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 1.62,
-    "pathCount": 295464,
-    "impressionPerNode": 5.92,
-    "conversionRate": 0.017,
+    "ROI": 1.62,
+    "Path Count": 295464,
+    "Impression Per Node": 5.92,
+    "Conversion Rate": 0.017,
     "pathId": 946,
     "nodes": [
       {
@@ -30091,13 +30091,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.16
+    "Effectiveness": 0.16
   },
   {
-    "roi": 0.28,
-    "pathCount": 4322150,
-    "impressionPerNode": 5.87,
-    "conversionRate": 0.032,
+    "ROI": 0.28,
+    "Path Count": 4322150,
+    "Impression Per Node": 5.87,
+    "Conversion Rate": 0.032,
     "pathId": 947,
     "nodes": [
       {
@@ -30125,13 +30125,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 2.07,
-    "pathCount": 738189,
-    "impressionPerNode": 5.99,
-    "conversionRate": 0.018,
+    "ROI": 2.07,
+    "Path Count": 738189,
+    "Impression Per Node": 5.99,
+    "Conversion Rate": 0.018,
     "pathId": 948,
     "nodes": [
       {
@@ -30165,13 +30165,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.76
+    "Effectiveness": 0.76
   },
   {
-    "roi": 0.21,
-    "pathCount": 549384,
-    "impressionPerNode": 3.39,
-    "conversionRate": 0.02,
+    "ROI": 0.21,
+    "Path Count": 549384,
+    "Impression Per Node": 3.39,
+    "Conversion Rate": 0.02,
     "pathId": 949,
     "nodes": [
       {
@@ -30193,13 +30193,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 0.76,
-    "pathCount": 743781,
-    "impressionPerNode": 5.63,
-    "conversionRate": 0.005,
+    "ROI": 0.76,
+    "Path Count": 743781,
+    "Impression Per Node": 5.63,
+    "Conversion Rate": 0.005,
     "pathId": 950,
     "nodes": [
       {
@@ -30215,13 +30215,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 1.56
+    "Effectiveness": 1.56
   },
   {
-    "roi": 0.51,
-    "pathCount": 2631941,
-    "impressionPerNode": 7.52,
-    "conversionRate": 0.07,
+    "ROI": 0.51,
+    "Path Count": 2631941,
+    "Impression Per Node": 7.52,
+    "Conversion Rate": 0.07,
     "pathId": 951,
     "nodes": [
       {
@@ -30243,13 +30243,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.06
+    "Effectiveness": 0.06
   },
   {
-    "roi": 3.81,
-    "pathCount": 2626666,
-    "impressionPerNode": 7.78,
-    "conversionRate": 0.041,
+    "ROI": 3.81,
+    "Path Count": 2626666,
+    "Impression Per Node": 7.78,
+    "Conversion Rate": 0.041,
     "pathId": 952,
     "nodes": [
       {
@@ -30283,13 +30283,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.98
+    "Effectiveness": 0.98
   },
   {
-    "roi": 1.33,
-    "pathCount": 1797136,
-    "impressionPerNode": 2.58,
-    "conversionRate": 0.018,
+    "ROI": 1.33,
+    "Path Count": 1797136,
+    "Impression Per Node": 2.58,
+    "Conversion Rate": 0.018,
     "pathId": 953,
     "nodes": [
       {
@@ -30335,13 +30335,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.23
+    "Effectiveness": 0.23
   },
   {
-    "roi": 0.37,
-    "pathCount": 487666,
-    "impressionPerNode": 7.37,
-    "conversionRate": 0.086,
+    "ROI": 0.37,
+    "Path Count": 487666,
+    "Impression Per Node": 7.37,
+    "Conversion Rate": 0.086,
     "pathId": 954,
     "nodes": [
       {
@@ -30369,13 +30369,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.18
+    "Effectiveness": 0.18
   },
   {
-    "roi": 1.21,
-    "pathCount": 658597,
-    "impressionPerNode": 3.93,
-    "conversionRate": 0.018,
+    "ROI": 1.21,
+    "Path Count": 658597,
+    "Impression Per Node": 3.93,
+    "Conversion Rate": 0.018,
     "pathId": 955,
     "nodes": [
       {
@@ -30391,13 +30391,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 1.52,
-    "pathCount": 443407,
-    "impressionPerNode": 5.34,
-    "conversionRate": 0.003,
+    "ROI": 1.52,
+    "Path Count": 443407,
+    "Impression Per Node": 5.34,
+    "Conversion Rate": 0.003,
     "pathId": 956,
     "nodes": [
       {
@@ -30449,13 +30449,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.85
+    "Effectiveness": 0.85
   },
   {
-    "roi": 0.33,
-    "pathCount": 3537199,
-    "impressionPerNode": 5.54,
-    "conversionRate": 0.052,
+    "ROI": 0.33,
+    "Path Count": 3537199,
+    "Impression Per Node": 5.54,
+    "Conversion Rate": 0.052,
     "pathId": 957,
     "nodes": [
       {
@@ -30471,13 +30471,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 2.77
+    "Effectiveness": 2.77
   },
   {
-    "roi": 0.97,
-    "pathCount": 652533,
-    "impressionPerNode": 4.02,
-    "conversionRate": 0.042,
+    "ROI": 0.97,
+    "Path Count": 652533,
+    "Impression Per Node": 4.02,
+    "Conversion Rate": 0.042,
     "pathId": 958,
     "nodes": [
       {
@@ -30493,13 +30493,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.5
+    "Effectiveness": 1.5
   },
   {
-    "roi": 0.06,
-    "pathCount": 3279726,
-    "impressionPerNode": 5.69,
-    "conversionRate": 0.045,
+    "ROI": 0.06,
+    "Path Count": 3279726,
+    "Impression Per Node": 5.69,
+    "Conversion Rate": 0.045,
     "pathId": 959,
     "nodes": [
       {
@@ -30527,13 +30527,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 0.14,
-    "pathCount": 7316888,
-    "impressionPerNode": 7.17,
-    "conversionRate": 0.009,
+    "ROI": 0.14,
+    "Path Count": 7316888,
+    "Impression Per Node": 7.17,
+    "Conversion Rate": 0.009,
     "pathId": 960,
     "nodes": [
       {
@@ -30555,13 +30555,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.15
+    "Effectiveness": 0.15
   },
   {
-    "roi": 2.85,
-    "pathCount": 4194978,
-    "impressionPerNode": 3.63,
-    "conversionRate": 0.039,
+    "ROI": 2.85,
+    "Path Count": 4194978,
+    "Impression Per Node": 3.63,
+    "Conversion Rate": 0.039,
     "pathId": 961,
     "nodes": [
       {
@@ -30601,13 +30601,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.27
+    "Effectiveness": 1.27
   },
   {
-    "roi": 2.29,
-    "pathCount": 2690992,
-    "impressionPerNode": 6.65,
-    "conversionRate": 0.028,
+    "ROI": 2.29,
+    "Path Count": 2690992,
+    "Impression Per Node": 6.65,
+    "Conversion Rate": 0.028,
     "pathId": 962,
     "nodes": [
       {
@@ -30623,13 +30623,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 2.69,
-    "pathCount": 2065497,
-    "impressionPerNode": 7.85,
-    "conversionRate": 0.021,
+    "ROI": 2.69,
+    "Path Count": 2065497,
+    "Impression Per Node": 7.85,
+    "Conversion Rate": 0.021,
     "pathId": 963,
     "nodes": [
       {
@@ -30663,13 +30663,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.01
+    "Effectiveness": 0.01
   },
   {
-    "roi": 2.07,
-    "pathCount": 5219041,
-    "impressionPerNode": 2.65,
-    "conversionRate": 0.047,
+    "ROI": 2.07,
+    "Path Count": 5219041,
+    "Impression Per Node": 2.65,
+    "Conversion Rate": 0.047,
     "pathId": 964,
     "nodes": [
       {
@@ -30703,13 +30703,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.77
+    "Effectiveness": 0.77
   },
   {
-    "roi": 0.21,
-    "pathCount": 207869,
-    "impressionPerNode": 6.61,
-    "conversionRate": 0.056,
+    "ROI": 0.21,
+    "Path Count": 207869,
+    "Impression Per Node": 6.61,
+    "Conversion Rate": 0.056,
     "pathId": 965,
     "nodes": [
       {
@@ -30737,13 +30737,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.08
+    "Effectiveness": 0.08
   },
   {
-    "roi": 0.44,
-    "pathCount": 574887,
-    "impressionPerNode": 5.53,
-    "conversionRate": 0.021,
+    "ROI": 0.44,
+    "Path Count": 574887,
+    "Impression Per Node": 5.53,
+    "Conversion Rate": 0.021,
     "pathId": 966,
     "nodes": [
       {
@@ -30765,13 +30765,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.18
+    "Effectiveness": 1.18
   },
   {
-    "roi": 0.43,
-    "pathCount": 542411,
-    "impressionPerNode": 6.66,
-    "conversionRate": 0.029,
+    "ROI": 0.43,
+    "Path Count": 542411,
+    "Impression Per Node": 6.66,
+    "Conversion Rate": 0.029,
     "pathId": 967,
     "nodes": [
       {
@@ -30811,13 +30811,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.42
+    "Effectiveness": 1.42
   },
   {
-    "roi": 0.11,
-    "pathCount": 2406353,
-    "impressionPerNode": 6.64,
-    "conversionRate": 0.075,
+    "ROI": 0.11,
+    "Path Count": 2406353,
+    "Impression Per Node": 6.64,
+    "Conversion Rate": 0.075,
     "pathId": 968,
     "nodes": [
       {
@@ -30851,13 +30851,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.79
+    "Effectiveness": 0.79
   },
   {
-    "roi": 0.64,
-    "pathCount": 6125955,
-    "impressionPerNode": 5.35,
-    "conversionRate": 0.032,
+    "ROI": 0.64,
+    "Path Count": 6125955,
+    "Impression Per Node": 5.35,
+    "Conversion Rate": 0.032,
     "pathId": 969,
     "nodes": [
       {
@@ -30879,13 +30879,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.32
+    "Effectiveness": 0.32
   },
   {
-    "roi": 1.33,
-    "pathCount": 471267,
-    "impressionPerNode": 3.41,
-    "conversionRate": 0.007,
+    "ROI": 1.33,
+    "Path Count": 471267,
+    "Impression Per Node": 3.41,
+    "Conversion Rate": 0.007,
     "pathId": 970,
     "nodes": [
       {
@@ -30919,13 +30919,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 1.16,
-    "pathCount": 227025,
-    "impressionPerNode": 1.58,
-    "conversionRate": 0.056,
+    "ROI": 1.16,
+    "Path Count": 227025,
+    "Impression Per Node": 1.58,
+    "Conversion Rate": 0.056,
     "pathId": 971,
     "nodes": [
       {
@@ -30941,13 +30941,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 1.44
+    "Effectiveness": 1.44
   },
   {
-    "roi": 1.64,
-    "pathCount": 1322545,
-    "impressionPerNode": 7.37,
-    "conversionRate": 0.002,
+    "ROI": 1.64,
+    "Path Count": 1322545,
+    "Impression Per Node": 7.37,
+    "Conversion Rate": 0.002,
     "pathId": 972,
     "nodes": [
       {
@@ -30963,13 +30963,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 2.73
+    "Effectiveness": 2.73
   },
   {
-    "roi": 3.47,
-    "pathCount": 2354298,
-    "impressionPerNode": 6.48,
-    "conversionRate": 0.036,
+    "ROI": 3.47,
+    "Path Count": 2354298,
+    "Impression Per Node": 6.48,
+    "Conversion Rate": 0.036,
     "pathId": 973,
     "nodes": [
       {
@@ -30997,13 +30997,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 3.04,
-    "pathCount": 294571,
-    "impressionPerNode": 4.56,
-    "conversionRate": 0.031,
+    "ROI": 3.04,
+    "Path Count": 294571,
+    "Impression Per Node": 4.56,
+    "Conversion Rate": 0.031,
     "pathId": 974,
     "nodes": [
       {
@@ -31025,13 +31025,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.21
+    "Effectiveness": 0.21
   },
   {
-    "roi": 0.32,
-    "pathCount": 4848367,
-    "impressionPerNode": 7.66,
-    "conversionRate": 0.03,
+    "ROI": 0.32,
+    "Path Count": 4848367,
+    "Impression Per Node": 7.66,
+    "Conversion Rate": 0.03,
     "pathId": 975,
     "nodes": [
       {
@@ -31059,13 +31059,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.58
+    "Effectiveness": 0.58
   },
   {
-    "roi": 0.61,
-    "pathCount": 2978989,
-    "impressionPerNode": 6.04,
-    "conversionRate": 0.012,
+    "ROI": 0.61,
+    "Path Count": 2978989,
+    "Impression Per Node": 6.04,
+    "Conversion Rate": 0.012,
     "pathId": 976,
     "nodes": [
       {
@@ -31099,13 +31099,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.52
+    "Effectiveness": 0.52
   },
   {
-    "roi": 0.17,
-    "pathCount": 5125375,
-    "impressionPerNode": 7.9,
-    "conversionRate": 0.003,
+    "ROI": 0.17,
+    "Path Count": 5125375,
+    "Impression Per Node": 7.9,
+    "Conversion Rate": 0.003,
     "pathId": 977,
     "nodes": [
       {
@@ -31133,13 +31133,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 0.94,
-    "pathCount": 1618337,
-    "impressionPerNode": 1.11,
-    "conversionRate": 0.041,
+    "ROI": 0.94,
+    "Path Count": 1618337,
+    "Impression Per Node": 1.11,
+    "Conversion Rate": 0.041,
     "pathId": 978,
     "nodes": [
       {
@@ -31197,13 +31197,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.29
+    "Effectiveness": 1.29
   },
   {
-    "roi": 2.69,
-    "pathCount": 758367,
-    "impressionPerNode": 7.32,
-    "conversionRate": 0.001,
+    "ROI": 2.69,
+    "Path Count": 758367,
+    "Impression Per Node": 7.32,
+    "Conversion Rate": 0.001,
     "pathId": 979,
     "nodes": [
       {
@@ -31219,13 +31219,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.47
+    "Effectiveness": 0.47
   },
   {
-    "roi": 2.45,
-    "pathCount": 5895366,
-    "impressionPerNode": 7.92,
-    "conversionRate": 0.054,
+    "ROI": 2.45,
+    "Path Count": 5895366,
+    "Impression Per Node": 7.92,
+    "Conversion Rate": 0.054,
     "pathId": 980,
     "nodes": [
       {
@@ -31241,13 +31241,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.33
+    "Effectiveness": 0.33
   },
   {
-    "roi": 0.57,
-    "pathCount": 241613,
-    "impressionPerNode": 6.77,
-    "conversionRate": 0.01,
+    "ROI": 0.57,
+    "Path Count": 241613,
+    "Impression Per Node": 6.77,
+    "Conversion Rate": 0.01,
     "pathId": 981,
     "nodes": [
       {
@@ -31275,13 +31275,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 0.26
+    "Effectiveness": 0.26
   },
   {
-    "roi": 0.29,
-    "pathCount": 4009277,
-    "impressionPerNode": 7.05,
-    "conversionRate": 0.003,
+    "ROI": 0.29,
+    "Path Count": 4009277,
+    "Impression Per Node": 7.05,
+    "Conversion Rate": 0.003,
     "pathId": 982,
     "nodes": [
       {
@@ -31309,13 +31309,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 1.52
+    "Effectiveness": 1.52
   },
   {
-    "roi": 0.43,
-    "pathCount": 821312,
-    "impressionPerNode": 3.09,
-    "conversionRate": 0.006,
+    "ROI": 0.43,
+    "Path Count": 821312,
+    "Impression Per Node": 3.09,
+    "Conversion Rate": 0.006,
     "pathId": 983,
     "nodes": [
       {
@@ -31343,13 +31343,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.02
+    "Effectiveness": 0.02
   },
   {
-    "roi": 1.29,
-    "pathCount": 3244357,
-    "impressionPerNode": 4.85,
-    "conversionRate": 0.004,
+    "ROI": 1.29,
+    "Path Count": 3244357,
+    "Impression Per Node": 4.85,
+    "Conversion Rate": 0.004,
     "pathId": 984,
     "nodes": [
       {
@@ -31377,13 +31377,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.75
+    "Effectiveness": 0.75
   },
   {
-    "roi": 1.48,
-    "pathCount": 8227923,
-    "impressionPerNode": 6.65,
-    "conversionRate": 0.005,
+    "ROI": 1.48,
+    "Path Count": 8227923,
+    "Impression Per Node": 6.65,
+    "Conversion Rate": 0.005,
     "pathId": 985,
     "nodes": [
       {
@@ -31399,13 +31399,13 @@ var p2pData = [
         "label": "YouTube"
       }
     ],
-    "effectiveness": 0.09
+    "Effectiveness": 0.09
   },
   {
-    "roi": 1.16,
-    "pathCount": 908794,
-    "impressionPerNode": 2.38,
-    "conversionRate": 0.043,
+    "ROI": 1.16,
+    "Path Count": 908794,
+    "Impression Per Node": 2.38,
+    "Conversion Rate": 0.043,
     "pathId": 986,
     "nodes": [
       {
@@ -31433,13 +31433,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.39
+    "Effectiveness": 0.39
   },
   {
-    "roi": 0.08,
-    "pathCount": 697768,
-    "impressionPerNode": 5.51,
-    "conversionRate": 0.017,
+    "ROI": 0.08,
+    "Path Count": 697768,
+    "Impression Per Node": 5.51,
+    "Conversion Rate": 0.017,
     "pathId": 987,
     "nodes": [
       {
@@ -31455,13 +31455,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 0.91
+    "Effectiveness": 0.91
   },
   {
-    "roi": 1.27,
-    "pathCount": 523043,
-    "impressionPerNode": 4.49,
-    "conversionRate": 0.045,
+    "ROI": 1.27,
+    "Path Count": 523043,
+    "Impression Per Node": 4.49,
+    "Conversion Rate": 0.045,
     "pathId": 988,
     "nodes": [
       {
@@ -31483,13 +31483,13 @@ var p2pData = [
         "label": "NYTimes"
       }
     ],
-    "effectiveness": 0.86
+    "Effectiveness": 0.86
   },
   {
-    "roi": 0.19,
-    "pathCount": 1795029,
-    "impressionPerNode": 5.76,
-    "conversionRate": 0.005,
+    "ROI": 0.19,
+    "Path Count": 1795029,
+    "Impression Per Node": 5.76,
+    "Conversion Rate": 0.005,
     "pathId": 989,
     "nodes": [
       {
@@ -31511,13 +31511,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 3.21,
-    "pathCount": 1478065,
-    "impressionPerNode": 4.55,
-    "conversionRate": 0.022,
+    "ROI": 3.21,
+    "Path Count": 1478065,
+    "Impression Per Node": 4.55,
+    "Conversion Rate": 0.022,
     "pathId": 990,
     "nodes": [
       {
@@ -31533,13 +31533,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 1.32
+    "Effectiveness": 1.32
   },
   {
-    "roi": 2.95,
-    "pathCount": 2561501,
-    "impressionPerNode": 1.24,
-    "conversionRate": 0.036,
+    "ROI": 2.95,
+    "Path Count": 2561501,
+    "Impression Per Node": 1.24,
+    "Conversion Rate": 0.036,
     "pathId": 991,
     "nodes": [
       {
@@ -31555,13 +31555,13 @@ var p2pData = [
         "label": "eBay"
       }
     ],
-    "effectiveness": 1.09
+    "Effectiveness": 1.09
   },
   {
-    "roi": 2.02,
-    "pathCount": 3517305,
-    "impressionPerNode": 5.54,
-    "conversionRate": 0.0,
+    "ROI": 2.02,
+    "Path Count": 3517305,
+    "Impression Per Node": 5.54,
+    "Conversion Rate": 0.0,
     "pathId": 992,
     "nodes": [
       {
@@ -31589,13 +31589,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 2.0
+    "Effectiveness": 2.0
   },
   {
-    "roi": 1.54,
-    "pathCount": 1969017,
-    "impressionPerNode": 7.97,
-    "conversionRate": 0.028,
+    "ROI": 1.54,
+    "Path Count": 1969017,
+    "Impression Per Node": 7.97,
+    "Conversion Rate": 0.028,
     "pathId": 993,
     "nodes": [
       {
@@ -31629,13 +31629,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 0.9
+    "Effectiveness": 0.9
   },
   {
-    "roi": 0.62,
-    "pathCount": 999815,
-    "impressionPerNode": 4.66,
-    "conversionRate": 0.003,
+    "ROI": 0.62,
+    "Path Count": 999815,
+    "Impression Per Node": 4.66,
+    "Conversion Rate": 0.003,
     "pathId": 994,
     "nodes": [
       {
@@ -31663,13 +31663,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 0.34
+    "Effectiveness": 0.34
   },
   {
-    "roi": 0.33,
-    "pathCount": 1824913,
-    "impressionPerNode": 4.37,
-    "conversionRate": 0.075,
+    "ROI": 0.33,
+    "Path Count": 1824913,
+    "Impression Per Node": 4.37,
+    "Conversion Rate": 0.075,
     "pathId": 995,
     "nodes": [
       {
@@ -31685,13 +31685,13 @@ var p2pData = [
         "label": "MSN"
       }
     ],
-    "effectiveness": 0.04
+    "Effectiveness": 0.04
   },
   {
-    "roi": 0.55,
-    "pathCount": 2811551,
-    "impressionPerNode": 2.56,
-    "conversionRate": 0.023,
+    "ROI": 0.55,
+    "Path Count": 2811551,
+    "Impression Per Node": 2.56,
+    "Conversion Rate": 0.023,
     "pathId": 996,
     "nodes": [
       {
@@ -31707,13 +31707,13 @@ var p2pData = [
         "label": "Buzzfeed"
       }
     ],
-    "effectiveness": 2.46
+    "Effectiveness": 2.46
   },
   {
-    "roi": 1.09,
-    "pathCount": 1028156,
-    "impressionPerNode": 6.44,
-    "conversionRate": 0.068,
+    "ROI": 1.09,
+    "Path Count": 1028156,
+    "Impression Per Node": 6.44,
+    "Conversion Rate": 0.068,
     "pathId": 997,
     "nodes": [
       {
@@ -31765,13 +31765,13 @@ var p2pData = [
         "label": "AOL"
       }
     ],
-    "effectiveness": 1.51
+    "Effectiveness": 1.51
   },
   {
-    "roi": 2.73,
-    "pathCount": 780746,
-    "impressionPerNode": 6.56,
-    "conversionRate": 0.005,
+    "ROI": 2.73,
+    "Path Count": 780746,
+    "Impression Per Node": 6.56,
+    "Conversion Rate": 0.005,
     "pathId": 998,
     "nodes": [
       {
@@ -31811,13 +31811,13 @@ var p2pData = [
         "label": "ESPN"
       }
     ],
-    "effectiveness": 2.09
+    "Effectiveness": 2.09
   },
   {
-    "roi": 2.02,
-    "pathCount": 769559,
-    "impressionPerNode": 3.12,
-    "conversionRate": 0.004,
+    "ROI": 2.02,
+    "Path Count": 769559,
+    "Impression Per Node": 3.12,
+    "Conversion Rate": 0.004,
     "pathId": 999,
     "nodes": [
       {
@@ -31833,13 +31833,13 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.05
+    "Effectiveness": 0.05
   },
   {
-    "roi": 2.26,
-    "pathCount": 1438683,
-    "impressionPerNode": 5.7,
-    "conversionRate": 0.006,
+    "ROI": 2.26,
+    "Path Count": 1438683,
+    "Impression Per Node": 5.7,
+    "Conversion Rate": 0.006,
     "pathId": 1000,
     "nodes": [
       {
@@ -31855,6 +31855,6 @@ var p2pData = [
         "label": "Yahoo"
       }
     ],
-    "effectiveness": 0.07
+    "Effectiveness": 0.07
   }
 ]

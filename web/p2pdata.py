@@ -17,11 +17,11 @@ def new_node(label, time, pathId, vol):
 
 def make_item(pathId):
     item = {}
-    item['pathCount'] = int(random.random() * random.random() * 10000000)
-    item['conversionRate'] = round(random.random() * random.random() * 0.1,3)
-    item['impressionPerNode'] = round(math.sqrt(random.random()) * 8, 2) 
-    item['roi'] = round(random.random() * random.random() * 5, 2)
-    item['effectiveness'] = round(random.random() * random.random() * 3, 2)
+    item['Path Count'] = int(random.random() * random.random() * 10000000)
+    item['Conversion Rate'] = round(random.random() * random.random() * 0.1,3)
+    item['Impression Per Node'] = round(math.sqrt(random.random()) * 8, 2) 
+    item['ROI'] = round(random.random() * random.random() * 5, 2)
+    item['Effectiveness'] = round(random.random() * random.random() * 3, 2)
     item['pathId'] = pathId
     
     nodes = []
