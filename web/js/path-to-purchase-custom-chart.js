@@ -85,7 +85,7 @@ function renderPathChart(chartData) {
     svg.append('g')
         .attr('class', 'y axis')
         .call(yAxis);
-
+    
 
     var purchasePaths = svg.selectAll('.node')
         .data(chartData)
@@ -134,6 +134,7 @@ function renderPathChart(chartData) {
 
     nodes.append('circle')
         .attr('r', 15)
+        .attr('class', function (d) { return (d.time) ? 'touchNodes': '';})
         .attr('stroke',function (d) { return (d.time) ? color(d.label) : '#D3D3D3';})
         .style('fill', function(d) { return (d.time) ? 'white' : '#D3D3D3'; })
         .attr('cx', function(d) { return x(d.time); })
@@ -145,6 +146,7 @@ function renderPathChart(chartData) {
     //water fill circle
     var fishBowl = touchNodes.append('circle')
         .attr('r',15)
+        .attr('class', 'touchNodes')
         .style('fill', function(d) {return color(d.label); })
         .attr('cx', function(d) { return x(d.time); })
         .attr('cy', function(d) { return y(d.pathNumber);})
@@ -193,7 +195,8 @@ function renderPathChart(chartData) {
       .text(function(d) { return d;});
 
     
-    svg.selectAll('circle').on('mouseover', function(d) {       
+    svg.selectAll('.touchNodes')
+        .on('mouseover', function(d) {       
             fishBowl.attr('clip-path', null);
 
             //should be a toggle
@@ -205,15 +208,41 @@ function renderPathChart(chartData) {
                 .style('fill', 'white')
                 .attr('class', 'node-volume')
                 .text(function(d) { return (d.volume*100).toFixed(0) + '%';});
+            
+            svg.append("line")
+                .attr("class", "x-axis-drop-line")
+                .style("stroke", color(d.label))
+                .style("stroke-dasharray", "3,3")
+                .style("opacity", 0.5)
+                .attr("x1", x(d.time))
+                .attr("y1", y(d.pathNumber))
+                .attr("x2", x(d.time))
+                .attr("y2", y(11));
+    
 
-            })
-                             
+            tooltip.transition()        
+                .duration(20)       
+                .style('opacity', 0.9);
+            tooltip.html('<div><h4>' + d.label +'</h4><p>Avg. Time before purchase: ' + d.time + 'day(s)</p></div>');
+    
+
+        })
+        .on('mousemove', function(){
+            tooltip.style('left', (d3.event.pageX) + 10 + 'px')     
+                .style('top', (d3.event.pageY + 20) + 'px');
+        })                   
         .on('mouseout', function() {
             fishBowl.attr('clip-path', function(d) { return 'url(#clip' + d.pathNumber + d.time + ')'; });
             
             //touchNodes.selectAll('text').remove();
             svg.selectAll('.node-volume').remove();
 
+            d3.selectAll(".x-axis-drop-line").remove();
+
+            //remove tooltip
+            tooltip.transition()        
+                        .duration(500)      
+                        .style('opacity', 0);
            
         });
         

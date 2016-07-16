@@ -39,6 +39,21 @@
             background: yellow;
             box-shadow: 2px 2px 1px #888;
         }
+
+        .tooltip{
+            border: 1px solid rgba(31, 119, 108, 0.5);
+            background-color: white;
+            border-radius: 5px;
+            padding: 0 5px;
+        }
+
+        .tooltip p{
+            line-height: 12px;
+        }
+
+        .tooltip h4{
+            line-height: 12px;
+        }
         
     </style>
 </head>
@@ -253,9 +268,7 @@ pathGrid /* dc.dataTable('.dc-data-table', 'chartGroup') */
         .dimension(runDimension)
         // Data table does not use crossfilter group but rather a closure
         // as a grouping function
-        .group(function (d) {
-            console.log(d);
-        })
+        .group(function () {})
         // (_optional_) max number of records to be shown, `default = 25`
         .size(10)
         // There are several ways to specify the columns; see the data-table documentation.
