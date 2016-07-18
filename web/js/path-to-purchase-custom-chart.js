@@ -82,6 +82,14 @@ function renderPathChart(chartData) {
       .attr('transform', 'translate(0,' + height + ')')
       .call(xAxis);
 
+    svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .style("font-size","11px")
+    .attr("x", width/2 + 50)
+    .attr("y", height + 35)
+    .text("Avg. time before purchase"); 
+
     svg.append('g')
         .attr('class', 'y axis')
         .call(yAxis);

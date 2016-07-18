@@ -410,7 +410,7 @@ d3.csv('ndx.csv', function (data) {
         })
         // Title sets the row text
         .title(function (d) {
-            return d.value;
+            return 'Number of Path Patterns:' + d.value;
         })
         .elasticX(true)
         .xAxis().ticks(4);
