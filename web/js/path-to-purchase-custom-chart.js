@@ -1,8 +1,8 @@
 function renderPathChart(chartData) {
     d3.select("#p2pChart svg").remove();
-    var margin = {top: 20, right: 80, bottom: 30, left: 50},
-        width = 800 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    var margin = {top: 20, right: 50, bottom: 30, left: 50},
+        width = 700 - margin.left - margin.right,
+        height = 450 - margin.top - margin.bottom;
 
     var config = {
         chartId: '#p2pChart',
@@ -133,7 +133,7 @@ function renderPathChart(chartData) {
     // touchNodes.exit().remove(); 
 
     nodes.append('circle')
-        .attr('r', 15)
+        .attr('r', 14)
         .attr('class', function (d) { return (d.time) ? 'touchNodes': '';})
         .attr('stroke',function (d) { return (d.time) ? color(d.label) : '#D3D3D3';})
         .style('fill', function(d) { return (d.time) ? 'white' : '#D3D3D3'; })
@@ -145,7 +145,7 @@ function renderPathChart(chartData) {
 
     //water fill circle
     var fishBowl = touchNodes.append('circle')
-        .attr('r',15)
+        .attr('r',14)
         .attr('class', 'touchNodes')
         .style('fill', function(d) {return color(d.label); })
         .attr('cx', function(d) { return x(d.time); })
@@ -204,7 +204,7 @@ function renderPathChart(chartData) {
                 .attr('x', function(d){  return x(d.time);})
                 .attr('y', function(d) { return y(d.pathNumber + 0.1);})
                 .attr('text-anchor', 'middle')
-                .style('font-size','11px')
+                .style('font-size','10px')
                 .style('fill', 'white')
                 .attr('class', 'node-volume')
                 .text(function(d) { return (d.volume*100).toFixed(0) + '%';});
