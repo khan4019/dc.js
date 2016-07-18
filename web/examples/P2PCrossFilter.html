@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Advanced P2P filter</title>
+    <title>Path to Purchase filter</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,14 +65,12 @@
 <script type="text/javascript" src="../js/path-to-purchase-custom-chart.js"></script>
 <script type="text/javascript" src="../p2pData2.js"></script>
 
-
+<img src="../img/header2.png" alt="">
 <div class="container">
-    <h1>Path to Purchase: Cross Filter</h1>
-
     <div class="row">
         <div id="data-count" class="span8">
             Showing <span id="pathCount">10</span> paths (filtered: <span class="filter-count"></span>) from <span class="total-count"></span> paths
-            | <a href="javascript:dc.filterAll(); dc.renderAll();drawPathChart();">Reset All</a>
+            | <a href="javascript:dc.filterAll(); dc.renderAll();drawPathChart();applyNodeCountAxisLabel()">Reset All</a>
         </div>
     </div>
     <div class="row">
@@ -93,7 +91,6 @@
             <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
                 reset
             </a>
-
             <div class="clearfix"></div>
         </div>
         <div id="path-count-chart" class="dc-chart span4">
@@ -148,14 +145,6 @@ dc.dataCount("#data-count")
 var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
 
 function drawPathChart() {
-    //TODO: sort by ROI
-    // var sorted = runDimension.top(Infinity).sort(function (a,b) {
-    //     return b.roi - a.roi;
-    // });
-
-    // var chartData = sorted.slice(0,10);
-    // console.table(chartData);
-
     var newData = runDimension.top(10).map(function (path, pathNumber) {
         
         path.nodes.map(function (node) {
@@ -186,7 +175,7 @@ roi_chart
     .elasticY(true)
     .centerBar(true)
     .xAxisLabel("ROI")
-    .yAxisLabel("Count")
+    .yAxisLabel("Path Pattern")
     .gap(73)
     .x(d3.scale.linear().domain([0, 5]))
     .renderHorizontalGridLines(true)
@@ -218,7 +207,7 @@ path_count_chart
     .group(pathCountGroup)
     .elasticY(true)
     .xAxisLabel("Path Count")
-    .yAxisLabel("Count")
+    .yAxisLabel("Path Pattern")
     .gap(1)
     .centerBar(true)
     .alwaysUseRounding(true)
@@ -320,6 +309,24 @@ pathGrid /* dc.dataTable('.dc-data-table', 'chartGroup') */
         });    
 
 dc.renderAll();
+
+//insert node count x axis label
+function applyNodeCountAxisLabel(){
+
+    var el = document.getElementById('custom-node-count-x-label');
+
+    if(el){
+        el.parentNode.removeChild(el);
+    }
+
+
+    d3.select('#node-count-chart').append('p')
+        .attr('id', 'custom-node-count-x-label')
+        .style({'font-size':'14px', 'margin-left': '150px', 'margin-top':'-10px'})
+        .text('Path Pattern');    
+}
+
+applyNodeCountAxisLabel();
 
 </script>
 </body>

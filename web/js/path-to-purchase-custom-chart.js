@@ -223,7 +223,7 @@ function renderPathChart(chartData) {
             tooltip.transition()        
                 .duration(20)       
                 .style('opacity', 0.9);
-            tooltip.html('<div><h4>' + d.label +'</h4><p>Avg. Time before purchase: ' + d.time + 'day(s)</p></div>');
+            tooltip.html('<div><h4>' + d.label +'</h4><p>Avg. Time before purchase: ' + d.time + ' day(s)</p></div>');
     
 
         })
