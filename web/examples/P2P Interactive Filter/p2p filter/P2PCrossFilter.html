@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Path to Purchase filter</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/dc.css"/>
+    <style>
+        #p2pChart{
+            height: 470;
+        }
+
+        #p2pChart .y.axis text{
+            display: none;
+        }
+        #p2pChart .y.axis line{
+            display: none;
+        }
+        .dc-chart{
+            padding-left: 10px;
+        }
+        .dc-data-table{
+            margin-top: -22px;
+        }
+        .dc-data-table tr th{
+            font-weight: normal;
+        }
+        .dc-table-group{
+            display:none
+        }
+
+        .x-axis-label{
+            font-size: 12px;
+        }
+
+        .y-axis-label{
+            font-size: 12px;
+        }
+        .glyphicon {
+          position: static;
+          color:white;
+          font-size: 16px;
+        }
+        .legend {
+            padding: 5px;
+            font: 10px sans-serif;
+            background: yellow;
+            box-shadow: 2px 2px 1px #888;
+        }
+
+        .tooltip{
+            border: 1px solid rgba(31, 119, 108, 0.5);
+            background-color: white;
+            border-radius: 5px;
+            padding: 0 5px;
+        }
+
+        .tooltip p{
+            line-height: 12px;
+        }
+
+        .tooltip h4{
+            line-height: 12px;
+        }
+        .p2pwidget{
+        }
+        .p2pContainer{
+            padding-top: 20px;
+            width: 1198px;
+            border:1px solid rgb(221, 221, 221);
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+<script type="text/javascript" src="../js/d3.js"></script>
+<script type="text/javascript" src="../js/crossfilter.js"></script>
+<script type="text/javascript" src="../js/dc.js"></script>
+<script type="text/javascript" src="../js/path-to-purchase-custom-chart.js"></script>
+<script type="text/javascript" src="../p2pData2.js"></script>
+
+<div class="p2pwidget">
+    <div class="text-center">
+        <img src="../img/header3.png" alt="">
+    </div>
+    <div class="container p2pContainer text-center">
+        <div class="row">
+            <div id="data-count" class="span8">
+                Showing <span id="pathCount">10</span> paths (filtered: <span class="filter-count"></span>) from <span class="total-count"></span> paths
+                | <a href="javascript:dc.filterAll(); dc.renderAll();drawPathChart();applyNodeCountAxisLabel()">Reset All</a>
+            </div>
+        </div>
+        <div class="row">
+            <div id="custom-chart" class="dc-chart span6">
+                <div id="p2pChart">
+                    <svg></svg>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="span4 col-md-2">
+                <table class="table table-hover dc-data-table">
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div id="node-count-chart" class="dc-chart span4">
+                <strong>Node Count</strong>
+                <a class="reset" href="javascript:node_count_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
+                    reset
+                </a>
+                <div class="clearfix"></div>
+            </div>
+            <div id="path-count-chart" class="dc-chart span4">
+                <strong>Path Count</strong>
+                <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                <a class="reset" href="javascript:path_count_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+            <div id="roi-chart" class="dc-chart span4">
+                <strong>ROI</strong>
+                <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                <a class="reset" href="javascript:roi_chart.filterAll(); dc.redrawAll();drawPathChart();" style="display: none;">
+                    reset
+                </a>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</div>
+
+<script type="text/javascript">
+
+var numberFormat = d3.format('.2f');
+// charts
+var roi_chart = dc.barChart('#roi-chart'),
+    node_count_chart = dc.rowChart('#node-count-chart'),
+    path_count_chart = dc.barChart('#path-count-chart'),
+    pathGrid = dc.dataTable('.dc-data-table');
+    width = roi_chart.root()[0][0].parentElement.clientWidth,
+    chartMargin = {top: 20, right: 30, bottom: 30, left: 30};
+
+// cross filter
+var add = function(p, d){ return p + 1;},
+    rem = function(p, d){ return p -1 ;},
+    ini = function(){ return 0;},
+    ndxP2P = crossfilter(p2pData),
+    all = ndxP2P.groupAll().reduce(add, rem, ini);
+
+
+dc.dataCount("#data-count")
+// Since the number of records (returned by .size()) isn't the same as the number
+// of data points we're aggregating, supply a size-like object that returns the
+// total number of data points represented.
+    .dimension({size: function(){return p2pData.reduce(add, 0);}})
+    .group(all);
+
+
+
+//
+var runDimension = ndxP2P.dimension(function (d) { return d.pathId; });
+
+function drawPathChart() {
+    var newData = runDimension.top(10).map(function (path, pathNumber) {
+        
+        path.nodes.map(function (node) {
+            node.pathNumber = pathNumber + 1;
+            return node;
+        });
+        return path;
+    }); 
+    renderPathChart(newData);
+    document.getElementById('pathCount').innerHTML = newData.length;
+}
+
+drawPathChart();
+
+//roi chart
+var roiCount = ndxP2P.dimension(function (d) {
+    return Math.ceil(d['ROI']*10)/10;
+});
+var roiCountGroup = roiCount.group();
+
+
+roi_chart
+    .width(.33 * width)
+    .height(200)
+    .margins(chartMargin) //
+    .dimension(roiCount)
+    .group(roiCountGroup)
+    .elasticY(true)
+    .centerBar(true)
+    .xAxisLabel("ROI")
+    .yAxisLabel("# of Path Patterns")
+    .gap(73)
+    .x(d3.scale.linear().domain([0, 5]))
+    .renderHorizontalGridLines(true)
+    .filterPrinter(function (filters) {
+        drawPathChart();
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
+        return s;
+    });
+
+// Customize axes
+// roi_chart.xAxis().tickFormat(
+//     function (v) {return (v/1000000) + 'M'; });
+roi_chart.yAxis().ticks(5);
+
+
+
+var pathCount = ndxP2P.dimension(function (d) {
+    var pathCount = d['Path Count'], k100 = 100000, k = 1000;
+    return Math.floor(pathCount/k100)*k100;
+});
+var pathCountGroup = pathCount.group();    
+
+path_count_chart 
+    .width(.33 * width)
+    .height(200)
+    .margins({top: 10, right: 50, bottom: 30, left: 30})
+    .dimension(pathCount)
+    .group(pathCountGroup)
+    .elasticY(true)
+    .xAxisLabel("Path Count")
+    .yAxisLabel("# of Path Patterns")
+    .gap(1)
+    .centerBar(true)
+    .alwaysUseRounding(true)
+    .x(d3.scale.linear().domain([0, 9000000]))
+    .renderHorizontalGridLines(true)
+    .filterPrinter(function (filters) {
+        drawPathChart();
+        var filter = filters[0], s = '';
+        s += numberFormat(filter[0]/1000000) + 'M -> ' + numberFormat(filter[1]/1000000) + 'M';
+        return s;
+    });
+
+// Customize axes
+path_count_chart.xAxis().tickFormat(
+    function (v) {return (v/1000000) + 'M'; });
+path_count_chart.yAxis().ticks(5);
+
+
+
+var nodeCount = ndxP2P.dimension(function (d) {
+    return d.nodes.length - 1;
+});
+var nodeCountGroup = nodeCount.group();
+
+node_count_chart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+    .width(.3*width)
+    .height(180)
+    .margins({top: 20, left: 10, right: 30, bottom: 20})
+    .group(nodeCountGroup)
+    .dimension(nodeCount)
+    .ordinalColors(['#3182bd'])
+    .label(function (d) {
+        return d.key;
+    })
+    // Title sets the row text
+    .title(function (d) {
+        return d;
+    })
+    .elasticX(true)
+    .filterPrinter(function (filters) {
+        drawPathChart();
+      
+    })
+    .xAxis().ticks(5);    
+
+pathGrid /* dc.dataTable('.dc-data-table', 'chartGroup') */
+        .dimension(runDimension)
+        // Data table does not use crossfilter group but rather a closure
+        // as a grouping function
+        .group(function () {})
+        // (_optional_) max number of records to be shown, `default = 25`
+        .size(10)
+        // There are several ways to specify the columns; see the data-table documentation.
+        // This code demonstrates generating the column header automatically based on the columns.
+        .columns([
+            {
+                label:'Path Count',
+                format:function (d) {
+                    var pathCount = d['Path Count'];
+                    if(pathCount > 1000000){
+                        return (pathCount / 1000000).toFixed(2) + 'M';
+                    }
+                    else{
+                        return (pathCount/1000).toFixed(0) + 'K';    
+                    }
+                    
+                }
+            },
+            {
+                label: 'Conversion Rate',
+                format: function (d) {
+                    return (d['Conversion Rate'] *100).toFixed(3) + '%';
+                }
+            },
+            {
+                label:'ROI',
+                format:function (d) {
+                    return d.ROI.toFixed(2);
+                }
+            },
+            {
+                label:'Effectiveness',
+                format:function (d) {
+                    return d.Effectiveness.toFixed(2);
+                }
+            },
+            'Impression Per Node'
+        ])
+
+        // (_optional_) sort using the given field, `default = function(d){return d;}`
+        .sortBy(function (d) {
+            return d['ROI'];
+        })
+        // (_optional_) sort order, `default = d3.ascending`
+        .order(d3.descending)
+        // (_optional_) custom renderlet to post-process chart using [D3](http://d3js.org)
+        .on('renderlet', function (table) {
+            table.selectAll('.dc-table-group').classed('info', true);
+        });    
+
+dc.renderAll();
+
+//insert node count x axis label
+function applyNodeCountAxisLabel(){
+
+    var el = document.getElementById('custom-node-count-x-label');
+
+    if(el){
+        el.parentNode.removeChild(el);
+    }
+
+
+    d3.select('#node-count-chart').append('p')
+        .attr('id', 'custom-node-count-x-label')
+        .style({'font-size':'12px', 'margin-top':'-10px'})
+        .text('# of Path Patterns');    
+}
+
+applyNodeCountAxisLabel();
+
+</script>
+</body>
+</html>
